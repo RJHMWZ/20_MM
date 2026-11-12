@@ -2313,3 +2313,72 @@ INFO:     connection open
 2026-11-12 17:35:48,228 - transport.plugin_hub - INFO - Registered 30 tools for session faeb2002-b455-4892-8b4c-ed8a1532a219
 2026-11-12 17:35:48,229 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
 2026-11-12 17:35:48,230 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)
+2026-11-12 17:41:53,508 - transport.plugin_hub - INFO - Plugin session faeb2002-b455-4892-8b4c-ed8a1532a219 disconnected (1005)
+INFO:     127.0.0.1:55879 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:42:06,323 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:42:08,511 - transport.plugin_hub - INFO - Registered 30 tools for session 5adc2ad9-46ef-4fd8-ab85-e84a9953d69e
+2026-11-12 17:42:08,548 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:42:08,550 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)
+2026-11-12 17:43:39,415 - transport.plugin_hub - INFO - Plugin session 5adc2ad9-46ef-4fd8-ab85-e84a9953d69e disconnected (1005)
+INFO:     127.0.0.1:57961 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:43:57,550 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:44:00,402 - transport.plugin_hub - INFO - Registered 30 tools for session dc2db65e-5668-4357-9d97-553ce68086e2
+2026-11-12 17:44:00,403 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:44:00,403 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)
+2026-11-12 17:46:47,301 - transport.plugin_hub - INFO - Plugin session dc2db65e-5668-4357-9d97-553ce68086e2 disconnected (1005)
+INFO:     127.0.0.1:64145 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:46:59,494 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:47:02,537 - transport.plugin_hub - INFO - Registered 30 tools for session 127302f3-a98a-4c2c-b995-5237eadea627
+2026-11-12 17:47:02,538 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:47:02,539 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)
+2026-11-12 17:49:26,402 - mcp.server.streamable_http_manager - INFO - Session 48fa723a3fab43e59712010d9ade752b idle timeout
+2026-11-12 17:49:26,403 - mcp.server.streamable_http - INFO - Terminating session: 48fa723a3fab43e59712010d9ade752b
+2026-11-12 17:53:20,214 - transport.plugin_hub - INFO - Plugin session 127302f3-a98a-4c2c-b995-5237eadea627 disconnected (1005)
+INFO:     127.0.0.1:59401 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:53:36,372 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:53:38,743 - transport.plugin_hub - INFO - Registered 30 tools for session ddb5e9a0-db6c-47bb-aae8-447bc58eae50
+2026-11-12 17:53:38,743 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:53:38,744 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+2026-11-12 17:53:47,885 - transport.plugin_hub - INFO - Plugin session ddb5e9a0-db6c-47bb-aae8-447bc58eae50 disconnected (1005)
+INFO:     127.0.0.1:52179 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:53:57,517 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+INFO:     127.0.0.1:52203 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:54:02,033 - transport.plugin_hub - INFO - Evicted previous session 3e46f0ad-dabf-4a47-9ae0-90cab27d9601 for same instance
+2026-11-12 17:54:02,035 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:54:05,041 - transport.plugin_hub - INFO - Registered 30 tools for session cc24ce92-8085-4fcf-96e4-8c95f90e5dfa
+2026-11-12 17:54:05,078 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:54:05,079 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+2026-11-12 17:54:40,878 - transport.plugin_hub - INFO - Plugin session cc24ce92-8085-4fcf-96e4-8c95f90e5dfa disconnected (1005)
+INFO:     127.0.0.1:63290 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:54:54,333 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:54:57,561 - transport.plugin_hub - INFO - Registered 30 tools for session dd3bd781-0801-4182-bc68-e20c01b0a875
+2026-11-12 17:54:57,562 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:54:57,563 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+2026-11-12 17:58:43,810 - transport.plugin_hub - INFO - Plugin session dd3bd781-0801-4182-bc68-e20c01b0a875 disconnected (1005)
+INFO:     127.0.0.1:51972 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:58:55,706 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:58:58,594 - transport.plugin_hub - INFO - Registered 30 tools for session 4de8e59a-0d8f-45a0-834a-fb593501b7d3
+2026-11-12 17:58:58,595 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:58:58,596 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+2026-11-12 17:59:48,218 - transport.plugin_hub - INFO - Plugin session 4de8e59a-0d8f-45a0-834a-fb593501b7d3 disconnected (1005)
+INFO:     127.0.0.1:56908 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 18:00:00,272 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 18:00:03,216 - transport.plugin_hub - INFO - Registered 30 tools for session 6381e868-bd19-4cd0-b41e-821828160e09
+2026-11-12 18:00:03,217 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 18:00:03,218 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
+2026-11-12 18:00:49,230 - transport.plugin_hub - INFO - Plugin session 6381e868-bd19-4cd0-b41e-821828160e09 disconnected (1005)
+INFO:     127.0.0.1:59955 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 18:01:01,911 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 18:01:04,768 - transport.plugin_hub - INFO - Registered 30 tools for session 92f35874-f755-44c3-9445-53df7ac960e0
+2026-11-12 18:01:04,769 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 18:01:04,770 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 2 MCP session(s)
