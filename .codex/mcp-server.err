@@ -2270,3 +2270,46 @@ INFO:     connection open
 2026-11-12 16:38:47,408 - transport.plugin_hub - INFO - Registered 30 tools for session 12a564ec-4073-4ba2-81ad-26fcf7060032
 2026-11-12 16:38:47,409 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
 2026-11-12 16:38:47,410 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)
+2026-11-12 16:51:09,464 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: fbc7d8e6c8184aeebce43f902c48a7ef
+2026-11-12 16:51:11,879 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: e7567104fab840fca3b0db83b5c16cfd
+2026-11-12 16:51:11,881 - mcp.server.streamable_http - INFO - Terminating session: e7567104fab840fca3b0db83b5c16cfd
+2026-11-12 16:51:11,924 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 3f5e256ef5664095a415cc4f5338ee43
+2026-11-12 16:51:16,155 - mcp.server.streamable_http - INFO - Terminating session: 3f5e256ef5664095a415cc4f5338ee43
+2026-11-12 16:51:19,202 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 6e44a7cd1ec6418bb3b9d211464b67ff
+2026-11-12 16:51:19,204 - mcp.server.streamable_http - INFO - Terminating session: 6e44a7cd1ec6418bb3b9d211464b67ff
+2026-11-12 16:51:19,250 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 59094cec1b2a4dee96f79d667cb70b8a
+2026-11-12 16:51:19,360 - mcp.server.streamable_http - INFO - Terminating session: 59094cec1b2a4dee96f79d667cb70b8a
+2026-11-12 16:52:32,817 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: d954c05f8b1d4f7094268ef1f56f8e1a
+2026-11-12 16:52:32,819 - mcp.server.streamable_http - INFO - Terminating session: d954c05f8b1d4f7094268ef1f56f8e1a
+2026-11-12 16:52:32,860 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: e86d908e086641f1932609911b740377
+2026-11-12 16:52:33,221 - mcp.server.streamable_http - INFO - Terminating session: e86d908e086641f1932609911b740377
+2026-11-12 16:55:09,240 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 7fe1ae3c79e14b0fae91d69fff285f9d
+2026-11-12 16:55:09,242 - mcp.server.streamable_http - INFO - Terminating session: 7fe1ae3c79e14b0fae91d69fff285f9d
+2026-11-12 16:55:09,280 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: ca524551f2644fd08d985ca744bdc36f
+2026-11-12 16:55:09,613 - mcp.server.streamable_http - INFO - Terminating session: ca524551f2644fd08d985ca744bdc36f
+2026-11-12 16:55:09,675 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: 1ad3a6a8edfd408b90b5f218770d9d5c
+2026-11-12 16:55:09,676 - mcp.server.streamable_http - INFO - Terminating session: 1ad3a6a8edfd408b90b5f218770d9d5c
+2026-11-12 16:55:09,716 - mcp.server.streamable_http_manager - INFO - Created new transport with session ID: f9777258ea93413e82d2a9d3ecb5ffa8
+2026-11-12 16:55:10,018 - mcp.server.streamable_http - INFO - Terminating session: f9777258ea93413e82d2a9d3ecb5ffa8
+2026-11-12 17:02:09,551 - mcp.server.streamable_http - INFO - Terminating session: fbc7d8e6c8184aeebce43f902c48a7ef
+2026-11-12 17:25:29,286 - transport.plugin_hub - INFO - Plugin session 12a564ec-4073-4ba2-81ad-26fcf7060032 disconnected (1005)
+INFO:     127.0.0.1:51014 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:25:46,589 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:25:49,291 - transport.plugin_hub - INFO - Registered 30 tools for session 5a70eddd-75bb-473d-89ff-a5a445d34000
+2026-11-12 17:25:49,328 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:25:49,329 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)
+2026-11-12 17:29:08,820 - transport.plugin_hub - INFO - Plugin session 5a70eddd-75bb-473d-89ff-a5a445d34000 disconnected (1005)
+INFO:     127.0.0.1:64554 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:29:20,100 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:29:22,748 - transport.plugin_hub - INFO - Registered 30 tools for session 93fa96fc-43c7-4cb6-8fde-1f9730288be2
+2026-11-12 17:29:22,786 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:29:22,788 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)
+2026-11-12 17:35:33,587 - transport.plugin_hub - INFO - Plugin session 93fa96fc-43c7-4cb6-8fde-1f9730288be2 disconnected (1005)
+INFO:     127.0.0.1:64991 - "WebSocket /hub/plugin" [accepted]
+INFO:     connection open
+2026-11-12 17:35:45,875 - transport.plugin_hub - INFO - Plugin registered: 20_MM (b156d12f80037fa5)
+2026-11-12 17:35:48,228 - transport.plugin_hub - INFO - Registered 30 tools for session faeb2002-b455-4892-8b4c-ed8a1532a219
+2026-11-12 17:35:48,229 - transport.plugin_hub - INFO - Server-level tool visibility synced from Unity: enabled=[animation, core, docs, probuilder, profiling, scripting_ext, testing, ui, vfx], disabled=[asset_gen], total_transforms=19, unity_start=9
+2026-11-12 17:35:48,230 - transport.plugin_hub - INFO - Sent tools/list_changed notification to 3 MCP session(s)

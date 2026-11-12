@@ -1,0 +1,51 @@
+{
+  "source": "\u6a0a\u601d\u543e.html",
+  "fps": 60,
+  "effects": [
+    {
+      "name": "NormalBlue",
+      "layers": 9,
+      "tracks": 58
+    },
+    {
+      "name": "NormalGold",
+      "layers": 9,
+      "tracks": 58
+    },
+    {
+      "name": "Wave",
+      "layers": 5,
+      "tracks": 43
+    },
+    {
+      "name": "RocketTrail",
+      "layers": 3,
+      "tracks": 147
+    },
+    {
+      "name": "ColorTrail",
+      "layers": 0,
+      "tracks": 0
+    },
+    {
+      "name": "ColorCharge",
+      "layers": 4,
+      "tracks": 11
+    },
+    {
+      "name": "ColorFinish",
+      "layers": 10,
+      "tracks": 64
+    },
+    {
+      "name": "Bomb",
+      "layers": 7,
+      "tracks": 55
+    },
+    {
+      "name": "BeeImpact",
+      "layers": 45,
+      "tracks": 75
+    }
+  ]
+}

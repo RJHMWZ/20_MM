@@ -27,7 +27,7 @@ public static class Reference20Props {
   var root=v.transform as RectTransform;root.SetParent(parent,false);root.anchoredPosition=Vector2.zero;root.localScale=Vector3.one*VisualScale;root.localRotation=Quaternion.identity;root.Find("Root/ArtRoot/Dynamic").localRotation=Quaternion.identity;root.gameObject.SetActive(true);v.ResetPose(born);return root;
  }
  public static bool ReleaseVisual(Transform child,RectTransform stage){var v=child.GetComponent<Reference20PropVisual>();if(!v)return false;v.StopHint();child.gameObject.SetActive(false);child.SetParent(Reference20Native.Overlay(stage),false);Stack<Reference20PropVisual> pool;if(!visuals.TryGetValue(v.Kind,out pool)){pool=new Stack<Reference20PropVisual>();visuals[v.Kind]=pool;}pool.Push(v);return true;}
- public static void Warm(RectTransform stage){foreach(string asset in new[]{"Bomb","Boom_fly_double_b","bomb_bomb","ColorBomb_ColorBomb"})Resources.Load<SkeletonDataAsset>("Reference20/Props/"+asset+"_SkeletonData").GetSkeletonData(true);foreach(int id in new[]{11,13,14,15})for(int i=0;i<8;i++){var v=CreateVisual(id,Reference20Native.Overlay(stage));ReleaseVisual(v.transform,stage);}Reference20CompanyEffects.Prewarm();}
+ public static void Warm(RectTransform stage){foreach(string asset in new[]{"Bomb","Boom_fly_double_b","bomb_bomb","ColorBomb_ColorBomb"})Resources.Load<SkeletonDataAsset>("Reference20/Props/"+asset+"_SkeletonData").GetSkeletonData(true);foreach(int id in new[]{11,13,14,15})for(int i=0;i<8;i++){var v=CreateVisual(id,Reference20Native.Overlay(stage));ReleaseVisual(v.transform,stage);}Reference20CompanyParticles.Prewarm(stage);}
  public static bool Hint(RectTransform root,string name){var v=root.GetComponentInChildren<Reference20PropVisual>();if(!v)return false;v.Hint(name);if(!hints.Contains(v))hints.Add(v);return true;}
  public static void StopHints(){foreach(var v in hints)if(v)v.StopHint();hints.Clear();}
  public static void Reset(){visuals.Clear();effects.Clear();hints.Clear();}
@@ -49,7 +49,18 @@ public static class Reference20Props {
   if(!root)return false;root.localScale=Vector3.one*scale;if(name=="SameColorChangeEffect")root.DOAnchorPos(ColorComboCenter(position),.25f).SetEase(Ease.OutQuad);return true;
  }
  public static void LineBlast(RectTransform stage,Vector2 position,bool horizontal,float duration){
-  var root=EffectRoot(horizontal?"OwnLineH":"OwnLineV",stage,position,duration,r=>{Rig("Bomb",r,"brick0_heng",null);Rig("Bomb",r,"brick0_heng",null);},r=>{int direction=-1;foreach(var sg in r.GetComponentsInChildren<SkeletonGraphic>()){sg.Skeleton.SetToSetupPose();sg.Skeleton.SetSkin("brick0_heng");sg.Skeleton.SetSlotsToSetupPose();sg.AnimationState.ClearTracks();sg.AnimationState.SetAnimation(0,"Bomb_still",false);var t=sg.rectTransform;t.anchoredPosition=Vector2.zero;t.localRotation=Quaternion.Euler(0,0,horizontal?0:90);t.localScale=Vector3.one*VisualScale;var trail=Reference20CompanyEffects.Play("RocketTrail",stage,Vector2.zero,.6f);if(trail){trail.SetParent(t,false);trail.anchorMin=trail.anchorMax=Vector2.one*.5f;trail.anchoredPosition=Vector2.zero;trail.localRotation=Quaternion.Euler(0,0,horizontal?direction>0?180:0:direction>0?90:-90);}t.DOAnchorPos((horizontal?Vector2.right:Vector2.up)*direction*2500,duration).SetEase(Ease.Linear);direction=1;}});
+  string skin=horizontal?"brick0_heng":"brick0_shu";
+  var root=EffectRoot(horizontal?"CompanyLineH":"CompanyLineV",stage,position,duration,r=>{Rig("Bomb",r,skin,null);Rig("Bomb",r,skin,null);},r=>{
+   r.localScale=Vector3.one;int direction=-1;
+   foreach(var sg in r.GetComponentsInChildren<SkeletonGraphic>()){
+    sg.Skeleton.SetToSetupPose();sg.Skeleton.SetSkin(skin);sg.Skeleton.SetSlotsToSetupPose();sg.AnimationState.ClearTracks();sg.AnimationState.SetAnimation(0,"Bomb_still",false);sg.Update(0);sg.LateUpdate();
+    var t=sg.rectTransform;t.anchoredPosition=Vector2.zero;t.localRotation=Quaternion.identity;t.localScale=Vector3.one*VisualScale;
+    var trail=Reference20CompanyEffects.Play("RocketTrail",stage,Vector2.zero,.85f,true);
+    trail.SetParent(t,false);trail.anchorMin=trail.anchorMax=Vector2.one*.5f;trail.anchoredPosition=Vector2.zero;
+    trail.localRotation=Quaternion.Euler(0,0,horizontal?direction<0?180:0:direction>0?90:-90);
+    t.DOAnchorPos((horizontal?Vector2.right:Vector2.up)*direction*(113.6f*10*duration),duration).SetEase(Ease.Linear);direction=1;
+   }
+  });
  }
  public static RectTransform BeeFlight(RectTransform stage,Vector2 position,float duration,int payload,bool reverse){
   bool combo=payload>0;string asset=combo?"Boom_fly_double_b":"Bomb",skin=combo?(payload==13?"bomb_square_cross":payload==11?"bomb_square_heng":"bomb_square_shu"):"bomb_square";

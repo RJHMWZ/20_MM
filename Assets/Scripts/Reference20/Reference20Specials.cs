@@ -12,11 +12,10 @@ public partial class Reference20Game {
   if(damaged==null)damaged=new HashSet<Piece>();var hits=damaged;var cells=new List<Vector2Int>();
   if(horizontal){for(int xx=x-1;xx>=0;xx--)if(playable[xx,y])cells.Add(new Vector2Int(xx,y));for(int xx=x;xx<9;xx++)if(playable[xx,y])cells.Add(new Vector2Int(xx,y));}
   else {for(int yy=y;yy<12;yy++)if(playable[x,yy])cells.Add(new Vector2Int(x,yy));for(int yy=y-1;yy>=0;yy--)if(playable[x,yy])cells.Add(new Vector2Int(x,yy));}
-  // Source endpoints include the inactive border of its 18 x 18 map.
-  var origin=CellPosition(x,y);var end1=endpoint1??(horizontal?CellPosition(-4,y):CellPosition(x,14));var end2=endpoint2??(horizontal?CellPosition(13,y):CellPosition(x,-3));float distance=Mathf.Max(Vector2.Distance(origin,end1),Vector2.Distance(origin,end2));
-  float duration=(Mathf.Ceil(distance/2000/Tick)+1)*Tick;LockCells(cells,duration);
-  float effectDuration=(Mathf.Ceil(2500f/2000f/Tick)+1)*Tick;Reference20Native.LineBlast(stage,CellPosition(x,y),horizontal,effectDuration);After(effectDuration,()=>{});HitCell(x,y,hits);
-  float interval=Mathf.Ceil(.02f/Tick)*Tick;for(int i=1;i<(horizontal?9:12);i++){int offset=i;After(interval*i,()=>{if(horizontal){HitCell(x+offset,y,hits);HitCell(x-offset,y,hits);}else{HitCell(x,y+offset,hits);HitCell(x,y-offset,hits);}});}Sound("Audio_Match_LineCrusher");
+  const float flightDuration=1.5f;const float cellInterval=.1f;
+  float clearDuration=(horizontal?9:12)*cellInterval;LockCells(cells,clearDuration);
+  Reference20Native.LineBlast(stage,CellPosition(x,y),horizontal,flightDuration);HitCell(x,y,hits);
+  for(int i=1;i<(horizontal?9:12);i++){int offset=i;After(cellInterval*i,()=>{if(horizontal){HitCell(x+offset,y,hits);HitCell(x-offset,y,hits);}else{HitCell(x,y+offset,hits);HitCell(x,y-offset,hits);}});}Sound("Audio_Match_LineCrusher");
  }
  void Bomb(int x,int y,int radius=2,float wait=-1){
   var cells=new List<Vector2Int>();for(int yy=y-radius;yy<=y+radius;yy++)for(int xx=x-radius;xx<=x+radius;xx++)if(Inside(xx,yy)&&!(radius==3&&Mathf.Abs(xx-x)==3&&Mathf.Abs(yy-y)==3))cells.Add(new Vector2Int(xx,yy));
@@ -49,7 +48,7 @@ public partial class Reference20Game {
    if(source!=null){source.reserved=false;ClearNormal(source,false);}StopHints();
    if(payload==0){if(companion!=null){companion.reserved=false;if(companion.normal)ClearNormal(companion);else Damage(companion,new HashSet<Piece>());}foreach(var target in targets){var hit=new HashSet<Piece>();target.reserved=false;if(!pieces.Contains(target))continue;foreach(var d in Neighbors){int x=target.x+d.x,y=target.y+d.y;if(Inside(x,y)&&grid[x,y]!=null&&!grid[x,y].normal)Damage(grid[x,y],hit,x,y);}ClearNormal(target);}After(.16f,()=>{foreach(var effect in shakes)Reference20Native.FinishEffect(effect);});}
    else {if(companion!=null&&pieces.Contains(companion)){companion.root.gameObject.SetActive(true);companion.colorConverted=true;targets.Add(companion);}targets.Sort((a,b)=>(a.y*9+a.x).CompareTo(b.y*9+b.x));TriggerConverted(targets);}
-   Reference20CompanyEffects.Play("ColorFinish",stage,position,.7f);Sound("Audio_Match_SameColorCrusherExplode");
+   Reference20CompanyEffects.Play("Wave",stage,position,.5f);Sound("Audio_Match_SameColorCrusherExplode");
   };
   Action collect=null;collect=()=>{
    var pending=new List<Piece>();for(int y=0;y<12;y++)for(int x=0;x<9;x++){var p=grid[x,y];if(p==null||!p.basic||p.dying||p.falling||p.switching||color!=-2&&p.id!=color||targets.Contains(p)||p.reserved&&!(p==companion&&payload==0)||payload==0&&beeTargets.Contains(new Vector2Int(x,y)))continue;pending.Add(p);targets.Add(p);p.reserved=true;}

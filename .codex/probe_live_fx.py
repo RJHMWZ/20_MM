@@ -1,0 +1,12 @@
+from pathlib import Path
+import json
+from playwright.sync_api import sync_playwright
+with sync_playwright() as p:
+ b=p.chromium.launch(channel='msedge',headless=True,args=['--use-angle=swiftshader','--enable-unsafe-swiftshader'])
+ page=b.new_page();page.goto(Path('C:/Users/ivy/Desktop/樊思吾.html').as_uri());page.wait_for_timeout(6500)
+ data=page.evaluate('''()=>{let g=UnityEngine.Object.FindObjectOfType$1(Match3.GameManager),n=g.elementDatabase.normalElements._items[2];let fx=Match3.Match3EffectPlayer.Play(n.clearEffectPrefab,pc.Vec3.ZERO.clone(),null,2,0,null,true);let ps=fx.GetComponentsInChildren$1(UnityEngine.ParticleSystem,true);let methods=o=>{let a=[];for(let p=o;p;p=Object.getPrototypeOf(p))a.push(...Object.getOwnPropertyNames(p));return [...new Set(a)];};window.__ps=ps;return {methods:methods(ps[0]),own:Object.keys(ps[0]),main:methods(ps[0].main),renderer:methods(ps[0].GetComponent$1(UnityEngine.ParticleSystemRenderer)),spec:g.elementDatabase.specialElements._items.slice(0,g.elementDatabase.specialElements.Count).map(x=>{let v=x.prefab.GetComponent$1(Match3.SpecialElementView);return {behavior:x.behaviorType,keys:Object.keys(v),trigger:v.triggerAnimation,idle:v.idleAnimation};}),p:ps.map(x=>({keys:Object.keys(x),name:x.gameObject.name,main:Object.keys(x.main)}))};}''')
+ data['detail']=page.evaluate('''()=>{let ps=__ps[0];let r=ps.GetComponent$1(UnityEngine.ParticleSystemRenderer);let v=ps.Eib$;let safe=o=>Object.fromEntries(Object.keys(o||{}).map(k=>[k,typeof o[k]==='object'?{type:o[k]?.constructor?.name,keys:Object.keys(o[k]||{}).slice(0,60)}:typeof o[k]==='function'?String(o[k]).slice(0,1500):o[k]]));return {getparticles:String(ps.GetParticles),sim:String(ps.Simulate),own:safe(ps),internal:safe(v),render:safe(r)};}''')
+ data['engine']=page.evaluate('''()=>{let p=__ps[0].Eib$._particleSystem,r=__ps[0].Eib$._renderer;let inspect=o=>{let a={};for(let k of Object.getOwnPropertyNames(Object.getPrototypeOf(o)))a[k]=typeof o[k]==='function'?String(o[k]).slice(0,12000):typeof o[k];return a;};return {cache:Object.keys(p._cache),cacheData:Object.fromEntries(Object.keys(p._cache).map(k=>[k,{type:typeof p._cache[k],keys:Object.keys(p._cache[k]||{}).slice(0,40)}])),ps:inspect(p),renderer:inspect(r._particleSystemRenderer),rendererOwn:Object.keys(r._particleSystemRenderer)};}''')
+ Path('.codex/company/live-probe.json').write_text(json.dumps(data,indent=2),encoding='utf-8')
+ b.close()
+
