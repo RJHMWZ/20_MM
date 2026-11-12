@@ -1,0 +1,30 @@
+{
+  "found": true,
+  "fn": "function(e){for(var t=Bridge.referenceEquals(e,Mb$.LE$),n=pc.Application.getApplication().getRootObjects(),i=0;i<n.length;i++)for(var r=n[i].children,o=0;o<r.length;o++){var a=Mb$.Object.Chb$(Mb$.LE$,r[o]);if(a.vHb$){if(t)return a;var s=a.kib$(e,!1);if(Mb$.eD$.KMa$(s,null))return s}}return null}",
+  "keys": [
+    "$init",
+    "zhb$",
+    "Eib$",
+    "Tib$",
+    "Uib$",
+    "levelDataList",
+    "simulatedLoadingDuration",
+    "playedSteps",
+    "isAdShowing",
+    "activeTargets",
+    "currentLevelIndex",
+    "isGameOver",
+    "elementDatabase",
+    "uiManager",
+    "boardManager",
+    "tutorialFingerSprite",
+    "guideManager",
+    "$propMap",
+    "get$UnityEngine$Component$gameObject",
+    "set$UnityEngine$Component$gameObject",
+    "Aib$",
+    "adTimerStarted",
+    "currentSteps",
+    "adElapsedTime"
+  ]
+}

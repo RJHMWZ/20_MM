@@ -1,0 +1,117 @@
+[
+  {
+    "name": "7_11_14",
+    "x": 1408,
+    "y": -1280,
+    "sx": 1,
+    "sy": 1,
+    "anim": null,
+    "skin": null,
+    "data": null,
+    "children": [
+      {
+        "name": "Root",
+        "x": 0,
+        "y": 0,
+        "sx": 1,
+        "sy": 1,
+        "anim": null,
+        "skin": null,
+        "data": null,
+        "children": [
+          {
+            "name": "ArtRoot",
+            "x": 0,
+            "y": 0,
+            "sx": 1,
+            "sy": 1,
+            "anim": null,
+            "skin": null,
+            "data": null,
+            "children": [
+              {
+                "name": "Dynamic",
+                "x": 0,
+                "y": 0,
+                "sx": 1,
+                "sy": 1,
+                "anim": null,
+                "skin": null,
+                "data": null,
+                "children": [
+                  {
+                    "name": "synthEffect",
+                    "x": 0,
+                    "y": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "anim": null,
+                    "skin": null,
+                    "data": null,
+                    "children": [
+                      {
+                        "name": "DiscoSpark",
+                        "x": 0,
+                        "y": 0,
+                        "sx": 128,
+                        "sy": 128,
+                        "anim": null,
+                        "skin": null,
+                        "data": null,
+                        "children": []
+                      },
+                      {
+                        "name": "Light",
+                        "x": 0,
+                        "y": 0,
+                        "sx": 90,
+                        "sy": 90,
+                        "anim": null,
+                        "skin": null,
+                        "data": null,
+                        "children": []
+                      },
+                      {
+                        "name": "BombRay",
+                        "x": 0,
+                        "y": 0,
+                        "sx": 100,
+                        "sy": 100,
+                        "anim": null,
+                        "skin": null,
+                        "data": null,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "14",
+                    "x": 0,
+                    "y": -7,
+                    "sx": 1,
+                    "sy": 1,
+                    "anim": "synth",
+                    "skin": "default",
+                    "data": "14",
+                    "children": []
+                  },
+                  {
+                    "name": "EffectRoot",
+                    "x": 0,
+                    "y": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "anim": null,
+                    "skin": null,
+                    "data": null,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

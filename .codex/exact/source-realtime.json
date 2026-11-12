@@ -1,0 +1,1 @@
+[{"canOperate": true, "pieceCanSwitch": true, "step": 1, "afterSecondStep": 2, "first": 11}, {"canOperate": true, "pieceCanSwitch": true, "step": 1, "afterSecondStep": 2, "first": 13}, {"canOperate": false, "pieceCanSwitch": true, "step": 1, "afterSecondStep": 1, "first": 15}]

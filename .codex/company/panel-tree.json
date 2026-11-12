@@ -1,0 +1,462 @@
+{
+  "name": "download",
+  "position": {
+    "x": 0.00048828125,
+    "y": -4.900390625,
+    "z": null
+  },
+  "size": {
+    "x": 708.599975585938,
+    "y": 49.2999992370605,
+    "z": null
+  },
+  "anchorMin": {
+    "x": 0,
+    "y": 0,
+    "z": null
+  },
+  "anchorMax": {
+    "x": 1,
+    "y": 1,
+    "z": null
+  },
+  "pivot": {
+    "x": 0.5,
+    "y": 0.5,
+    "z": null
+  },
+  "scale": {
+    "x": 1,
+    "y": 1,
+    "z": 1
+  },
+  "rotation": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "active": true,
+  "children": [
+    {
+      "name": "BG",
+      "position": {
+        "x": 0,
+        "y": 118,
+        "z": null
+      },
+      "size": {
+        "x": 698.799987792969,
+        "y": 845.200012207031,
+        "z": null
+      },
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "active": true,
+      "children": [],
+      "image": {
+        "color": {
+          "r": 0.9999999999999999,
+          "g": 0.9999999999999999,
+          "b": 0.9999999999999999,
+          "a": 1
+        },
+        "type": 1,
+        "preserveAspect": false,
+        "pixelsPerUnitMultiplier": 1,
+        "sprite": {
+          "name": "EnterLevel_Easy_PopUP",
+          "id": 5,
+          "texture": "EnterLevel_Easy_PopUP",
+          "border": {
+            "x": 70.4777297973632,
+            "y": 76.77500098943702,
+            "z": 64.77732849121075,
+            "w": 54.46875
+          },
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 988,
+            "h": 320
+          }
+        }
+      }
+    },
+    {
+      "name": "shangfu",
+      "position": {
+        "x": -178,
+        "y": 496,
+        "z": null
+      },
+      "size": {
+        "x": 362.700012207031,
+        "y": 201.399993896484,
+        "z": null
+      },
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "active": true,
+      "children": [],
+      "image": {
+        "color": {
+          "r": 0.9999999999999999,
+          "g": 0.9999999999999999,
+          "b": 0.9999999999999999,
+          "a": 1
+        },
+        "type": 0,
+        "preserveAspect": true,
+        "pixelsPerUnitMultiplier": 1,
+        "sprite": {
+          "name": "EnterLevel_Hard_title",
+          "id": 6,
+          "texture": "EnterLevel_Hard_title",
+          "border": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 0
+          },
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 498,
+            "h": 220
+          }
+        }
+      }
+    },
+    {
+      "name": "right",
+      "position": {
+        "x": 171.300003051758,
+        "y": 496,
+        "z": null
+      },
+      "size": {
+        "x": 362.700012207031,
+        "y": 201.399993896484,
+        "z": null
+      },
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "active": true,
+      "children": [],
+      "image": {
+        "color": {
+          "r": 0.9999999999999999,
+          "g": 0.9999999999999999,
+          "b": 0.9999999999999999,
+          "a": 1
+        },
+        "type": 0,
+        "preserveAspect": true,
+        "pixelsPerUnitMultiplier": 1,
+        "sprite": {
+          "name": "EnterLevel_Hard_title",
+          "id": 6,
+          "texture": "EnterLevel_Hard_title",
+          "border": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 0
+          },
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 498,
+            "h": 220
+          }
+        }
+      }
+    },
+    {
+      "name": "window",
+      "position": {
+        "x": 0,
+        "y": 227,
+        "z": null
+      },
+      "size": {
+        "x": 489.299987792969,
+        "y": 562.900024414063,
+        "z": null
+      },
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "active": true,
+      "children": [],
+      "image": {
+        "color": {
+          "r": 0.9999999999999999,
+          "g": 0.9999999999999999,
+          "b": 0.9999999999999999,
+          "a": 1
+        },
+        "type": 0,
+        "preserveAspect": true,
+        "pixelsPerUnitMultiplier": 1,
+        "sprite": {
+          "name": "Loading_Logo_en",
+          "id": 7,
+          "texture": "Loading_Logo_en",
+          "border": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 0
+          },
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 700,
+            "h": 524
+          }
+        }
+      }
+    },
+    {
+      "name": "download",
+      "position": {
+        "x": 5.40000009536743,
+        "y": -55.5499992370605,
+        "z": null
+      },
+      "size": {
+        "x": 500.100006103516,
+        "y": 111.099998474121,
+        "z": null
+      },
+      "anchorMin": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "anchorMax": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": null
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "active": true,
+      "children": [
+        {
+          "name": "Text (TMP)",
+          "position": {
+            "x": 5,
+            "y": 16,
+            "z": null
+          },
+          "size": {
+            "x": 200,
+            "y": 50,
+            "z": null
+          },
+          "anchorMin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": null
+          },
+          "anchorMax": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": null
+          },
+          "pivot": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "active": true,
+          "children": [],
+          "text": {
+            "text": "Play Now",
+            "fontSize": 60,
+            "font": "LiberationSans SDF",
+            "fontStyle": 1,
+            "color": {
+              "r": 0.9999999999999999,
+              "g": 0.9999999999999999,
+              "b": 0.9999999999999999,
+              "a": 1
+            }
+          }
+        }
+      ],
+      "image": {
+        "color": {
+          "r": 0.9999999999999999,
+          "g": 0.9999999999999999,
+          "b": 0.9999999999999999,
+          "a": 1
+        },
+        "type": 1,
+        "preserveAspect": false,
+        "pixelsPerUnitMultiplier": 1,
+        "sprite": {
+          "name": "Level_Easyl_PopUp_2",
+          "id": 8,
+          "texture": "Level_Easyl_PopUp_2",
+          "border": {
+            "x": 23.00000023841859,
+            "y": 30.00000089406969,
+            "z": 21.999999344348925,
+            "w": 22.000000655651107
+          },
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 62,
+            "h": 66
+          }
+        }
+      }
+    }
+  ],
+  "image": {
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.588235318660736
+    },
+    "type": 1,
+    "preserveAspect": false,
+    "pixelsPerUnitMultiplier": 1,
+    "sprite": {
+      "name": "Background",
+      "id": 4,
+      "texture": "Background",
+      "border": {
+        "x": 9.973249018192291,
+        "y": 9.948683321475983,
+        "z": 10.026750564575199,
+        "w": 10.051317214965824
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 32.00000041723251,
+        "h": 31.999999463558193
+      }
+    }
+  }
+}

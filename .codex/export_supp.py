@@ -1,0 +1,26 @@
+from clip_schema import convert
+from playwright.sync_api import sync_playwright
+import pathlib,json,base64
+out=pathlib.Path('Assets/Resources/Reference20/Native');out.mkdir(parents=True,exist_ok=True)
+with sync_playwright() as p:
+ b=p.chromium.launch(headless=True,channel='msedge');page=b.new_page(viewport={'width':540,'height':960});page.goto('file:///C:/Users/ivy/Desktop/20.html');page.wait_for_timeout(1800)
+ page.evaluate("async()=>{await Promise.all([new Promise(r=>cc.resources.loadDir('prefab',cc.Prefab,()=>r())),new Promise(r=>cc.assetManager.getBundle('Sub').loadDir('prefab',cc.Prefab,()=>r()))])}")
+ result=page.evaluate('''() => {
+ cc.director.pause();cc.dynamicAtlasManager.enabled=false;cc.dynamicAtlasManager.reset();const files={},skels={},sprites={};let serial=0;
+ function source(tex){let im=tex.getHtmlElementObj();if(im instanceof HTMLImageElement||im instanceof HTMLCanvasElement)return im;let cv=document.createElement('canvas');cv.width=tex.width;cv.height=tex.height;let ctx=cv.getContext('2d'),arr=im&&(im.data||im);if(arr&&arr.length===cv.width*cv.height*4){let id=ctx.createImageData(cv.width,cv.height);id.data.set(arr);ctx.putImageData(id,0,0)}return cv;}
+ function png(tex){let image=source(tex),cv=document.createElement('canvas');cv.width=image.width;cv.height=image.height;cv.getContext('2d').drawImage(image,0,0);return cv.toDataURL();}
+ function skeleton(data){let key=data._uuid;if(skels[key])return skels[key];let name='supp_skeleton_'+Object.keys(skels).length;skels[key]=name;let atlas=data.atlasText;data.textureNames.forEach((old,i)=>{let n=name+'_tex'+i+'.png';atlas=atlas.split(old).join(n);files[n]=png(data.textures[i])});files[name+'.json']=JSON.stringify(data.skeletonJson);files[name+'.atlas.txt']=atlas;return name;}
+ function sprite(frame){frame._resetDynamicAtlasFrame();let key=frame._uuid||(frame.__exportKey||(frame.__exportKey='supp_label_'+serial++));if(sprites[key])return sprites[key];let name='supp_sprite_'+Object.keys(sprites).length;sprites[key]=name;let r=frame.getRect(),rot=frame.isRotated?frame.isRotated():!!frame._rotated,image=source(frame.getTexture()),cv=document.createElement('canvas');cv.width=r.width;cv.height=r.height;let ctx=cv.getContext('2d');if(rot){ctx.translate(0,r.height);ctx.rotate(-Math.PI/2);ctx.drawImage(image,r.x,r.y,r.height,r.width,0,0,r.height,r.width)}else ctx.drawImage(image,r.x,r.y,r.width,r.height,0,0,r.width,r.height);files[name+'.png']=cv.toDataURL();return name;}
+ function walk(n){let o={name:n.name,x:n.x,y:n.y,sx:n.scaleX,sy:n.scaleY,angle:n.angle,w:n.width,h:n.height,ax:n.anchorX,ay:n.anchorY,active:n.active,opacity:n.opacity,color:[n.color.r/255,n.color.g/255,n.color.b/255],children:[],mask:!!n.getComponent(cc.Mask),inverted:!!(n.getComponent(cc.Mask)&&n.getComponent(cc.Mask).inverted)};let spn=n.getComponent(sp.Skeleton),s=n.getComponent(cc.Sprite),label=n.getComponent(cc.Label);if(label&&label._ttfTexture){let key='supp_label_'+serial++;files[key+'.png']=png(label._ttfTexture);o.sprite=key;}if(s&&s.spriteFrame){o.sprite=sprite(s.spriteFrame);o.spriteType=s.type;o.fill=s.fillRange}if(spn&&spn.skeletonData){o.skeleton=skeleton(spn.skeletonData);o.anim=spn.animation;o.skin=(spn._skeleton&&spn._skeleton.skin&&spn._skeleton.skin.name)||spn.defaultSkin;if(spn._skeleton)o.slots=spn._skeleton.slots.map(s=>({name:s.data.name,attachment:s.attachment&&s.attachment.name,r:s.color.r,g:s.color.g,b:s.color.b,a:s.color.a}));o.loop=spn.loop;o.timeScale=spn.timeScale;o.animations=Object.keys(spn.skeletonData.skeletonJson.animations||{})}let an=n.getComponent(cc.Animation);if(an){function cv(v){if(v instanceof cc.SpriteFrame)return {sprite:sprite(v)};if(v instanceof cc.Vec2||v instanceof cc.Vec3)return [v.x,v.y,v.z||0];if(Array.isArray(v))return v.map(cv);if(v&&typeof v==='object'){let r={};Object.keys(v).filter(k=>!k.startsWith('_')).forEach(k=>r[k]=cv(v[k]));return r;}return v;}o.clips=an._clips.filter(c=>c).map(c=>({name:c.name,duration:c.duration,wrap:c.wrapMode,data:cv(c.curveData)}));o.autoplay=an.playOnLoad;}o.children=n.children.map(walk);return o;}
+ let root=cc.find('Canvas/MapRoot/TiledMap_0/TiledMapRoot_0/BlockerRoot_0');let pieces=[];
+ const effects={};function collect(bundle){bundle._cache.forEach((a)=>{if(a instanceof cc.Prefab&&(/^SameColorEmit$|^SuqareFly$/.test(a.name))){try{let n=cc.instantiate(a);effects[a.name]=walk(n);n.destroy()}catch(e){}}});}
+ // Asset cache includes loaded prefabs used by every original match and blocker.
+ cc.assetManager.assets.forEach(a=>{if(a instanceof cc.Prefab&&(/^SameColorEmit$|^SuqareFly$/.test(a.name))){try{let n=cc.instantiate(a);effects[a.name]=walk(n);n.destroy()}catch(e){}}});
+ let hand=null;function findHand(n){if(n.name==='CommonHandBlock')hand=n;n.children.forEach(findHand)}findHand(cc.find('Canvas/UIRoot'));let guideHand=null;
+ let button=null;return {files,pieces,effects,guideHand,button};
+}''')
+ for name,data in result.pop('files').items():
+  if data.startswith('data:'): (out/name).write_bytes(base64.b64decode(data.split(',',1)[1]))
+  else:(out/name).write_text(data,encoding='utf8')
+ g=json.loads((out/'graph.json').read_text(encoding='utf-8'));g['effects'].update(result['effects']);(out/'graph.json').write_text(json.dumps(convert(g),ensure_ascii=False),encoding='utf8');print('added',list(result['effects']))
+ b.close()

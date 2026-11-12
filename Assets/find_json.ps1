@@ -1,0 +1,1 @@
+ = Get-ChildItem -Path C:\Users\Ivy\Desktop\040\trialplaytemplate -Recurse -Filter *.json; foreach ( in ) { try {  = Get-Content .FullName -Raw;  = ConvertFrom-Json  } catch { Write-Host Error in:  } }

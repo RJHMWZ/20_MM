@@ -1,0 +1,288 @@
+[
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      1
+    ],
+    "before": 6,
+    "after": 105103,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 105103,
+    "after": 169100,
+    "v": 8,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      1
+    ],
+    "before": 169100,
+    "after": 74637,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 74637,
+    "after": 6754,
+    "v": 1,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      0
+    ],
+    "before": 6754,
+    "after": 115931,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 115931,
+    "after": 103368,
+    "v": 5,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      1
+    ],
+    "before": 103368,
+    "after": 128185,
+    "v": 1,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 128185,
+    "after": 3902,
+    "v": 1,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      0
+    ],
+    "before": 3902,
+    "after": 183399,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 183399,
+    "after": 100036,
+    "v": 5,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      0
+    ],
+    "before": 100036,
+    "after": 163493,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 163493,
+    "after": 178650,
+    "v": 8,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      1
+    ],
+    "before": 178650,
+    "after": 19507,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 19507,
+    "after": 225344,
+    "v": 10,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      0
+    ],
+    "before": 225344,
+    "after": 186321,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 186321,
+    "after": 217078,
+    "v": 9,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      1
+    ],
+    "before": 217078,
+    "after": 53375,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 53375,
+    "after": 70332,
+    "v": 4,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      1
+    ],
+    "before": 70332,
+    "after": 90109,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 90109,
+    "after": 211346,
+    "v": 9,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      1
+    ],
+    "before": 211346,
+    "after": 161163,
+    "v": 1,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 161163,
+    "after": 202360,
+    "v": 9,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      1
+    ],
+    "before": 202360,
+    "after": 96617,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 96617,
+    "after": 89454,
+    "v": 4,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      0,
+      0
+    ],
+    "before": 89454,
+    "after": 184471,
+    "v": 0,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at e.RandomID (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1267131)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314927)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)"
+  },
+  {
+    "k": "RandomRange",
+    "a": [
+      1,
+      10
+    ],
+    "before": 184471,
+    "after": 39668,
+    "v": 3,
+    "stack": "Error\n    at M.<computed> [as RandomRange] (eval at evaluate (:311:30), <anonymous>:1:319)\n    at t.RandomBlocker (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:1314976)\n    at C.RandomBlocker (eval at evaluate (:311:30), <anonymous>:1:1114)\n    at e.CheckFalling (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:722823)\n    at e.OnUpdate (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:721666)\n    at t.update (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:740593)\n    at eval (eval at f (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788)), <anonymous>:3:65)\n    at CCClass.eval [as _invoke] (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450998)\n    at CCClass.invoke (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:450733)\n    at CCClass.updatePhase (eval at super_eval (file:///C:/Users/ivy/Desktop/20.html:237:6788), <anonymous>:1:452978)"
+  }
+]

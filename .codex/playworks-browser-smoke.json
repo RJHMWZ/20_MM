@@ -1,0 +1,26 @@
+{
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "Failed to load resource: net::ERR_CONNECTION_ABORTED",
+    "Failed to fetch",
+    "Error: The method \"Resources.GetBuiltinResource(Type, String)\" is not implemented\n    at new window.Error (http://127.0.0.1:8136/engine/luna/script1.js:1:741)\n    at $ctor1.ctor (http://127.0.0.1:8136/engine/unity/bin/bridge.js:1:489394)\n    at $ctor1 (http://127.0.0.1:8136/engine/unity/bin/bridge.js:1:490555)\n    at new $ctor1 (http://127.0.0.1:8136/engine/unity/bin/bridge.js:1:1318788)\n    at A.q$ (http://127.0.0.1:8136/engine/unity/bin/UnityEngine.js:1:1047679)\n    at A.Build (http://127.0.0.1:8136/engine/unity/bin/UnityScriptsCompiler.js:14596:63)\n    at A.Start (http://127.0.0.1:8136/engine/unity/bin/UnityScriptsCompiler.js:14529:22)\n    at A._invokeOverload (http://127.0.0.1:8136/engine/luna/script1.js:1:85498)\n    at A.onStart (http://127.0.0.1:8136/engine/luna/script1.js:1:83404)\n    at http://127.0.0.1:8136/engine/luna/script1.js:1:533984",
+    "Failed to load resource: net::ERR_CONNECTION_RESET",
+    "Failed to fetch",
+    "Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))",
+    "Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))",
+    "Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))",
+    "Reporting error to PI: The method \"Resources.GetBuiltinResource(Type, String)\" is not implemented [new window.Error / $ctor1.ctor / $ctor1]",
+    "Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST'))"
+  ],
+  "status": {
+    "title": "",
+    "canvas": [
+      {
+        "w": 540,
+        "h": 960
+      }
+    ],
+    "body": "",
+    "reference": true
+  }
+}

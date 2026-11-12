@@ -1,0 +1,21 @@
+{
+  "100f5e3667d120c44b3543aed81360f0": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Materials\\glow04.mat",
+  "3691d0a214dda2e4eab7357882db043e": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Textures\\glow04.png",
+  "475f9786ec93b604c9b6119b767318c7": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Textures\\FX_fire_01.png",
+  "4bfd43b9f2830914ba4e4c7570a04ddc": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\FBX\\FX_FDL_Cylinder027.FBX",
+  "4d5f23c69f021c44caa41d85ba84bbf6": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Shader\\XR\\ParticleUVAlpha.shader",
+  "74d954429ffb88a4181df8280a6ab275": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Textures\\FX_glow_quan_0001.png",
+  "8bcf202170a98564cadc710e01dcb1ba": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Materials\\FX_ring_03_blend.mat",
+  "a18afbb3a60587c4b9efea992e90dc58": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Materials\\FX_line_03_Tile_uvblend.mat",
+  "a750944c7d6345a4382cac59296a4484": "Assets\\Resources\\Reference20\\Props\\Particles\\Resources_jewels\\Effect\\Textures\\FX_glow_02.png",
+  "ac2b0662f72c32b4a81efb4cf5d2cd87": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Textures\\FX_noise_02.png",
+  "b08575b337e51794d80a1f34199022e1": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Materials\\glow_0002.mat",
+  "b56eb20b8fd643b4a96c733cfe5b2fad": "Assets\\Resources\\Reference20\\Props\\Particles\\UIParticle\\Shaders\\UIAlphaBlended.shader",
+  "ba7347d0a5a41b4488b01c6e45adad92": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Materials\\FX_line_01.mat",
+  "bc0b886c4c0a3d44fab49cfc96e8ef1e": "Assets\\Resources\\Reference20\\Props\\Particles\\Resources_jewels\\Effect\\Materials\\FX_glow_02_blend_ui.mat",
+  "cad14bd0ad8fca145ae5de8978e526a1": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Textures\\FX_line_03.png",
+  "cd5e96a83fa1c454dbb63331ad5dcb16": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Textures\\FX_line_01.png",
+  "cfffd9ecf7853d941924dc5408cdc1f5": "Assets\\Resources\\Reference20\\Props\\Particles\\Resources_moved\\Match3Game\\effects\\spine\\bomb\\export\\FX_ZhaSquare_bomb.prefab",
+  "ecfa8f5732b504ef98fba10aa18d0326": "Assets\\Resources\\Reference20\\Props\\Particles\\UIParticle\\Shaders\\UIAdditive.shader",
+  "f96d7deaff1a9ad478aff308173aad3e": "Assets\\Resources\\Reference20\\Props\\Particles\\Particles\\Materials\\FX_fire_01_blend.mat"
+}

@@ -1,0 +1,55 @@
+
+chandelier.png
+size: 136,508
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+elements_sp_xiaoniao_0
+  rotate: false
+  xy: 1, 240
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+elements_sp_xiaoniao_body
+  rotate: false
+  xy: 1, 85
+  size: 120, 59
+  orig: 120, 59
+  offset: 0, 0
+  index: -1
+elements_sp_xiaoniao_head
+  rotate: false
+  xy: 1, 146
+  size: 117, 92
+  orig: 117, 92
+  offset: 0, 0
+  index: -1
+elements_sp_xiaoniao_ty
+  rotate: false
+  xy: 1, 56
+  size: 94, 27
+  orig: 94, 27
+  offset: 0, 0
+  index: -1
+elements_sp_xiaoniao_ty2
+  rotate: false
+  xy: 1, 370
+  size: 131, 137
+  orig: 131, 137
+  offset: 0, 0
+  index: -1
+elements_sp_xiaoniao_ygb
+  rotate: false
+  xy: 41, 4
+  size: 36, 50
+  orig: 36, 50
+  offset: 0, 0
+  index: -1
+elements_sp_xiaoniao_zgb
+  rotate: false
+  xy: 1, 1
+  size: 38, 53
+  orig: 38, 53
+  offset: 0, 0
+  index: -1

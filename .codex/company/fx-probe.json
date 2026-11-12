@@ -1,0 +1,7 @@
+{
+  "name": "brick2_0",
+  "roots": [
+    "SceneRoot: main",
+    "SceneRoot: DontDestroyOnLoad"
+  ]
+}

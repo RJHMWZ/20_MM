@@ -1,0 +1,195 @@
+{
+  "jsons": [
+    {
+      "key": "assets/bundles.json",
+      "type": "object",
+      "size": 0
+    },
+    {
+      "key": "assets/bundles/-2/bundle.json",
+      "type": "object",
+      "size": 0
+    },
+    {
+      "key": "assets/shaders.json",
+      "type": "object",
+      "size": 130
+    },
+    {
+      "key": "assets/bundles/-1/bundle.json",
+      "type": "object",
+      "size": 0
+    }
+  ],
+  "blobs": [
+    {
+      "key": "assets/bundles/-1/data.blob",
+      "type": "object",
+      "size": 8644
+    }
+  ],
+  "sounds": [
+    {
+      "key": "assets/bundles/-1/75070.mp3",
+      "type": "object",
+      "size": 2735
+    },
+    {
+      "key": "assets/bundles/-1/75062.mp3",
+      "type": "object",
+      "size": 4825
+    },
+    {
+      "key": "assets/bundles/-1/26694.mp3",
+      "type": "object",
+      "size": 2944
+    },
+    {
+      "key": "assets/bundles/-1/26564.mp3",
+      "type": "object",
+      "size": 1167
+    },
+    {
+      "key": "assets/bundles/-1/26590.mp3",
+      "type": "object",
+      "size": 4302
+    },
+    {
+      "key": "assets/bundles/-1/75060.mp3",
+      "type": "object",
+      "size": 2108
+    },
+    {
+      "key": "assets/bundles/-1/75058.mp3",
+      "type": "object",
+      "size": 2212
+    },
+    {
+      "key": "assets/bundles/-1/26788.mp3",
+      "type": "object",
+      "size": 2944
+    },
+    {
+      "key": "assets/bundles/-1/26348.mp3",
+      "type": "object",
+      "size": 10780
+    },
+    {
+      "key": "assets/bundles/-1/26808.mp3",
+      "type": "object",
+      "size": 854
+    },
+    {
+      "key": "assets/bundles/-1/26630.mp3",
+      "type": "object",
+      "size": 3257
+    },
+    {
+      "key": "assets/bundles/-1/26604.mp3",
+      "type": "object",
+      "size": 7332
+    },
+    {
+      "key": "assets/bundles/-1/26572.mp3",
+      "type": "object",
+      "size": 5765
+    },
+    {
+      "key": "assets/bundles/-1/26512.mp3",
+      "type": "object",
+      "size": 8064
+    },
+    {
+      "key": "assets/bundles/-1/26496.mp3",
+      "type": "object",
+      "size": 2735
+    },
+    {
+      "key": "assets/bundles/-1/26266.mp3",
+      "type": "object",
+      "size": 1690
+    },
+    {
+      "key": "assets/bundles/-1/26248.mp3",
+      "type": "object",
+      "size": 4825
+    },
+    {
+      "key": "assets/bundles/-1/26312.mp3",
+      "type": "object",
+      "size": 2421
+    },
+    {
+      "key": "assets/bundles/-1/26192.mp3",
+      "type": "object",
+      "size": 5451
+    },
+    {
+      "key": "assets/bundles/-1/26280.mp3",
+      "type": "object",
+      "size": 7541
+    },
+    {
+      "key": "assets/bundles/-1/26264.mp3",
+      "type": "object",
+      "size": 3571
+    },
+    {
+      "key": "assets/bundles/-1/26238.mp3",
+      "type": "object",
+      "size": 7437
+    },
+    {
+      "key": "assets/bundles/-1/26198.mp3",
+      "type": "object",
+      "size": 2630
+    },
+    {
+      "key": "assets/bundles/-1/26236.mp3",
+      "type": "object",
+      "size": 2944
+    },
+    {
+      "key": "assets/bundles/-1/26182.mp3",
+      "type": "object",
+      "size": 11512
+    },
+    {
+      "key": "assets/bundles/-1/26206.mp3",
+      "type": "object",
+      "size": 2630
+    },
+    {
+      "key": "assets/bundles/-1/75066.mp3",
+      "type": "object",
+      "size": 2212
+    },
+    {
+      "key": "assets/bundles/-1/75064.mp3",
+      "type": "object",
+      "size": 2212
+    },
+    {
+      "key": "assets/bundles/-1/75074.mp3",
+      "type": "object",
+      "size": 1376
+    },
+    {
+      "key": "assets/bundles/-1/75072.mp3",
+      "type": "object",
+      "size": 5138
+    },
+    {
+      "key": "assets/bundles/-1/75068.mp3",
+      "type": "object",
+      "size": 2212
+    },
+    {
+      "key": "assets/bundles/-1/26338.mp3",
+      "type": "object",
+      "size": 120390
+    }
+  ],
+  "dataUris": [],
+  "images": []
+}

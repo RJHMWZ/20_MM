@@ -1,0 +1,6 @@
+[submodule "Toolkits"]
+	path = Toolkits
+	url = http://10.80.1.3/trialplay/toolkits.git
+[submodule "Assets/Scripts/CodeKits"]
+	path = Assets/Scripts/CodeKits
+	url = git@10.80.1.3:playableTemplete/codeKits.git

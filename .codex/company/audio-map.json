@@ -1,0 +1,19 @@
+{
+  "bgmClip": "Gameplay",
+  "victoryClip": "SFX_UI_M3_LevelComplete",
+  "defeatClip": "SFX_UI_M3_LevelFail",
+  "settlementClip": "SFX_UI_M3_LevelComplete",
+  "swapClip": "match3_b_element_move",
+  "collectClip": "match3_element_collect_fan",
+  "longObjectBackClip": "match3_element_click_rockchipper",
+  "normalMatchClip": "match3_b_element_dead_normal_01",
+  "specialGenerateClip": "match3_b_bomb_merge",
+  "lineClearHorizontalClip": "match3_prop_03_hit",
+  "lineClearVerticalClip": "match3_bomb_cross_merge",
+  "bombExplosionClip": "match3_bomb_hit",
+  "targetSeekerClip": "match3_plane_fly",
+  "colorClearClip": "match3_supercolorbomb_supercolorbomb_crash",
+  "bombBombMergeClip": "match3_bomb_bomb_merge",
+  "magicBallSwapClip": "match3_colorbomb_colorbomb_crash",
+  "magicBallGenerateClip": "match3_colorbomb_merge"
+}

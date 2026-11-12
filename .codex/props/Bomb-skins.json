@@ -1,0 +1,587 @@
+{
+  "default": {
+    "zhezhao": [
+      "zhezhao"
+    ]
+  },
+  "bomb_cross": {
+    "brick1_bomb": [
+      "brick1_bomb"
+    ],
+    "brick1_yx": [
+      "x_xian1"
+    ],
+    "brick1_yx2": [
+      "x_xian2"
+    ],
+    "d_tong": [
+      "d_tong11",
+      "d_tong",
+      "d_tong2",
+      "d_tong3",
+      "d_tong4",
+      "d_tong5",
+      "d_tong6",
+      "d_tong7",
+      "d_tong8",
+      "d_tong9",
+      "d_tong10",
+      "d_tong12",
+      "d_tong13",
+      "d_tong14",
+      "d_tong15",
+      "d_tong16",
+      "d_tong17",
+      "d_tong18"
+    ],
+    "d_xian": [
+      "d_xian"
+    ],
+    "muban_1": [
+      "muban_1"
+    ],
+    "muban_10": [
+      "muban_3"
+    ],
+    "muban_11": [
+      "muban_2"
+    ],
+    "muban_12": [
+      "muban_1"
+    ],
+    "muban_2": [
+      "muban_2"
+    ],
+    "muban_3": [
+      "muban_3"
+    ],
+    "muban_4": [
+      "muban_4"
+    ],
+    "muban_5": [
+      "muban_5"
+    ],
+    "muban_6": [
+      "muban_6"
+    ],
+    "muban_7": [
+      "muban_6"
+    ],
+    "muban_8": [
+      "muban_5"
+    ],
+    "muban_9": [
+      "muban_4"
+    ],
+    "muban_ding": [
+      "muban_ding"
+    ],
+    "muban_ding2": [
+      "muban_ding"
+    ],
+    "muban_tiepi": [
+      "muban_tiepi"
+    ],
+    "muban_tiepi_hou": [
+      "muban_tiepi_hou"
+    ],
+    "mutong_biaopan_di": [
+      "mutong_biaopan_di"
+    ],
+    "mutong_biaopan_hong": [
+      "mutong_biaopan_hong"
+    ],
+    "mutong_biaopan_huang": [
+      "mutong_biaopan_huang"
+    ],
+    "mutong_biaopan_jindu": [
+      "mutong_biaopan_jindu"
+    ],
+    "mutong_biaopan_lv": [
+      "mutong_biaopan_lv"
+    ],
+    "mutong_biaopan_waihuan": [
+      "mutong_biaopan_waihuan"
+    ],
+    "mutong_biaopan_yeti": [
+      "mutong_biaopan_yeti"
+    ],
+    "mutong_dongkou": [
+      "d_tong_dongkou"
+    ],
+    "mutong_dongkou2": [
+      "d_tong_dongkou"
+    ],
+    "mutong_dongkou3": [
+      "d_tong_dongkou2"
+    ],
+    "mutong_zhizhen": [
+      "mutong_zhizhen"
+    ],
+    "mutong_zhizhen_ty": [
+      "mutong_zhizhen"
+    ],
+    "mutong_zhizhen_ty2": [
+      "mutong_zhizhen"
+    ],
+    "tong_ty": [
+      "tong_ty2"
+    ],
+    "xiaozhadan": [
+      "d_tong",
+      "x_tong1",
+      "x_tong2",
+      "x_tong3",
+      "x_tong4",
+      "x_tong5",
+      "x_tong6",
+      "zhayao01",
+      "zhayao02",
+      "zhayao03",
+      "zhayao04",
+      "zhayao05",
+      "zhayao06"
+    ],
+    "zd_ty": [
+      "zd_ty"
+    ],
+    "zi": [
+      "zi"
+    ],
+    "zi2": [
+      "zi"
+    ],
+    "zi3": [
+      "zi"
+    ]
+  },
+  "bomb_cross_cai": {
+    "brick1_bomb": [
+      "brick1_bomb"
+    ],
+    "brick1_yx": [
+      "x_xian1"
+    ],
+    "d_tong": [
+      "d_tong",
+      "d_tong2",
+      "d_tong3",
+      "d_tong4",
+      "d_tong5",
+      "d_tong6",
+      "d_tong7",
+      "d_tong8",
+      "d_tong9",
+      "d_tong10",
+      "d_tong11",
+      "d_tong12",
+      "d_tong13",
+      "d_tong14",
+      "d_tong15",
+      "d_tong16",
+      "d_tong17",
+      "d_tong18"
+    ],
+    "d_xian": [
+      "d_xian"
+    ],
+    "tong_ty": [
+      "tong_ty2"
+    ],
+    "xiaozhadan": [
+      "d_tong",
+      "x_tong1",
+      "x_tong2",
+      "x_tong3",
+      "x_tong4",
+      "x_tong5",
+      "x_tong6",
+      "zhayao01",
+      "zhayao02",
+      "zhayao03",
+      "zhayao04",
+      "zhayao05",
+      "zhayao06"
+    ],
+    "zd_ty": [
+      "zd_ty"
+    ],
+    "zi": [
+      "zi"
+    ],
+    "zi2": [
+      "zi"
+    ],
+    "zi3": [
+      "zi"
+    ]
+  },
+  "bomb_square": {
+    "bomb_fei_a1": [
+      "fj_01",
+      "fj_02",
+      "fj_03",
+      "fj_04",
+      "fj_05",
+      "fj_06",
+      "fj_07",
+      "fj_08"
+    ],
+    "bomb_fei_a2": [
+      "fj_mh_01",
+      "fj_mh_03",
+      "fj_mh_05",
+      "fj_mh_07"
+    ],
+    "bomb_fei_a3": [
+      "1",
+      "2",
+      "3"
+    ],
+    "brick9brick9_bomb_square_1": [
+      "brick9brick9_bomb_square_1"
+    ],
+    "feixingqi_ty": [
+      "feixingqi_ty",
+      "feixingqi_ty2"
+    ],
+    "feixingqiu": [
+      "brick9brick9_bomb_square_2"
+    ],
+    "feixingqiu_g": [
+      "feixingqiu_g"
+    ],
+    "feixingqiu_g2": [
+      "feixingqiu_g"
+    ]
+  },
+  "bomb_square_cai": {
+    "bomb_fei_a1": [
+      "fj_01",
+      "fj_02",
+      "fj_03",
+      "fj_04",
+      "fj_05",
+      "fj_06",
+      "fj_07",
+      "fj_08"
+    ],
+    "bomb_fei_a2": [
+      "fj_mh_01",
+      "fj_mh_03",
+      "fj_mh_05",
+      "fj_mh_07"
+    ],
+    "bomb_fei_a3": [
+      "1",
+      "2",
+      "3"
+    ],
+    "brick9brick9_bomb_square_1": [
+      "brick9brick9_bomb_square_1"
+    ],
+    "feixingqiu": [
+      "brick9brick9_bomb_square_2"
+    ],
+    "feixingqiu_g": [
+      "feixingqiu_g"
+    ],
+    "feixingqiu_g2": [
+      "feixingqiu_g"
+    ]
+  },
+  "brick_color": {
+    "brick1_yx": [
+      "x_xian1"
+    ],
+    "brick1_yx2": [
+      "x_xian2"
+    ],
+    "wu_ty": [
+      "wu_ty"
+    ],
+    "wx_000001": [
+      "wx_0001",
+      "wx_0002",
+      "wx_0003",
+      "wx_0004",
+      "wx_0005",
+      "wx_0006",
+      "wx_0007",
+      "wx_0008",
+      "wx_0009",
+      "wx_0010",
+      "wx_0011",
+      "wx_0012"
+    ],
+    "wx_000001_g": [
+      "wx_0001",
+      "wx_0002",
+      "wx_0003",
+      "wx_0004",
+      "wx_0005",
+      "wx_0006",
+      "wx_0007",
+      "wx_0008",
+      "wx_0009",
+      "wx_0010",
+      "wx_0011",
+      "wx_0012"
+    ],
+    "wx_000002": [
+      "wx_0013",
+      "wx_0014",
+      "wx_0015",
+      "wx_0016",
+      "wx_0017",
+      "wx_0018",
+      "wx_0019",
+      "wx_0020",
+      "wx_0021",
+      "wx_0022",
+      "wx_0023",
+      "wx_0024",
+      "wx_0025",
+      "wx_0026",
+      "wx_0027",
+      "wx_0028",
+      "wx_0029",
+      "wx_0030",
+      "wx_0031",
+      "wx_0032",
+      "wx_0033",
+      "wx_0034",
+      "wx_0035",
+      "wx_0036"
+    ]
+  },
+  "brick0_heng": {
+    "brick1_yx": [
+      "x_xian1"
+    ],
+    "brick1_yx2": [
+      "x_xian2"
+    ],
+    "brick9brick0_heng_1": [
+      "brick9brick0_heng_1"
+    ],
+    "brick9brick0_heng_2": [
+      "brick9brick0_heng_2"
+    ],
+    "h_0": [
+      "h_0"
+    ],
+    "h_1": [
+      "h_1",
+      "h_2",
+      "h_3",
+      "h_4",
+      "h_5",
+      "h_6",
+      "h_7",
+      "h_8",
+      "h_9",
+      "h_10",
+      "h_11",
+      "h_12"
+    ],
+    "hsx_ty": [
+      "hsx_ty"
+    ]
+  },
+  "brick0_heng_cai": {
+    "brick1_yx": [
+      "x_xian1"
+    ],
+    "brick1_yx2": [
+      "x_xian2"
+    ],
+    "brick9brick0_heng_1": [
+      "brick9brick0_heng_1"
+    ],
+    "brick9brick0_heng_2": [
+      "brick9brick0_heng_2"
+    ],
+    "h_0": [
+      "h_0"
+    ],
+    "h_1": [
+      "h_1",
+      "h_2",
+      "h_3",
+      "h_4",
+      "h_5",
+      "h_6",
+      "h_7",
+      "h_8",
+      "h_9",
+      "h_10",
+      "h_11",
+      "h_12"
+    ],
+    "s_2": [
+      "h_0"
+    ],
+    "s_3": [
+      "h_1",
+      "h_2",
+      "h_3",
+      "h_4",
+      "h_5",
+      "h_6",
+      "h_7",
+      "h_8",
+      "h_9",
+      "h_10",
+      "h_11",
+      "h_12"
+    ]
+  },
+  "brick0_shu": {
+    "brick1_yx": [
+      "x_xian1"
+    ],
+    "brick1_yx2": [
+      "x_xian2"
+    ],
+    "brick9brick0_shu_1": [
+      "brick9brick0_shu_1"
+    ],
+    "brick9brick0_shu_2": [
+      "brick9brick0_shu_2"
+    ],
+    "hsx_ty2": [
+      "hsx_ty"
+    ],
+    "s_2": [
+      "h_0"
+    ],
+    "s_3": [
+      "h_1",
+      "h_2",
+      "h_3",
+      "h_4",
+      "h_5",
+      "h_6",
+      "h_7",
+      "h_8",
+      "h_9",
+      "h_10",
+      "h_11",
+      "h_12"
+    ]
+  },
+  "brick0_shu_cai": {
+    "brick1_yx": [
+      "x_xian1"
+    ],
+    "brick1_yx2": [
+      "x_xian2"
+    ],
+    "brick9brick0_shu_1": [
+      "brick9brick0_shu_1"
+    ],
+    "brick9brick0_shu_2": [
+      "brick9brick0_shu_2"
+    ],
+    "h_0": [
+      "h_0"
+    ],
+    "h_1": [
+      "h_1",
+      "h_2",
+      "h_3",
+      "h_4",
+      "h_5",
+      "h_6",
+      "h_7",
+      "h_8",
+      "h_9",
+      "h_10",
+      "h_11",
+      "h_12"
+    ],
+    "s_2": [
+      "h_0"
+    ],
+    "s_3": [
+      "h_1",
+      "h_2",
+      "h_3",
+      "h_4",
+      "h_5",
+      "h_6",
+      "h_7",
+      "h_8",
+      "h_9",
+      "h_10",
+      "h_11",
+      "h_12"
+    ]
+  },
+  "brick_supercolor": {
+    "brick1_yx": [
+      "x_xian1"
+    ],
+    "brick1_yx2": [
+      "x_xian2"
+    ],
+    "wu_ty": [
+      "wu_ty"
+    ],
+    "wx_000001": [
+      "wx_0001",
+      "wx_0002",
+      "wx_0003",
+      "wx_0004",
+      "wx_0005",
+      "wx_0006",
+      "wx_0007",
+      "wx_0008",
+      "wx_0009",
+      "wx_0010",
+      "wx_0011",
+      "wx_0012"
+    ],
+    "wx_000001_g2": [
+      "wx_0001",
+      "wx_0002",
+      "wx_0003",
+      "wx_0004",
+      "wx_0005",
+      "wx_0006",
+      "wx_0007",
+      "wx_0008",
+      "wx_0009",
+      "wx_0010",
+      "wx_0011",
+      "wx_0012"
+    ],
+    "wx_000002": [
+      "wx_0013",
+      "wx_0014",
+      "wx_0015",
+      "wx_0016",
+      "wx_0017",
+      "wx_0018",
+      "wx_0019",
+      "wx_0020",
+      "wx_0021",
+      "wx_0022",
+      "wx_0023",
+      "wx_0024",
+      "wx_0025",
+      "wx_0026",
+      "wx_0027",
+      "wx_0028",
+      "wx_0029",
+      "wx_0030",
+      "wx_0031",
+      "wx_0032",
+      "wx_0033",
+      "wx_0034",
+      "wx_0035",
+      "wx_0036"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+﻿from pathlib import Path
+p=Path('Assets/Scripts/Reference20/Reference20Native.cs');s=p.read_text(encoding='utf-8-sig')
+old='var rt=Node(n,stage);rt.anchorMin=rt.anchorMax=Vector2.zero;rt.anchoredPosition=new Vector2(540+(n.x-1024)*.8875f,960+(1088+n.y)*.8875f);rt.localScale=new Vector3(n.sx,n.sy,1)*.8875f;rt.gameObject.AddComponent<Reference20Native>().id=int.Parse(name.Substring(name.LastIndexOf(\'_\')+1));return rt;'
+new='int id=int.Parse(name.Substring(name.LastIndexOf(\'_\')+1));var rt=Reference20ReplacementVisual.Supports(id)?Reference20ReplacementVisual.Create(id,name,stage):Node(n,stage);rt.anchorMin=rt.anchorMax=Vector2.zero;rt.anchoredPosition=new Vector2(540+(n.x-1024)*.8875f,960+(1088+n.y)*.8875f);rt.localScale=new Vector3(n.sx,n.sy,1)*.8875f;if(id>=100)rt.gameObject.AddComponent<Reference20Native>().id=id;return rt;'
+assert old in s;s=s.replace(old,new)
+s=s.replace('public int id;int health,animationRevision;', 'public int id;int health,animationRevision;Reference20ReplacementVisual replacement;')
+s=s.replace('get{return Mathf.Max(0,cornMotionEnd-Time.time);}', 'get{return replacement?replacement.MotionRemaining:Mathf.Max(0,cornMotionEnd-Time.time);}')
+s=s.replace('id=type;health=hp;animationRevision++;', 'id=type;health=hp;animationRevision++;replacement=GetComponent<Reference20ReplacementVisual>();if(replacement){replacement.Configure(hp);return;}')
+s=s.replace('return id==100042?(after>0?1:.33f)', 'return replacement?replacement.DamageDuration(before,after):id==100042?(after>0?1:.33f)')
+s=s.replace('health=after;if(id==100016)NestFeedback();', 'health=after;if(replacement){replacement.Damage(before,after);return replacement.DamageDuration(before,after);}if(id==100016)NestFeedback();')
+s=s.replace('public void PlayCollected(){animationRevision++;', 'public void PlayCollected(){animationRevision++;if(replacement){replacement.Collected();return;}')
+s=s.replace('public RectTransform DetachNestChick(RectTransform stage){var eggs=', 'public RectTransform DetachNestChick(RectTransform stage){if(replacement)return replacement.DetachPayload(stage);var eggs=')
+s=s.replace('public RectTransform DetachCornHead(RectTransform stage){foreach', 'public RectTransform DetachCornHead(RectTransform stage){if(replacement)return null;foreach')
+s=s.replace('public void Eat(int remaining){\n  health=', 'public void Eat(int remaining){\n  if(replacement){replacement.Feed();return;}health=')
+p.write_text(s,encoding='utf-8')
+p=Path('Assets/Scripts/Reference20/Reference20Game.cs');s=p.read_text(encoding='utf-8-sig').replace('normalSprites[p.id]=Resources.Load<Sprite>("Reference20/"+r.asset);','normalSprites[p.id]=Reference20Native.Sprite(p.id==3?"sprite_0":"sprite_1");');p.write_text(s,encoding='utf-8')
+p=Path('Assets/Scripts/Reference20/Reference20Runtime.cs');s=p.read_text(encoding='utf-8-sig').replace('p.root.sizeDelta=sprite.rect.size;', 'p.root.sizeDelta=sprite.rect.size*.8875f;').replace('p.root.sizeDelta=normalSprites[id].rect.size;', 'p.root.sizeDelta=normalSprites[id].rect.size*.8875f;')
+s=s.replace('rt.sizeDelta=sprite.rect.size;', 'rt.sizeDelta=sprite.rect.size*.8875f;')
+# The cabinet has its own supplied wood/can artwork, so omit egg-shell fragments.
+s=s.replace('Reference20Native.Effect("HenHouseDestroy",stage,Position(p),.8875f,1.5f);', '')
+s=s.replace('Sound("Audio_Match_RedChicken0");return;', 'Sound("Audio_Match_ElementsCracked");return;')
+p.write_text(s,encoding='utf-8')
+p=Path('Assets/Scripts/Reference20/Reference20Birds.cs');s=p.read_text(encoding='utf-8-sig')
+s=s.replace('var bird=Reference20Native.Effect("ShrubPeacockEffect0",stage,from,.8875f,duration+.5f);', 'var bird=Reference20ReplacementVisual.Leaf(Reference20Native.Overlay(stage));bird.anchorMin=bird.anchorMax=Vector2.zero;bird.anchoredPosition=from;')
+s=s.replace('After(.5f,()=>ReleaseBirdTarget(cell));', 'After(.5f,()=>{ReleaseBirdTarget(cell);if(bird)Destroy(bird.gameObject);});')
+s=s.replace('p.root=Reference20Native.Visual("HenEggBlock",stage);', 'p.root=data?Reference20Native.Visual("HenEggBlock",stage):Reference20ReplacementVisual.CreateCan(stage);')
+s=s.replace('Sound("henHouse_duang");', 'Sound("Audio_Match_ElementsCracked");')
+p.write_text(s,encoding='utf-8')

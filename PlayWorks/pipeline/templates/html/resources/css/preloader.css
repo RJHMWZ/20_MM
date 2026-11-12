@@ -1,0 +1,224 @@
+.preloader {
+    position: absolute;
+    inset: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 19999;
+    overflow: hidden;
+    user-select: none;
+    background: #48227a;
+    isolation: isolate;
+}
+
+/* Soft, lightweight decoration: no extra image requests during startup. */
+.preloader::before,
+.preloader::after {
+    content: '';
+    position: absolute;
+    width: min(78vw, 680px);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(2px);
+    opacity: 0.78;
+    z-index: -1;
+}
+
+.preloader::before {
+    top: -32%;
+    left: -24%;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.7) 0%, rgba(139, 92, 246, 0) 69%);
+    animation: preloader-glow-a 6s ease-in-out infinite alternate;
+}
+
+.preloader::after {
+    right: -30%;
+    bottom: -38%;
+    background: radial-gradient(circle, rgba(42, 205, 213, 0.52) 0%, rgba(42, 205, 213, 0) 70%);
+    animation: preloader-glow-b 7s ease-in-out infinite alternate;
+}
+
+.preloader__background__color__overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background:
+        radial-gradient(circle at 50% 40%, rgba(184, 125, 255, 0.42), transparent 36%),
+        linear-gradient(155deg, #66359b 0%, #48227a 52%, #32185f 100%) !important;
+}
+
+.preloader__background__color__overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.2;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0 1px, transparent 1.5px);
+    background-size: 42px 42px;
+    mask-image: linear-gradient(to bottom, black, transparent 76%);
+}
+
+.preloader__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    z-index: 1;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.preloader__icon {
+    display: none;
+}
+
+.preloader__name {
+    max-width: min(78vw, 420px);
+    margin: 0 20px clamp(22px, 3.5vmax, 38px);
+    color: #fff;
+    font: 700 clamp(22px, 2.2vmax, 34px) / 1.15 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-shadow: 0 4px 14px rgba(8, 5, 35, 0.42);
+}
+
+.preloader__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(190px, 30vmax, 360px);
+    height: 14px;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    border-radius: 999px;
+    background: rgba(7, 6, 30, 0.34);
+    box-shadow: 0 10px 28px rgba(5, 5, 25, 0.24), inset 0 1px 3px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(8px);
+}
+
+.preloader__outer__bar {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.preloader__outer__bar::before {
+    content: none;
+}
+
+.preloader__bar {
+    position: relative;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #ffcf5a 0%, #ff79a8 45%, #8c7bff 72%, #5eead4 100%);
+    box-shadow: 0 0 14px rgba(255, 153, 202, 0.72);
+    animation: loading 8s cubic-bezier(0.18, 0.7, 0.22, 1) forwards;
+}
+
+.preloader__bar::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(110deg, transparent 20%, rgba(255, 255, 255, 0.72) 48%, transparent 72%);
+    transform: translateX(-120%);
+    animation: preloader-shimmer 1.5s ease-in-out infinite;
+}
+
+.preloader__luna__logo {
+    position: absolute;
+    left: 50%;
+    bottom: calc(50% + clamp(30px, 4vmax, 48px));
+    width: clamp(230px, 38vmax, 390px);
+    max-height: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transform: translateX(-50%);
+    filter: drop-shadow(0 16px 26px rgba(29, 8, 57, 0.36));
+    animation: preloader-icon 2.4s ease-in-out infinite;
+    z-index: 3;
+}
+
+.preloader__luna__logo * {
+    width: 100%;
+    height: auto;
+    max-height: 38vh;
+    object-fit: contain;
+}
+
+@media (orientation: landscape) {
+    .preloader__wrapper {
+        transform: translateY(-1.5vmin);
+    }
+
+    .preloader__luna__logo {
+        bottom: calc(50% + clamp(24px, 4vmin, 38px));
+        width: clamp(210px, 48vmin, 360px);
+        max-height: 42vh;
+    }
+
+    .preloader__luna__logo * {
+        max-height: 42vh;
+    }
+
+    .preloader__name {
+        margin-bottom: clamp(18px, 3vmin, 30px);
+        font-size: clamp(20px, 4vmin, 32px);
+    }
+
+    .preloader__container {
+        width: clamp(210px, 38vmin, 350px);
+    }
+}
+
+@keyframes loading {
+    0% { width: 0; }
+    15% { width: 20%; }
+    55% { width: 68%; }
+    82% { width: 88%; }
+    100% { width: 100%; }
+}
+
+@keyframes preloader-shimmer {
+    0% { transform: translateX(-120%); }
+    65%, 100% { transform: translateX(120%); }
+}
+
+@keyframes preloader-icon {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-7px) scale(1.025); }
+}
+
+@keyframes preloader-glow-a {
+    to { transform: translate(6%, 5%) scale(1.08); }
+}
+
+@keyframes preloader-glow-b {
+    to { transform: translate(-5%, -4%) scale(1.1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .preloader::before,
+    .preloader::after,
+    .preloader__icon,
+    .preloader__bar::after {
+        animation: none;
+    }
+}

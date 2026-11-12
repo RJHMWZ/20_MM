@@ -1,0 +1,149 @@
+{
+  "sourceHtml": "C:/Users/ivy/Desktop/樊思吾.html",
+  "audio": [
+    {
+      "name": "SFX_UI_M3_LevelComplete",
+      "sourceId": 26182,
+      "sourcePath": "Assets/Resources/Audios/SFX_UI_M3_LevelComplete.ogg",
+      "sha256": "e4c64b6029f8e753ad687096e04a6af660da891cfe95be6adc5422ca2866de9e"
+    },
+    {
+      "name": "match3_element_dead_cupboard_fishcan",
+      "sourceId": 26236,
+      "sourcePath": "Assets/Resources/Audios/match3_element_dead_cupboard_fishcan.ogg",
+      "sha256": "c907a0de5cd92fa5ecbfaf2c30fd694d489f46267a3b6de391b93ccb2286a5d4"
+    },
+    {
+      "name": "match3_plane_fly",
+      "sourceId": 26192,
+      "sourcePath": "Assets/Resources/Audios/match3_plane_fly.ogg",
+      "sha256": "1aa3aa5d6331926cfc85c1cf69044ae8e07d6a9d4d571cdb011f15a44c70784b"
+    },
+    {
+      "name": "match3_element_dead_cupboard",
+      "sourceId": 26206,
+      "sourcePath": "Assets/Resources/Audios/match3_element_dead_cupboard.ogg",
+      "sha256": "90e67eafed47a1e0e2e2d195bfe9ec120e743339474c1e8723906482a63fcbb3"
+    },
+    {
+      "name": "match3_colorbomb_merge",
+      "sourceId": 26264,
+      "sourcePath": "Assets/Resources/Audios/match3_colorbomb_merge.ogg",
+      "sha256": "3607ce5607fe842ab356f81f79721231e8eb43ba4e819c96fcc76983d74a2fb5"
+    },
+    {
+      "name": "match3_b_element_move",
+      "sourceId": 26198,
+      "sourcePath": "Assets/Resources/Audios/match3_b_element_move.ogg",
+      "sha256": "49d60f3e993b71e95a5ec79e70e0f520878c12cc67874b8ba708bf20c8ded8e0"
+    },
+    {
+      "name": "SFX_UI_M3_LevelFail",
+      "sourceId": 26238,
+      "sourcePath": "Assets/Resources/Audios/SFX_UI_M3_LevelFail.ogg",
+      "sha256": "9489e1a5eff73d18fb2cb4fdb77880e41c39e0afe77f44ee1079ea1638cae063"
+    },
+    {
+      "name": "match3_bomb_bomb_merge",
+      "sourceId": 26348,
+      "sourcePath": "Assets/Resources/Audios/match3_bomb_bomb_merge.ogg",
+      "sha256": "0fa7fadaaa760d3f83af7bd8e4d1f37c9477f0e33eefb76799cf87fc69a98e26"
+    },
+    {
+      "name": "match3_b_bomb_merge",
+      "sourceId": 26512,
+      "sourcePath": "Assets/Resources/Audios/match3_b_bomb_merge.ogg",
+      "sha256": "7ebe0a28e5c3ea9c4b3f1751ee81097df21b5fd9c0ea2e461ca4c47d3e6f3fc9"
+    },
+    {
+      "name": "match3_b_element_dead_normal_01",
+      "sourceId": 26564,
+      "sourcePath": "Assets/Resources/Audios/match3_b_element_dead_normal_01.ogg",
+      "sha256": "a1123823fcf94fd6164bb6395d2e34cb36855ac0b667379c997f90bb358d9391"
+    },
+    {
+      "name": "match3_colorbomb_colorbomb_crash",
+      "sourceId": 26280,
+      "sourcePath": "Assets/Resources/Audios/match3_colorbomb_colorbomb_crash.ogg",
+      "sha256": "6ad03fe46d022ffe0c542a4dd1ecdb42e14861900613182f7726bb242a7e5bec"
+    },
+    {
+      "name": "match3_bomb_cross_merge",
+      "sourceId": 26572,
+      "sourcePath": "Assets/Resources/Audios/match3_bomb_cross_merge.ogg",
+      "sha256": "d96a7ca1d6260ddc5f8d1dc29cc629b223d68483fd74c67f8e28576743eea751"
+    },
+    {
+      "name": "match3_supercolorbomb_supercolorbomb_crash",
+      "sourceId": 26590,
+      "sourcePath": "Assets/Resources/Audios/match3_supercolorbomb_supercolorbomb_crash.ogg",
+      "sha256": "a3b05171b4dc51133a5e5b1865d5ea450d91b3b40820481a06f31a7e18a3e5ef"
+    },
+    {
+      "name": "match3_bomb_hit",
+      "sourceId": 26604,
+      "sourcePath": "Assets/Resources/Audios/match3_bomb_hit.ogg",
+      "sha256": "70b5bd386426354dbd2af4a07a35926c512696da2b4e3588932191036b33b10b"
+    },
+    {
+      "name": "match3_prop_03_hit",
+      "sourceId": 26694,
+      "sourcePath": "Assets/Resources/Audios/match3_prop_03_hit.ogg",
+      "sha256": "051dee9310c3caf5141b82440437a11235b187a8c5bc347e2e6ba104a906e71e"
+    },
+    {
+      "name": "match3_element_click_rockchipper",
+      "sourceId": 26788,
+      "sourcePath": "Assets/Resources/Audios/match3_element_click_rockchipper.ogg",
+      "sha256": "dc82688859611a7bc305a910fd60e9bee41e46fc96b9e157b2333a810f89a8a2"
+    },
+    {
+      "name": "match3_element_collect_fan",
+      "sourceId": 26808,
+      "sourcePath": "Assets/Resources/Audios/match3_element_collect_fan.ogg",
+      "sha256": "95d896d14bf01814d748fa838124f1080bf2e959256fea93f8e141acc11e6776"
+    },
+    {
+      "name": "match3_element_dead_woodchipper_end",
+      "sourceId": 75062,
+      "sourcePath": "Assets/Resources/Audios/match3_element_dead_woodchipper_end.ogg",
+      "sha256": "ea02ea14210160c31c40ce39317c0cf05db4c65a080e9184adeee99725a7f86b"
+    },
+    {
+      "name": "match_combo_1",
+      "sourceId": 75064,
+      "sourcePath": "Assets/Resources/Audios/保险箱第一次.ogg",
+      "sha256": "f9eec0ca4afa780b218eab4a9baf73a65cb5b12a2b8c6d9e6b33659566b79556"
+    },
+    {
+      "name": "match_combo_2",
+      "sourceId": 75066,
+      "sourcePath": "Assets/Resources/Audios/保险箱第2次.ogg",
+      "sha256": "f9eec0ca4afa780b218eab4a9baf73a65cb5b12a2b8c6d9e6b33659566b79556"
+    },
+    {
+      "name": "match_combo_4",
+      "sourceId": 75070,
+      "sourcePath": "Assets/Resources/Audios/保险箱第4次.ogg",
+      "sha256": "48218b207fac4baa47b78179889852daf6dfe51f20abc75471f2c1f41222900b"
+    },
+    {
+      "name": "match_combo_3",
+      "sourceId": 75068,
+      "sourcePath": "Assets/Resources/Audios/保险箱第3次.ogg",
+      "sha256": "f9eec0ca4afa780b218eab4a9baf73a65cb5b12a2b8c6d9e6b33659566b79556"
+    },
+    {
+      "name": "match_combo_5",
+      "sourceId": 75072,
+      "sourcePath": "Assets/Resources/Audios/保险箱第5次.ogg",
+      "sha256": "64f62f11629caebfb6aa72e0f8c0b1e30860bc442f24b3b21d3fdd288c9c1e33"
+    },
+    {
+      "name": "match3_element_dead_bear",
+      "sourceId": 75074,
+      "sourcePath": "Assets/Resources/Audios/match3_element_dead_bear.ogg",
+      "sha256": "73e3747c84f730050bb02e4b4dcf662e6c8e8aa2e79e0ddaa3d521efbc898c69"
+    }
+  ]
+}

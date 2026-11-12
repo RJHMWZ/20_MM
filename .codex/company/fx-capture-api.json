@@ -1,0 +1,25 @@
+{
+  "simulate": "function(e,t,n,i){void 0===t&&(t=!0),void 0===n&&(n=!0),void 0===i&&(i=!0),this.Eib$._particleSystem.simulate(e,t,n,i)}",
+  "methods": [
+    "isPlaying",
+    "isPaused",
+    "playOnAwake",
+    "Play$1",
+    "Pause",
+    "Pause$1",
+    "Simulate",
+    "getisPlaying",
+    "getisPaused",
+    "getplayOnAwake",
+    "setisPlaying",
+    "setisPaused",
+    "setplayOnAwake",
+    "Play"
+  ],
+  "tick": [
+    "_time",
+    "timeScale",
+    "maxDeltaTime",
+    "tick"
+  ]
+}

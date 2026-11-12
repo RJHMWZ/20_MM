@@ -1,0 +1,47 @@
+{
+  "globals": [
+    "onbeforematch",
+    "matchMedia",
+    "playgroundAssetOverrides",
+    "audioVolumeToggle",
+    "_workerBlobUrl",
+    "_compressedAssets",
+    "Manager",
+    "Match3",
+    "SharpJson"
+  ],
+  "jsons": [
+    {
+      "key": "assets/bundles.json",
+      "type": "object",
+      "size": 102,
+      "preview": "{\"-1\":{\"id\":-1,\"name\":\"$Main\",\"dependencies\":[-2]},\"-2\":{\"id\":-2,\"name\":\"$Builtin\",\"dependencies\":[]}}"
+    },
+    {
+      "key": "assets/bundles/-2/bundle.json",
+      "type": "object",
+      "size": 34015,
+      "preview": "{\"materials\":[{\"id\":764,\"path\":\"Resources/unity_builtin_extra\\\\Default-Particle\",\"assetBundleId\":-2,\"data\":[\"Default-Particle\",0,1"
+    },
+    {
+      "key": "assets/shaders.json",
+      "type": "object",
+      "size": 184066,
+      "preview": "[\"\\n#version 100\\n\\nuniform \\tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\\nuniform \\tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\\nuniform \\"
+    },
+    {
+      "key": "assets/bundles/-1/bundle.json",
+      "type": "object",
+      "size": 2750537,
+      "preview": "{\"animation-clips\":[{\"id\":27046,\"path\":\"Assets/Particles/Anim/ColorBomb_ColorBomb_2.anim\",\"assetBundleId\":-1,\"data\":[\"ColorBomb_Co"
+    }
+  ],
+  "blobs": [
+    {
+      "key": "assets/bundles/-1/data.blob",
+      "type": "object",
+      "size": 8644
+    }
+  ],
+  "app": true
+}

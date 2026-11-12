@@ -1,0 +1,216 @@
+
+skeleton_2_tex0.png
+size: 144, 994
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+l/fx_colourA
+  rotate: false
+  xy: 2, 624
+  size: 123, 108
+  orig: 128, 128
+  offset: 3, 10
+  index: -1
+l/xing2
+  rotate: true
+  xy: 2, 859
+  size: 133, 137
+  orig: 163, 159
+  offset: 12, 12
+  index: -1
+上嘴
+  rotate: false
+  xy: 55, 40
+  size: 50, 28
+  orig: 50, 28
+  offset: 0, 0
+  index: -1
+下嘴
+  rotate: false
+  xy: 2, 60
+  size: 51, 30
+  orig: 51, 30
+  offset: 0, 0
+  index: -1
+右眼
+  rotate: true
+  xy: 122, 604
+  size: 18, 20
+  orig: 22, 24
+  offset: 2, 2
+  index: -1
+右翅膀
+  rotate: false
+  xy: 105, 283
+  size: 37, 44
+  orig: 40, 44
+  offset: 2, 0
+  index: -1
+右脚
+  rotate: true
+  xy: 79, 284
+  size: 30, 22
+  orig: 30, 22
+  offset: 0, 0
+  index: -1
+右长脚
+  rotate: false
+  xy: 106, 424
+  size: 32, 45
+  orig: 32, 45
+  offset: 0, 0
+  index: -1
+嘴阴影
+  rotate: true
+  xy: 118, 471
+  size: 43, 24
+  orig: 47, 27
+  offset: 2, 2
+  index: -1
+完整的
+  rotate: true
+  xy: 2, 734
+  size: 123, 136
+  orig: 125, 138
+  offset: 1, 1
+  index: -1
+小碎壳
+  rotate: false
+  xy: 2, 2
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+左眼
+  rotate: false
+  xy: 122, 579
+  size: 19, 23
+  orig: 23, 25
+  offset: 2, 1
+  index: -1
+左翅膀
+  rotate: false
+  xy: 105, 329
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1
+左脚
+  rotate: false
+  xy: 52, 16
+  size: 29, 22
+  orig: 29, 22
+  offset: 0, 0
+  index: -1
+左长脚
+  rotate: false
+  xy: 106, 377
+  size: 32, 45
+  orig: 32, 45
+  offset: 0, 0
+  index: -1
+收右翅膀
+  rotate: true
+  xy: 2, 29
+  size: 29, 48
+  orig: 32, 52
+  offset: 2, 2
+  index: -1
+收左翅膀
+  rotate: false
+  xy: 107, 24
+  size: 30, 44
+  orig: 32, 47
+  offset: 1, 1
+  index: -1
+眼白
+  rotate: false
+  xy: 79, 238
+  size: 63, 43
+  orig: 63, 43
+  offset: 0, 0
+  index: -1
+碎壳1
+  rotate: false
+  xy: 2, 153
+  size: 73, 68
+  orig: 75, 71
+  offset: 1, 1
+  index: -1
+碎壳2
+  rotate: true
+  xy: 2, 268
+  size: 46, 75
+  orig: 48, 77
+  offset: 1, 1
+  index: -1
+碎壳3
+  rotate: false
+  xy: 2, 316
+  size: 101, 81
+  orig: 103, 83
+  offset: 1, 1
+  index: -1
+蛋壳前
+  rotate: false
+  xy: 2, 564
+  size: 118, 58
+  orig: 120, 59
+  offset: 1, 0
+  index: -1
+蛋壳后
+  rotate: false
+  xy: 2, 502
+  size: 114, 60
+  orig: 117, 63
+  offset: 1, 1
+  index: -1
+蛋壳后 -左半边
+  rotate: false
+  xy: 2, 92
+  size: 70, 59
+  orig: 72, 62
+  offset: 1, 1
+  index: -1
+蛋壳后-右半边
+  rotate: false
+  xy: 78, 177
+  size: 61, 59
+  orig: 64, 61
+  offset: 1, 1
+  index: -1
+蛋壳破碎一半
+  rotate: false
+  xy: 77, 119
+  size: 60, 56
+  orig: 63, 60
+  offset: 2, 2
+  index: -1
+蛋壳破碎另一半
+  rotate: false
+  xy: 2, 223
+  size: 74, 43
+  orig: 77, 46
+  offset: 1, 1
+  index: -1
+身体
+  rotate: true
+  xy: 2, 399
+  size: 101, 102
+  orig: 101, 102
+  offset: 0, 0
+  index: -1
+闭眼
+  rotate: false
+  xy: 74, 70
+  size: 67, 47
+  orig: 67, 47
+  offset: 0, 0
+  index: -1
+鸡冠
+  rotate: true
+  xy: 118, 516
+  size: 46, 24
+  orig: 46, 27
+  offset: 0, 3
+  index: -1

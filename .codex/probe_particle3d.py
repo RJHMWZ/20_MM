@@ -1,0 +1,7 @@
+﻿from playwright.sync_api import sync_playwright
+import json
+from pathlib import Path
+with sync_playwright() as w:
+ b=w.chromium.launch(headless=True,channel='msedge');p=b.new_page();p.goto('file:///C:/Users/ivy/Desktop/20.html');p.wait_for_timeout(1700)
+ d=p.evaluate('''async()=>{await new Promise(r=>cc.assetManager.getBundle('Sub').loadDir('prefab',cc.Prefab,()=>r()));let pref=[];cc.assetManager.assets.forEach(a=>{if(a instanceof cc.Prefab&&/Effect|Destroy/.test(a.name))pref.push(a)});let out=[];for(let a of pref){let root=cc.instantiate(a);function val(x,seen=new Set(),depth=0){if(x===null||typeof x!=='object')return x;if(depth>4||seen.has(x))return String(x);if(x instanceof cc.Texture2D)return{texture:x.name,uuid:x._uuid,w:x.width,h:x.height};seen.add(x);let o={};for(let k of Object.keys(x))if(!['node','_owner','_eventTargets','_system','_ps','_particleSystem','_parent'].includes(k)){try{o[k]=val(x[k],seen,depth+1)}catch(e){}}return o}function walk(n,path){let c=n.getComponent(cc.ParticleSystem3D);if(c)out.push({prefab:a.name,path,transform:{x:n.x,y:n.y,z:n.z,scale:n.scale,euler:n.eulerAngles},data:val(c),shape:val(c._shapeModule),renderer:val(c._renderer)});n.children.forEach((ch,i)=>walk(ch,path+'/'+i+':'+ch.name))}walk(root,'0:'+root.name);root.destroy()}return out}''')
+ Path('.codex/exact/particles3d-raw.json').write_text(json.dumps(d,ensure_ascii=False),encoding='utf8');print('emitters',len(d));print(str(d[0])[:2800]);b.close()

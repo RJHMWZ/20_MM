@@ -1,0 +1,188 @@
+{
+  "default": {
+    "huohua": [
+      "huohua",
+      "huohua2",
+      "huohua3"
+    ]
+  },
+  "bomb_square_cross": {
+    "feixingqiu_g": [
+      "feixingqiu_g"
+    ],
+    "feixingqiu_g2": [
+      "feixingqiu_g2"
+    ],
+    "square_1": [
+      "square_1"
+    ],
+    "square_2": [
+      "square_2"
+    ],
+    "square_2_ty": [
+      "square_2_ty"
+    ],
+    "square_2_ty2": [
+      "square_2_ty"
+    ],
+    "wx_s1": [
+      "00",
+      "001",
+      "wx_s1",
+      "002",
+      "02",
+      "wx_s2",
+      "003",
+      "03",
+      "wx_s3",
+      "004",
+      "04"
+    ],
+    "xiaotong": [
+      "xiaotong"
+    ],
+    "zhatyaotong2": [
+      "zhatyaotong2"
+    ]
+  },
+  "bomb_square_heng": {
+    "brick9brick0_heng_1": [
+      "brick9brick0_heng_1"
+    ],
+    "brick9brick0_heng_2": [
+      "brick9brick0_heng_2"
+    ],
+    "feixingqiu_g": [
+      "feixingqiu_g"
+    ],
+    "feixingqiu_g2": [
+      "feixingqiu_g2"
+    ],
+    "heng": [
+      "heng"
+    ],
+    "heng_xl": [
+      "heng_xl1",
+      "heng_xl2",
+      "heng_xl3",
+      "heng_xl4",
+      "heng_xl5",
+      "heng_xl6",
+      "heng_xl7",
+      "heng_xl8",
+      "heng_xl9",
+      "heng_xl10",
+      "heng_xl11",
+      "heng_xl12"
+    ],
+    "square_1": [
+      "square_1"
+    ],
+    "square_2": [
+      "square_2"
+    ],
+    "square_2_ty": [
+      "square_2_ty"
+    ],
+    "square_2_ty2": [
+      "square_2_ty"
+    ],
+    "wx_s1": [
+      "00",
+      "001",
+      "wx_s1",
+      "002",
+      "02",
+      "wx_s2",
+      "003",
+      "03",
+      "wx_s3",
+      "004",
+      "04"
+    ]
+  },
+  "bomb_square_shu": {
+    "brick9brick0_shu_1": [
+      "brick9brick0_shu_1"
+    ],
+    "brick9brick0_shu_2": [
+      "brick9brick0_shu_2"
+    ],
+    "feixingqiu_g": [
+      "feixingqiu_g"
+    ],
+    "feixingqiu_g2": [
+      "feixingqiu_g2"
+    ],
+    "shu": [
+      "shu"
+    ],
+    "shu_xl": [
+      "s_1",
+      "s_2",
+      "s_3",
+      "s_4",
+      "s_5",
+      "s_6",
+      "s_7",
+      "s_8",
+      "s_9",
+      "s_10",
+      "s_11",
+      "s_12"
+    ],
+    "square_1": [
+      "square_1"
+    ],
+    "square_2": [
+      "square_2"
+    ],
+    "square_2_ty": [
+      "square_2_ty"
+    ],
+    "square_2_ty2": [
+      "square_2_ty"
+    ],
+    "wx_s1": [
+      "00",
+      "001",
+      "wx_s1",
+      "002",
+      "02",
+      "wx_s2",
+      "003",
+      "03",
+      "wx_s3",
+      "004",
+      "04"
+    ]
+  },
+  "heng_bomb": {
+    "square_2": [
+      "square_2"
+    ],
+    "square_2_ty": [
+      "square_2_ty"
+    ],
+    "square_2_ty2": [
+      "square_2_ty"
+    ],
+    "xiaotong": [
+      "xiaotong"
+    ]
+  },
+  "shu_bomb": {
+    "square_2": [
+      "square_2"
+    ],
+    "square_2_ty": [
+      "square_2_ty"
+    ],
+    "square_2_ty2": [
+      "square_2_ty"
+    ],
+    "xiaotong": [
+      "xiaotong"
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "normal": [
+    {
+      "id": 0,
+      "sprite": {
+        "name": "brick1_0",
+        "id": 0
+      },
+      "clear": {
+        "name": "brick1_eliminate",
+        "id": 1
+      },
+      "scale": 2,
+      "wave": {
+        "name": "bomb",
+        "id": 2
+      },
+      "waveScale": 1
+    },
+    {
+      "id": 1,
+      "sprite": {
+        "name": "brick3_0",
+        "id": 3
+      },
+      "clear": {
+        "name": "brick3_eliminate",
+        "id": 4
+      },
+      "scale": 2,
+      "wave": {
+        "name": "bomb",
+        "id": 2
+      },
+      "waveScale": 1
+    },
+    {
+      "id": 2,
+      "sprite": {
+        "name": "brick2_0",
+        "id": 5
+      },
+      "clear": {
+        "name": "brick2_eliminate",
+        "id": 6
+      },
+      "scale": 2,
+      "wave": {
+        "name": "bomb",
+        "id": 2
+      },
+      "waveScale": 1
+    },
+    {
+      "id": 3,
+      "sprite": {
+        "name": "brick4_0",
+        "id": 7
+      },
+      "clear": {
+        "name": "brick4_eliminate",
+        "id": 8
+      },
+      "scale": 2,
+      "wave": {
+        "name": "bomb",
+        "id": 2
+      },
+      "waveScale": 1
+    }
+  ],
+  "globalWave": null,
+  "special": [
+    {
+      "id": "炸弹 (3x3爆炸)",
+      "behavior": 1,
+      "prefab": {
+        "name": "Special_cross",
+        "id": 9
+      },
+      "activation": {
+        "name": "FX_ZhaSquare_bomb",
+        "id": 10
+      },
+      "trail": null,
+      "finish": null
+    },
+    {
+      "id": "魔力球 (同色全消)",
+      "behavior": 3,
+      "prefab": {
+        "name": "Special_color",
+        "id": 11
+      },
+      "activation": {
+        "name": "Particle_Win10_MaxLoop_shandian(time0.86)",
+        "id": 12
+      },
+      "trail": {
+        "name": "Particle_Match3_ColorBomb_trail",
+        "id": 13
+      },
+      "finish": {
+        "name": "ColorBomb_ColorBomb_2",
+        "id": 14
+      }
+    },
+    {
+      "id": "火箭 (直线消除)",
+      "behavior": 4,
+      "prefab": {
+        "name": "Special_huojianshu",
+        "id": 15
+      },
+      "activation": null,
+      "trail": {
+        "name": "FX_huojian_trail01",
+        "id": 16
+      },
+      "finish": null
+    },
+    {
+      "id": "飞鸟 (追踪目标)",
+      "behavior": 2,
+      "prefab": {
+        "name": "Special_fly",
+        "id": 17
+      },
+      "activation": {
+        "name": "FX_SpineZha01",
+        "id": 18
+      },
+      "trail": null,
+      "finish": null
+    },
+    {
+      "id": "火箭（直线消除）",
+      "behavior": 0,
+      "prefab": {
+        "name": "Special_huojianheng",
+        "id": 19
+      },
+      "activation": null,
+      "trail": {
+        "name": "FX_huojian_trail01",
+        "id": 16
+      },
+      "finish": null
+    }
+  ],
+  "play": "function(e,t,n,i,r,o,a){var s;if(void 0===n&&(n=null),void 0===i&&(i=null),void 0===r&&(r=2),void 0===o&&(o=null),void 0===a&&(a=!0),UnityEngine.GameObject.op_Equality(e,null))return null;var l=UnityEngine.Object.Instantiate$3(UnityEngine.GameObject,e,t,null!=(s=o)?s:pc.Quat.IDENTITY.clone(),n);return System.Nullable.hasValue(i)&&(l.transform.localScale=new pc.Vec3(1,1,1).clone().scale(System.Nullable.getValue(i))),Match3.Match3EffectPlayer.PlayParticles(l,a),r>0&&UnityEngine.Object.Destroy$1(l,r),l}",
+  "camera": {
+    "size": 5,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": -10,
+      "_data": null
+    }
+  }
+}
