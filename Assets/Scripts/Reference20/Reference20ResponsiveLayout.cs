@@ -31,7 +31,7 @@ public class Reference20ResponsiveLayout : MonoBehaviour {
   if(download){download.gameObject.SetActive(!landscape);download.anchorMin=download.anchorMax=Vector2.zero;download.pivot=new Vector2(.5f,.5f);download.localScale=Vector3.one;
    download.sizeDelta=new Vector2(423,159);download.anchoredPosition=new Vector2(area.center.x,area.y+139.776f);
   }
-  if(endFrame){endFrame.anchorMin=endFrame.anchorMax=Vector2.zero;endFrame.pivot=new Vector2(.5f,.5f);endFrame.anchoredPosition=area.center;endFrame.sizeDelta=new Vector2(1080,1920);endFrame.localScale=Vector3.one*Mathf.Min(area.width/1080,area.height/1920);}
+  if(endFrame){endFrame.anchorMin=Vector2.zero;endFrame.anchorMax=Vector2.one;endFrame.pivot=new Vector2(.5f,.5f);endFrame.anchoredPosition=Vector2.zero;endFrame.sizeDelta=Vector2.zero;endFrame.localScale=Vector3.one;}
  }
 }
 }

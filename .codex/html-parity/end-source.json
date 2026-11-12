@@ -1,0 +1,963 @@
+{
+  "defeat": {
+    "name": "over",
+    "position": {
+      "x": 0.001708984375,
+      "y": -3.70361328125,
+      "z": null,
+      "w": null
+    },
+    "size": {
+      "x": 623,
+      "y": 516.299987792969,
+      "z": null,
+      "w": null
+    },
+    "anchorMin": {
+      "x": 0,
+      "y": 0,
+      "z": null,
+      "w": null
+    },
+    "anchorMax": {
+      "x": 1,
+      "y": 1,
+      "z": null,
+      "w": null
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": null,
+      "w": null
+    },
+    "scale": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": null
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": null
+    },
+    "active": true,
+    "children": [
+      {
+        "name": "LOGO",
+        "position": {
+          "x": 0,
+          "y": 537,
+          "z": null,
+          "w": null
+        },
+        "size": {
+          "x": 835.299987792969,
+          "y": 479.600006103516,
+          "z": null,
+          "w": null
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": null
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": null
+        },
+        "active": true,
+        "children": [],
+        "image": {
+          "color": {
+            "r": 0.9999999999999999,
+            "g": 0.9999999999999999,
+            "b": 0.9999999999999999,
+            "a": 1
+          },
+          "type": 0,
+          "preserveAspect": true,
+          "sprite": {
+            "name": "Loading_Logo_en",
+            "texture": "Loading_Logo_en",
+            "border": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 700,
+              "h": 524
+            }
+          }
+        }
+      },
+      {
+        "name": "biankuang",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": null,
+          "w": null
+        },
+        "size": {
+          "x": 577.02001953125,
+          "y": 528.099975585938,
+          "z": null,
+          "w": null
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": null
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": null
+        },
+        "active": true,
+        "children": [],
+        "image": {
+          "color": {
+            "r": 0.9999999999999999,
+            "g": 0.9999999999999999,
+            "b": 0.9999999999999999,
+            "a": 1
+          },
+          "type": 0,
+          "preserveAspect": true,
+          "sprite": {
+            "name": "Level_PopUp_1",
+            "texture": "Level_PopUp_1",
+            "border": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 269,
+              "h": 270
+            }
+          }
+        }
+      },
+      {
+        "name": "icon",
+        "position": {
+          "x": -1,
+          "y": 40,
+          "z": null,
+          "w": null
+        },
+        "size": {
+          "x": 438.570007324219,
+          "y": 562.900024414063,
+          "z": null,
+          "w": null
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": null
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": null
+        },
+        "active": true,
+        "children": [],
+        "image": {
+          "color": {
+            "r": 0.9999999999999999,
+            "g": 0.9999999999999999,
+            "b": 0.9999999999999999,
+            "a": 1
+          },
+          "type": 0,
+          "preserveAspect": true,
+          "sprite": {
+            "name": "Leve_Queen",
+            "texture": "Leve_Queen",
+            "border": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 238,
+              "h": 297
+            }
+          }
+        }
+      },
+      {
+        "name": "download",
+        "position": {
+          "x": 0,
+          "y": -468,
+          "z": null,
+          "w": null
+        },
+        "size": {
+          "x": 636.799987792969,
+          "y": 145.699996948242,
+          "z": null,
+          "w": null
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": null
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": null
+        },
+        "active": true,
+        "children": [
+          {
+            "name": "Text (TMP)",
+            "position": {
+              "x": 5,
+              "y": 16,
+              "z": null,
+              "w": null
+            },
+            "size": {
+              "x": 200,
+              "y": 50,
+              "z": null,
+              "w": null
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": null,
+              "w": null
+            },
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": null,
+              "w": null
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": null,
+              "w": null
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1,
+              "w": null
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": null
+            },
+            "active": true,
+            "children": [],
+            "text": {
+              "text": "Try Again",
+              "fontSize": 60,
+              "fontStyle": 1,
+              "outlineWidth": 0.349999994039536,
+              "color": {
+                "r": 0.9999999999999999,
+                "g": 0.9999999999999999,
+                "b": 0.9999999999999999,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "image": {
+          "color": {
+            "r": 0.9999999999999999,
+            "g": 0.9999999999999999,
+            "b": 0.9999999999999999,
+            "a": 1
+          },
+          "type": 1,
+          "preserveAspect": false,
+          "sprite": {
+            "name": "Level_Easyl_PopUp_2",
+            "texture": "Level_Easyl_PopUp_2",
+            "border": {
+              "x": 23.00000023841859,
+              "y": 30.00000089406969,
+              "z": 21.999999344348925,
+              "w": 22.000000655651107
+            },
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 62,
+              "h": 66
+            }
+          }
+        }
+      }
+    ],
+    "image": {
+      "color": {
+        "r": 0.24706486820036433,
+        "g": 0.07059252266677035,
+        "b": 0.2062881822309499,
+        "a": 1
+      },
+      "type": 1,
+      "preserveAspect": false,
+      "sprite": {
+        "name": "Background",
+        "texture": "Background",
+        "border": {
+          "x": 9.973249018192291,
+          "y": 9.948683321475983,
+          "z": 10.026750564575199,
+          "w": 10.051317214965824
+        },
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 32.00000041723251,
+          "h": 31.999999463558193
+        }
+      }
+    }
+  },
+  "victory": {
+    "name": "win",
+    "position": {
+      "x": 0.001953125,
+      "y": -3.70361328125,
+      "z": null,
+      "w": null
+    },
+    "size": {
+      "x": 708.599975585938,
+      "y": 516.299987792969,
+      "z": null,
+      "w": null
+    },
+    "anchorMin": {
+      "x": 0,
+      "y": 0,
+      "z": null,
+      "w": null
+    },
+    "anchorMax": {
+      "x": 1,
+      "y": 1,
+      "z": null,
+      "w": null
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": null,
+      "w": null
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "w": null
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": null
+    },
+    "active": false,
+    "children": [
+      {
+        "name": "LOGO",
+        "position": {
+          "x": 6.10349998169113e-05,
+          "y": 486.179992675781,
+          "z": null,
+          "w": null
+        },
+        "size": {
+          "x": 861.200012207031,
+          "y": 544.200012207031,
+          "z": null,
+          "w": null
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": null
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": null
+        },
+        "active": true,
+        "children": [],
+        "image": {
+          "color": {
+            "r": 0.9999999999999999,
+            "g": 0.9999999999999999,
+            "b": 0.9999999999999999,
+            "a": 1
+          },
+          "type": 0,
+          "preserveAspect": true,
+          "sprite": {
+            "name": "Loading_Logo_en",
+            "texture": "Loading_Logo_en",
+            "border": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 700,
+              "h": 524
+            }
+          }
+        }
+      },
+      {
+        "name": "biankuang",
+        "position": {
+          "x": 6.10349998169113e-05,
+          "y": -65.7750015258789,
+          "z": null,
+          "w": null
+        },
+        "size": {
+          "x": 478.399993896484,
+          "y": 559.700012207031,
+          "z": null,
+          "w": null
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": null
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": null
+        },
+        "active": true,
+        "children": [],
+        "image": {
+          "color": {
+            "r": 0.9999999999999999,
+            "g": 0.9999999999999999,
+            "b": 0.9999999999999999,
+            "a": 1
+          },
+          "type": 0,
+          "preserveAspect": true,
+          "sprite": {
+            "name": "Level_PopUp_1",
+            "texture": "Level_PopUp_1",
+            "border": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 269,
+              "h": 270
+            }
+          }
+        }
+      },
+      {
+        "name": "icon",
+        "position": {
+          "x": 7.05000019073486,
+          "y": -35.1199989318848,
+          "z": null,
+          "w": null
+        },
+        "size": {
+          "x": 464.299987792969,
+          "y": 498.399993896484,
+          "z": null,
+          "w": null
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": null
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": null
+        },
+        "active": true,
+        "children": [],
+        "image": {
+          "color": {
+            "r": 0.9999999999999999,
+            "g": 0.9999999999999999,
+            "b": 0.9999999999999999,
+            "a": 1
+          },
+          "type": 0,
+          "preserveAspect": true,
+          "sprite": {
+            "name": "Leve_Queen",
+            "texture": "Leve_Queen",
+            "border": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 238,
+              "h": 297
+            }
+          }
+        }
+      },
+      {
+        "name": "download",
+        "position": {
+          "x": 6.10349998169113e-05,
+          "y": -486,
+          "z": null,
+          "w": null
+        },
+        "size": {
+          "x": 590.400024414063,
+          "y": 178.5,
+          "z": null,
+          "w": null
+        },
+        "anchorMin": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "anchorMax": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": null,
+          "w": null
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": null
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": null
+        },
+        "active": true,
+        "children": [
+          {
+            "name": "Text (TMP)",
+            "position": {
+              "x": 5,
+              "y": 16,
+              "z": null,
+              "w": null
+            },
+            "size": {
+              "x": 200,
+              "y": 50,
+              "z": null,
+              "w": null
+            },
+            "anchorMin": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": null,
+              "w": null
+            },
+            "anchorMax": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": null,
+              "w": null
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": null,
+              "w": null
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1,
+              "w": null
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": null
+            },
+            "active": true,
+            "children": [],
+            "text": {
+              "text": "DownLoad",
+              "fontSize": 75,
+              "fontStyle": 1,
+              "outlineWidth": 0,
+              "color": {
+                "r": 0.9999999999999999,
+                "g": 0.9999999999999999,
+                "b": 0.9999999999999999,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "image": {
+          "color": {
+            "r": 0.9999999999999999,
+            "g": 0.9999999999999999,
+            "b": 0.9999999999999999,
+            "a": 1
+          },
+          "type": 1,
+          "preserveAspect": false,
+          "sprite": {
+            "name": "Level_Easyl_PopUp_2",
+            "texture": "Level_Easyl_PopUp_2",
+            "border": {
+              "x": 23.00000023841859,
+              "y": 30.00000089406969,
+              "z": 21.999999344348925,
+              "w": 22.000000655651107
+            },
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 62,
+              "h": 66
+            }
+          }
+        }
+      }
+    ],
+    "image": {
+      "color": {
+        "r": 0.18447931549965682,
+        "g": 0.07058098150907263,
+        "b": 0.24528904491151476,
+        "a": 1
+      },
+      "type": 1,
+      "preserveAspect": false,
+      "sprite": {
+        "name": "Background",
+        "texture": "Background",
+        "border": {
+          "x": 9.973249018192291,
+          "y": 9.948683321475983,
+          "z": 10.026750564575199,
+          "w": 10.051317214965824
+        },
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 32.00000041723251,
+          "h": 31.999999463558193
+        }
+      }
+    }
+  },
+  "uiScalars": {
+    "zhb$": -1,
+    "boardOnlyPresentation": true,
+    "autoFitBoardBorder": false,
+    "boardBorderPadding": 25,
+    "victorySettlementDuration": 1.5,
+    "lastScreenWidth": 804,
+    "lastScreenHeight": 1280
+  },
+  "specials": [
+    {
+      "behavior": 1,
+      "view": {
+        "zhb$": -1,
+        "targetCellSize": 1,
+        "swapAnimationPlayed": false,
+        "spineScaleMultiplier": 0.75,
+        "creationAnimation": "Boom_cross_creat_1",
+        "idleAnimation": "Bomb_dropped_d",
+        "triggerAnimation": ""
+      },
+      "swaps": [
+        {
+          "partner": 1,
+          "animation": "Boom_bomb_1",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "behavior": 3,
+      "view": {
+        "zhb$": -1,
+        "targetCellSize": 1,
+        "swapAnimationPlayed": true,
+        "spineScaleMultiplier": 0.800000011920929,
+        "creationAnimation": "Boom_color_creat_1",
+        "idleAnimation": "Bomb_dropped_d",
+        "triggerAnimation": "Boom_color_start"
+      },
+      "swaps": [
+        {
+          "partner": 3,
+          "animation": "huixuanzhuan",
+          "scale": 0.600000023841858
+        }
+      ]
+    },
+    {
+      "behavior": 4,
+      "view": {
+        "zhb$": -1,
+        "targetCellSize": 1,
+        "swapAnimationPlayed": false,
+        "spineScaleMultiplier": 4,
+        "creationAnimation": "Bomb_shu_creat_1",
+        "idleAnimation": "Bomb_dropped_d",
+        "triggerAnimation": ""
+      },
+      "swaps": []
+    },
+    {
+      "behavior": 2,
+      "view": {
+        "zhb$": -1,
+        "targetCellSize": 1,
+        "swapAnimationPlayed": false,
+        "spineScaleMultiplier": 0.800000011920929,
+        "creationAnimation": "Boom_square_creat",
+        "idleAnimation": "Bomb_still",
+        "triggerAnimation": "Bomb_fly1_1"
+      },
+      "swaps": []
+    },
+    {
+      "behavior": 0,
+      "view": {
+        "zhb$": -1,
+        "targetCellSize": 1,
+        "swapAnimationPlayed": false,
+        "spineScaleMultiplier": 4,
+        "creationAnimation": "Bomb_heng_creat_1",
+        "idleAnimation": "Bomb_dropped_d",
+        "triggerAnimation": ""
+      },
+      "swaps": []
+    }
+  ],
+  "level": {
+    "steps": 25,
+    "targets": [
+      {
+        "amount": 36,
+        "type": 8,
+        "keys": [
+          "$init",
+          "normalElementId",
+          "targetType",
+          "requiredAmount",
+          "specialElement",
+          "collectibleData",
+          "obstacleData",
+          "generatorData",
+          "motherData",
+          "childData"
+        ]
+      }
+    ]
+  }
+}

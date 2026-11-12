@@ -1,0 +1,3130 @@
+{
+  "static": {
+    "PrepareRocketTrail": "function(e){var t,n;if(!UnityEngine.GameObject.op_Equality(e,null)){var i=e.GetComponentsInChildren(UnityEngine.ParticleSystem,!0);t=Bridge.getEnumerator(i);try{for(;t.moveNext();)t.Current.main.simulationSpace=UnityEngine.ParticleSystemSimulationSpace.World}finally{Bridge.is(t,System.IDisposable)&&t.System$IDisposable$Dispose()}var r=e.GetComponentsInChildren(UnityEngine.Renderer,!0);n=Bridge.getEnumerator(r);try{for(;n.moveNext();){var o=n.Current;o.sortingLayerName=\"Default\",o.sortingOrder=100}}finally{Bridge.is(n,System.IDisposable)&&n.System$IDisposable$Dispose()}Match3.Match3EffectPlayer.PlayParticles(e,!1)}}",
+    "StopRocketTrailEmission": "function(e){var t;if(!UnityEngine.GameObject.op_Equality(e,null)){var n=e.GetComponent(UnityEngine.TrailRenderer);UnityEngine.Component.op_Inequality(n,null)&&(n.emitting=!1);var i=e.GetComponentsInChildren(UnityEngine.ParticleSystem,!0);t=Bridge.getEnumerator(i);try{for(;t.moveNext();)t.Current.Stop$2(!0,UnityEngine.ParticleSystemStopBehavior.StopEmitting)}finally{Bridge.is(t,System.IDisposable)&&t.System$IDisposable$Dispose()}}}",
+    "SynchronizeRocketLaunchAnimation": "function(e,t){if(!UnityEngine.MonoBehaviour.op_Equality(e,null)&&!UnityEngine.MonoBehaviour.op_Equality(t,null)){var n=System.String.isNullOrEmpty(e.triggerAnimation)?e.idleAnimation:e.triggerAnimation;System.String.isNullOrEmpty(n)||(UnityEngine.MonoBehaviour.op_Inequality(e.spineAnimation,null)&&null!=e.spineAnimation.Skeleton.Data.FindAnimation(n)&&(e.spineAnimation.AnimationState.SetAnimation$1(0,n,!0).TrackTime=0),UnityEngine.MonoBehaviour.op_Inequality(t.spineAnimation,null)&&null!=t.spineAnimation.Skeleton.Data.FindAnimation(n)&&(t.spineAnimation.AnimationState.SetAnimation$1(0,n,!0).TrackTime=0))}}"
+  },
+  "trail": [
+    {
+      "name": "Particle_Match3_ColorBomb_trail(Clone)",
+      "type": "ctor",
+      "info": {
+        "$init": {
+          "type": "Object",
+          "keys": []
+        },
+        "zhb$": -1,
+        "$propMap": {
+          "type": "Object",
+          "keys": [
+            "handle"
+          ]
+        },
+        "get$UnityEngine$Renderer$handle": "function",
+        "set$UnityEngine$Renderer$handle": "function",
+        "$UnityEngine$Component$1$pc$RendererComponent$handle": {
+          "type": "st",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.ParticleSystemRenderer",
+            "_particleSystemRenderer",
+            "_meshCount",
+            "_activeVertexStreamsCount",
+            "_cameraVelocityScale",
+            "_normalDirection",
+            "_sortingFudge",
+            "_minParticleSize",
+            "_maxParticleSize"
+          ]
+        },
+        "jdb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "box": {
+          "type": "K",
+          "keys": [
+            "center",
+            "halfExtents",
+            "_min",
+            "_max"
+          ]
+        },
+        "svb$": 0,
+        "yvb$": 1,
+        "zvb$": 1,
+        "Mwb$": {
+          "type": "st",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.ParticleSystemRenderer",
+            "_particleSystemRenderer",
+            "_meshCount",
+            "_activeVertexStreamsCount",
+            "_cameraVelocityScale",
+            "_normalDirection",
+            "_sortingFudge",
+            "_minParticleSize",
+            "_maxParticleSize"
+          ]
+        },
+        "Aib$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "Eib$",
+            "pHb$",
+            "Nqb$",
+            "qHb$"
+          ]
+        }
+      },
+      "native": {
+        "_enabled": false,
+        "_destroyed": false,
+        "$id": 28170,
+        "_id": "id:4102",
+        "_entity": {
+          "type": "A",
+          "keys": [
+            "$id",
+            "name",
+            "tag",
+            "_localPosition",
+            "_localRotation",
+            "_localScale",
+            "_localEulerAngles",
+            "_localTransform",
+            "_position",
+            "_rotation",
+            "_eulerAngles",
+            "_lossyScale",
+            "_oddlyScaled",
+            "_worldTransform",
+            "_worldTransformInverse",
+            "_hijackedLocalPosition",
+            "_hijackedLocalScale",
+            "_hijackedLocalEulerAngles",
+            "_hijackedLocalRotation",
+            "_aabbVer",
+            "_right",
+            "_up",
+            "_forward",
+            "_static",
+            "_parent",
+            "_children",
+            "_graphDepth",
+            "_cullingLayer",
+            "layerMask",
+            "_activeSelf"
+          ]
+        },
+        "_system": {
+          "type": "ot",
+          "keys": [
+            "app",
+            "store",
+            "ComponentType",
+            "id",
+            "creatingPrefabs",
+            "events",
+            "_components",
+            "performanceSamplerSection",
+            "queues"
+          ]
+        },
+        "_code": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Mwb$",
+            "Aib$"
+          ]
+        },
+        "internalExecutionOrder": 0,
+        "scriptsExecutionOrder": 0,
+        "_scriptsExecutionOrder": 140739635867146,
+        "_sortingOrderInQueue": 1466,
+        "_activatedCallbacks": {
+          "type": "Object",
+          "keys": [
+            "onAwake",
+            "onEnable",
+            "onStart",
+            "onDisable",
+            "onDestroy"
+          ]
+        },
+        "id": 28170,
+        "_model": {
+          "type": "l",
+          "keys": [
+            "meshInstances",
+            "morphInstance",
+            "_materials",
+            "_mesh",
+            "_meshVersion",
+            "_skin",
+            "_bones",
+            "_sortingLayerIndex",
+            "_sortingOrder",
+            "_cullingLayer",
+            "_entity",
+            "_lightmapIndex",
+            "_lightmapSceneIndex",
+            "_lightmapScaleOffset",
+            "_drawOrder",
+            "_nearestScreen",
+            "_stencil",
+            "_element",
+            "_visible",
+            "_parameters",
+            "_constAttributes",
+            "_isStatic",
+            "_needsUpdate",
+            "_masksChildren",
+            "_reflectionProbes",
+            "_blendReflectionProbes",
+            "_lightProbe",
+            "_lightProbeUsage",
+            "_flipFaces",
+            "_materialPropertyBlocks"
+          ]
+        },
+        "_castShadows": false,
+        "_receiveShadows": false,
+        "__renderer": "",
+        "_aabb": null,
+        "_lastAABBVersion": -1,
+        "unityClass": "function",
+        "__UnityEngine.Renderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Mwb$",
+            "Aib$"
+          ]
+        },
+        "__UnityEngine.ParticleSystemRenderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Mwb$",
+            "Aib$"
+          ]
+        },
+        "_particleSystemRenderer": {
+          "type": "",
+          "keys": [
+            "_model",
+            "_mesh",
+            "_instancingVertexFormat",
+            "_instancingData",
+            "_worldRotationTransform",
+            "_worldTranslationTransform",
+            "_alignment",
+            "_renderMode",
+            "_lengthScale",
+            "_velocityScale",
+            "_sortMode",
+            "_texParameterName"
+          ]
+        },
+        "_meshCount": 0,
+        "_activeVertexStreamsCount": 4,
+        "_cameraVelocityScale": 0,
+        "_normalDirection": 1,
+        "_sortingFudge": 0,
+        "_minParticleSize": 0,
+        "_maxParticleSize": 0.5,
+        "_pivot": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "_applyActiveColorSpace": 1
+      }
+    },
+    {
+      "name": "Trail",
+      "type": "ctor",
+      "info": {
+        "$init": {
+          "type": "Object",
+          "keys": []
+        },
+        "zhb$": -1,
+        "$propMap": {
+          "type": "Object",
+          "keys": [
+            "handle"
+          ]
+        },
+        "get$UnityEngine$Renderer$handle": "function",
+        "set$UnityEngine$Renderer$handle": "function",
+        "$UnityEngine$Component$1$pc$RendererComponent$handle": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "jdb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "box": {
+          "type": "K",
+          "keys": [
+            "center",
+            "halfExtents",
+            "_min",
+            "_max"
+          ]
+        },
+        "svb$": 0,
+        "yvb$": 0,
+        "zvb$": 0,
+        "Hxb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "awb$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "l$",
+            "m$",
+            "o$",
+            "p$",
+            "j$",
+            "k$",
+            "n$",
+            "i$",
+            "viewAlignmentCache"
+          ]
+        },
+        "bwb$": {
+          "type": "l",
+          "keys": [
+            "id",
+            "path",
+            "hash",
+            "componentType",
+            "property",
+            "targetsLocalEulerAnglesRaw",
+            "targetObject",
+            "targetProperty",
+            "isVectorProperty",
+            "vectorPropertyIndex",
+            "isMaterialPropertyCurve",
+            "objectCurve",
+            "preWrapMode",
+            "postWrapMode",
+            "keys",
+            "keyId"
+          ]
+        },
+        "cwb$": 1,
+        "Gxb$": {
+          "type": "Array",
+          "keys": [
+            "$type"
+          ]
+        },
+        "lwb$": true,
+        "nwb$": {
+          "type": "Array",
+          "keys": []
+        },
+        "mwb$": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "Fxb$": 0.400000005960464,
+        "Lxb$": false,
+        "Mxb$": true,
+        "dwb$": 0,
+        "ewb$": 0,
+        "Jxb$": 0.00999999977648258,
+        "jwb$": {
+          "type": "g",
+          "keys": [
+            "_colorKeys",
+            "_alphaKeys",
+            "_mode"
+          ]
+        },
+        "generateLightingData": false,
+        "hwb$": 0,
+        "gwb$": 0,
+        "lightmapIndex": -1,
+        "lightmapSceneIndex": -1,
+        "lightmapScaleOffset": {
+          "type": "g",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "w",
+            "_data"
+          ]
+        },
+        "Aib$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "Eib$",
+            "pHb$",
+            "Nqb$",
+            "qHb$"
+          ]
+        },
+        "$$bind": {
+          "type": "Array",
+          "keys": [
+            "0"
+          ]
+        }
+      },
+      "native": {
+        "_enabled": true,
+        "_destroyed": false,
+        "$id": 28842,
+        "_id": "id:3612",
+        "_entity": {
+          "type": "A",
+          "keys": [
+            "$id",
+            "name",
+            "tag",
+            "_localPosition",
+            "_localRotation",
+            "_localScale",
+            "_localEulerAngles",
+            "_localTransform",
+            "_position",
+            "_rotation",
+            "_eulerAngles",
+            "_lossyScale",
+            "_oddlyScaled",
+            "_worldTransform",
+            "_worldTransformInverse",
+            "_hijackedLocalPosition",
+            "_hijackedLocalScale",
+            "_hijackedLocalEulerAngles",
+            "_hijackedLocalRotation",
+            "_aabbVer",
+            "_right",
+            "_up",
+            "_forward",
+            "_static",
+            "_parent",
+            "_children",
+            "_graphDepth",
+            "_cullingLayer",
+            "layerMask",
+            "_activeSelf"
+          ]
+        },
+        "_system": {
+          "type": "Xt",
+          "keys": [
+            "app",
+            "store",
+            "ComponentType",
+            "id",
+            "creatingPrefabs",
+            "events",
+            "_components",
+            "performanceSamplerSection",
+            "queues"
+          ]
+        },
+        "_code": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "internalExecutionOrder": 0,
+        "scriptsExecutionOrder": 0,
+        "_scriptsExecutionOrder": 140739635867818,
+        "_sortingOrderInQueue": 1459,
+        "_activatedCallbacks": {
+          "type": "Object",
+          "keys": [
+            "onAwake",
+            "onEnable",
+            "onStart",
+            "onDisable",
+            "onDestroy"
+          ]
+        },
+        "id": 28842,
+        "_model": {
+          "type": "l",
+          "keys": [
+            "meshInstances",
+            "morphInstance",
+            "_materials",
+            "_mesh",
+            "_meshVersion",
+            "_skin",
+            "_bones",
+            "_sortingLayerIndex",
+            "_sortingOrder",
+            "_cullingLayer",
+            "_entity",
+            "_lightmapIndex",
+            "_lightmapSceneIndex",
+            "_lightmapScaleOffset",
+            "_drawOrder",
+            "_nearestScreen",
+            "_stencil",
+            "_element",
+            "_visible",
+            "_parameters",
+            "_constAttributes",
+            "_isStatic",
+            "_needsUpdate",
+            "_masksChildren",
+            "_reflectionProbes",
+            "_blendReflectionProbes",
+            "_lightProbe",
+            "_lightProbeUsage",
+            "_flipFaces",
+            "_materialPropertyBlocks"
+          ]
+        },
+        "_castShadows": true,
+        "_receiveShadows": true,
+        "__renderer": "",
+        "_aabb": null,
+        "_lastAABBVersion": -1,
+        "unityClass": "function",
+        "__UnityEngine.Renderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "__UnityEngine.TrailRenderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Traildi",
+      "type": "ctor",
+      "info": {
+        "$init": {
+          "type": "Object",
+          "keys": []
+        },
+        "zhb$": -1,
+        "$propMap": {
+          "type": "Object",
+          "keys": [
+            "handle"
+          ]
+        },
+        "get$UnityEngine$Renderer$handle": "function",
+        "set$UnityEngine$Renderer$handle": "function",
+        "$UnityEngine$Component$1$pc$RendererComponent$handle": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "jdb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "box": {
+          "type": "K",
+          "keys": [
+            "center",
+            "halfExtents",
+            "_min",
+            "_max"
+          ]
+        },
+        "svb$": 0,
+        "yvb$": 0,
+        "zvb$": 0,
+        "Hxb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "awb$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "l$",
+            "m$",
+            "o$",
+            "p$",
+            "j$",
+            "k$",
+            "n$",
+            "i$",
+            "viewAlignmentCache"
+          ]
+        },
+        "bwb$": {
+          "type": "l",
+          "keys": [
+            "id",
+            "path",
+            "hash",
+            "componentType",
+            "property",
+            "targetsLocalEulerAnglesRaw",
+            "targetObject",
+            "targetProperty",
+            "isVectorProperty",
+            "vectorPropertyIndex",
+            "isMaterialPropertyCurve",
+            "objectCurve",
+            "preWrapMode",
+            "postWrapMode",
+            "keys",
+            "keyId"
+          ]
+        },
+        "cwb$": 1.5,
+        "Gxb$": {
+          "type": "Array",
+          "keys": [
+            "$type"
+          ]
+        },
+        "lwb$": true,
+        "nwb$": {
+          "type": "Array",
+          "keys": []
+        },
+        "mwb$": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "Fxb$": 0.400000005960464,
+        "Lxb$": false,
+        "Mxb$": true,
+        "dwb$": 0,
+        "ewb$": 0,
+        "Jxb$": 0.00999999977648258,
+        "jwb$": {
+          "type": "g",
+          "keys": [
+            "_colorKeys",
+            "_alphaKeys",
+            "_mode"
+          ]
+        },
+        "generateLightingData": false,
+        "hwb$": 0,
+        "gwb$": 0,
+        "lightmapIndex": -1,
+        "lightmapSceneIndex": -1,
+        "lightmapScaleOffset": {
+          "type": "g",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "w",
+            "_data"
+          ]
+        },
+        "Aib$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "Eib$",
+            "pHb$",
+            "Nqb$",
+            "qHb$"
+          ]
+        },
+        "$$bind": {
+          "type": "Array",
+          "keys": [
+            "0"
+          ]
+        }
+      },
+      "native": {
+        "_enabled": true,
+        "_destroyed": false,
+        "$id": 29224,
+        "_id": "id:3605",
+        "_entity": {
+          "type": "A",
+          "keys": [
+            "$id",
+            "name",
+            "tag",
+            "_localPosition",
+            "_localRotation",
+            "_localScale",
+            "_localEulerAngles",
+            "_localTransform",
+            "_position",
+            "_rotation",
+            "_eulerAngles",
+            "_lossyScale",
+            "_oddlyScaled",
+            "_worldTransform",
+            "_worldTransformInverse",
+            "_hijackedLocalPosition",
+            "_hijackedLocalScale",
+            "_hijackedLocalEulerAngles",
+            "_hijackedLocalRotation",
+            "_aabbVer",
+            "_right",
+            "_up",
+            "_forward",
+            "_static",
+            "_parent",
+            "_children",
+            "_graphDepth",
+            "_cullingLayer",
+            "layerMask",
+            "_activeSelf"
+          ]
+        },
+        "_system": {
+          "type": "Xt",
+          "keys": [
+            "app",
+            "store",
+            "ComponentType",
+            "id",
+            "creatingPrefabs",
+            "events",
+            "_components",
+            "performanceSamplerSection",
+            "queues"
+          ]
+        },
+        "_code": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "internalExecutionOrder": 0,
+        "scriptsExecutionOrder": 0,
+        "_scriptsExecutionOrder": 140739635868200,
+        "_sortingOrderInQueue": 1457,
+        "_activatedCallbacks": {
+          "type": "Object",
+          "keys": [
+            "onAwake",
+            "onEnable",
+            "onStart",
+            "onDisable",
+            "onDestroy"
+          ]
+        },
+        "id": 29224,
+        "_model": {
+          "type": "l",
+          "keys": [
+            "meshInstances",
+            "morphInstance",
+            "_materials",
+            "_mesh",
+            "_meshVersion",
+            "_skin",
+            "_bones",
+            "_sortingLayerIndex",
+            "_sortingOrder",
+            "_cullingLayer",
+            "_entity",
+            "_lightmapIndex",
+            "_lightmapSceneIndex",
+            "_lightmapScaleOffset",
+            "_drawOrder",
+            "_nearestScreen",
+            "_stencil",
+            "_element",
+            "_visible",
+            "_parameters",
+            "_constAttributes",
+            "_isStatic",
+            "_needsUpdate",
+            "_masksChildren",
+            "_reflectionProbes",
+            "_blendReflectionProbes",
+            "_lightProbe",
+            "_lightProbeUsage",
+            "_flipFaces",
+            "_materialPropertyBlocks"
+          ]
+        },
+        "_castShadows": true,
+        "_receiveShadows": true,
+        "__renderer": "",
+        "_aabb": null,
+        "_lastAABBVersion": -1,
+        "unityClass": "function",
+        "__UnityEngine.Renderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "__UnityEngine.TrailRenderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Traildi02",
+      "type": "ctor",
+      "info": {
+        "$init": {
+          "type": "Object",
+          "keys": []
+        },
+        "zhb$": -1,
+        "$propMap": {
+          "type": "Object",
+          "keys": [
+            "handle"
+          ]
+        },
+        "get$UnityEngine$Renderer$handle": "function",
+        "set$UnityEngine$Renderer$handle": "function",
+        "$UnityEngine$Component$1$pc$RendererComponent$handle": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "jdb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "box": {
+          "type": "K",
+          "keys": [
+            "center",
+            "halfExtents",
+            "_min",
+            "_max"
+          ]
+        },
+        "svb$": 0,
+        "yvb$": 0,
+        "zvb$": 0,
+        "Hxb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "awb$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "l$",
+            "m$",
+            "o$",
+            "p$",
+            "j$",
+            "k$",
+            "n$",
+            "i$",
+            "viewAlignmentCache"
+          ]
+        },
+        "bwb$": {
+          "type": "l",
+          "keys": [
+            "id",
+            "path",
+            "hash",
+            "componentType",
+            "property",
+            "targetsLocalEulerAnglesRaw",
+            "targetObject",
+            "targetProperty",
+            "isVectorProperty",
+            "vectorPropertyIndex",
+            "isMaterialPropertyCurve",
+            "objectCurve",
+            "preWrapMode",
+            "postWrapMode",
+            "keys",
+            "keyId"
+          ]
+        },
+        "cwb$": 1,
+        "Gxb$": {
+          "type": "Array",
+          "keys": [
+            "$type"
+          ]
+        },
+        "lwb$": true,
+        "nwb$": {
+          "type": "Array",
+          "keys": []
+        },
+        "mwb$": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "Fxb$": 0.400000005960464,
+        "Lxb$": false,
+        "Mxb$": true,
+        "dwb$": 0,
+        "ewb$": 0,
+        "Jxb$": 0.00999999977648258,
+        "jwb$": {
+          "type": "g",
+          "keys": [
+            "_colorKeys",
+            "_alphaKeys",
+            "_mode"
+          ]
+        },
+        "generateLightingData": false,
+        "hwb$": 0,
+        "gwb$": 0,
+        "lightmapIndex": -1,
+        "lightmapSceneIndex": -1,
+        "lightmapScaleOffset": {
+          "type": "g",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "w",
+            "_data"
+          ]
+        },
+        "Aib$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "Eib$",
+            "pHb$",
+            "Nqb$",
+            "qHb$"
+          ]
+        },
+        "$$bind": {
+          "type": "Array",
+          "keys": [
+            "0"
+          ]
+        }
+      },
+      "native": {
+        "_enabled": true,
+        "_destroyed": false,
+        "$id": 29228,
+        "_id": "id:3609",
+        "_entity": {
+          "type": "A",
+          "keys": [
+            "$id",
+            "name",
+            "tag",
+            "_localPosition",
+            "_localRotation",
+            "_localScale",
+            "_localEulerAngles",
+            "_localTransform",
+            "_position",
+            "_rotation",
+            "_eulerAngles",
+            "_lossyScale",
+            "_oddlyScaled",
+            "_worldTransform",
+            "_worldTransformInverse",
+            "_hijackedLocalPosition",
+            "_hijackedLocalScale",
+            "_hijackedLocalEulerAngles",
+            "_hijackedLocalRotation",
+            "_aabbVer",
+            "_right",
+            "_up",
+            "_forward",
+            "_static",
+            "_parent",
+            "_children",
+            "_graphDepth",
+            "_cullingLayer",
+            "layerMask",
+            "_activeSelf"
+          ]
+        },
+        "_system": {
+          "type": "Xt",
+          "keys": [
+            "app",
+            "store",
+            "ComponentType",
+            "id",
+            "creatingPrefabs",
+            "events",
+            "_components",
+            "performanceSamplerSection",
+            "queues"
+          ]
+        },
+        "_code": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "internalExecutionOrder": 0,
+        "scriptsExecutionOrder": 0,
+        "_scriptsExecutionOrder": 140739635868204,
+        "_sortingOrderInQueue": 1458,
+        "_activatedCallbacks": {
+          "type": "Object",
+          "keys": [
+            "onAwake",
+            "onEnable",
+            "onStart",
+            "onDisable",
+            "onDestroy"
+          ]
+        },
+        "id": 29228,
+        "_model": {
+          "type": "l",
+          "keys": [
+            "meshInstances",
+            "morphInstance",
+            "_materials",
+            "_mesh",
+            "_meshVersion",
+            "_skin",
+            "_bones",
+            "_sortingLayerIndex",
+            "_sortingOrder",
+            "_cullingLayer",
+            "_entity",
+            "_lightmapIndex",
+            "_lightmapSceneIndex",
+            "_lightmapScaleOffset",
+            "_drawOrder",
+            "_nearestScreen",
+            "_stencil",
+            "_element",
+            "_visible",
+            "_parameters",
+            "_constAttributes",
+            "_isStatic",
+            "_needsUpdate",
+            "_masksChildren",
+            "_reflectionProbes",
+            "_blendReflectionProbes",
+            "_lightProbe",
+            "_lightProbeUsage",
+            "_flipFaces",
+            "_materialPropertyBlocks"
+          ]
+        },
+        "_castShadows": true,
+        "_receiveShadows": true,
+        "__renderer": "",
+        "_aabb": null,
+        "_lastAABBVersion": -1,
+        "unityClass": "function",
+        "__UnityEngine.Renderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "__UnityEngine.TrailRenderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        }
+      }
+    },
+    {
+      "name": "trail_lizi",
+      "type": "ctor",
+      "info": {
+        "$init": {
+          "type": "Object",
+          "keys": []
+        },
+        "zhb$": -1,
+        "$propMap": {
+          "type": "Object",
+          "keys": [
+            "handle"
+          ]
+        },
+        "get$UnityEngine$Renderer$handle": "function",
+        "set$UnityEngine$Renderer$handle": "function",
+        "$UnityEngine$Component$1$pc$RendererComponent$handle": {
+          "type": "st",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.ParticleSystemRenderer",
+            "_particleSystemRenderer",
+            "_meshCount",
+            "_activeVertexStreamsCount",
+            "_cameraVelocityScale",
+            "_normalDirection",
+            "_sortingFudge",
+            "_minParticleSize",
+            "_maxParticleSize"
+          ]
+        },
+        "jdb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "box": {
+          "type": "K",
+          "keys": [
+            "center",
+            "halfExtents",
+            "_min",
+            "_max"
+          ]
+        },
+        "svb$": 0,
+        "yvb$": 1,
+        "zvb$": 1,
+        "Mwb$": {
+          "type": "st",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.ParticleSystemRenderer",
+            "_particleSystemRenderer",
+            "_meshCount",
+            "_activeVertexStreamsCount",
+            "_cameraVelocityScale",
+            "_normalDirection",
+            "_sortingFudge",
+            "_minParticleSize",
+            "_maxParticleSize"
+          ]
+        },
+        "Aib$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "Eib$",
+            "pHb$",
+            "Nqb$"
+          ]
+        }
+      },
+      "native": {
+        "_enabled": true,
+        "_destroyed": false,
+        "$id": 28838,
+        "_id": "id:3852",
+        "_entity": {
+          "type": "A",
+          "keys": [
+            "$id",
+            "name",
+            "tag",
+            "_localPosition",
+            "_localRotation",
+            "_localScale",
+            "_localEulerAngles",
+            "_localTransform",
+            "_position",
+            "_rotation",
+            "_eulerAngles",
+            "_lossyScale",
+            "_oddlyScaled",
+            "_worldTransform",
+            "_worldTransformInverse",
+            "_hijackedLocalPosition",
+            "_hijackedLocalScale",
+            "_hijackedLocalEulerAngles",
+            "_hijackedLocalRotation",
+            "_aabbVer",
+            "_right",
+            "_up",
+            "_forward",
+            "_static",
+            "_parent",
+            "_children",
+            "_graphDepth",
+            "_cullingLayer",
+            "layerMask",
+            "_activeSelf"
+          ]
+        },
+        "_system": {
+          "type": "ot",
+          "keys": [
+            "app",
+            "store",
+            "ComponentType",
+            "id",
+            "creatingPrefabs",
+            "events",
+            "_components",
+            "performanceSamplerSection",
+            "queues"
+          ]
+        },
+        "_code": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Mwb$",
+            "Aib$"
+          ]
+        },
+        "internalExecutionOrder": 0,
+        "scriptsExecutionOrder": 0,
+        "_scriptsExecutionOrder": 140739635867814,
+        "_sortingOrderInQueue": 1461,
+        "_activatedCallbacks": {
+          "type": "Object",
+          "keys": [
+            "onAwake",
+            "onEnable",
+            "onStart",
+            "onDisable",
+            "onDestroy"
+          ]
+        },
+        "id": 28838,
+        "_model": {
+          "type": "l",
+          "keys": [
+            "meshInstances",
+            "morphInstance",
+            "_materials",
+            "_mesh",
+            "_meshVersion",
+            "_skin",
+            "_bones",
+            "_sortingLayerIndex",
+            "_sortingOrder",
+            "_cullingLayer",
+            "_entity",
+            "_lightmapIndex",
+            "_lightmapSceneIndex",
+            "_lightmapScaleOffset",
+            "_drawOrder",
+            "_nearestScreen",
+            "_stencil",
+            "_element",
+            "_visible",
+            "_parameters",
+            "_constAttributes",
+            "_isStatic",
+            "_needsUpdate",
+            "_masksChildren",
+            "_reflectionProbes",
+            "_blendReflectionProbes",
+            "_lightProbe",
+            "_lightProbeUsage",
+            "_flipFaces",
+            "_materialPropertyBlocks"
+          ]
+        },
+        "_castShadows": false,
+        "_receiveShadows": false,
+        "__renderer": "",
+        "_aabb": null,
+        "_lastAABBVersion": -1,
+        "unityClass": "function",
+        "__UnityEngine.Renderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Mwb$",
+            "Aib$"
+          ]
+        },
+        "__UnityEngine.ParticleSystemRenderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Mwb$",
+            "Aib$"
+          ]
+        },
+        "_particleSystemRenderer": {
+          "type": "",
+          "keys": [
+            "_model",
+            "_mesh",
+            "_instancingVertexFormat",
+            "_instancingData",
+            "_worldRotationTransform",
+            "_worldTranslationTransform",
+            "_alignment",
+            "_renderMode",
+            "_lengthScale",
+            "_velocityScale",
+            "_sortMode",
+            "_texParameterName"
+          ]
+        },
+        "_meshCount": 0,
+        "_activeVertexStreamsCount": 4,
+        "_cameraVelocityScale": 0,
+        "_normalDirection": 1,
+        "_sortingFudge": 0,
+        "_minParticleSize": 0,
+        "_maxParticleSize": 200,
+        "_pivot": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "_applyActiveColorSpace": 1
+      }
+    },
+    {
+      "name": "Trail",
+      "type": "ctor",
+      "info": {
+        "$init": {
+          "type": "Object",
+          "keys": []
+        },
+        "zhb$": -1,
+        "$propMap": {
+          "type": "Object",
+          "keys": [
+            "handle"
+          ]
+        },
+        "get$UnityEngine$Renderer$handle": "function",
+        "set$UnityEngine$Renderer$handle": "function",
+        "$UnityEngine$Component$1$pc$RendererComponent$handle": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "jdb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "box": {
+          "type": "K",
+          "keys": [
+            "center",
+            "halfExtents",
+            "_min",
+            "_max"
+          ]
+        },
+        "svb$": 0,
+        "yvb$": 0,
+        "zvb$": 0,
+        "Hxb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "awb$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "l$",
+            "m$",
+            "o$",
+            "p$",
+            "j$",
+            "k$",
+            "n$",
+            "i$",
+            "viewAlignmentCache"
+          ]
+        },
+        "bwb$": {
+          "type": "l",
+          "keys": [
+            "id",
+            "path",
+            "hash",
+            "componentType",
+            "property",
+            "targetsLocalEulerAnglesRaw",
+            "targetObject",
+            "targetProperty",
+            "isVectorProperty",
+            "vectorPropertyIndex",
+            "isMaterialPropertyCurve",
+            "objectCurve",
+            "preWrapMode",
+            "postWrapMode",
+            "keys",
+            "keyId"
+          ]
+        },
+        "cwb$": 0.224999994039536,
+        "Gxb$": {
+          "type": "Array",
+          "keys": [
+            "$type"
+          ]
+        },
+        "lwb$": true,
+        "nwb$": {
+          "type": "Array",
+          "keys": []
+        },
+        "mwb$": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "Fxb$": 0.449999988079071,
+        "Lxb$": false,
+        "Mxb$": true,
+        "dwb$": 0,
+        "ewb$": 0,
+        "Jxb$": 0.00999999977648258,
+        "jwb$": {
+          "type": "g",
+          "keys": [
+            "_colorKeys",
+            "_alphaKeys",
+            "_mode"
+          ]
+        },
+        "generateLightingData": false,
+        "hwb$": 0,
+        "gwb$": 0,
+        "lightmapIndex": -1,
+        "lightmapSceneIndex": -1,
+        "lightmapScaleOffset": {
+          "type": "g",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "w",
+            "_data"
+          ]
+        },
+        "Aib$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "Eib$",
+            "pHb$",
+            "Nqb$",
+            "qHb$"
+          ]
+        },
+        "$$bind": {
+          "type": "Array",
+          "keys": [
+            "0"
+          ]
+        }
+      },
+      "native": {
+        "_enabled": true,
+        "_destroyed": false,
+        "$id": 28844,
+        "_id": "id:3863",
+        "_entity": {
+          "type": "A",
+          "keys": [
+            "$id",
+            "name",
+            "tag",
+            "_localPosition",
+            "_localRotation",
+            "_localScale",
+            "_localEulerAngles",
+            "_localTransform",
+            "_position",
+            "_rotation",
+            "_eulerAngles",
+            "_lossyScale",
+            "_oddlyScaled",
+            "_worldTransform",
+            "_worldTransformInverse",
+            "_hijackedLocalPosition",
+            "_hijackedLocalScale",
+            "_hijackedLocalEulerAngles",
+            "_hijackedLocalRotation",
+            "_aabbVer",
+            "_right",
+            "_up",
+            "_forward",
+            "_static",
+            "_parent",
+            "_children",
+            "_graphDepth",
+            "_cullingLayer",
+            "layerMask",
+            "_activeSelf"
+          ]
+        },
+        "_system": {
+          "type": "Xt",
+          "keys": [
+            "app",
+            "store",
+            "ComponentType",
+            "id",
+            "creatingPrefabs",
+            "events",
+            "_components",
+            "performanceSamplerSection",
+            "queues"
+          ]
+        },
+        "_code": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "internalExecutionOrder": 0,
+        "scriptsExecutionOrder": 0,
+        "_scriptsExecutionOrder": 140739635867820,
+        "_sortingOrderInQueue": 1464,
+        "_activatedCallbacks": {
+          "type": "Object",
+          "keys": [
+            "onAwake",
+            "onEnable",
+            "onStart",
+            "onDisable",
+            "onDestroy"
+          ]
+        },
+        "id": 28844,
+        "_model": {
+          "type": "l",
+          "keys": [
+            "meshInstances",
+            "morphInstance",
+            "_materials",
+            "_mesh",
+            "_meshVersion",
+            "_skin",
+            "_bones",
+            "_sortingLayerIndex",
+            "_sortingOrder",
+            "_cullingLayer",
+            "_entity",
+            "_lightmapIndex",
+            "_lightmapSceneIndex",
+            "_lightmapScaleOffset",
+            "_drawOrder",
+            "_nearestScreen",
+            "_stencil",
+            "_element",
+            "_visible",
+            "_parameters",
+            "_constAttributes",
+            "_isStatic",
+            "_needsUpdate",
+            "_masksChildren",
+            "_reflectionProbes",
+            "_blendReflectionProbes",
+            "_lightProbe",
+            "_lightProbeUsage",
+            "_flipFaces",
+            "_materialPropertyBlocks"
+          ]
+        },
+        "_castShadows": true,
+        "_receiveShadows": true,
+        "__renderer": "",
+        "_aabb": null,
+        "_lastAABBVersion": -1,
+        "unityClass": "function",
+        "__UnityEngine.Renderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "__UnityEngine.TrailRenderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Traildi",
+      "type": "ctor",
+      "info": {
+        "$init": {
+          "type": "Object",
+          "keys": []
+        },
+        "zhb$": -1,
+        "$propMap": {
+          "type": "Object",
+          "keys": [
+            "handle"
+          ]
+        },
+        "get$UnityEngine$Renderer$handle": "function",
+        "set$UnityEngine$Renderer$handle": "function",
+        "$UnityEngine$Component$1$pc$RendererComponent$handle": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "jdb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "box": {
+          "type": "K",
+          "keys": [
+            "center",
+            "halfExtents",
+            "_min",
+            "_max"
+          ]
+        },
+        "svb$": 0,
+        "yvb$": 0,
+        "zvb$": 0,
+        "Hxb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "awb$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "l$",
+            "m$",
+            "o$",
+            "p$",
+            "j$",
+            "k$",
+            "n$",
+            "i$",
+            "viewAlignmentCache"
+          ]
+        },
+        "bwb$": {
+          "type": "l",
+          "keys": [
+            "id",
+            "path",
+            "hash",
+            "componentType",
+            "property",
+            "targetsLocalEulerAnglesRaw",
+            "targetObject",
+            "targetProperty",
+            "isVectorProperty",
+            "vectorPropertyIndex",
+            "isMaterialPropertyCurve",
+            "objectCurve",
+            "preWrapMode",
+            "postWrapMode",
+            "keys",
+            "keyId"
+          ]
+        },
+        "cwb$": 2,
+        "Gxb$": {
+          "type": "Array",
+          "keys": [
+            "$type"
+          ]
+        },
+        "lwb$": true,
+        "nwb$": {
+          "type": "Array",
+          "keys": []
+        },
+        "mwb$": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "Fxb$": 0.449999988079071,
+        "Lxb$": false,
+        "Mxb$": true,
+        "dwb$": 0,
+        "ewb$": 0,
+        "Jxb$": 0.00999999977648258,
+        "jwb$": {
+          "type": "g",
+          "keys": [
+            "_colorKeys",
+            "_alphaKeys",
+            "_mode"
+          ]
+        },
+        "generateLightingData": false,
+        "hwb$": 0,
+        "gwb$": 0,
+        "lightmapIndex": -1,
+        "lightmapSceneIndex": -1,
+        "lightmapScaleOffset": {
+          "type": "g",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "w",
+            "_data"
+          ]
+        },
+        "Aib$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "Eib$",
+            "pHb$",
+            "Nqb$",
+            "qHb$"
+          ]
+        },
+        "$$bind": {
+          "type": "Array",
+          "keys": [
+            "0"
+          ]
+        }
+      },
+      "native": {
+        "_enabled": true,
+        "_destroyed": false,
+        "$id": 29226,
+        "_id": "id:3856",
+        "_entity": {
+          "type": "A",
+          "keys": [
+            "$id",
+            "name",
+            "tag",
+            "_localPosition",
+            "_localRotation",
+            "_localScale",
+            "_localEulerAngles",
+            "_localTransform",
+            "_position",
+            "_rotation",
+            "_eulerAngles",
+            "_lossyScale",
+            "_oddlyScaled",
+            "_worldTransform",
+            "_worldTransformInverse",
+            "_hijackedLocalPosition",
+            "_hijackedLocalScale",
+            "_hijackedLocalEulerAngles",
+            "_hijackedLocalRotation",
+            "_aabbVer",
+            "_right",
+            "_up",
+            "_forward",
+            "_static",
+            "_parent",
+            "_children",
+            "_graphDepth",
+            "_cullingLayer",
+            "layerMask",
+            "_activeSelf"
+          ]
+        },
+        "_system": {
+          "type": "Xt",
+          "keys": [
+            "app",
+            "store",
+            "ComponentType",
+            "id",
+            "creatingPrefabs",
+            "events",
+            "_components",
+            "performanceSamplerSection",
+            "queues"
+          ]
+        },
+        "_code": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "internalExecutionOrder": 0,
+        "scriptsExecutionOrder": 0,
+        "_scriptsExecutionOrder": 140739635868202,
+        "_sortingOrderInQueue": 1462,
+        "_activatedCallbacks": {
+          "type": "Object",
+          "keys": [
+            "onAwake",
+            "onEnable",
+            "onStart",
+            "onDisable",
+            "onDestroy"
+          ]
+        },
+        "id": 29226,
+        "_model": {
+          "type": "l",
+          "keys": [
+            "meshInstances",
+            "morphInstance",
+            "_materials",
+            "_mesh",
+            "_meshVersion",
+            "_skin",
+            "_bones",
+            "_sortingLayerIndex",
+            "_sortingOrder",
+            "_cullingLayer",
+            "_entity",
+            "_lightmapIndex",
+            "_lightmapSceneIndex",
+            "_lightmapScaleOffset",
+            "_drawOrder",
+            "_nearestScreen",
+            "_stencil",
+            "_element",
+            "_visible",
+            "_parameters",
+            "_constAttributes",
+            "_isStatic",
+            "_needsUpdate",
+            "_masksChildren",
+            "_reflectionProbes",
+            "_blendReflectionProbes",
+            "_lightProbe",
+            "_lightProbeUsage",
+            "_flipFaces",
+            "_materialPropertyBlocks"
+          ]
+        },
+        "_castShadows": false,
+        "_receiveShadows": true,
+        "__renderer": "",
+        "_aabb": null,
+        "_lastAABBVersion": -1,
+        "unityClass": "function",
+        "__UnityEngine.Renderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "__UnityEngine.TrailRenderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Traildi02",
+      "type": "ctor",
+      "info": {
+        "$init": {
+          "type": "Object",
+          "keys": []
+        },
+        "zhb$": -1,
+        "$propMap": {
+          "type": "Object",
+          "keys": [
+            "handle"
+          ]
+        },
+        "get$UnityEngine$Renderer$handle": "function",
+        "set$UnityEngine$Renderer$handle": "function",
+        "$UnityEngine$Component$1$pc$RendererComponent$handle": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "jdb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "box": {
+          "type": "K",
+          "keys": [
+            "center",
+            "halfExtents",
+            "_min",
+            "_max"
+          ]
+        },
+        "svb$": 0,
+        "yvb$": 0,
+        "zvb$": 0,
+        "Hxb$": {
+          "type": "E",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "_data"
+          ]
+        },
+        "awb$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "l$",
+            "m$",
+            "o$",
+            "p$",
+            "j$",
+            "k$",
+            "n$",
+            "i$",
+            "viewAlignmentCache"
+          ]
+        },
+        "bwb$": {
+          "type": "l",
+          "keys": [
+            "id",
+            "path",
+            "hash",
+            "componentType",
+            "property",
+            "targetsLocalEulerAnglesRaw",
+            "targetObject",
+            "targetProperty",
+            "isVectorProperty",
+            "vectorPropertyIndex",
+            "isMaterialPropertyCurve",
+            "objectCurve",
+            "preWrapMode",
+            "postWrapMode",
+            "keys",
+            "keyId"
+          ]
+        },
+        "cwb$": 0.400000005960464,
+        "Gxb$": {
+          "type": "Array",
+          "keys": [
+            "$type"
+          ]
+        },
+        "lwb$": true,
+        "nwb$": {
+          "type": "Array",
+          "keys": []
+        },
+        "mwb$": {
+          "type": "Jt",
+          "keys": [
+            "_enabled",
+            "_destroyed",
+            "$id",
+            "_id",
+            "_entity",
+            "_system",
+            "_code",
+            "internalExecutionOrder",
+            "scriptsExecutionOrder",
+            "_scriptsExecutionOrder",
+            "_sortingOrderInQueue",
+            "_activatedCallbacks",
+            "id",
+            "_model",
+            "_castShadows",
+            "_receiveShadows",
+            "__renderer",
+            "_aabb",
+            "_lastAABBVersion",
+            "unityClass",
+            "__UnityEngine.Renderer",
+            "__UnityEngine.TrailRenderer"
+          ]
+        },
+        "Fxb$": 0.449999988079071,
+        "Lxb$": false,
+        "Mxb$": true,
+        "dwb$": 0,
+        "ewb$": 0,
+        "Jxb$": 0.00999999977648258,
+        "jwb$": {
+          "type": "g",
+          "keys": [
+            "_colorKeys",
+            "_alphaKeys",
+            "_mode"
+          ]
+        },
+        "generateLightingData": false,
+        "hwb$": 0,
+        "gwb$": 0,
+        "lightmapIndex": -1,
+        "lightmapSceneIndex": -1,
+        "lightmapScaleOffset": {
+          "type": "g",
+          "keys": [
+            "x",
+            "y",
+            "z",
+            "w",
+            "_data"
+          ]
+        },
+        "Aib$": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "Eib$",
+            "pHb$",
+            "Nqb$",
+            "qHb$"
+          ]
+        },
+        "$$bind": {
+          "type": "Array",
+          "keys": [
+            "0"
+          ]
+        }
+      },
+      "native": {
+        "_enabled": true,
+        "_destroyed": false,
+        "$id": 29222,
+        "_id": "id:3860",
+        "_entity": {
+          "type": "A",
+          "keys": [
+            "$id",
+            "name",
+            "tag",
+            "_localPosition",
+            "_localRotation",
+            "_localScale",
+            "_localEulerAngles",
+            "_localTransform",
+            "_position",
+            "_rotation",
+            "_eulerAngles",
+            "_lossyScale",
+            "_oddlyScaled",
+            "_worldTransform",
+            "_worldTransformInverse",
+            "_hijackedLocalPosition",
+            "_hijackedLocalScale",
+            "_hijackedLocalEulerAngles",
+            "_hijackedLocalRotation",
+            "_aabbVer",
+            "_right",
+            "_up",
+            "_forward",
+            "_static",
+            "_parent",
+            "_children",
+            "_graphDepth",
+            "_cullingLayer",
+            "layerMask",
+            "_activeSelf"
+          ]
+        },
+        "_system": {
+          "type": "Xt",
+          "keys": [
+            "app",
+            "store",
+            "ComponentType",
+            "id",
+            "creatingPrefabs",
+            "events",
+            "_components",
+            "performanceSamplerSection",
+            "queues"
+          ]
+        },
+        "_code": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "internalExecutionOrder": 0,
+        "scriptsExecutionOrder": 0,
+        "_scriptsExecutionOrder": 140739635868198,
+        "_sortingOrderInQueue": 1463,
+        "_activatedCallbacks": {
+          "type": "Object",
+          "keys": [
+            "onAwake",
+            "onEnable",
+            "onStart",
+            "onDisable",
+            "onDestroy"
+          ]
+        },
+        "id": 29222,
+        "_model": {
+          "type": "l",
+          "keys": [
+            "meshInstances",
+            "morphInstance",
+            "_materials",
+            "_mesh",
+            "_meshVersion",
+            "_skin",
+            "_bones",
+            "_sortingLayerIndex",
+            "_sortingOrder",
+            "_cullingLayer",
+            "_entity",
+            "_lightmapIndex",
+            "_lightmapSceneIndex",
+            "_lightmapScaleOffset",
+            "_drawOrder",
+            "_nearestScreen",
+            "_stencil",
+            "_element",
+            "_visible",
+            "_parameters",
+            "_constAttributes",
+            "_isStatic",
+            "_needsUpdate",
+            "_masksChildren",
+            "_reflectionProbes",
+            "_blendReflectionProbes",
+            "_lightProbe",
+            "_lightProbeUsage",
+            "_flipFaces",
+            "_materialPropertyBlocks"
+          ]
+        },
+        "_castShadows": true,
+        "_receiveShadows": true,
+        "__renderer": "",
+        "_aabb": null,
+        "_lastAABBVersion": -1,
+        "unityClass": "function",
+        "__UnityEngine.Renderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        },
+        "__UnityEngine.TrailRenderer": {
+          "type": "ctor",
+          "keys": [
+            "$init",
+            "zhb$",
+            "$propMap",
+            "get$UnityEngine$Renderer$handle",
+            "set$UnityEngine$Renderer$handle",
+            "$UnityEngine$Component$1$pc$RendererComponent$handle",
+            "jdb$",
+            "box",
+            "svb$",
+            "yvb$",
+            "zvb$",
+            "Hxb$",
+            "awb$",
+            "bwb$",
+            "cwb$",
+            "Gxb$",
+            "lwb$",
+            "nwb$",
+            "mwb$",
+            "Fxb$",
+            "Lxb$",
+            "Mxb$",
+            "dwb$",
+            "ewb$",
+            "Jxb$",
+            "jwb$",
+            "generateLightingData",
+            "hwb$",
+            "gwb$",
+            "lightmapIndex"
+          ]
+        }
+      }
+    }
+  ],
+  "viewMethods": {
+    "Initialize": "function(e,t,n,i,r){if(null!=e){if(this.Data=e,this.SpecialElementId=e.elementId,this.BehaviorType=e.behaviorType,this.swapAnimationPlayed=!1,this.UpdateVisuals(e.sprite,r),this.SetPosition(t,n,i.$clone()),UnityEngine.MonoBehaviour.op_Inequality(this.spineAnimation,null)){pc.Vec3.equals(this.initialSpineScale,pc.Vec3.ZERO.clone())&&(this.initialSpineScale=this.spineAnimation.transform.localScale.$clone()),null!=this.spineAnimation.skeleton?(this.spineAnimation.transform.localScale=new pc.Vec3(1,1,1),this.spineAnimation.skeleton.ScaleX=Math.abs(this.initialSpineScale.x*this.spineScaleMultiplier),this.spineAnimation.skeleton.ScaleY=Math.abs(this.initialSpineScale.y*this.spineScaleMultiplier)):this.spineAnimation.transform.localScale=new pc.Vec3(Math.abs(this.initialSpineScale.x*this.spineScaleMultiplier),Math.abs(this.initialSpineScale.y*this.spineScaleMultiplier),Math.abs(this.initialSpineScale.z*this.spineScaleMultiplier));var o=this.spineAnimation.GetComponent(UnityEngine.MeshRenderer);UnityEngine.Component.op_Inequality(o,null)&&(o.sortingLayerName=\"Default\",o.sortingOrder=50)}this.BehaviorType===Match3.SpecialBehaviorType.LineClearVertical&&UnityEngine.Component.op_Inequality(this.spriteRenderer,null)?this.spriteRenderer.transform.localRotation=(new pc.Quat).setFromEulerAngles_Unity(0,0,90):UnityEngine.Component.op_Inequality(this.spriteRenderer,null)&&(this.spriteRenderer.transform.localRotation=pc.Quat.IDENTITY.clone()),UnityEngine.Component.op_Inequality(this.idleParticles,null)&&!this.idleParticles.isPlaying&&this.idleParticles.Play(),this.PlayCreationAnimation()}}",
+    "PlayCreationAnimation": "function(){if(UnityEngine.MonoBehaviour.op_Inequality(this.spineAnimation,null)&&!System.String.isNullOrEmpty(this.creationAnimation)){if(null==this.spineAnimation.Skeleton.Data.FindAnimation(this.creationAnimation))return void UnityEngine.Debug.LogError$2(\"[Spine Error] Cannot find Creation Animation '\"+(this.creationAnimation||\"\")+\"' in SkeletonData for \"+(Bridge.ensureBaseProperty(this,\"gameObject\").$UnityEngine$Component$gameObject.name||\"\")+\"!\");this.spineAnimation.gameObject.SetActive(!0);var e=this.spineAnimation.GetComponent(UnityEngine.MeshRenderer);UnityEngine.Component.op_Inequality(e,null)&&(e.enabled=!0),UnityEngine.Component.op_Inequality(this.spriteRenderer,null)&&(this.spriteRenderer.enabled=!1);var t=this.spineAnimation.AnimationState.SetAnimation$1(0,this.creationAnimation,!1);UnityEngine.Debug.Log$1(\"[Spine] Successfully playing Creation Animation '\"+(this.creationAnimation||\"\")+\"' on \"+(Bridge.ensureBaseProperty(this,\"gameObject\").$UnityEngine$Component$gameObject.name||\"\")),t.addComplete(Bridge.fn.cacheBind(this,this.OnCreationAnimationComplete)),System.String.isNullOrEmpty(this.idleAnimation)||this.spineAnimation.AnimationState.AddAnimation$1(0,this.idleAnimation,!0,0)}else UnityEngine.MonoBehaviour.op_Inequality(this.spineAnimation,null)&&!System.String.isNullOrEmpty(this.idleAnimation)&&this.spineAnimation.AnimationState.SetAnimation$1(0,this.idleAnimation,!0)}"
+  }
+}

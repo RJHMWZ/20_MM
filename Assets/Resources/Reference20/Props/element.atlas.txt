@@ -1,0 +1,279 @@
+
+element.png
+size: 1724,412
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FireworkPillows_1
+  rotate: false
+  xy: 279, 311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+FireworkPillows_1_liang
+  rotate: false
+  xy: 381, 311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+blue_1
+  rotate: true
+  xy: 940, 283
+  size: 128, 132
+  orig: 128, 132
+  offset: 0, 0
+  index: -1
+brick1_0
+  rotate: false
+  xy: 1074, 283
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick1_liang
+  rotate: false
+  xy: 1204, 283
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick1_liang2
+  rotate: false
+  xy: 1334, 283
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick1_liang_2
+  rotate: false
+  xy: 131, 29
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick1_liang_3
+  rotate: false
+  xy: 283, 29
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick2_0
+  rotate: false
+  xy: 1464, 283
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick2_liang
+  rotate: false
+  xy: 1594, 283
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick2_liang2
+  rotate: false
+  xy: 1, 192
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick2_liang_2
+  rotate: false
+  xy: 435, 18
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick2_liang_3
+  rotate: false
+  xy: 587, 18
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick3_0
+  rotate: false
+  xy: 131, 185
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick3_liang
+  rotate: false
+  xy: 261, 181
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick3_liang2
+  rotate: false
+  xy: 391, 181
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick3_liang_2
+  rotate: false
+  xy: 739, 5
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick3_liang_3
+  rotate: false
+  xy: 891, 1
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick4_0
+  rotate: false
+  xy: 521, 170
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick4_liang
+  rotate: false
+  xy: 651, 170
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick4_liang2
+  rotate: false
+  xy: 781, 157
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick4_liang_2
+  rotate: false
+  xy: 1043, 1
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick4_liang_3
+  rotate: false
+  xy: 1195, 1
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick5_0
+  rotate: false
+  xy: 911, 153
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick5_liang
+  rotate: false
+  xy: 1041, 153
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick5_liang2
+  rotate: false
+  xy: 1171, 153
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+brick5_liang_2
+  rotate: false
+  xy: 1347, 1
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick5_liang_3
+  rotate: false
+  xy: 1499, 1
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+brick6_0
+  rotate: false
+  xy: 585, 300
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+brick6_liang
+  rotate: false
+  xy: 698, 300
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+brick6_liang2
+  rotate: false
+  xy: 811, 287
+  size: 127, 124
+  orig: 127, 124
+  offset: 0, 0
+  index: -1
+brick7_0
+  rotate: false
+  xy: 483, 311
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+brick8_0
+  rotate: false
+  xy: 1, 324
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+brick8_liang
+  rotate: false
+  xy: 90, 322
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+brick8_liang2
+  rotate: false
+  xy: 181, 315
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+green_1
+  rotate: true
+  xy: 1301, 153
+  size: 128, 132
+  orig: 128, 132
+  offset: 0, 0
+  index: -1
+purple_1
+  rotate: true
+  xy: 1435, 153
+  size: 128, 132
+  orig: 128, 132
+  offset: 0, 0
+  index: -1
+red_1
+  rotate: true
+  xy: 1569, 153
+  size: 128, 132
+  orig: 128, 132
+  offset: 0, 0
+  index: -1
+yellow_1
+  rotate: false
+  xy: 1, 58
+  size: 128, 132
+  orig: 128, 132
+  offset: 0, 0
+  index: -1

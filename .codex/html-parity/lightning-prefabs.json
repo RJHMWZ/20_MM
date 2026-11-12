@@ -1,0 +1,139 @@
+{
+  "trail": {
+    "name": "Particle_Match3_ColorBomb_trail",
+    "position": {
+      "x": 0,
+      "y": -0.180000007152557,
+      "z": 0,
+      "_data": null
+    },
+    "components": [],
+    "children": [
+      {
+        "name": "Trail",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "_data": null
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Traildi",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "_data": null
+            },
+            "components": [],
+            "children": []
+          },
+          {
+            "name": "Traildi02",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "_data": null
+            },
+            "components": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "trail_lizi",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "_data": null
+        },
+        "components": [],
+        "children": []
+      },
+      {
+        "name": "Trail",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "_data": null
+        },
+        "components": [],
+        "children": [
+          {
+            "name": "Traildi",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "_data": null
+            },
+            "components": [],
+            "children": []
+          },
+          {
+            "name": "Traildi02",
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "_data": null
+            },
+            "components": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "activation": {
+    "name": "Particle_Win10_MaxLoop_shandian(time0.86)",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "_data": null
+    },
+    "components": [],
+    "children": [
+      {
+        "name": "glow",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "_data": null
+        },
+        "components": [],
+        "children": []
+      },
+      {
+        "name": "shanidan",
+        "position": {
+          "x": 0.0599999986588955,
+          "y": -1.37999999523163,
+          "z": 0,
+          "_data": null
+        },
+        "components": [],
+        "children": []
+      },
+      {
+        "name": "shanidan02",
+        "position": {
+          "x": -0.00999999977648258,
+          "y": -0.579999983310699,
+          "z": 0,
+          "_data": null
+        },
+        "components": [],
+        "children": []
+      }
+    ]
+  },
+  "board": 0.5273437648429535
+}

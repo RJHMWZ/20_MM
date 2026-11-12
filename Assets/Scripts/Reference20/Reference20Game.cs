@@ -13,11 +13,12 @@ namespace Reference20 {
 public partial class Reference20Game : MonoBehaviour {
  public RectTransform stage;
  public Match3.GameManager templateDownload;
- public int maxMoves=9;
+ public int maxMoves=25;
  [NonSerialized] public bool InputEnabled=true;
  public int MovesPlayed {get;private set;}
  public bool IsBusy {get;private set;}
  public bool IsFinished {get;private set;}
+ bool settlementPending;
  public int ClearedCount {get;private set;}
  class Piece {
   public int x,y,w=1,h=1,id,hp=1;public RectTransform root;public Image image;public Vector2 initial;public int originalHeight;public float settledAt;public bool falling,dying,reserved;public float fallTime,lockedUntil,markedUntil,spawnedAt=-1;public Vector2 simPosition,previousPosition,visualOffset;public bool paused,colorConverted,switching;public int cornQueued,cornBlockedRow=-1;public bool cornCycle;
@@ -47,9 +48,10 @@ public partial class Reference20Game : MonoBehaviour {
  Font font;
  IEnumerator Start(){Application.runInBackground=true;Application.targetFrameRate=60;yield return ShowCompanyLoading();}
  public void Build(){
+  stage.gameObject.SetActive(true);
   if(Application.isPlaying&&!startupBuild)StopAllCoroutines();if(!startupBuild){if(companyLoading!=null)companyLoading.Close();companyLoading=null;loadingUIActive=false;}if(standbySource)standbySource.Stop();standbyCount=0;availableFlightAudio.Clear();foreach(var source in flightAudio){source.Stop();source.clip=null;availableFlightAudio.Push(source);}ResetRuntime();Reference20Native.ResetCaches();pendingFlights.Clear();pendingCollections=0;randomSeed=6;Array.Clear(lastDropColor,0,lastDropColor.Length);
   for(int i=stage.childCount-1;i>=0;i--){var child=stage.GetChild(i);foreach(var rt in child.GetComponentsInChildren<RectTransform>(true))rt.DOKill();child.gameObject.SetActive(false);if(Application.isPlaying)Destroy(child.gameObject);else DestroyImmediate(child.gameObject);}
-  StopHints();Phase=TurnPhase.Ready;selected=null;pieces.Clear();normalSprites.Clear();playable=new bool[9,12];MovesPlayed=0;IsFinished=false;IsBusy=false;ClearedCount=0;
+  StopHints();Phase=TurnPhase.Ready;selected=null;pieces.Clear();normalSprites.Clear();playable=new bool[9,12];MovesPlayed=0;IsFinished=false;settlementPending=false;IsBusy=false;ClearedCount=0;
   font=Resources.Load<Font>("Reference20/Company/UI/CompanyFont");
   var layout=Newtonsoft.Json.JsonConvert.DeserializeObject<Layout>(Resources.Load<TextAsset>("Reference20/layout").text);
   audioSource=GetComponent<AudioSource>();if(!audioSource)audioSource=gameObject.AddComponent<AudioSource>();audioSource.playOnAwake=false;
@@ -142,11 +144,11 @@ public partial class Reference20Game : MonoBehaviour {
   int w=p==null?1:p.w,h=p==null?1:p.h;
   for(int xx=x;xx<x+w;xx++)for(int yy=y;yy<y+h;yy++)if(!Inside(xx,yy)||!playable[xx,yy]||(grid[xx,yy]!=null&&grid[xx,yy]!=p))return false;return true;
  }
- public void ShowEnd(){
-  if(IsFinished)return;IsFinished=true;RemoveGuide();
+ public void ShowEnd(bool won=true){
+  if(IsFinished)return;IsFinished=true;selected=null;RemoveGuide();
+  stage.gameObject.SetActive(false);foreach(var child in chrome.GetComponentsInChildren<Graphic>())child.gameObject.SetActive(false);
   var frame=new GameObject("EndFrame",typeof(RectTransform)).GetComponent<RectTransform>();frame.SetParent(chrome,false);frame.sizeDelta=new Vector2(1080,1920);var top=frame.gameObject.AddComponent<Canvas>();top.overrideSorting=true;top.sortingOrder=1000;frame.gameObject.AddComponent<GraphicRaycaster>();responsive.endFrame=frame;responsive.Refresh();
-  Sound("Audio_UI_Win");
-  endPanel=CompanyEndArtwork(frame);
+  endPanel=CompanyEndArtwork(frame,won);
 
  }
  public void Download(){Sound("btn_click");templateDownload.DownloadGame();}

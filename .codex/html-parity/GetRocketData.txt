@@ -1,0 +1,1 @@
+function(e,t){var n=e?Match3.SpecialBehaviorType.LineClearVertical:Match3.SpecialBehaviorType.LineClearHorizontal;return(null!=this.elementDb&&null!=this.elementDb.specialElements?this.elementDb.specialElements.Find((function(e){return null!=e&&e.behaviorType===n})):null)||t}

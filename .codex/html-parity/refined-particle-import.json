@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ColorCharge",
+    "layers": 4,
+    "particles": 11
+  },
+  {
+    "name": "ColorFinish",
+    "layers": 10,
+    "particles": 64
+  },
+  {
+    "name": "Bomb",
+    "layers": 7,
+    "particles": 55
+  },
+  {
+    "name": "BeeImpact",
+    "layers": 45,
+    "particles": 75
+  }
+]

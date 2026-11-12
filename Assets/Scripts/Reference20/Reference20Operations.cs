@@ -6,7 +6,7 @@ namespace Reference20 {
 public partial class Reference20Game {
  int activeOperations;
  Coroutine settleRoutine;
- public bool CanAcceptInput {get{return Application.isPlaying&&!loadingUIActive&&!IsFinished&&MovesPlayed<maxMoves&&matchingPauseCount==0;}}
+ public bool CanAcceptInput {get{return Application.isPlaying&&!loadingUIActive&&!IsFinished&&!settlementPending&&MovesPlayed<maxMoves&&matchingPauseCount==0;}}
  bool CanManipulate(Piece p){return p!=null&&(p.normal||p.id==100015)&&pieces.Contains(p)&&p.root&&p.root.gameObject.activeInHierarchy&&!p.dying&&!p.reserved&&!p.falling&&!p.paused&&!p.switching;}
  void EnsureResolution(){resolving=true;IsBusy=true;if(settleRoutine==null)settleRoutine=StartCoroutine(SettleBoard());}
  IEnumerator SettleBoard(){try{yield return ResolveUntilStable();yield return CompleteTurn();}finally{settleRoutine=null;resolving=false;IsBusy=false;Phase=IsFinished?TurnPhase.Completed:TurnPhase.Ready;}}

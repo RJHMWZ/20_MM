@@ -1,0 +1,21 @@
+{
+  "cases": 15,
+  "allActivated": true,
+  "allSettled": true,
+  "movesPerActivation": 1,
+  "lightningVisible": {
+    "15": 36,
+    "1511": 48,
+    "1513": 48,
+    "1514": 48
+  },
+  "missingResources": 0,
+  "missingScripts": 0,
+  "unityErrors": 0,
+  "sourceParticleLayers": {
+    "ColorCharge": 4,
+    "ColorFinish": 10,
+    "Bomb": 7,
+    "BeeImpact": 45
+  }
+}

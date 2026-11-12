@@ -1,0 +1,102 @@
+{
+  "normal": {
+    "originalRootScale": {
+      "name": null,
+      "keys": [
+        "x",
+        "y",
+        "z",
+        "_data"
+      ],
+      "json": null,
+      "scale": null
+    },
+    "targetCellSize": 0.5273437648429535,
+    "changeAnimationName": "shake",
+    "spineScaleMultiplier": 2.5,
+    "clearEffectAlreadyPlayed": false,
+    "spineDataAsset": {
+      "name": "element_SkeletonData",
+      "keys": [
+        "$init",
+        "zhb$",
+        "atlasAssets",
+        "scale",
+        "isUpgradingBlendModeMaterials",
+        "blendModeMaterials",
+        "skeletonDataModifiers",
+        "fromAnimation",
+        "toAnimation",
+        "duration",
+        "defaultMix",
+        "name",
+        "$id",
+        "skeletonJSON",
+        "controller"
+      ],
+      "json": "element",
+      "scale": 0.00999999977648258
+    },
+    "spriteRenderer": {
+      "name": "Element_2_12",
+      "keys": [
+        "$init",
+        "zhb$",
+        "$propMap",
+        "get$UnityEngine$Renderer$handle",
+        "set$UnityEngine$Renderer$handle",
+        "$UnityEngine$Component$1$pc$RendererComponent$handle",
+        "jdb$",
+        "box",
+        "svb$",
+        "yvb$",
+        "zvb$",
+        "mxb$",
+        "gQa$",
+        "kxb$",
+        "lxb$",
+        "pxb$",
+        "qxb$",
+        "rxb$",
+        "sxb$",
+        "txb$",
+        "nxb$",
+        "oxb$",
+        "Aib$",
+        "rvb$",
+        "tvb$"
+      ],
+      "json": null,
+      "scale": null
+    },
+    "NormalElementId": 0,
+    "currentSkinName": "brick1_0",
+    "GridX": 2,
+    "GridY": 12
+  },
+  "elements": [
+    {
+      "id": 0,
+      "skin": "brick1_0"
+    },
+    {
+      "id": 1,
+      "skin": "brick3_0"
+    },
+    {
+      "id": 2,
+      "skin": "brick2_0"
+    },
+    {
+      "id": 3,
+      "skin": "brick4_0"
+    }
+  ],
+  "cell": 0.5273437648429535,
+  "rootScale": {
+    "x": 0.3913879504693796,
+    "y": 0.3913879504693796,
+    "z": 1,
+    "_data": null
+  }
+}

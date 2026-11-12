@@ -1,0 +1,797 @@
+[
+  {
+    "behavior": 1,
+    "fields": {
+      "elementId": "炸弹 (3x3爆炸)",
+      "behaviorType": 1,
+      "creationCondition": 2,
+      "name": "Bomb_Explosion",
+      "trailEffectPrefab": null,
+      "finishEffectPrefab": null
+    },
+    "tree": {
+      "name": "Special_cross",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1,
+        "w": null
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "active": true,
+      "children": [
+        {
+          "name": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": true,
+          "children": [],
+          "sprite": {
+            "name": null,
+            "color": {
+              "r": 0.9999999999999999,
+              "g": 0.9999999999999999,
+              "b": 0.9999999999999999,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "Spine GameObject (Bomb)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": true,
+          "children": [],
+          "spine": {
+            "skin": "bomb_cross",
+            "animation": "Boom_cross_creat_1",
+            "loop": true,
+            "timeScale": 1,
+            "keys": [
+              "$init",
+              "zhb$",
+              "Eib$",
+              "Tib$",
+              "Uib$",
+              "updateMode",
+              "updateWhenInvisible",
+              "separatorSlotNames",
+              "separatorSlots",
+              "useClipping",
+              "immutableTriangles",
+              "pmaVertexColors",
+              "clearStateOnDisable",
+              "tintBlack",
+              "singleSubmesh",
+              "fixDrawOrder",
+              "addNormals",
+              "calculateTangents",
+              "maskInteraction",
+              "maskMaterials",
+              "disableRenderingOnOverride",
+              "customMaterialOverride",
+              "customSlotMaterials",
+              "currentInstructions",
+              "meshGenerator",
+              "rendererBuffers",
+              "wasUpdatedAfterInit",
+              "timeScale",
+              "loop",
+              "initialSkinName",
+              "initialFlipX",
+              "initialFlipY",
+              "zSpacing",
+              "_animationName"
+            ],
+            "data": null
+          }
+        },
+        {
+          "name": "Spine GameObject (bomb_bomb)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": false,
+          "children": [],
+          "spine": {
+            "skin": "",
+            "animation": "Boom_bomb_1",
+            "loop": true,
+            "timeScale": 1,
+            "keys": [
+              "$init",
+              "zhb$",
+              "Eib$",
+              "Tib$",
+              "Uib$",
+              "updateMode",
+              "updateWhenInvisible",
+              "separatorSlotNames",
+              "separatorSlots",
+              "useClipping",
+              "immutableTriangles",
+              "pmaVertexColors",
+              "clearStateOnDisable",
+              "tintBlack",
+              "singleSubmesh",
+              "fixDrawOrder",
+              "addNormals",
+              "calculateTangents",
+              "maskInteraction",
+              "maskMaterials",
+              "disableRenderingOnOverride",
+              "customMaterialOverride",
+              "customSlotMaterials",
+              "currentInstructions",
+              "meshGenerator",
+              "rendererBuffers",
+              "wasUpdatedAfterInit",
+              "timeScale",
+              "loop",
+              "initialSkinName",
+              "initialFlipX",
+              "initialFlipY",
+              "zSpacing",
+              "_animationName"
+            ],
+            "data": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "behavior": 3,
+    "fields": {
+      "elementId": "魔力球 (同色全消)",
+      "behaviorType": 3,
+      "creationCondition": 4,
+      "name": "ColorClear_MagicBall"
+    },
+    "tree": {
+      "name": "Special_color",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1,
+        "w": null
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "active": true,
+      "children": [
+        {
+          "name": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": true,
+          "children": [],
+          "sprite": {
+            "name": null,
+            "color": {
+              "r": 0.9999999999999999,
+              "g": 0.9999999999999999,
+              "b": 0.9999999999999999,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "Spine GameObject (Bomb)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": false,
+          "children": [],
+          "spine": {
+            "skin": "brick_color",
+            "animation": "Boom_color_creat_1",
+            "loop": true,
+            "timeScale": 1,
+            "keys": [
+              "$init",
+              "zhb$",
+              "Eib$",
+              "Tib$",
+              "Uib$",
+              "updateMode",
+              "updateWhenInvisible",
+              "separatorSlotNames",
+              "separatorSlots",
+              "useClipping",
+              "immutableTriangles",
+              "pmaVertexColors",
+              "clearStateOnDisable",
+              "tintBlack",
+              "singleSubmesh",
+              "fixDrawOrder",
+              "addNormals",
+              "calculateTangents",
+              "maskInteraction",
+              "maskMaterials",
+              "disableRenderingOnOverride",
+              "customMaterialOverride",
+              "customSlotMaterials",
+              "currentInstructions",
+              "meshGenerator",
+              "rendererBuffers",
+              "wasUpdatedAfterInit",
+              "timeScale",
+              "loop",
+              "initialSkinName",
+              "initialFlipX",
+              "initialFlipY",
+              "zSpacing",
+              "_animationName"
+            ],
+            "data": null
+          }
+        },
+        {
+          "name": "Spine GameObject (ColorBomb_ColorBomb)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": false,
+          "children": [],
+          "spine": {
+            "skin": "",
+            "animation": "huixuanzhuan",
+            "loop": true,
+            "timeScale": 1,
+            "keys": [
+              "$init",
+              "zhb$",
+              "Eib$",
+              "Tib$",
+              "Uib$",
+              "updateMode",
+              "updateWhenInvisible",
+              "separatorSlotNames",
+              "separatorSlots",
+              "useClipping",
+              "immutableTriangles",
+              "pmaVertexColors",
+              "clearStateOnDisable",
+              "tintBlack",
+              "singleSubmesh",
+              "fixDrawOrder",
+              "addNormals",
+              "calculateTangents",
+              "maskInteraction",
+              "maskMaterials",
+              "disableRenderingOnOverride",
+              "customMaterialOverride",
+              "customSlotMaterials",
+              "currentInstructions",
+              "meshGenerator",
+              "rendererBuffers",
+              "wasUpdatedAfterInit",
+              "timeScale",
+              "loop",
+              "initialSkinName",
+              "initialFlipX",
+              "initialFlipY",
+              "zSpacing",
+              "_animationName"
+            ],
+            "data": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "behavior": 4,
+    "fields": {
+      "elementId": "火箭 (直线消除)",
+      "behaviorType": 4,
+      "creationCondition": 5,
+      "name": "LineClear_Rocket",
+      "activationEffectPrefab": null,
+      "finishEffectPrefab": null
+    },
+    "tree": {
+      "name": "Special_huojianshu",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "scale": {
+        "x": 5,
+        "y": 5,
+        "z": 1,
+        "w": null
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "active": true,
+      "children": [
+        {
+          "name": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": true,
+          "children": [],
+          "sprite": {
+            "name": null,
+            "color": {
+              "r": 0.9999999999999999,
+              "g": 0.9999999999999999,
+              "b": 0.9999999999999999,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "Spine GameObject (Bomb)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 0.200000002980232,
+            "y": 0.200000002980232,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": true,
+          "children": [],
+          "spine": {
+            "skin": "brick0_shu",
+            "animation": "Bomb_shu_creat_1",
+            "loop": true,
+            "timeScale": 1,
+            "keys": [
+              "$init",
+              "zhb$",
+              "Eib$",
+              "Tib$",
+              "Uib$",
+              "updateMode",
+              "updateWhenInvisible",
+              "separatorSlotNames",
+              "separatorSlots",
+              "useClipping",
+              "immutableTriangles",
+              "pmaVertexColors",
+              "clearStateOnDisable",
+              "tintBlack",
+              "singleSubmesh",
+              "fixDrawOrder",
+              "addNormals",
+              "calculateTangents",
+              "maskInteraction",
+              "maskMaterials",
+              "disableRenderingOnOverride",
+              "customMaterialOverride",
+              "customSlotMaterials",
+              "currentInstructions",
+              "meshGenerator",
+              "rendererBuffers",
+              "wasUpdatedAfterInit",
+              "timeScale",
+              "loop",
+              "initialSkinName",
+              "initialFlipX",
+              "initialFlipY",
+              "zSpacing",
+              "_animationName"
+            ],
+            "data": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "behavior": 2,
+    "fields": {
+      "elementId": "飞鸟 (追踪目标)",
+      "behaviorType": 2,
+      "creationCondition": 6,
+      "name": "TargetSeeker_Bird",
+      "trailEffectPrefab": null,
+      "finishEffectPrefab": null
+    },
+    "tree": {
+      "name": "Special_fly",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1,
+        "w": null
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "active": true,
+      "children": [
+        {
+          "name": "Spine GameObject (Bomb)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": true,
+          "children": [],
+          "spine": {
+            "skin": "bomb_square",
+            "animation": "Boom_square_creat",
+            "loop": true,
+            "timeScale": 1,
+            "keys": [
+              "$init",
+              "zhb$",
+              "Eib$",
+              "Tib$",
+              "Uib$",
+              "updateMode",
+              "updateWhenInvisible",
+              "separatorSlotNames",
+              "separatorSlots",
+              "useClipping",
+              "immutableTriangles",
+              "pmaVertexColors",
+              "clearStateOnDisable",
+              "tintBlack",
+              "singleSubmesh",
+              "fixDrawOrder",
+              "addNormals",
+              "calculateTangents",
+              "maskInteraction",
+              "maskMaterials",
+              "disableRenderingOnOverride",
+              "customMaterialOverride",
+              "customSlotMaterials",
+              "currentInstructions",
+              "meshGenerator",
+              "rendererBuffers",
+              "wasUpdatedAfterInit",
+              "timeScale",
+              "loop",
+              "initialSkinName",
+              "initialFlipX",
+              "initialFlipY",
+              "zSpacing",
+              "_animationName"
+            ],
+            "data": null
+          }
+        },
+        {
+          "name": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": true,
+          "children": [],
+          "sprite": {
+            "name": null,
+            "color": {
+              "r": 0.9999999999999999,
+              "g": 0.9999999999999999,
+              "b": 0.9999999999999999,
+              "a": 1
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "behavior": 0,
+    "fields": {
+      "elementId": "火箭（直线消除）",
+      "behaviorType": 0,
+      "creationCondition": 1,
+      "name": "LIneClear_Horizontal",
+      "activationEffectPrefab": null,
+      "finishEffectPrefab": null
+    },
+    "tree": {
+      "name": "Special_huojianheng",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "scale": {
+        "x": 5,
+        "y": 5,
+        "z": 1,
+        "w": null
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": null
+      },
+      "active": true,
+      "children": [
+        {
+          "name": "Image",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": true,
+          "children": [],
+          "sprite": {
+            "name": null,
+            "color": {
+              "r": 0.9999999999999999,
+              "g": 0.9999999999999999,
+              "b": 0.9999999999999999,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "Spine GameObject (Bomb)",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "scale": {
+            "x": 0.200000002980232,
+            "y": 0.200000002980232,
+            "z": 1,
+            "w": null
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": null
+          },
+          "active": true,
+          "children": [],
+          "spine": {
+            "skin": "brick0_heng",
+            "animation": "Bomb_heng_creat_1",
+            "loop": true,
+            "timeScale": 1,
+            "keys": [
+              "$init",
+              "zhb$",
+              "Eib$",
+              "Tib$",
+              "Uib$",
+              "updateMode",
+              "updateWhenInvisible",
+              "separatorSlotNames",
+              "separatorSlots",
+              "useClipping",
+              "immutableTriangles",
+              "pmaVertexColors",
+              "clearStateOnDisable",
+              "tintBlack",
+              "singleSubmesh",
+              "fixDrawOrder",
+              "addNormals",
+              "calculateTangents",
+              "maskInteraction",
+              "maskMaterials",
+              "disableRenderingOnOverride",
+              "customMaterialOverride",
+              "customSlotMaterials",
+              "currentInstructions",
+              "meshGenerator",
+              "rendererBuffers",
+              "wasUpdatedAfterInit",
+              "timeScale",
+              "loop",
+              "initialSkinName",
+              "initialFlipX",
+              "initialFlipY",
+              "zSpacing",
+              "_animationName"
+            ],
+            "data": null
+          }
+        }
+      ]
+    }
+  }
+]

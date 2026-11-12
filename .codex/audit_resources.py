@@ -22,7 +22,7 @@ for name in ['layout','background','ribbon','white']:
 layout=json.loads((assets/'Resources/Reference20/layout.json').read_text(encoding='utf-8'))
 for layer in layout['layers']:
     if layer['asset'] not in ['decoration','background']:add(base+layer['asset'])
-for name in ['SpineGraphic','CocosSprite','graph','spine-scales','level-topology','sprite_0','sprite_1']:
+for name in ['SpineGraphic','CocosSprite','graph','spine-scales','level-topology']:
     add(base+'Native/'+name)
 def walk(value):
     if isinstance(value,list):
@@ -42,7 +42,7 @@ for p in (assets/'Resources/Reference20/Company').rglob('*'):
     if p.is_file() and p.suffix!='.meta':roots.add(p.relative_to(root).as_posix())
 for name in ['chandelier','bush','rockchipper']:add(base+'Skins/'+name+'_SkeletonData')
 for name in ['elements_sp_chugui_55','elements_sp_chugui_2']:add(base+'Skins/Cabinet/'+name)
-for name in ['Bomb','Boom_fly_double_b','bomb_bomb','ColorBomb_ColorBomb']:add(base+'Props/'+name+'_SkeletonData')
+for name in ['Bomb','bomb_bomb','ColorBomb_ColorBomb','element']:add(base+'Props/'+name+'_SkeletonData')
 add(base+'Props/Fragments/regions')
 manifest=json.loads((assets/'Resources/Reference20/Props/Fragments/regions.json').read_text(encoding='utf-8'))
 for sheet in manifest['sheets']:add(base+'Props/Fragments/'+sheet['name'])

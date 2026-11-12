@@ -1,0 +1,788 @@
+[
+  {
+    "name": "Trail",
+    "keys": [
+      "_enabled",
+      "_destroyed",
+      "$id",
+      "_id",
+      "_entity",
+      "_system",
+      "_code",
+      "internalExecutionOrder",
+      "scriptsExecutionOrder",
+      "_scriptsExecutionOrder",
+      "_sortingOrderInQueue",
+      "_activatedCallbacks",
+      "id",
+      "_model",
+      "_castShadows",
+      "_receiveShadows",
+      "__renderer",
+      "_aabb",
+      "_lastAABBVersion",
+      "unityClass",
+      "__UnityEngine.Renderer",
+      "__UnityEngine.TrailRenderer"
+    ],
+    "model": true,
+    "meshKeys": [
+      {
+        "keys": [
+          "parameters",
+          "batchId",
+          "_key",
+          "id",
+          "isStatic",
+          "_staticBatchInfo",
+          "node",
+          "_mesh",
+          "_material",
+          "_element",
+          "_nearestScreen",
+          "_shaderDefs",
+          "_lightHash",
+          "visible",
+          "_flipFaces",
+          "cull",
+          "pick",
+          "drawOrder",
+          "sortingLayerIndex",
+          "sortingOrder",
+          "zdist",
+          "mask",
+          "constAttributes",
+          "_worldAabbOverride",
+          "_skinInstance",
+          "_morphInstance",
+          "instancingData",
+          "_aabb",
+          "_boneAabb",
+          "_aabbVer",
+          "visibleThisFrame",
+          "_lightProbe",
+          "stencilFront",
+          "stencilBack",
+          "lightmapIndex",
+          "lightmapSceneIndex",
+          "isCanvas",
+          "isSortingGroup"
+        ],
+        "mesh": [
+          "name",
+          "_refCount",
+          "id",
+          "$id",
+          "staticBached",
+          "vertexBuffer",
+          "indexBuffer",
+          "primitive",
+          "skin",
+          "morph",
+          "meshInstance",
+          "_aabb",
+          "bindposes",
+          "subMeshes",
+          "parentMeshId",
+          "boneAabb",
+          "boneUsed",
+          "version",
+          "bufferUsage",
+          "vao",
+          "indexFormat",
+          "__UnityEngine.Mesh"
+        ],
+        "material": {
+          "name": "FX_line_07",
+          "shader": "Legacy Shaders/Particles/Additive",
+          "params": {
+            "_InvFade": 1,
+            "_TintColor": [
+              0.6562663912773132,
+              0.6562663912773132,
+              0.6562663912773132,
+              0.529411792755127
+            ],
+            "_MainTex_ST": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "_MainTex": {
+              "keys": [
+                "scopeId",
+                "data",
+                "passFlags"
+              ],
+              "name": "FX_line_07",
+              "id": 30212
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Traildi",
+    "keys": [
+      "_enabled",
+      "_destroyed",
+      "$id",
+      "_id",
+      "_entity",
+      "_system",
+      "_code",
+      "internalExecutionOrder",
+      "scriptsExecutionOrder",
+      "_scriptsExecutionOrder",
+      "_sortingOrderInQueue",
+      "_activatedCallbacks",
+      "id",
+      "_model",
+      "_castShadows",
+      "_receiveShadows",
+      "__renderer",
+      "_aabb",
+      "_lastAABBVersion",
+      "unityClass",
+      "__UnityEngine.Renderer",
+      "__UnityEngine.TrailRenderer"
+    ],
+    "model": true,
+    "meshKeys": [
+      {
+        "keys": [
+          "parameters",
+          "batchId",
+          "_key",
+          "id",
+          "isStatic",
+          "_staticBatchInfo",
+          "node",
+          "_mesh",
+          "_material",
+          "_element",
+          "_nearestScreen",
+          "_shaderDefs",
+          "_lightHash",
+          "visible",
+          "_flipFaces",
+          "cull",
+          "pick",
+          "drawOrder",
+          "sortingLayerIndex",
+          "sortingOrder",
+          "zdist",
+          "mask",
+          "constAttributes",
+          "_worldAabbOverride",
+          "_skinInstance",
+          "_morphInstance",
+          "instancingData",
+          "_aabb",
+          "_boneAabb",
+          "_aabbVer",
+          "visibleThisFrame",
+          "_lightProbe",
+          "stencilFront",
+          "stencilBack",
+          "lightmapIndex",
+          "lightmapSceneIndex",
+          "isCanvas",
+          "isSortingGroup"
+        ],
+        "mesh": [
+          "name",
+          "_refCount",
+          "id",
+          "$id",
+          "staticBached",
+          "vertexBuffer",
+          "indexBuffer",
+          "primitive",
+          "skin",
+          "morph",
+          "meshInstance",
+          "_aabb",
+          "bindposes",
+          "subMeshes",
+          "parentMeshId",
+          "boneAabb",
+          "boneUsed",
+          "version",
+          "bufferUsage",
+          "vao",
+          "indexFormat",
+          "__UnityEngine.Mesh"
+        ],
+        "material": {
+          "name": "trail1",
+          "shader": "Legacy Shaders/Particles/Additive",
+          "params": {
+            "_InvFade": 1,
+            "_TintColor": [
+              0.21404114365577698,
+              0.21404114365577698,
+              0.21404114365577698,
+              0.5
+            ],
+            "_MainTex_ST": [
+              1.0,
+              1.0,
+              0.10000000149011612,
+              0.0
+            ],
+            "_MainTex": {
+              "keys": [
+                "scopeId",
+                "data",
+                "passFlags"
+              ],
+              "name": "FX_trail01",
+              "id": 32080
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Traildi02",
+    "keys": [
+      "_enabled",
+      "_destroyed",
+      "$id",
+      "_id",
+      "_entity",
+      "_system",
+      "_code",
+      "internalExecutionOrder",
+      "scriptsExecutionOrder",
+      "_scriptsExecutionOrder",
+      "_sortingOrderInQueue",
+      "_activatedCallbacks",
+      "id",
+      "_model",
+      "_castShadows",
+      "_receiveShadows",
+      "__renderer",
+      "_aabb",
+      "_lastAABBVersion",
+      "unityClass",
+      "__UnityEngine.Renderer",
+      "__UnityEngine.TrailRenderer"
+    ],
+    "model": true,
+    "meshKeys": [
+      {
+        "keys": [
+          "parameters",
+          "batchId",
+          "_key",
+          "id",
+          "isStatic",
+          "_staticBatchInfo",
+          "node",
+          "_mesh",
+          "_material",
+          "_element",
+          "_nearestScreen",
+          "_shaderDefs",
+          "_lightHash",
+          "visible",
+          "_flipFaces",
+          "cull",
+          "pick",
+          "drawOrder",
+          "sortingLayerIndex",
+          "sortingOrder",
+          "zdist",
+          "mask",
+          "constAttributes",
+          "_worldAabbOverride",
+          "_skinInstance",
+          "_morphInstance",
+          "instancingData",
+          "_aabb",
+          "_boneAabb",
+          "_aabbVer",
+          "visibleThisFrame",
+          "_lightProbe",
+          "stencilFront",
+          "stencilBack",
+          "lightmapIndex",
+          "lightmapSceneIndex",
+          "isCanvas",
+          "isSortingGroup"
+        ],
+        "mesh": [
+          "name",
+          "_refCount",
+          "id",
+          "$id",
+          "staticBached",
+          "vertexBuffer",
+          "indexBuffer",
+          "primitive",
+          "skin",
+          "morph",
+          "meshInstance",
+          "_aabb",
+          "bindposes",
+          "subMeshes",
+          "parentMeshId",
+          "boneAabb",
+          "boneUsed",
+          "version",
+          "bufferUsage",
+          "vao",
+          "indexFormat",
+          "__UnityEngine.Mesh"
+        ],
+        "material": {
+          "name": "FX_line_07_01",
+          "shader": "Legacy Shaders/Particles/Alpha Blended",
+          "params": {
+            "_InvFade": 1,
+            "_TintColor": [
+              1.0,
+              1.0,
+              1.0,
+              0.5
+            ],
+            "_MainTex_ST": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "_MainTex": {
+              "keys": [
+                "scopeId",
+                "data",
+                "passFlags"
+              ],
+              "name": "FX_line_07_01",
+              "id": 32082
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Trail",
+    "keys": [
+      "_enabled",
+      "_destroyed",
+      "$id",
+      "_id",
+      "_entity",
+      "_system",
+      "_code",
+      "internalExecutionOrder",
+      "scriptsExecutionOrder",
+      "_scriptsExecutionOrder",
+      "_sortingOrderInQueue",
+      "_activatedCallbacks",
+      "id",
+      "_model",
+      "_castShadows",
+      "_receiveShadows",
+      "__renderer",
+      "_aabb",
+      "_lastAABBVersion",
+      "unityClass",
+      "__UnityEngine.Renderer",
+      "__UnityEngine.TrailRenderer"
+    ],
+    "model": true,
+    "meshKeys": [
+      {
+        "keys": [
+          "parameters",
+          "batchId",
+          "_key",
+          "id",
+          "isStatic",
+          "_staticBatchInfo",
+          "node",
+          "_mesh",
+          "_material",
+          "_element",
+          "_nearestScreen",
+          "_shaderDefs",
+          "_lightHash",
+          "visible",
+          "_flipFaces",
+          "cull",
+          "pick",
+          "drawOrder",
+          "sortingLayerIndex",
+          "sortingOrder",
+          "zdist",
+          "mask",
+          "constAttributes",
+          "_worldAabbOverride",
+          "_skinInstance",
+          "_morphInstance",
+          "instancingData",
+          "_aabb",
+          "_boneAabb",
+          "_aabbVer",
+          "visibleThisFrame",
+          "_lightProbe",
+          "stencilFront",
+          "stencilBack",
+          "lightmapIndex",
+          "lightmapSceneIndex",
+          "isCanvas",
+          "isSortingGroup"
+        ],
+        "mesh": [
+          "name",
+          "_refCount",
+          "id",
+          "$id",
+          "staticBached",
+          "vertexBuffer",
+          "indexBuffer",
+          "primitive",
+          "skin",
+          "morph",
+          "meshInstance",
+          "_aabb",
+          "bindposes",
+          "subMeshes",
+          "parentMeshId",
+          "boneAabb",
+          "boneUsed",
+          "version",
+          "bufferUsage",
+          "vao",
+          "indexFormat",
+          "__UnityEngine.Mesh"
+        ],
+        "material": {
+          "name": "fx_shandian0003_FB_add",
+          "shader": "XR/Flipbook",
+          "params": {
+            "_AlphaCutoff": 0.5,
+            "_Swattch": 0,
+            "_Frame": 1,
+            "_addblend": 1,
+            "_EmissionColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_MainTex_ST": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "_Flipbook": [
+              1.0,
+              9.0,
+              16.0,
+              0.0
+            ],
+            "_uv_speed": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_MainTex": {
+              "keys": [
+                "scopeId",
+                "data",
+                "passFlags"
+              ],
+              "name": "FX_shandian0003",
+              "id": 32078
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Traildi",
+    "keys": [
+      "_enabled",
+      "_destroyed",
+      "$id",
+      "_id",
+      "_entity",
+      "_system",
+      "_code",
+      "internalExecutionOrder",
+      "scriptsExecutionOrder",
+      "_scriptsExecutionOrder",
+      "_sortingOrderInQueue",
+      "_activatedCallbacks",
+      "id",
+      "_model",
+      "_castShadows",
+      "_receiveShadows",
+      "__renderer",
+      "_aabb",
+      "_lastAABBVersion",
+      "unityClass",
+      "__UnityEngine.Renderer",
+      "__UnityEngine.TrailRenderer"
+    ],
+    "model": true,
+    "meshKeys": [
+      {
+        "keys": [
+          "parameters",
+          "batchId",
+          "_key",
+          "id",
+          "isStatic",
+          "_staticBatchInfo",
+          "node",
+          "_mesh",
+          "_material",
+          "_element",
+          "_nearestScreen",
+          "_shaderDefs",
+          "_lightHash",
+          "visible",
+          "_flipFaces",
+          "cull",
+          "pick",
+          "drawOrder",
+          "sortingLayerIndex",
+          "sortingOrder",
+          "zdist",
+          "mask",
+          "constAttributes",
+          "_worldAabbOverride",
+          "_skinInstance",
+          "_morphInstance",
+          "instancingData",
+          "_aabb",
+          "_boneAabb",
+          "_aabbVer",
+          "visibleThisFrame",
+          "_lightProbe",
+          "stencilFront",
+          "stencilBack",
+          "lightmapIndex",
+          "lightmapSceneIndex",
+          "isCanvas",
+          "isSortingGroup"
+        ],
+        "mesh": [
+          "name",
+          "_refCount",
+          "id",
+          "$id",
+          "staticBached",
+          "vertexBuffer",
+          "indexBuffer",
+          "primitive",
+          "skin",
+          "morph",
+          "meshInstance",
+          "_aabb",
+          "bindposes",
+          "subMeshes",
+          "parentMeshId",
+          "boneAabb",
+          "boneUsed",
+          "version",
+          "bufferUsage",
+          "vao",
+          "indexFormat",
+          "__UnityEngine.Mesh"
+        ],
+        "material": {
+          "name": "trail1",
+          "shader": "Legacy Shaders/Particles/Additive",
+          "params": {
+            "_InvFade": 1,
+            "_TintColor": [
+              0.21404114365577698,
+              0.21404114365577698,
+              0.21404114365577698,
+              0.5
+            ],
+            "_MainTex_ST": [
+              1.0,
+              1.0,
+              0.10000000149011612,
+              0.0
+            ],
+            "_MainTex": {
+              "keys": [
+                "scopeId",
+                "data",
+                "passFlags"
+              ],
+              "name": "FX_trail01",
+              "id": 32080
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Traildi02",
+    "keys": [
+      "_enabled",
+      "_destroyed",
+      "$id",
+      "_id",
+      "_entity",
+      "_system",
+      "_code",
+      "internalExecutionOrder",
+      "scriptsExecutionOrder",
+      "_scriptsExecutionOrder",
+      "_sortingOrderInQueue",
+      "_activatedCallbacks",
+      "id",
+      "_model",
+      "_castShadows",
+      "_receiveShadows",
+      "__renderer",
+      "_aabb",
+      "_lastAABBVersion",
+      "unityClass",
+      "__UnityEngine.Renderer",
+      "__UnityEngine.TrailRenderer"
+    ],
+    "model": true,
+    "meshKeys": [
+      {
+        "keys": [
+          "parameters",
+          "batchId",
+          "_key",
+          "id",
+          "isStatic",
+          "_staticBatchInfo",
+          "node",
+          "_mesh",
+          "_material",
+          "_element",
+          "_nearestScreen",
+          "_shaderDefs",
+          "_lightHash",
+          "visible",
+          "_flipFaces",
+          "cull",
+          "pick",
+          "drawOrder",
+          "sortingLayerIndex",
+          "sortingOrder",
+          "zdist",
+          "mask",
+          "constAttributes",
+          "_worldAabbOverride",
+          "_skinInstance",
+          "_morphInstance",
+          "instancingData",
+          "_aabb",
+          "_boneAabb",
+          "_aabbVer",
+          "visibleThisFrame",
+          "_lightProbe",
+          "stencilFront",
+          "stencilBack",
+          "lightmapIndex",
+          "lightmapSceneIndex",
+          "isCanvas",
+          "isSortingGroup"
+        ],
+        "mesh": [
+          "name",
+          "_refCount",
+          "id",
+          "$id",
+          "staticBached",
+          "vertexBuffer",
+          "indexBuffer",
+          "primitive",
+          "skin",
+          "morph",
+          "meshInstance",
+          "_aabb",
+          "bindposes",
+          "subMeshes",
+          "parentMeshId",
+          "boneAabb",
+          "boneUsed",
+          "version",
+          "bufferUsage",
+          "vao",
+          "indexFormat",
+          "__UnityEngine.Mesh"
+        ],
+        "material": {
+          "name": "fx_shandian0003_FB",
+          "shader": "XR/Flipbook",
+          "params": {
+            "_AlphaCutoff": 0.5,
+            "_Swattch": 0,
+            "_Frame": 1,
+            "_addblend": 10,
+            "_EmissionColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "_Color": [
+              0.14369381964206696,
+              0.14369381964206696,
+              0.14369381964206696,
+              1.0
+            ],
+            "_MainTex_ST": [
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "_Flipbook": [
+              1.0,
+              9.0,
+              16.0,
+              0.0
+            ],
+            "_uv_speed": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "_MainTex": {
+              "keys": [
+                "scopeId",
+                "data",
+                "passFlags"
+              ],
+              "name": "FX_shandian0003",
+              "id": 32078
+            }
+          }
+        }
+      }
+    ]
+  }
+]
