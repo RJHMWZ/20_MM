@@ -1,0 +1,43 @@
+{
+  "BuildID": "09aa8e51-7ecf-4d84-a9d3-38d6af0804aa",
+  "Command": "project:build",
+  "ProjectID": "99cea00a167a7f849aac476e6ed18eb2",
+  "ProjectStateHash": "5945fa8127d9fbd28a69b02b820fc73affccaf1243576ea9e810e3ef13e5d833",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1794530533540,
+  "EndTime": 1794530595260,
+  "PlaygroundUserID": 30877,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "develop",
+  "UnityVersion": "2022.3.62f3c1\r",
+  "LunaVersion": "7.1.0",
+  "LogCount": 1,
+  "Logs": [
+    {
+      "LogID": "a7de1d66-4dc2-4e45-8ac3-e092fb9a1e49",
+      "Order": 1,
+      "Timestamp": 1794530597193,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}
