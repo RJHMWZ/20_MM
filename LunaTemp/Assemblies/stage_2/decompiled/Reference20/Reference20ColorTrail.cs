@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,6 +9,8 @@ namespace Reference20
 	public sealed class Reference20ColorTrail : MaskableGraphic
 	{
 		private static HtmlTrailData source;
+
+		private static readonly Stack<Reference20ColorTrailLease> pool = new Stack<Reference20ColorTrailLease>(32);
 
 		private HtmlTrailLayer layer;
 
@@ -24,38 +27,82 @@ namespace Reference20
 			base.useLegacyMeshGeneration = false;
 		}
 
+		public new static void Reset()
+		{
+			pool.Clear();
+		}
+
+		public static void Release(Reference20ColorTrailLease lease)
+		{
+			lease.gameObject.SetActive(false);
+			if (pool.Count < 32)
+			{
+				pool.Push(lease);
+			}
+			else
+			{
+				Object.Destroy(lease.gameObject);
+			}
+		}
+
 		public static void Play(RectTransform stage, Vector2 from, Vector2 to)
 		{
 			if (source == null)
 			{
 				source = JsonConvert.DeserializeObject<HtmlTrailData>(Resources.Load<TextAsset>("Reference20/Company/Particles/ColorTrail").text);
 			}
-			RectTransform root = Reference20Props.Rect("HtmlColorTrail", Reference20Native.Overlay(stage));
+			Reference20ColorTrailLease lease = null;
+			while (pool.Count > 0 && !lease)
+			{
+				lease = pool.Pop();
+			}
+			if (!lease)
+			{
+				RectTransform created = Reference20Props.Rect("HtmlColorTrail", Reference20Native.Overlay(stage));
+				lease = created.gameObject.AddComponent<Reference20ColorTrailLease>();
+				lease.Layers = new Reference20ColorTrail[source.layers.Length];
+				int index = 0;
+				HtmlTrailLayer[] layers = source.layers;
+				foreach (HtmlTrailLayer data in layers)
+				{
+					RectTransform rt = Reference20Props.Rect(data.name, created);
+					Reference20ColorTrail g2 = rt.gameObject.AddComponent<Reference20ColorTrail>();
+					g2.layer = data;
+					if (!data.image)
+					{
+						data.image = Resources.Load<Texture2D>("Reference20/Company/Particles/" + data.texture);
+					}
+					g2.texture = data.image;
+					if (!data.material)
+					{
+						data.material = new Material(Resources.Load<Shader>("Reference20/Native/CocosSprite"));
+						float boost = ((data.shader == null || !data.shader.StartsWith("Legacy")) ? 1 : 2);
+						data.material.SetColor("_Color", new Color(data.tint[0], data.tint[1], data.tint[2], data.tint[3]) * boost);
+						data.material.SetFloat("_SrcBlend", 5f);
+						data.material.SetFloat("_DstBlend", data.blend);
+					}
+					g2.material = data.material;
+					g2.raycastTarget = false;
+					g2.maskable = false;
+					lease.Layers[index++] = g2;
+				}
+			}
+			RectTransform root = (RectTransform)lease.transform;
+			root.SetParent(Reference20Native.Overlay(stage), false);
 			Vector2 vector2 = (root.anchorMin = (root.anchorMax = Vector2.zero));
 			root.anchoredPosition = from;
+			root.localScale = Vector3.one;
 			Vector2 delta = to - from;
 			root.localRotation = Quaternion.Euler(0f, 0f, Mathf.Atan2(delta.y, delta.x) * 57.29578f);
-			HtmlTrailLayer[] layers = source.layers;
-			foreach (HtmlTrailLayer data in layers)
+			root.SetAsLastSibling();
+			Reference20ColorTrail[] layers2 = lease.Layers;
+			foreach (Reference20ColorTrail g in layers2)
 			{
-				RectTransform rt = Reference20Props.Rect(data.name, root);
-				Reference20ColorTrail g = rt.gameObject.AddComponent<Reference20ColorTrail>();
-				g.layer = data;
+				g.elapsed = 0f;
 				g.length = delta.magnitude;
-				g.texture = Resources.Load<Texture2D>("Reference20/Company/Particles/" + data.texture);
-				if (!data.material)
-				{
-					data.material = new Material(Resources.Load<Shader>("Reference20/Native/CocosSprite"));
-					float boost = ((data.shader == null || !data.shader.StartsWith("Legacy")) ? 1 : 2);
-					data.material.SetColor("_Color", new Color(data.tint[0], data.tint[1], data.tint[2], data.tint[3]) * boost);
-					data.material.SetFloat("_SrcBlend", 5f);
-					data.material.SetFloat("_DstBlend", data.blend);
-				}
-				g.material = data.material;
-				g.raycastTarget = false;
-				g.maskable = false;
+				g.SetVerticesDirty();
 			}
-			Object.Destroy(root.gameObject, 0.5f);
+			lease.Begin();
 		}
 
 		private void Update()

@@ -162,6 +162,11 @@ namespace Reference20
 			}
 			RectTransform art = new GameObject("Presentation", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image)).GetComponent<RectTransform>();
 			art.SetParent(root, false);
+			Vector2 vector2 = (art.anchorMin = (art.anchorMax = root.pivot));
+			art.pivot = root.pivot;
+			art.anchoredPosition = Vector2.zero;
+			art.localScale = Vector3.one;
+			art.localRotation = Quaternion.identity;
 			art.sizeDelta = root.sizeDelta;
 			Image graphic = art.GetComponent<Image>();
 			graphic.sprite = image.sprite;
@@ -209,6 +214,20 @@ namespace Reference20
 		{
 		}
 
+		public static Canvas SortingCanvas(RectTransform layer, int order)
+		{
+			Canvas parentCanvas = (layer.parent ? layer.parent.GetComponentInParent<Canvas>() : null);
+			Canvas canvas = layer.GetComponent<Canvas>();
+			if (!canvas)
+			{
+				canvas = layer.gameObject.AddComponent<Canvas>();
+			}
+			canvas.referencePixelsPerUnit = (((bool)parentCanvas && parentCanvas.referencePixelsPerUnit > 0f) ? parentCanvas.referencePixelsPerUnit : 100f);
+			canvas.overrideSorting = true;
+			canvas.sortingOrder = order;
+			return canvas;
+		}
+
 		public static RectTransform Overlay(RectTransform stage)
 		{
 			if ((bool)overlayRoot && overlayRoot.parent == stage && overlayRoot.gameObject.activeSelf)
@@ -229,9 +248,10 @@ namespace Reference20
 			Vector2 vector2 = (rt.anchorMin = (rt.anchorMax = Vector2.zero));
 			rt.pivot = Vector2.zero;
 			rt.sizeDelta = Vector2.zero;
-			Canvas canvas = rt.GetComponent<Canvas>();
-			canvas.overrideSorting = true;
-			canvas.sortingOrder = 200;
+			rt.anchoredPosition = Vector2.zero;
+			rt.localScale = Vector3.one;
+			rt.localRotation = Quaternion.identity;
+			SortingCanvas(rt, 200);
 			overlayRoot = rt;
 			return rt;
 		}
@@ -251,9 +271,7 @@ namespace Reference20
 			Vector2 vector2 = (rt.anchorMin = (rt.anchorMax = Vector2.zero));
 			rt.pivot = Vector2.zero;
 			rt.sizeDelta = Vector2.zero;
-			Canvas canvas = rt.GetComponent<Canvas>();
-			canvas.overrideSorting = true;
-			canvas.sortingOrder = 300;
+			SortingCanvas(rt, 300);
 			return rt;
 		}
 
@@ -292,6 +310,7 @@ namespace Reference20
 
 		public static void ResetCaches()
 		{
+			Reference20ColorTrail.Reset();
 			Reference20Props.Reset();
 			Reference20Fragments.Reset();
 			Reference20CompanyEffects.Reset();
@@ -524,7 +543,7 @@ namespace Reference20
 						graphicMaterial.EnableKeyword("_STRAIGHT_ALPHA_INPUT");
 					}
 				}
-				SkeletonGraphic sg = go.AddComponent<SkeletonGraphic>();
+				Reference20SkeletonGraphic sg = go.AddComponent<Reference20SkeletonGraphic>();
 				sg.skeletonDataAsset = Skeleton(n.skeleton);
 				sg.material = graphicMaterial;
 				sg.raycastTarget = false;

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +15,8 @@ namespace Reference20
 
 		private readonly UIVertex[] quad = new UIVertex[4];
 
+		private readonly Dictionary<CompanyParticleEffect, CompanyParticleLayer[]> layersByEffect = new Dictionary<CompanyParticleEffect, CompanyParticleLayer[]>();
+
 		public override Texture mainTexture => texture ? texture : Texture2D.whiteTexture;
 
 		public Reference20CompanyParticleBatch()
@@ -25,14 +28,43 @@ namespace Reference20
 		{
 			texture = layer.image;
 			batchKey = layer.batchKey;
+			layersByEffect.Clear();
 			material = layer.material;
 			raycastTarget = false;
 			base.maskable = false;
 		}
 
+		public CompanyParticleLayer[] Prepare(CompanyParticleEffect effect)
+		{
+			if (layersByEffect.TryGetValue(effect, out var layers))
+			{
+				return layers;
+			}
+			List<CompanyParticleLayer> matches = new List<CompanyParticleLayer>();
+			CompanyParticleLayer[] layers2 = effect.layers;
+			foreach (CompanyParticleLayer layer in layers2)
+			{
+				if (layer.batchKey == batchKey)
+				{
+					matches.Add(layer);
+				}
+			}
+			layers = matches.ToArray();
+			layersByEffect[effect] = layers;
+			return layers;
+		}
+
 		private void LateUpdate()
 		{
-			bool any = Reference20CompanyParticles.Active.Count > 0;
+			bool any = false;
+			foreach (Reference20CompanyParticleHandle h in Reference20CompanyParticles.Active)
+			{
+				if ((bool)h && h.gameObject.activeInHierarchy && Prepare(h.Definition).Length != 0)
+				{
+					any = true;
+					break;
+				}
+			}
 			if (any || wasActive)
 			{
 				SetVerticesDirty();
@@ -53,14 +85,20 @@ namespace Reference20
 				{
 					continue;
 				}
-				Matrix4x4 matrix = base.transform.worldToLocalMatrix * h.transform.localToWorldMatrix;
-				CompanyParticleLayer[] layers = h.Definition.layers;
-				foreach (CompanyParticleLayer layer in layers)
+				CompanyParticleLayer[] layers = Prepare(h.Definition);
+				if (layers.Length == 0)
 				{
-					if (layer.batchKey != batchKey)
-					{
-						continue;
-					}
+					continue;
+				}
+				RectTransform emitter = (RectTransform)h.transform;
+				Vector2 origin = emitter.anchoredPosition - base.rectTransform.anchoredPosition;
+				Quaternion rotation = emitter.localRotation;
+				Vector3 scale = emitter.localScale;
+				Vector3 right = rotation * new Vector3(scale.x, 0f, 0f);
+				Vector3 up = rotation * new Vector3(0f, scale.y, 0f);
+				CompanyParticleLayer[] array = layers;
+				foreach (CompanyParticleLayer layer in array)
+				{
 					int count = layer.tracks.Length;
 					for (int particle = 0; particle < count; particle++)
 					{
@@ -75,16 +113,7 @@ namespace Reference20
 						float f = frame - (float)a;
 						float[] va = track.samples[a];
 						float[] vb = track.samples[b];
-						bool valid = true;
-						for (int m = 0; m < va.Length; m++)
-						{
-							if (float.IsNaN(va[m]) || float.IsInfinity(va[m]) || float.IsNaN(vb[m]) || float.IsInfinity(vb[m]))
-							{
-								valid = false;
-								break;
-							}
-						}
-						if (!valid)
+						if (!track.ValidSample(a) || !track.ValidSample(b))
 						{
 							continue;
 						}
@@ -100,7 +129,9 @@ namespace Reference20
 							{
 								int l = 4 + k * 4;
 								quad[k] = UIVertex.simpleVert;
-								quad[k].position = matrix.MultiplyPoint3x4(new Vector3(Mathf.LerpUnclamped(va[l], vb[l], f) + h.Velocity.x * track.start, Mathf.LerpUnclamped(va[l + 1], vb[l + 1], f) + h.Velocity.y * track.start, 0f));
+								float x = Mathf.LerpUnclamped(va[l], vb[l], f) + h.Velocity.x * track.start;
+								float y = Mathf.LerpUnclamped(va[l + 1], vb[l + 1], f) + h.Velocity.y * track.start;
+								quad[k].position = new Vector3(origin.x + right.x * x + up.x * y, origin.y + right.y * x + up.y * y, right.z * x + up.z * y);
 								quad[k].uv0 = new Vector2(va[l + 2] * layer.tiling[0] + layer.tiling[2], va[l + 3] * layer.tiling[1] + layer.tiling[3]);
 								quad[k].color = tint;
 							}

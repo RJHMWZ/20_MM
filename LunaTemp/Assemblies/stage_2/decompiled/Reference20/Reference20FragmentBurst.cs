@@ -37,6 +37,11 @@ namespace Reference20
 
 		public override Texture mainTexture => texture ? texture : Texture2D.whiteTexture;
 
+		public Reference20FragmentBurst()
+		{
+			base.useLegacyMeshGeneration = false;
+		}
+
 		public void Play(Texture2D atlas, Reference20Fragments.Region[] regions, int count, Action done)
 		{
 			texture = atlas;

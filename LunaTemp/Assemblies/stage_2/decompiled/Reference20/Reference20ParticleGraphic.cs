@@ -63,6 +63,11 @@ namespace Reference20
 
 		public override Texture mainTexture => sprite ? sprite.texture : Texture2D.whiteTexture;
 
+		public Reference20ParticleGraphic()
+		{
+			base.useLegacyMeshGeneration = false;
+		}
+
 		public void Configure(Reference20ParticleData value, Sprite texture)
 		{
 			data = value;

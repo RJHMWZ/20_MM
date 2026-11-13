@@ -1,0 +1,66 @@
+{
+  "BuildID": "c610c4f2-cd4c-4a57-829d-5f317f54698f",
+  "Command": "project:build",
+  "ProjectID": "99cea00a167a7f849aac476e6ed18eb2",
+  "ProjectStateHash": "97659a36e6e6f8a71975aece7aa380cb6537b40cf043d373ccc134676e16a29d",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1794537237968,
+  "EndTime": 1794537297384,
+  "PlaygroundUserID": 30877,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2022.3.62f3c1\r",
+  "LunaVersion": "7.1.0",
+  "LogCount": 2,
+  "Logs": [
+    {
+      "LogID": "8fcd73dd-4b68-4594-bb0f-d096ab723621",
+      "Order": 2,
+      "Timestamp": 1794537299563,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "ed690604-3032-4a35-b813-a9538f7870f6",
+      "Order": 0,
+      "Timestamp": 1794537245847,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1024",
+      "Description": "Huge RAM usage",
+      "Details": [
+        "Playable have huge RAM usage (459.28 MB). Recommended RAM value is lower than 256.00 MB to support low-end devices"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "256.00",
+        "459.28"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

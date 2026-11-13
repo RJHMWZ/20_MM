@@ -22,6 +22,7 @@ public static class Reference20Fragments {
 }
 [RequireComponent(typeof(CanvasRenderer))]
 public sealed class Reference20FragmentBurst : MaskableGraphic {
+ public Reference20FragmentBurst(){useLegacyMeshGeneration=false;}
  struct Fragment {public Reference20Fragments.Region region;public Vector2 start,velocity;public float angle,spin,size,life;}
  readonly List<Fragment> parts=new List<Fragment>();readonly UIVertex[] quad=new UIVertex[4];Texture2D texture;float elapsed;Action complete;
  public override Texture mainTexture {get{return texture?texture:Texture2D.whiteTexture;}}

@@ -17,14 +17,57 @@ namespace Reference20
 
 		private RectTransform canvasRect;
 
+		private bool layoutValid;
+
+		private Vector2 lastCanvasSize;
+
+		private Rect lastSafeArea;
+
+		private int lastScreenWidth;
+
+		private int lastScreenHeight;
+
+		private RectTransform lastBoard;
+
+		private RectTransform lastBackground;
+
+		private RectTransform lastBadge;
+
+		private RectTransform lastDownload;
+
+		private RectTransform lastEndFrame;
+
 		private void OnEnable()
 		{
 			canvasRect = base.transform as RectTransform;
+			layoutValid = false;
 		}
 
 		private void LateUpdate()
 		{
 			Refresh();
+		}
+
+		public bool TryScreenToBoard(Vector2 screenPoint, out Vector2 point)
+		{
+			point = Vector2.zero;
+			if (!canvasRect)
+			{
+				canvasRect = base.transform as RectTransform;
+			}
+			if (!canvasRect || !board || Screen.width <= 0 || Screen.height <= 0)
+			{
+				return false;
+			}
+			Vector2 size = canvasRect.rect.size;
+			Vector3 scale = board.localScale;
+			if (size.x <= 0f || size.y <= 0f || Mathf.Abs(scale.x) < 1E-05f || Mathf.Abs(scale.y) < 1E-05f)
+			{
+				return false;
+			}
+			Vector2 center = size * 0.5f + board.anchoredPosition;
+			point = new Vector2((screenPoint.x * size.x / (float)Screen.width - center.x) / scale.x + board.sizeDelta.x * 0.5f, (screenPoint.y * size.y / (float)Screen.height - center.y) / scale.y + board.sizeDelta.y * 0.5f);
+			return true;
 		}
 
 		public void Refresh()
@@ -38,9 +81,23 @@ namespace Reference20
 				return;
 			}
 			Vector2 size = canvasRect.rect.size;
-			if (!(size.x <= 0f) && !(size.y <= 0f))
+			if (size.x <= 0f || size.y <= 0f)
 			{
-				Rect safe = Screen.safeArea;
+				return;
+			}
+			Rect safe = Screen.safeArea;
+			if (!layoutValid || !(size == lastCanvasSize) || !(safe == lastSafeArea) || Screen.width != lastScreenWidth || Screen.height != lastScreenHeight || !(board == lastBoard) || !(background == lastBackground) || !(badge == lastBadge) || !(download == lastDownload) || !(endFrame == lastEndFrame))
+			{
+				layoutValid = true;
+				lastCanvasSize = size;
+				lastSafeArea = safe;
+				lastScreenWidth = Screen.width;
+				lastScreenHeight = Screen.height;
+				lastBoard = board;
+				lastBackground = background;
+				lastBadge = badge;
+				lastDownload = download;
+				lastEndFrame = endFrame;
 				if (Screen.width <= 0 || Screen.height <= 0)
 				{
 					safe = new Rect(0f, 0f, size.x, size.y);

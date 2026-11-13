@@ -30,5 +30,8 @@ namespace Reference20
 
 		[NonSerialized]
 		public Material material;
+
+		[NonSerialized]
+		public Texture2D image;
 	}
 }

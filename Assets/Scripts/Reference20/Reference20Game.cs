@@ -100,15 +100,27 @@ public partial class Reference20Game : MonoBehaviour {
   var go=new GameObject(name,typeof(RectTransform),typeof(CanvasRenderer),typeof(Text));var rt=go.GetComponent<RectTransform>();rt.SetParent(parent,false);rt.anchorMin=rt.anchorMax=Vector2.zero;rt.anchoredPosition=pos;rt.sizeDelta=size;var t=go.GetComponent<Text>();t.text=value;t.font=font;t.fontSize=fontSize;t.fontStyle=FontStyle.Bold;t.alignment=TextAnchor.MiddleCenter;t.color=Color.white;t.raycastTarget=false;return t;
  }
  void BuildGuide(){
-  var shadeObject=new GameObject("TutorialShade",typeof(RectTransform),typeof(CanvasRenderer),typeof(Reference20GuideShade));guide=shadeObject.GetComponent<RectTransform>();guide.SetParent(stage,false);guide.anchorMin=guide.anchorMax=Vector2.one*.5f;guide.sizeDelta=new Vector2(1080,1920);var shade=shadeObject.GetComponent<Reference20GuideShade>();shade.color=new Color(0,0,0,.55f);shade.raycastTarget=false;
-  var top=guide.gameObject.AddComponent<Canvas>();top.overrideSorting=true;top.sortingOrder=500;
+  // Keep the Canvas and its Graphic on separate transforms. Luna compares their
+  // hierarchy order and cannot use a Canvas as the mesh-based tie breaker.
+  guide=new GameObject("TutorialShade",typeof(RectTransform)).GetComponent<RectTransform>();guide.SetParent(stage,false);guide.anchorMin=guide.anchorMax=Vector2.one*.5f;guide.sizeDelta=new Vector2(1080,1920);
+  Reference20Native.SortingCanvas(guide,500);
+  var shadeObject=new GameObject("Shade",typeof(RectTransform),typeof(CanvasRenderer),typeof(Reference20GuideShade));var shadeRect=shadeObject.GetComponent<RectTransform>();shadeRect.SetParent(guide,false);shadeRect.anchorMin=Vector2.zero;shadeRect.anchorMax=Vector2.one;shadeRect.offsetMin=shadeRect.offsetMax=Vector2.zero;var shade=shadeObject.GetComponent<Reference20GuideShade>();shade.color=new Color(0,0,0,.55f);shade.raycastTarget=false;
   var hand=Reference20Native.GuideHand(stage);if(hand)hand.SetParent(guide,true);
   Hint(grid[7,4]);Hint(grid[8,4]);
  }
  void RemoveGuide(){StopHints();if(guide){guide.DOKill();foreach(var t in guide.GetComponentsInChildren<RectTransform>())t.DOKill();Destroy(guide.gameObject);guide=null;}}
+ static void Configure2DAudio(AudioSource source){
+  // Luna uses 2D audio and does not implement AudioSource.spatialBlend.
+#if !UNITY_LUNA
+  source.spatialBlend=0;
+#endif
+ }
  void EnsureAudio(){
-  audioSource.spatialBlend=0;audioSource.volume=1;audioSource.mute=false;
+  Configure2DAudio(audioSource);audioSource.volume=1;audioSource.mute=false;
+  // Luna's web audio does not support adding an AudioListener component.
+#if !UNITY_LUNA
   if(!FindObjectOfType<AudioListener>()){var camera=Camera.main;if(camera)camera.gameObject.AddComponent<AudioListener>();else gameObject.AddComponent<AudioListener>();}
+#endif
  }
  void Sound(string name,float volume=.8f){
   name=Reference20CompanyAudio.Name(name);if(name==null||!Application.isPlaying||!audioSource)return;AudioClip clip;
@@ -122,18 +134,19 @@ public partial class Reference20Game : MonoBehaviour {
   IdleFeedback();
   if(Input.GetMouseButtonDown(0)){
    StopHints();
-   Vector2 point;RectTransformUtility.ScreenPointToLocalPointInRectangle(stage,Input.mousePosition,null,out point);press=point+new Vector2(540,960);
+   Vector2 point;if(!TryPointerPosition(out point))return;press=point;
    var piece=AtPoint(press);
    if(selected!=null&&piece!=null&&piece!=selected&&TryMove(selected.x,selected.y,piece.x,piece.y)){selected=null;return;}
    selected=CanManipulate(piece)?piece:null;Hint(selected);
   }
-  if(Input.GetMouseButton(0)&&selected!=null){Vector2 point;RectTransformUtility.ScreenPointToLocalPointInRectangle(stage,Input.mousePosition,null,out point);DragSelected(point+new Vector2(540,960));}
+  if(Input.GetMouseButton(0)&&selected!=null){Vector2 point;if(TryPointerPosition(out point))DragSelected(point);}
   if(Input.GetMouseButtonUp(0)&&selected!=null){
-   Vector2 point;RectTransformUtility.ScreenPointToLocalPointInRectangle(stage,Input.mousePosition,null,out point);var delta=point+new Vector2(540,960)-press;
+   Vector2 point;if(!TryPointerPosition(out point)){selected=null;return;}var delta=point-press;
    if(delta.magnitude>Cell*.22f){int dx=0,dy=0;if(Mathf.Abs(delta.x)>Mathf.Abs(delta.y))dx=delta.x>0?1:-1;else dy=delta.y>0?-1:1;TryMove(selected.x,selected.y,selected.x+dx,selected.y+dy);selected=null;}
    else if(selected.special){TryActivate(selected.x,selected.y);selected=null;}
   }
  }
+ bool TryPointerPosition(out Vector2 point){point=Vector2.zero;return responsive&&responsive.TryScreenToBoard(Input.mousePosition,out point);}
  Piece AtPoint(Vector2 point){int x=Mathf.RoundToInt((point.x-cellOrigin.x)/Cell),y=Mathf.RoundToInt((cellOrigin.y-point.y)/Cell);return Inside(x,y)?grid[x,y]:null;}
  bool Inside(int x,int y){return x>=0&&x<9&&y>=0&&y<12;}
  Vector2 CellPosition(int x,int y){return cellOrigin+new Vector2(x*Cell,-y*Cell);}
@@ -147,7 +160,7 @@ public partial class Reference20Game : MonoBehaviour {
  public void ShowEnd(bool won=true){
   if(IsFinished)return;IsFinished=true;selected=null;RemoveGuide();
   stage.gameObject.SetActive(false);foreach(var child in chrome.GetComponentsInChildren<Graphic>())child.gameObject.SetActive(false);
-  var frame=new GameObject("EndFrame",typeof(RectTransform)).GetComponent<RectTransform>();frame.SetParent(chrome,false);frame.sizeDelta=new Vector2(1080,1920);var top=frame.gameObject.AddComponent<Canvas>();top.overrideSorting=true;top.sortingOrder=1000;frame.gameObject.AddComponent<GraphicRaycaster>();responsive.endFrame=frame;responsive.Refresh();
+  var frame=new GameObject("EndFrame",typeof(RectTransform)).GetComponent<RectTransform>();frame.SetParent(chrome,false);frame.sizeDelta=new Vector2(1080,1920);Reference20Native.SortingCanvas(frame,1000);frame.gameObject.AddComponent<GraphicRaycaster>();responsive.endFrame=frame;responsive.Refresh();
   endPanel=CompanyEndArtwork(frame,won);
 
  }

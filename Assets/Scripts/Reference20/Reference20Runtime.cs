@@ -32,11 +32,19 @@ public partial class Reference20Game {
  void WarmNormalPool(){if(!Application.isPlaying)return;for(int i=0;i<128;i++){var rt=Box("Normal_Pooled",stage,Vector2.zero,Vector2.one*Cell,Color.white);rt.GetComponent<Image>().raycastTarget=false;rt.gameObject.SetActive(false);normalPool.Push(rt);}}
  RectTransform ComposeTile(Piece p){RectTransform rt=null;while(composePool.Count>0&&!rt)rt=composePool.Pop();var sprite=normalSprites[p.id];if(!rt)rt=Box("ComposeTile",Reference20Native.Overlay(stage),p.root.anchoredPosition,sprite.rect.size,Color.white);rt.DOKill();rt.anchoredPosition=p.root.anchoredPosition;rt.sizeDelta=sprite.rect.size*.8875f;rt.localScale=Vector3.one;var image=rt.GetComponent<Image>();image.sprite=sprite;image.raycastTarget=false;image.color=Color.white;rt.gameObject.SetActive(true);rt.SetAsLastSibling();return rt;}
  void ReturnCompose(RectTransform rt){if(!rt)return;rt.gameObject.SetActive(false);composePool.Push(rt);}
- void After(float seconds,Action action){boardEvents.Add(new BoardEvent{at=clock+seconds,order=eventOrder++,action=action});}
+ static bool EventBefore(BoardEvent a,BoardEvent b){return a.at<b.at||a.at==b.at&&a.order<b.order;}
+ void After(float seconds,Action action){
+  var next=new BoardEvent{at=clock+seconds,order=eventOrder++,action=action};int index=boardEvents.Count;boardEvents.Add(next);
+  while(index>0){int parent=(index-1)/2;if(!EventBefore(next,boardEvents[parent]))break;boardEvents[index]=boardEvents[parent];index=parent;}boardEvents[index]=next;
+ }
+ BoardEvent PopEvent(){
+  var first=boardEvents[0];int last=boardEvents.Count-1;var tail=boardEvents[last];boardEvents.RemoveAt(last);if(last==0)return first;
+  int index=0;while(true){int child=index*2+1;if(child>=last)break;if(child+1<last&&EventBefore(boardEvents[child+1],boardEvents[child]))child++;if(!EventBefore(boardEvents[child],tail))break;boardEvents[index]=boardEvents[child];index=child;}boardEvents[index]=tail;return first;
+ }
  void AdvanceRuntime(float dt){
   accumulator+=Mathf.Max(0,dt);
   while(accumulator>=Tick){accumulator-=Tick;clock+=Tick;
-   int guard=0;while(boardEvents.Count>0&&guard++<4096){int next=-1;for(int i=0;i<boardEvents.Count;i++)if(boardEvents[i].at<=clock+.00001f&&(next<0||boardEvents[i].at<boardEvents[next].at||(boardEvents[i].at==boardEvents[next].at&&boardEvents[i].order<boardEvents[next].order)))next=i;if(next<0)break;var e=boardEvents[next];boardEvents.RemoveAt(next);e.action();}
+   int guard=0;while(boardEvents.Count>0&&guard++<4096){if(boardEvents[0].at>clock+.00001f)break;var e=PopEvent();e.action();}
    if(resolving){TickGravity(Tick);bool due=false;foreach(var p in landed)if(!p.falling&&!p.dying&&!p.reserved&&clock+.00001f>=p.settledAt){due=true;break;}if(due&&matchingPauseCount==0){var matches=FindGroups();if(matches.Count>0)ApplyMatches(matches);landed.RemoveAll(p=>!pieces.Contains(p)||p.dying||!p.falling&&!p.reserved&&clock+.00001f>=p.settledAt);}Phase=activeOperations>0?TurnPhase.Swapping:boardEvents.Count>0?TurnPhase.Resolving:TurnPhase.Settling;}
   }
   for(int i=renderOrder.Count-1;i>=0;i--){var p=renderOrder[i];if(!pieces.Contains(p)||p.dying||!p.root){renderOrder.RemoveAt(i);continue;}if(!p.reserved)p.root.anchoredPosition=Vector2.LerpUnclamped(p.previousPosition,p.simPosition,accumulator/Tick);if(!p.falling&&!p.paused&&(p.previousPosition-p.simPosition).sqrMagnitude<.001f)renderOrder.RemoveAt(i);}

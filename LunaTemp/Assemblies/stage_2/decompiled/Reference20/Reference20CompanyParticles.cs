@@ -50,6 +50,18 @@ namespace Reference20
 					layer.material = mat;
 					layer.batchKey = layer.texture + ":" + key;
 				}
+				CompanyParticleLayer[] layers2 = data.layers;
+				foreach (CompanyParticleLayer layer2 in layers2)
+				{
+					CompanyParticleTrack[] tracks = layer2.tracks;
+					foreach (CompanyParticleTrack track in tracks)
+					{
+						if (track.samples.Length != 0)
+						{
+							track.ValidSample(0);
+						}
+					}
+				}
 				definitions[name] = data;
 			}
 		}
@@ -75,9 +87,9 @@ namespace Reference20
 			active.Clear();
 			pool.Clear();
 			batches.Clear();
-			foreach (CompanyParticleEffect effect in definitions.Values)
+			foreach (CompanyParticleEffect effect2 in definitions.Values)
 			{
-				CompanyParticleLayer[] layers = effect.layers;
+				CompanyParticleLayer[] layers = effect2.layers;
 				foreach (CompanyParticleLayer layer in layers)
 				{
 					string key = layer.batchKey;
@@ -89,6 +101,13 @@ namespace Reference20
 						b.Configure(layer);
 						batches[key] = b;
 					}
+				}
+			}
+			foreach (Reference20CompanyParticleBatch batch in batches.Values)
+			{
+				foreach (CompanyParticleEffect effect in definitions.Values)
+				{
+					batch.Prepare(effect);
 				}
 			}
 			for (int i = 0; i < 128; i++)

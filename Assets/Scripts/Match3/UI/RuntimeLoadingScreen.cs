@@ -25,6 +25,7 @@ namespace Match3.UI
             GameObject root = new GameObject("RuntimeLoadingScreen");
             Canvas canvas = root.AddComponent<Canvas>();
             canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            canvas.referencePixelsPerUnit = 100f;
             canvas.sortingOrder = 32000;
 
             // CanvasScaler and GraphicRaycaster are intentionally omitted. The
@@ -42,8 +43,12 @@ namespace Match3.UI
             logoRect.anchorMax = new Vector2(0.5f, 0.5f);
             logoRect.pivot = new Vector2(0.5f, 0.5f);
             float logoWidth = Mathf.Clamp(shortSide * 0.58f, 230f, 590f);
-            logoRect.sizeDelta = new Vector2(logoWidth, logoWidth * 524f / 700f);
-            logoRect.anchoredPosition = new Vector2(0f, shortSide * 0.1f);
+            logoWidth = Mathf.Min(logoWidth, Screen.width * 0.78f, Screen.height * 0.55f);
+            float logoHeight = logoWidth * 524f / 700f;
+            float gap = Mathf.Clamp(shortSide * 0.08f, 24f, 48f);
+            float trackHeight = Mathf.Clamp(shortSide * 0.024f, 12f, 24f);
+            logoRect.sizeDelta = new Vector2(logoWidth, logoHeight);
+            logoRect.anchoredPosition = new Vector2(0f, (gap + trackHeight) * 0.5f);
             logo.sprite = Resources.Load<Sprite>(LogoResourcePath);
             logo.preserveAspect = true;
             logo.color = Color.white;
@@ -53,8 +58,8 @@ namespace Match3.UI
             trackRect.anchorMin = new Vector2(0.5f, 0.5f);
             trackRect.anchorMax = new Vector2(0.5f, 0.5f);
             trackRect.pivot = new Vector2(0.5f, 0.5f);
-            trackRect.sizeDelta = new Vector2(Mathf.Clamp(shortSide * 0.52f, 210f, 520f), Mathf.Clamp(shortSide * 0.024f, 12f, 24f));
-            trackRect.anchoredPosition = new Vector2(0f, -shortSide * 0.12f);
+            trackRect.sizeDelta = new Vector2(logoWidth * 0.9f, trackHeight);
+            trackRect.anchoredPosition = new Vector2(0f, -(logoHeight + gap) * 0.5f);
             track.color = new Color32(39, 18, 76, 190);
 
             Image fill = CreateImage("ProgressFill", track.transform);

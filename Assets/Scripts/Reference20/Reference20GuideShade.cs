@@ -3,6 +3,7 @@ using UnityEngine.UI;
 namespace Reference20 {
 [ExecuteAlways]
 public class Reference20GuideShade : MaskableGraphic {
+ public Reference20GuideShade(){useLegacyMeshGeneration=false;}
  Vector2 lastSize;Vector3 lastScale;
  protected override void OnPopulateMesh(VertexHelper vh){
   vh.Clear();if(!canvas)return;

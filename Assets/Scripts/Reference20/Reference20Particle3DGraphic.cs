@@ -27,6 +27,7 @@ namespace Reference20 {
 // shape samples, texture sheets and blend factors come from the HTML prefabs.
 [RequireComponent(typeof(CanvasRenderer))]
 public sealed class Reference20Particle3DGraphic : MaskableGraphic {
+ public Reference20Particle3DGraphic(){useLegacyMeshGeneration=false;}
  struct Particle {public Vector3 position,velocity,actualVelocity;public float age,life,size,rotation,random;public Color color;}
  readonly List<Particle> particles=new List<Particle>();static int seedCounter;readonly System.Random random=new System.Random(unchecked(Environment.TickCount*397+(++seedCounter)));readonly UIVertex[] quad=new UIVertex[4];
  CocosParticle3DData data;Sprite sprite;float time,emission,startDelay;Vector3 lastPosition;

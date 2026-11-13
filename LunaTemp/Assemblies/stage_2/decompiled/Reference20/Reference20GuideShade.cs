@@ -10,6 +10,11 @@ namespace Reference20
 
 		private Vector3 lastScale;
 
+		public Reference20GuideShade()
+		{
+			base.useLegacyMeshGeneration = false;
+		}
+
 		protected override void OnPopulateMesh(VertexHelper vh)
 		{
 			vh.Clear();

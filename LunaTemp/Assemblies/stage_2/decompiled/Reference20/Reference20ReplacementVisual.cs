@@ -71,17 +71,15 @@ namespace Reference20
 
 		public static void Prewarm()
 		{
-			for (int i = 1; i <= 14; i++)
-			{
-				CabinetSprite("part_guizi_" + i.ToString("00"));
-			}
+			CabinetSprite("elements_sp_chugui_55");
+			CabinetSprite("elements_sp_chugui_2");
 		}
 
 		private static SkeletonGraphic Spine(string name, Transform parent, string skin)
 		{
 			RectTransform r = Rect(name, parent);
 			r.sizeDelta = Vector2.zero;
-			SkeletonGraphic sg = r.gameObject.AddComponent<SkeletonGraphic>();
+			Reference20SkeletonGraphic sg = r.gameObject.AddComponent<Reference20SkeletonGraphic>();
 			sg.skeletonDataAsset = Resources.Load<SkeletonDataAsset>("Reference20/Skins/" + name + "_SkeletonData");
 			if (!graphicMaterial)
 			{

@@ -61,7 +61,11 @@ namespace Reference20
 			RectTransform r = new GameObject(name, typeof(RectTransform)).GetComponent<RectTransform>();
 			r.SetParent(parent, false);
 			Vector2 vector3 = (r.anchorMin = (r.anchorMax = Vector2.one * 0.5f));
+			r.pivot = Vector2.one * 0.5f;
 			r.sizeDelta = Vector2.zero;
+			r.anchoredPosition = Vector2.zero;
+			r.localScale = Vector3.one;
+			r.localRotation = Quaternion.identity;
 			return r;
 		}
 
@@ -73,7 +77,7 @@ namespace Reference20
 				data[asset] = d;
 			}
 			RectTransform r = Rect(asset, parent);
-			SkeletonGraphic sg = r.gameObject.AddComponent<SkeletonGraphic>();
+			Reference20SkeletonGraphic sg = r.gameObject.AddComponent<Reference20SkeletonGraphic>();
 			sg.skeletonDataAsset = d;
 			if (!spineMaterial)
 			{

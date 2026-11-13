@@ -13,6 +13,7 @@ namespace Reference20 {
 // Visual randomness is independent of the level's deterministic drop generator.
 [RequireComponent(typeof(CanvasRenderer))]
 public sealed class Reference20ParticleGraphic : MaskableGraphic {
+ public Reference20ParticleGraphic(){useLegacyMeshGeneration=false;}
  struct Particle {public Vector2 position,velocity,origin;public float age,life,startSize,endSize,startSpin,endSpin,radial,tangential,angle,radius,endRadius,angular;public Color startColor,endColor;}
  Reference20ParticleData data;Sprite sprite;readonly List<Particle> particles=new List<Particle>();static int seedCounter;readonly System.Random random=new System.Random(unchecked(Environment.TickCount*397+(++seedCounter)));float elapsed,emitted;
  readonly UIVertex[] quad=new UIVertex[4];

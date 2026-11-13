@@ -16,10 +16,10 @@ public static class Reference20Props {
  static readonly Dictionary<string,Stack<Reference20EffectInstance>> effects=new Dictionary<string,Stack<Reference20EffectInstance>>();
  static readonly List<Reference20PropVisual> hints=new List<Reference20PropVisual>();
  static Material spineMaterial;
- public static RectTransform Rect(string name,Transform parent){var r=new GameObject(name,typeof(RectTransform)).GetComponent<RectTransform>();r.SetParent(parent,false);r.anchorMin=r.anchorMax=Vector2.one*.5f;r.sizeDelta=Vector2.zero;return r;}
+ public static RectTransform Rect(string name,Transform parent){var r=new GameObject(name,typeof(RectTransform)).GetComponent<RectTransform>();r.SetParent(parent,false);r.anchorMin=r.anchorMax=Vector2.one*.5f;r.pivot=Vector2.one*.5f;r.sizeDelta=Vector2.zero;r.anchoredPosition=Vector2.zero;r.localScale=Vector3.one;r.localRotation=Quaternion.identity;return r;}
  public static SkeletonGraphic Rig(string asset,Transform parent,string skin,string animation){
   SkeletonDataAsset d;if(!data.TryGetValue(asset,out d)){d=Resources.Load<SkeletonDataAsset>("Reference20/Props/"+asset+"_SkeletonData");data[asset]=d;}
-  var r=Rect(asset,parent);var sg=r.gameObject.AddComponent<SkeletonGraphic>();sg.skeletonDataAsset=d;
+  var r=Rect(asset,parent);var sg=r.gameObject.AddComponent<Reference20SkeletonGraphic>();sg.skeletonDataAsset=d;
   if(!spineMaterial)spineMaterial=Resources.Load<Material>("Reference20/Native/SpineGraphic");sg.material=spineMaterial;sg.raycastTarget=false;sg.Initialize(true);
   sg.Skeleton.SetSkin(skin);sg.Skeleton.SetSlotsToSetupPose();if(animation!=null)sg.AnimationState.SetAnimation(0,animation,false);sg.Update(0);sg.LateUpdate();return sg;
  }

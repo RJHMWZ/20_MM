@@ -1499,17 +1499,20 @@ namespace Reference20
 
 		private void BuildGuide()
 		{
-			GameObject shadeObject = new GameObject("TutorialShade", typeof(RectTransform), typeof(CanvasRenderer), typeof(Reference20GuideShade));
-			guide = shadeObject.GetComponent<RectTransform>();
+			guide = new GameObject("TutorialShade", typeof(RectTransform)).GetComponent<RectTransform>();
 			guide.SetParent(stage, false);
 			Vector2 vector3 = (guide.anchorMin = (guide.anchorMax = Vector2.one * 0.5f));
 			guide.sizeDelta = new Vector2(1080f, 1920f);
+			Reference20Native.SortingCanvas(guide, 500);
+			GameObject shadeObject = new GameObject("Shade", typeof(RectTransform), typeof(CanvasRenderer), typeof(Reference20GuideShade));
+			RectTransform shadeRect = shadeObject.GetComponent<RectTransform>();
+			shadeRect.SetParent(guide, false);
+			shadeRect.anchorMin = Vector2.zero;
+			shadeRect.anchorMax = Vector2.one;
+			vector3 = (shadeRect.offsetMin = (shadeRect.offsetMax = Vector2.zero));
 			Reference20GuideShade shade = shadeObject.GetComponent<Reference20GuideShade>();
 			shade.color = new Color(0f, 0f, 0f, 0.55f);
 			shade.raycastTarget = false;
-			Canvas top = guide.gameObject.AddComponent<Canvas>();
-			top.overrideSorting = true;
-			top.sortingOrder = 500;
 			RectTransform hand = Reference20Native.GuideHand(stage);
 			if ((bool)hand)
 			{
@@ -1535,23 +1538,15 @@ namespace Reference20
 			}
 		}
 
+		private static void Configure2DAudio(AudioSource source)
+		{
+		}
+
 		private void EnsureAudio()
 		{
-			audioSource.spatialBlend = 0f;
+			Configure2DAudio(audioSource);
 			audioSource.volume = 1f;
 			audioSource.mute = false;
-			if (!UnityEngine.Object.FindObjectOfType<AudioListener>())
-			{
-				Camera camera = Camera.main;
-				if ((bool)camera)
-				{
-					camera.gameObject.AddComponent<AudioListener>();
-				}
-				else
-				{
-					base.gameObject.AddComponent<AudioListener>();
-				}
-			}
 		}
 
 		private void Sound(string name, float volume = 0.8f)
@@ -1591,8 +1586,11 @@ namespace Reference20
 			if (Input.GetMouseButtonDown(0))
 			{
 				StopHints();
-				RectTransformUtility.ScreenPointToLocalPointInRectangle(stage, Input.mousePosition, null, out var point);
-				press = point + new Vector2(540f, 960f);
+				if (!TryPointerPosition(out var point))
+				{
+					return;
+				}
+				press = point;
 				Piece piece = AtPoint(press);
 				if (selected != null && piece != null && piece != selected && TryMove(selected.x, selected.y, piece.x, piece.y))
 				{
@@ -1602,17 +1600,20 @@ namespace Reference20
 				selected = (CanManipulate(piece) ? piece : null);
 				Hint(selected);
 			}
-			if (Input.GetMouseButton(0) && selected != null)
+			if (Input.GetMouseButton(0) && selected != null && TryPointerPosition(out var point3))
 			{
-				RectTransformUtility.ScreenPointToLocalPointInRectangle(stage, Input.mousePosition, null, out var point3);
-				DragSelected(point3 + new Vector2(540f, 960f));
+				DragSelected(point3);
 			}
 			if (!Input.GetMouseButtonUp(0) || selected == null)
 			{
 				return;
 			}
-			RectTransformUtility.ScreenPointToLocalPointInRectangle(stage, Input.mousePosition, null, out var point2);
-			Vector2 delta = point2 + new Vector2(540f, 960f) - press;
+			if (!TryPointerPosition(out var point2))
+			{
+				selected = null;
+				return;
+			}
+			Vector2 delta = point2 - press;
 			if (delta.magnitude > 24.991999f)
 			{
 				int dx = 0;
@@ -1633,6 +1634,12 @@ namespace Reference20
 				TryActivate(selected.x, selected.y);
 				selected = null;
 			}
+		}
+
+		private bool TryPointerPosition(out Vector2 point)
+		{
+			point = Vector2.zero;
+			return (bool)responsive && responsive.TryScreenToBoard(Input.mousePosition, out point);
 		}
 
 		private Piece AtPoint(Vector2 point)
@@ -1722,9 +1729,7 @@ namespace Reference20
 				RectTransform frame = new GameObject("EndFrame", typeof(RectTransform)).GetComponent<RectTransform>();
 				frame.SetParent(chrome, false);
 				frame.sizeDelta = new Vector2(1080f, 1920f);
-				Canvas top = frame.gameObject.AddComponent<Canvas>();
-				top.overrideSorting = true;
-				top.sortingOrder = 1000;
+				Reference20Native.SortingCanvas(frame, 1000);
 				frame.gameObject.AddComponent<GraphicRaycaster>();
 				responsive.endFrame = frame;
 				responsive.Refresh();
@@ -2089,14 +2094,65 @@ namespace Reference20
 			}
 		}
 
+		private static bool EventBefore(BoardEvent a, BoardEvent b)
+		{
+			return a.at < b.at || (a.at == b.at && a.order < b.order);
+		}
+
 		private void After(float seconds, Action action)
 		{
-			boardEvents.Add(new BoardEvent
+			BoardEvent next = new BoardEvent
 			{
 				at = clock + seconds,
 				order = eventOrder++,
 				action = action
-			});
+			};
+			int index = boardEvents.Count;
+			boardEvents.Add(next);
+			while (index > 0)
+			{
+				int parent = (index - 1) / 2;
+				if (!EventBefore(next, boardEvents[parent]))
+				{
+					break;
+				}
+				boardEvents[index] = boardEvents[parent];
+				index = parent;
+			}
+			boardEvents[index] = next;
+		}
+
+		private BoardEvent PopEvent()
+		{
+			BoardEvent first = boardEvents[0];
+			int last = boardEvents.Count - 1;
+			BoardEvent tail = boardEvents[last];
+			boardEvents.RemoveAt(last);
+			if (last == 0)
+			{
+				return first;
+			}
+			int index = 0;
+			while (true)
+			{
+				int child = index * 2 + 1;
+				if (child >= last)
+				{
+					break;
+				}
+				if (child + 1 < last && EventBefore(boardEvents[child + 1], boardEvents[child]))
+				{
+					child++;
+				}
+				if (!EventBefore(boardEvents[child], tail))
+				{
+					break;
+				}
+				boardEvents[index] = boardEvents[child];
+				index = child;
+			}
+			boardEvents[index] = tail;
+			return first;
 		}
 
 		private void AdvanceRuntime(float dt)
@@ -2107,22 +2163,9 @@ namespace Reference20
 				accumulator -= 1f / 59f;
 				clock += 1f / 59f;
 				int guard = 0;
-				while (boardEvents.Count > 0 && guard++ < 4096)
+				while (boardEvents.Count > 0 && guard++ < 4096 && !(boardEvents[0].at > clock + 1E-05f))
 				{
-					int next = -1;
-					for (int j = 0; j < boardEvents.Count; j++)
-					{
-						if (boardEvents[j].at <= clock + 1E-05f && (next < 0 || boardEvents[j].at < boardEvents[next].at || (boardEvents[j].at == boardEvents[next].at && boardEvents[j].order < boardEvents[next].order)))
-						{
-							next = j;
-						}
-					}
-					if (next < 0)
-					{
-						break;
-					}
-					BoardEvent e = boardEvents[next];
-					boardEvents.RemoveAt(next);
+					BoardEvent e = PopEvent();
 					e.action();
 				}
 				if (!resolving)
@@ -3244,7 +3287,7 @@ namespace Reference20
 			{
 				source = base.gameObject.AddComponent<AudioSource>();
 				source.playOnAwake = false;
-				source.spatialBlend = 0f;
+				Configure2DAudio(source);
 				source.loop = true;
 				flightAudio.Add(source);
 			}
@@ -3274,7 +3317,7 @@ namespace Reference20
 					standbySource = base.gameObject.AddComponent<AudioSource>();
 					standbySource.playOnAwake = false;
 					standbySource.loop = true;
-					standbySource.spatialBlend = 0f;
+					Configure2DAudio(standbySource);
 				}
 				if (sounds.TryGetValue("Audio_Match_SameColorCrusherStandby", out var clip))
 				{

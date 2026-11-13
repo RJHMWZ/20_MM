@@ -5,7 +5,14 @@ using UnityEngine;
 using UnityEngine.UI;
 
 namespace Reference20 {
-[Serializable] public sealed class CompanyParticleTrack {public float start;public float[][] samples;}
+[Serializable] public sealed class CompanyParticleTrack {
+ public float start;public float[][] samples;
+ [NonSerialized] bool[] validSamples;
+ public bool ValidSample(int index){
+  if(validSamples==null){validSamples=new bool[samples.Length];for(int i=0;i<samples.Length;i++){var sample=samples[i];bool valid=sample!=null&&sample.Length>=20;if(valid)for(int j=0;j<sample.Length;j++)if(float.IsNaN(sample[j])||float.IsInfinity(sample[j])){valid=false;break;}validSamples[i]=valid;}}
+  return validSamples[index];
+ }
+}
 [Serializable] public sealed class CompanyParticleLayer {
  public string name,shader;public int texture;public int[] indices;public float[] tint,tiling;public float[][] vertices;public CompanyParticleTrack[] tracks;
  [NonSerialized] public Texture2D image;[NonSerialized] public bool additive;[NonSerialized] public Color color;[NonSerialized] public Material material;[NonSerialized] public string batchKey;
@@ -25,10 +32,11 @@ public static class Reference20CompanyParticles {
  public static void Load(){if(definitions.Count>0)return;foreach(string name in new[]{"NormalBlue","NormalGold","Wave","RocketTrail","ColorCharge","ColorFinish","Bomb","BeeImpact"}){
   var data=JsonConvert.DeserializeObject<CompanyParticleEffect>(Resources.Load<TextAsset>("Reference20/Company/Particles/"+name).text);
   foreach(var layer in data.layers){layer.image=Resources.Load<Texture2D>("Reference20/Company/Particles/"+layer.texture);layer.additive=layer.shader.Contains("Additive")||layer.shader.Contains("AddUV");float boost=layer.shader.StartsWith("Legacy")||layer.shader.StartsWith("Mobile")||layer.shader=="UI/AlphaBlended"?2:1;layer.color=new Color(layer.tint[0],layer.tint[1],layer.tint[2],layer.tint[3])*boost;string key=layer.shader+":"+string.Join(",",layer.tint);Material mat;if(!sourceMaterials.TryGetValue(key,out mat)){mat=new Material(Resources.Load<Shader>("Reference20/Native/CocosSprite"));mat.name="HtmlParticle_"+key;mat.SetFloat("_SrcBlend",5);mat.SetFloat("_DstBlend",layer.additive?1:10);mat.SetColor("_Color",layer.color);sourceMaterials[key]=mat;}layer.material=mat;layer.batchKey=layer.texture+":"+key;}
+  foreach(var layer in data.layers)foreach(var track in layer.tracks)if(track.samples.Length>0)track.ValidSample(0);
   definitions[name]=data;
  }}
  static Reference20CompanyParticleHandle Create(){var root=Reference20Props.Rect("CompanyParticles",overlay);root.anchorMin=root.anchorMax=Vector2.zero;var h=root.gameObject.AddComponent<Reference20CompanyParticleHandle>();root.gameObject.SetActive(false);return h;}
- public static void Prewarm(RectTransform stage){Load();var target=Reference20Native.Overlay(stage);if(overlay==target&&batches.Count>0)return;overlay=target;active.Clear();pool.Clear();batches.Clear();foreach(var effect in definitions.Values)foreach(var layer in effect.layers){string key=layer.batchKey;if(batches.ContainsKey(key))continue;var rt=Reference20Props.Rect("CompanyBatch_"+layer.texture,overlay);rt.anchorMin=rt.anchorMax=Vector2.zero;var b=rt.gameObject.AddComponent<Reference20CompanyParticleBatch>();b.Configure(layer);batches[key]=b;}for(int i=0;i<128;i++)pool.Push(Create());}
+ public static void Prewarm(RectTransform stage){Load();var target=Reference20Native.Overlay(stage);if(overlay==target&&batches.Count>0)return;overlay=target;active.Clear();pool.Clear();batches.Clear();foreach(var effect in definitions.Values)foreach(var layer in effect.layers){string key=layer.batchKey;if(batches.ContainsKey(key))continue;var rt=Reference20Props.Rect("CompanyBatch_"+layer.texture,overlay);rt.anchorMin=rt.anchorMax=Vector2.zero;var b=rt.gameObject.AddComponent<Reference20CompanyParticleBatch>();b.Configure(layer);batches[key]=b;}foreach(var batch in batches.Values)foreach(var effect in definitions.Values)batch.Prepare(effect);for(int i=0;i<128;i++)pool.Push(Create());}
  public static void Reset(){active.Clear();pool.Clear();batches.Clear();overlay=null;}
  public static void RaiseAboveFocus(){foreach(var batch in batches.Values)if(batch)batch.transform.SetAsLastSibling();}
  public static RectTransform Play(string name,RectTransform stage,Vector2 position,float scale=1,bool loop=false){
@@ -52,12 +60,14 @@ public sealed class Reference20CompanyParticleHandle : MonoBehaviour {
 public sealed class Reference20CompanyParticleBatch : MaskableGraphic {
  public Reference20CompanyParticleBatch(){useLegacyMeshGeneration=false;}
  Texture2D texture;string batchKey;bool wasActive;readonly UIVertex[] quad=new UIVertex[4];
+ readonly Dictionary<CompanyParticleEffect,CompanyParticleLayer[]> layersByEffect=new Dictionary<CompanyParticleEffect,CompanyParticleLayer[]>();
  public override Texture mainTexture {get{return texture?texture:Texture2D.whiteTexture;}}
- public void Configure(CompanyParticleLayer layer){texture=layer.image;batchKey=layer.batchKey;material=layer.material;raycastTarget=false;maskable=false;}
- void LateUpdate(){bool any=Reference20CompanyParticles.Active.Count>0;if(any||wasActive)SetVerticesDirty();wasActive=any;}
- protected override void OnPopulateMesh(VertexHelper vh){vh.Clear();if(!texture)return;foreach(var h in Reference20CompanyParticles.Active){if(!h||!h.gameObject.activeInHierarchy)continue;var matrix=transform.worldToLocalMatrix*h.transform.localToWorldMatrix;foreach(var layer in h.Definition.layers){if(layer.batchKey!=batchKey)continue;int count=layer.tracks.Length;for(int particle=0;particle<count;particle++){
-   var track=layer.tracks[particle];float frame=(h.Elapsed-track.start)*h.SampleRate;if(frame<0||frame>track.samples.Length-1)continue;int a=(int)frame,b=Mathf.Min(a+1,track.samples.Length-1);float f=frame-a;var va=track.samples[a];var vb=track.samples[b];bool valid=true;for(int j=0;j<va.Length;j++)if(float.IsNaN(va[j])||float.IsInfinity(va[j])||float.IsNaN(vb[j])||float.IsInfinity(vb[j])){valid=false;break;}if(!valid)continue;var tint=new Color(Mathf.LerpUnclamped(va[0],vb[0],f),Mathf.LerpUnclamped(va[1],vb[1],f),Mathf.LerpUnclamped(va[2],vb[2],f),Mathf.LerpUnclamped(va[3],vb[3],f));if(tint.a<.002f)continue;int vertices=(va.Length-4)/4;if(vertices!=4||vh.currentVertCount>64000)continue;
-   for(int i=0;i<4;i++){int j=4+i*4;quad[i]=UIVertex.simpleVert;quad[i].position=matrix.MultiplyPoint3x4(new Vector3(Mathf.LerpUnclamped(va[j],vb[j],f)+h.Velocity.x*track.start,Mathf.LerpUnclamped(va[j+1],vb[j+1],f)+h.Velocity.y*track.start,0));quad[i].uv0=new Vector2(va[j+2]*layer.tiling[0]+layer.tiling[2],va[j+3]*layer.tiling[1]+layer.tiling[3]);quad[i].color=tint;}
+ public void Configure(CompanyParticleLayer layer){texture=layer.image;batchKey=layer.batchKey;layersByEffect.Clear();material=layer.material;raycastTarget=false;maskable=false;}
+ public CompanyParticleLayer[] Prepare(CompanyParticleEffect effect){CompanyParticleLayer[] layers;if(layersByEffect.TryGetValue(effect,out layers))return layers;var matches=new List<CompanyParticleLayer>();foreach(var layer in effect.layers)if(layer.batchKey==batchKey)matches.Add(layer);layers=matches.ToArray();layersByEffect[effect]=layers;return layers;}
+ void LateUpdate(){bool any=false;foreach(var h in Reference20CompanyParticles.Active)if(h&&h.gameObject.activeInHierarchy&&Prepare(h.Definition).Length>0){any=true;break;}if(any||wasActive)SetVerticesDirty();wasActive=any;}
+ protected override void OnPopulateMesh(VertexHelper vh){vh.Clear();if(!texture)return;foreach(var h in Reference20CompanyParticles.Active){if(!h||!h.gameObject.activeInHierarchy)continue;var layers=Prepare(h.Definition);if(layers.Length==0)continue;var emitter=(RectTransform)h.transform;var origin=emitter.anchoredPosition-rectTransform.anchoredPosition;var rotation=emitter.localRotation;var scale=emitter.localScale;var right=rotation*new Vector3(scale.x,0,0);var up=rotation*new Vector3(0,scale.y,0);foreach(var layer in layers){int count=layer.tracks.Length;for(int particle=0;particle<count;particle++){
+   var track=layer.tracks[particle];float frame=(h.Elapsed-track.start)*h.SampleRate;if(frame<0||frame>track.samples.Length-1)continue;int a=(int)frame,b=Mathf.Min(a+1,track.samples.Length-1);float f=frame-a;var va=track.samples[a];var vb=track.samples[b];if(!track.ValidSample(a)||!track.ValidSample(b))continue;var tint=new Color(Mathf.LerpUnclamped(va[0],vb[0],f),Mathf.LerpUnclamped(va[1],vb[1],f),Mathf.LerpUnclamped(va[2],vb[2],f),Mathf.LerpUnclamped(va[3],vb[3],f));if(tint.a<.002f)continue;int vertices=(va.Length-4)/4;if(vertices!=4||vh.currentVertCount>64000)continue;
+   for(int i=0;i<4;i++){int j=4+i*4;quad[i]=UIVertex.simpleVert;float x=Mathf.LerpUnclamped(va[j],vb[j],f)+h.Velocity.x*track.start,y=Mathf.LerpUnclamped(va[j+1],vb[j+1],f)+h.Velocity.y*track.start;quad[i].position=new Vector3(origin.x+right.x*x+up.x*y,origin.y+right.y*x+up.y*y,right.z*x+up.z*y);quad[i].uv0=new Vector2(va[j+2]*layer.tiling[0]+layer.tiling[2],va[j+3]*layer.tiling[1]+layer.tiling[3]);quad[i].color=tint;}
    int offset=vh.currentVertCount;for(int i=0;i<4;i++)vh.AddVert(quad[i]);for(int i=0;i+2<layer.indices.Length;i+=3)vh.AddTriangle(offset+layer.indices[i],offset+layer.indices[i+1],offset+layer.indices[i+2]);
   }}}
   // Keep finite mesh bounds while a shared texture batch has no live particles.

@@ -1,4 +1,4 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AddressableAutoRelease#Key#get","AddressableAutoRelease#Key#set","BlockPuzzle.Views.OrientationActiveSwitcher#Start","BlockPuzzle.Views.OrientationActiveSwitcher#OnDestroy","BlockPuzzle.Views.OrientationActiveSwitcher#ApplyOrientation","BlockPuzzle.Views.OrientationActiveSwitcher#MarkDirty","BlockPuzzle.Views.OrientationActiveSwitcher#RecordAsLandscape","BlockPuzzle.Views.OrientationActiveSwitcher#RecordAsPortrait","BlockPuzzle.Views.OrientationActiveSwitcher#PreviewLandscape","BlockPuzzle.Views.OrientationActiveSwitcher#PreviewPortrait","BlockPuzzle.Views.OrientationDetector#CurrentOrientation#get","BlockPuzzle.Views.OrientationDetector#init","BlockPuzzle.Views.OrientationDetector#Awake","BlockPuzzle.Views.OrientationDetector#Update","BlockPuzzle.Views.OrientationDetector#CheckOrientation","BlockPuzzle.Views.OrientationObjectLayout#init","CodeKits.Event.EasyEvents#init","CodeKits.Event.EasyEvents#Register","CodeKits.Event.EasyEvents#Get","CodeKits.Event.EasyEvents#init","CodeKits.Event.EasyEvents#AddEvent","CodeKits.Event.EasyEvents#GetEvent","CodeKits.Event.UnRegisterExtension#GetOrAddComponent","CodeKits.Event.UnRegisterExtension#UnRegisterWhenObjDestroyed","CodeKits.Event.UnRegisterTrigger#init","CodeKits.Event.UnRegisterTrigger#AddUnRegister","CodeKits.Event.UnRegisterTrigger#UnRegister","CodeKits.Grid.EasyGrid$1#Width#get","CodeKits.Grid.EasyGrid$1#Width#set","CodeKits.Grid.EasyGrid$1#Height#get","CodeKits.Grid.EasyGrid$1#Height#set","CodeKits.Grid.EasyGrid$1#ctor","CodeKits.Grid.EasyGrid$1#getItem","CodeKits.Grid.EasyGrid$1#setItem","CodeKits.Grid.EasyGrid$1#Fill","CodeKits.Grid.EasyGrid$1#Fill$1","CodeKits.Grid.EasyGrid$1#Resize","CodeKits.Grid.EasyGrid$1#ForEach$1","CodeKits.Grid.EasyGrid$1#ForEach","CodeKits.Grid.EasyGrid$1#Clear","CodeKits.Singleton.SingletonCreator#CreateSingleton","CodeKits.Singleton.SingletonCreator#CreateMonoSingleton","CodeKits.Singleton.SingletonCreator#CreateGeneralSingleton","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","IvyCoreEx.Extention.ParticleSystemExtend#init","IvyCoreEx.Extention.ParticleSystemExtend#OnEnable","IvyCoreEx.Extention.ParticleSystemExtend#CheckDestoryMode","IvyCoreEx.Extention.ParticleSystemExtend#CheckPoolMode","IvyCoreEx.Extention.ParticleSystemExtend#CheckInvisibleMode","IvyCoreEx.Extention.ParticleSystemExtend#AddTriggerAction","IvyCoreEx.Extention.ParticleSystemExtend#TriggerAtion","IvyCoreEx.Extention.ParticleSystemExtend#RemoveTriggerAction","IvyCoreEx.Extention.ParticleSystemExtend#RemoveAllTriggerAction","IvyCoreEx.Extention.ParticleSystemExtend#Start","IvyCoreEx.Extention.ParticleSystemExtend#ResetEvents","IvyCoreEx.Extention.ParticleSystemExtend#Update","IvyCoreEx.Extention.ParticleSystemExtend#OnParticleSystemStopped","IvyCoreEx.Extention.PSE_EventBase#Reset","IvyCoreEx.Extention.PSE_EventBase#DoEvent","IvyCoreEx.UI_Base#GetActionsDescription","IvyCoreEx.UI_Base#init","IvyCoreEx.UI_Base#SetEnterActionPreCallBack","IvyCoreEx.UI_Base#SetEnterActionEndCallBack","IvyCoreEx.UI_Base#SetOutActionPreCallBack","IvyCoreEx.UI_Base#SetOutActionEndCallBack","IvyCoreEx.UI_Base#SetEnterActionCheckCallBack","IvyCoreEx.UI_Base#SetOutActionCheckCallBack","IvyCoreEx.UI_Base#IsEnterActionRunning","IvyCoreEx.UI_Base#IsOutActionRunning","IvyCoreEx.UI_Base#IsShowSelectComponent","IvyCoreEx.UI_Base#IsShowGenerateStandaloneComponent","IvyCoreEx.UI_Base#GetAllComponentsName","IvyCoreEx.UI_Base#isEnterActionInvaild","IvyCoreEx.UI_Base#OnEnable","IvyCoreEx.UI_Base#OnDisable","IvyCoreEx.UI_Base#isOutActionVaild","IvyCoreEx.UI_Base#RunEnterAction","IvyCoreEx.UI_Base#RunEnterActionWithoutOtherCallBack","IvyCoreEx.UI_Base#RunOutAction","IvyCoreEx.UI_Base#RunOutActionWithoutOtherCallBack","IvyCoreEx.UI_Base#RunAction","IvyCoreEx.UI_Base#ResetToInitPosition","IvyCoreEx.UI_Base#Awake","IvyCoreEx.UI_Base#OnDestroy","IvyCoreEx.UI_ParticleRenderOption#init","IvyCoreEx.UI_ParticleRenderOption#DoOptionLogic","IvyCoreEx.UI_ParticleRenderOption#DoOptionCoroutineLogic","IvyCoreEx.UI_ParticleRenderOption#Start","IvyCoreEx.UI_ParticleRenderOption#CheckCavansAndRoot","Manager.ConfigManager#Instance#get","Manager.ConfigManager#init","Match3.AudioManager#init","Match3.AudioManager#Awake","Match3.AudioManager#Start","Match3.AudioManager#LateUpdate","Match3.AudioManager#PlayBGM","Match3.AudioManager#StopBGM","Match3.AudioManager#PlayVictorySound","Match3.AudioManager#PlayDefeatSound","Match3.AudioManager#PlaySettlementSound","Match3.AudioManager#PlaySoundWithDelay","Match3.AudioManager#PlaySwapSound","Match3.AudioManager#PlayCollectSound","Match3.AudioManager#PlayLongObjectBackSound","Match3.AudioManager#PlayObstacleDamageSound","Match3.AudioManager#PlayObstacleDestroySound","Match3.AudioManager#PlayGeneratorSound","Match3.AudioManager#PlayContinuousSound","Match3.AudioManager#PlayContinuous","Match3.AudioManager#PlayNormalMatchSound","Match3.AudioManager#PlaySpecialGenerateSound","Match3.AudioManager#PlaySpecialTriggerSound","Match3.AudioManager#PlayBombBombMergeSound","Match3.AudioManager#PlayMagicBallSwapSound","Match3.AudioManager#PlayMagicBallGenerateSound","Match3.AudioManager#RequestPrioritySound","Match3.BoardManager#init","Match3.BoardManager#init","Match3.BoardManager#Update","Match3.BoardManager#TriggerSpecialOnClick","Match3.BoardManager#IsValidGridPos","Match3.BoardManager#GetGridPositionFromWorld","Match3.BoardManager#SwapAndCheck","Match3.BoardManager#FindAllMatchClusters","Match3.BoardManager#FindAllMatchClusters$1","Match3.BoardManager#IsValidTutorialMove","Match3.BoardManager#IsElementSwappable","Match3.BoardManager#GetPossibleMove","Match3.BoardManager#HasPossibleMoves","Match3.BoardManager#CheckAndShuffleIfNeeded","Match3.BoardManager#ProcessMatchesAndRefill","Match3.BoardManager#CanFall","Match3.BoardManager#GetRandomNormalElement","Match3.BoardManager#GetNextRefillElement","Match3.BoardManager#WaitForCollectibleRetracts","Match3.BoardManager#WaitForElementDestroys","Match3.BoardManager#StartTrackedSpecial","Match3.BoardManager#TrackedSpecialRoutine","Match3.BoardManager#EnsureMagicFocusMask","Match3.BoardManager#ShowMagicBallFocus","Match3.BoardManager#RaiseRenderersAboveFocus","Match3.BoardManager#HideMagicBallFocus","Match3.BoardManager#ClearMagicFocusMask","Match3.BoardManager#PlayMagicBallFinishEffect","Match3.BoardManager#ConvertedSpecialTriggerRoutine","Match3.BoardManager#WaitForActiveSpecialChains","Match3.BoardManager#ApplyGravityAndRefill","Match3.BoardManager#HideRefillUntilInsideBoard","Match3.BoardManager#RevealRefillWhenInside","Match3.BoardManager#ProcessConveyors","Match3.BoardManager#ActivateSpecial","Match3.BoardManager#DestroyElementVisual","Match3.BoardManager#SpawnNormalClearEffect","Match3.BoardManager#DestroyElements","Match3.BoardManager#ActivateColorClear","Match3.BoardManager#ActivateLineClear","Match3.BoardManager#ActivateBomb","Match3.BoardManager#ActivateTargetSeeker","Match3.BoardManager#TryRetractCollectible","Match3.BoardManager#CheckAdjacentCollectibles","Match3.BoardManager#ProcessChildCollection","Match3.BoardManager#InitializeBoard","Match3.BoardManager#InitialBoardCheck","Match3.BoardManager#PlayIntroAnimation","Match3.BoardManager#UpdateBoardLayout","Match3.BoardManager#CalculateBoardOrigin","Match3.BoardManager#GenerateGrid","Match3.BoardManager#UpdateGlobalBackground","Match3.BoardManager#SpawnElement","Match3.BoardManager#GetWorldPosition","Match3.BoardManager#ClearContainer","Match3.BoardManager#IsActiveLevelTarget","Match3.BoardManager#GetPriorityTargets","Match3.BoardManager#RotateSpecials","Match3.BoardManager#ActivateSpecialCombo","Match3.BoardManager.MatchCluster#init","Match3.ChildData#init","Match3.ElementView#init","Match3.ElementView#SetPosition","Match3.ElementView#MoveTo","Match3.ElementView#Awake","Match3.ElementView#UpdateVisuals","Match3.CollectibleElementData#init","Match3.ColumnRefillSequence#init","Match3.ConveyorCornerConfig#init","Match3.ElementDatabase#init","Match3.ElementDatabase#GetNormalElement","Match3.GameManager#SetBoardSettlementSorting","Match3.GameManager#currentLevelData#get","Match3.GameManager#init","Match3.GameManager#Start","Match3.GameManager#StartGame","Match3.GameManager#OnPlayerMove","Match3.GameManager#TriggerGlobalAd","Match3.GameManager#OnElementCollected","Match3.GameManager#OnBoardSettled","Match3.GameManager#CheckWinCondition","Match3.GameManager#ShowSettlementUIWithDelay","Match3.GameManager#PlaySettlementSound","Match3.GameManager#PlayVictorySettlementAboveBoard","Match3.GameManager#LoadNextLevel","Match3.GameManager#DownloadGame","Match3.GameManager.RendererSortingState#getDefaultValue","Match3.GameManager.RendererSortingState#$ctor1","Match3.GameManager.RendererSortingState#ctor","Match3.GameManager.RendererSortingState#getHashCode","Match3.GameManager.RendererSortingState#equals","Match3.GameManager.RendererSortingState#$clone","Match3.GeneratorData#init","Match3.GridCellData#init","Match3.GuideManager#IsGuideActive#get","Match3.GuideManager#HasPendingTutorial#get","Match3.GuideManager#CurrentTutorialFrom#get","Match3.GuideManager#CurrentTutorialTo#get","Match3.GuideManager#init","Match3.GuideManager#Initialize","Match3.GuideManager#CreateMask","Match3.GuideManager#CreateFinger","Match3.GuideManager#Update","Match3.GuideManager#ShowGuide","Match3.GuideManager#ClearGuideInstantly","Match3.GuideManager#CompleteTutorial","Match3.GuideManager#EndTutorial","Match3.GuideManager#OnDestroy","Match3.LevelData#init","Match3.LevelData#GetCell","Match3.LevelData#ValidateGrid","Match3.LevelTarget#init","Match3.Match3EffectPlayer#init","Match3.Match3EffectPlayer#Play","Match3.Match3EffectPlayer#PlayParticles","Match3.MotherData#init","Match3.NormalElementInfo#init","Match3.ObstacleData#init","Match3.SwapAnimationBinding#init","Match3.TutorialStep#init","Match3.UI.GameUIManager#init","Match3.UI.GameUIManager#PrepareTopmostOverlay","Match3.UI.GameUIManager#RestoreOverlay","Match3.UI.GameUIManager#init","Match3.UI.GameUIManager#SetTutorialUIMask","Match3.UI.GameUIManager#Start","Match3.UI.GameUIManager#OnDestroy","Match3.UI.GameUIManager#FadeOutCoroutine","Match3.UI.GameUIManager#FadeInCoroutine","Match3.UI.GameUIManager#EnsureFadeOverlay","Match3.UI.GameUIManager#Update","Match3.UI.GameUIManager#OnOrientationChanged","Match3.UI.GameUIManager#ResetRectToFull","Match3.UI.GameUIManager#UpdateBoardLayoutAfterUIUpdate","Match3.UI.GameUIManager#PlayIntroAnimation","Match3.UI.GameUIManager#InitializeUI","Match3.UI.GameUIManager#SetupTargets","Match3.UI.GameUIManager#UpdateTarget","Match3.UI.GameUIManager#GetTargetWorldPosition","Match3.UI.GameUIManager#UpdateSteps","Match3.UI.GameUIManager#ShowVictoryPanel","Match3.UI.GameUIManager#MountVictorySettlementScreen","Match3.UI.GameUIManager#PlayVictorySettlement","Match3.UI.GameUIManager#ShowNextLevelPanel","Match3.UI.GameUIManager#HideNextLevelPanel","Match3.UI.GameUIManager#ShowDefeatPanel","Match3.UI.GameUIManager#ShowGlobalAdOverlay","Match3.UI.GameUIManager#ShowDownloadPanel","Match3.UI.GameUIManager#OnNextLevelClicked","Match3.UI.GameUIManager#OnDownloadClicked","Match3.UI.GameUIManager#AdSkip","Match3.UI.GameUIManager.RendererSortingState#getDefaultValue","Match3.UI.GameUIManager.RendererSortingState#$ctor1","Match3.UI.GameUIManager.RendererSortingState#ctor","Match3.UI.GameUIManager.RendererSortingState#getHashCode","Match3.UI.GameUIManager.RendererSortingState#equals","Match3.UI.GameUIManager.RendererSortingState#$clone","Match3.UI.GameUIManager.SettlementOverlayState#getDefaultValue","Match3.UI.GameUIManager.SettlementOverlayState#$ctor1","Match3.UI.GameUIManager.SettlementOverlayState#ctor","Match3.UI.GameUIManager.SettlementOverlayState#RaiseSettlementRenderers","Match3.UI.GameUIManager.SettlementOverlayState#RestoreRenderers","Match3.UI.GameUIManager.SettlementOverlayState#getHashCode","Match3.UI.GameUIManager.SettlementOverlayState#equals","Match3.UI.GameUIManager.SettlementOverlayState#$clone","Match3.UI.RuntimeLoadingScreen#init","Match3.UI.RuntimeLoadingScreen#Create","Match3.UI.RuntimeLoadingScreen#CreateImage","Match3.UI.RuntimeLoadingScreen#StretchToParent","Match3.UI.RuntimeLoadingScreen#ctor","Match3.UI.RuntimeLoadingScreen#SetProgress","Match3.UI.RuntimeLoadingScreen#Close","Match3.UI.TargetUIItem#Setup","Match3.UI.TargetUIItem#UpdateAmount","Reference20.CocosParticle3DData#init","Reference20.CocosParticleGradient#ColorAt","Reference20.CocosParticleGradient#Evaluate","Reference20.CocosParticleModule#init","Reference20.CocosParticleRange#Evaluate","Reference20.CompanyImage#init","Reference20.CompanyNode#init","Reference20.CompanyParticleLayer#init","Reference20.CompanyText#init","Reference20.HtmlTrailLayer#init","Reference20.NativeNode#init","Reference20.NativeSlot#init","Reference20.Reference20CocosClip#Play$1","Reference20.Reference20CocosClip#Play","Reference20.Reference20CocosClip#Stop","Reference20.Reference20CocosClip#Update","Reference20.Reference20CocosClip#Apply","Reference20.Reference20CocosClip#Properties","Reference20.Reference20CocosClip#Vec","Reference20.Reference20ColorTrail#Play","Reference20.Reference20ColorTrail#Empty","Reference20.Reference20ColorTrail#mainTexture#get","Reference20.Reference20ColorTrail#ctor","Reference20.Reference20ColorTrail#Update","Reference20.Reference20ColorTrail#OnPopulateMesh","Reference20.Reference20CompanyAudio#Name","Reference20.Reference20CompanyEffects#Prewarm","Reference20.Reference20CompanyEffects#Reset","Reference20.Reference20CompanyEffects#Play","Reference20.Reference20CompanyEffects#Beam","Reference20.Reference20CompanyParticleBatch#mainTexture#get","Reference20.Reference20CompanyParticleBatch#init","Reference20.Reference20CompanyParticleBatch#ctor","Reference20.Reference20CompanyParticleBatch#Configure","Reference20.Reference20CompanyParticleBatch#LateUpdate","Reference20.Reference20CompanyParticleBatch#OnPopulateMesh","Reference20.Reference20CompanyParticleHandle#init","Reference20.Reference20CompanyParticleHandle#Play","Reference20.Reference20CompanyParticleHandle#Update","Reference20.Reference20CompanyParticleHandle#Stop","Reference20.Reference20CompanyParticles#Active#get","Reference20.Reference20CompanyParticles#init","Reference20.Reference20CompanyParticles#Load","Reference20.Reference20CompanyParticles#Create","Reference20.Reference20CompanyParticles#Prewarm","Reference20.Reference20CompanyParticles#Reset","Reference20.Reference20CompanyParticles#RaiseAboveFocus","Reference20.Reference20CompanyParticles#Play","Reference20.Reference20CompanyParticles#Release","Reference20.Reference20CompanyParticles#MovingTrail","Reference20.Reference20CompanyParticles#StopChildren","Reference20.Reference20EffectInstance#Capture","Reference20.Reference20EffectInstance#Restore","Reference20.Reference20EffectInstance#Lease","Reference20.Reference20EffectInstance#Update","Reference20.Reference20EffectInstance#Complete","Reference20.Reference20EffectInstance.Pose#getDefaultValue","Reference20.Reference20EffectInstance.Pose#init","Reference20.Reference20EffectInstance.Pose#ctor","Reference20.Reference20EffectInstance.Pose#getHashCode","Reference20.Reference20EffectInstance.Pose#equals","Reference20.Reference20EffectInstance.Pose#$clone","Reference20.Reference20EffectInstance.SpinePose#getDefaultValue","Reference20.Reference20EffectInstance.SpinePose#ctor","Reference20.Reference20EffectInstance.SpinePose#getHashCode","Reference20.Reference20EffectInstance.SpinePose#equals","Reference20.Reference20EffectInstance.SpinePose#$clone","Reference20.Reference20FragmentBurst#mainTexture#get","Reference20.Reference20FragmentBurst#init","Reference20.Reference20FragmentBurst#Play","Reference20.Reference20FragmentBurst#Update","Reference20.Reference20FragmentBurst#OnPopulateMesh","Reference20.Reference20FragmentBurst.Fragment#getDefaultValue","Reference20.Reference20FragmentBurst.Fragment#init","Reference20.Reference20FragmentBurst.Fragment#ctor","Reference20.Reference20FragmentBurst.Fragment#getHashCode","Reference20.Reference20FragmentBurst.Fragment#equals","Reference20.Reference20FragmentBurst.Fragment#$clone","Reference20.Reference20Fragments#init","Reference20.Reference20Fragments#Load","Reference20.Reference20Fragments#Prewarm","Reference20.Reference20Fragments#Reset","Reference20.Reference20Fragments#Burst","Reference20.Reference20Game#init","Reference20.Reference20Game#Union","Reference20.Reference20Game#Rank","Reference20.Reference20Game#HintSkillPriority","Reference20.Reference20Game#HintPowerPriority","Reference20.Reference20Game#CanAcceptInput#get","Reference20.Reference20Game#init","Reference20.Reference20Game#CreateBear","Reference20.Reference20Game#TryCollectBear","Reference20.Reference20Game#BirdTarget","Reference20.Reference20Game#ReleaseBirdTarget","Reference20.Reference20Game#BirdDestination","Reference20.Reference20Game#LaunchPeacock","Reference20.Reference20Game#CollectCabinetCans","Reference20.Reference20Game#ReplaceWithChick","Reference20.Reference20Game#ShowCompanyLoading","Reference20.Reference20Game#CompanyEndArtwork","Reference20.Reference20Game#CreateCompanyNode","Reference20.Reference20Game#CellKey","Reference20.Reference20Game#PushEmpty","Reference20.Reference20Game#Vacate","Reference20.Reference20Game#WaitReady","Reference20.Reference20Game#WaitFor","Reference20.Reference20Game#ReserveMove","Reference20.Reference20Game#ConnectedAbove","Reference20.Reference20Game#PreviousSource","Reference20.Reference20Game#SlantInto","Reference20.Reference20Game#WaitingSourceAbove","Reference20.Reference20Game#CanFillVacancy","Reference20.Reference20Game#QueueMissedVacancies","Reference20.Reference20Game#StartFromVacancy","Reference20.Reference20Game#ContinueFall","Reference20.Reference20Game#TickGravity","Reference20.Reference20Game#StopHints","Reference20.Reference20Game#Hint","Reference20.Reference20Game#IdleFeedback","Reference20.Reference20Game#DragSelected","Reference20.Reference20Game#RandomRange","Reference20.Reference20Game#Start","Reference20.Reference20Game#Build","Reference20.Reference20Game#ClearChrome","Reference20.Reference20Game#BuildChrome","Reference20.Reference20Game#AddPicture","Reference20.Reference20Game#Box","Reference20.Reference20Game#Label","Reference20.Reference20Game#BuildGuide","Reference20.Reference20Game#RemoveGuide","Reference20.Reference20Game#EnsureAudio","Reference20.Reference20Game#Sound","Reference20.Reference20Game#Update","Reference20.Reference20Game#AtPoint","Reference20.Reference20Game#Inside","Reference20.Reference20Game#CellPosition","Reference20.Reference20Game#Reindex","Reference20.Reference20Game#Erase","Reference20.Reference20Game#Put","Reference20.Reference20Game#CanPlace","Reference20.Reference20Game#ShowEnd","Reference20.Reference20Game#Download","Reference20.Reference20Game#OnDestroy","Reference20.Reference20Game#CanManipulate","Reference20.Reference20Game#EnsureResolution","Reference20.Reference20Game#SettleBoard","Reference20.Reference20Game#HoldForExchange","Reference20.Reference20Game#ReleaseExchange","Reference20.Reference20Game#Swap","Reference20.Reference20Game#TryMove","Reference20.Reference20Game#SwapTurn","Reference20.Reference20Game#TryActivate","Reference20.Reference20Game#PowerTurn","Reference20.Reference20Game#ResolveUntilStable","Reference20.Reference20Game#Trace","Reference20.Reference20Game#ResetRuntime","Reference20.Reference20Game#RecycleNormal","Reference20.Reference20Game#WarmNormalPool","Reference20.Reference20Game#ComposeTile","Reference20.Reference20Game#ReturnCompose","Reference20.Reference20Game#After","Reference20.Reference20Game#AdvanceRuntime","Reference20.Reference20Game#Position","Reference20.Reference20Game#Free","Reference20.Reference20Game#Matchable","Reference20.Reference20Game#Same","Reference20.Reference20Game#MatchingFallPending","Reference20.Reference20Game#Run","Reference20.Reference20Game#Square","Reference20.Reference20Game#Flood","Reference20.Reference20Game#FindGroups","Reference20.Reference20Game#ApplyMatches","Reference20.Reference20Game#ClearNormal","Reference20.Reference20Game#Damage","Reference20.Reference20Game#StartCornCycle","Reference20.Reference20Game#Release","Reference20.Reference20Game#ChooseRefill","Reference20.Reference20Game#CreateNormal","Reference20.Reference20Game#ReplaceBasic","Reference20.Reference20Game#LockCells","Reference20.Reference20Game#HitCell","Reference20.Reference20Game#CompleteTurn","Reference20.Reference20Game#ApplySourceTopology","Reference20.Reference20Game#FindHintMove","Reference20.Reference20Game#TryGetValidMove","Reference20.Reference20Game#BeginColorFocus","Reference20.Reference20Game#EndColorFocus","Reference20.Reference20Game#BeginFlightSound","Reference20.Reference20Game#EndFlightSound","Reference20.Reference20Game#BeginStandby","Reference20.Reference20Game#EndStandby","Reference20.Reference20Game#Line","Reference20.Reference20Game#Bomb","Reference20.Reference20Game#BeeTarget","Reference20.Reference20Game#Bee","Reference20.Reference20Game#BeeLaunch","Reference20.Reference20Game#Activate","Reference20.Reference20Game#ColorBlast","Reference20.Reference20Game#DoubleColor","Reference20.Reference20Game#Combine","Reference20.Reference20Game#ResolveCombo","Reference20.Reference20Game.HintMove#init","Reference20.Reference20Game.MatchGroup#init","Reference20.Reference20Game.Piece#special#get","Reference20.Reference20Game.Piece#normal#get","Reference20.Reference20Game.Piece#basic#get","Reference20.Reference20Game.Piece#bear#get","Reference20.Reference20Game.Piece#movable#get","Reference20.Reference20Game.Piece#init","Reference20.Reference20GuideShade#init","Reference20.Reference20GuideShade#OnPopulateMesh","Reference20.Reference20GuideShade#Quad","Reference20.Reference20GuideShade#LateUpdate","Reference20.Reference20Native#Graph#get","Reference20.Reference20Native#init","Reference20.Reference20Native#Blend","Reference20.Reference20Native#SpriteMaterial","Reference20.Reference20Native#ParticleMaterial","Reference20.Reference20Native#Hint","Reference20.Reference20Native#CocosScale","Reference20.Reference20Native#Sprite","Reference20.Reference20Native#Prewarm","Reference20.Reference20Native#WarmEffects","Reference20.Reference20Native#Overlay","Reference20.Reference20Native#CollectionLayer","Reference20.Reference20Native#Raise","Reference20.Reference20Native#Fly","Reference20.Reference20Native#CubicFlight","Reference20.Reference20Native#ResetCaches","Reference20.Reference20Native#LeaseEffect","Reference20.Reference20Native#Piece","Reference20.Reference20Native#WarmVisuals","Reference20.Reference20Native#ReleaseVisual","Reference20.Reference20Native#Visual","Reference20.Reference20Native#GuideHand","Reference20.Reference20Native#DownloadArtwork","Reference20.Reference20Native#Skeleton","Reference20.Reference20Native#Node","Reference20.Reference20Native#Effect","Reference20.Reference20Native#FinishEffect","Reference20.Reference20Native#HideEffect","Reference20.Reference20Native#BasicFragments","Reference20.Reference20Native#BaseBurst","Reference20.Reference20Native#ApplySpriteFrame","Reference20.Reference20Native#LineBlast","Reference20.Reference20Native#ColorBeam","Reference20.Reference20Native#PlayClips","Reference20.Reference20Native#PlayFlightSpine","Reference20.Reference20Native#BeeFlight","Reference20.Reference20Native#CornMotionRemaining#get","Reference20.Reference20Native#init","Reference20.Reference20Native#PlayAnimation","Reference20.Reference20Native#Configure","Reference20.Reference20Native#ApplyIdlePose","Reference20.Reference20Native#IdleLoop","Reference20.Reference20Native#NestFeedback","Reference20.Reference20Native#DamageDuration","Reference20.Reference20Native#AnimateDamage","Reference20.Reference20Native#DamageSequence","Reference20.Reference20Native#Hatch","Reference20.Reference20Native#Animate","Reference20.Reference20Native#Hit","Reference20.Reference20Native#PlayCollected","Reference20.Reference20Native#UseChickData","Reference20.Reference20Native#DetachNestChick","Reference20.Reference20Native#DetachCornHead","Reference20.Reference20Native#Detach","Reference20.Reference20Native#MoveCorn","Reference20.Reference20Native#CornEffect","Reference20.Reference20Native#Eat","Reference20.Reference20Native#EatSequence","Reference20.Reference20Particle3DGraphic#Dampen","Reference20.Reference20Particle3DGraphic#mainTexture#get","Reference20.Reference20Particle3DGraphic#init","Reference20.Reference20Particle3DGraphic#Random01","Reference20.Reference20Particle3DGraphic#Configure","Reference20.Reference20Particle3DGraphic#OnEnable","Reference20.Reference20Particle3DGraphic#Restart","Reference20.Reference20Particle3DGraphic#Emit","Reference20.Reference20Particle3DGraphic#Update","Reference20.Reference20Particle3DGraphic#Advance","Reference20.Reference20Particle3DGraphic#OnPopulateMesh","Reference20.Reference20Particle3DGraphic.Particle#getDefaultValue","Reference20.Reference20Particle3DGraphic.Particle#init","Reference20.Reference20Particle3DGraphic.Particle#ctor","Reference20.Reference20Particle3DGraphic.Particle#getHashCode","Reference20.Reference20Particle3DGraphic.Particle#equals","Reference20.Reference20Particle3DGraphic.Particle#$clone","Reference20.Reference20ParticleData#init","Reference20.Reference20ParticleGraphic#mainTexture#get","Reference20.Reference20ParticleGraphic#init","Reference20.Reference20ParticleGraphic#Configure","Reference20.Reference20ParticleGraphic#OnEnable","Reference20.Reference20ParticleGraphic#Restart","Reference20.Reference20ParticleGraphic#V","Reference20.Reference20ParticleGraphic#C","Reference20.Reference20ParticleGraphic#Emit","Reference20.Reference20ParticleGraphic#Update","Reference20.Reference20ParticleGraphic#OnPopulateMesh","Reference20.Reference20ParticleGraphic.Particle#getDefaultValue","Reference20.Reference20ParticleGraphic.Particle#init","Reference20.Reference20ParticleGraphic.Particle#ctor","Reference20.Reference20ParticleGraphic.Particle#getHashCode","Reference20.Reference20ParticleGraphic.Particle#equals","Reference20.Reference20ParticleGraphic.Particle#$clone","Reference20.Reference20Props#init","Reference20.Reference20Props#VisualScale","Reference20.Reference20Props#CreationDuration","Reference20.Reference20Props#Creation","Reference20.Reference20Props#Rect","Reference20.Reference20Props#Rig","Reference20.Reference20Props#Id","Reference20.Reference20Props#CreateVisual","Reference20.Reference20Props#Visual","Reference20.Reference20Props#ReleaseVisual","Reference20.Reference20Props#Warm","Reference20.Reference20Props#Hint","Reference20.Reference20Props#StopHints","Reference20.Reference20Props#Reset","Reference20.Reference20Props#EffectRoot","Reference20.Reference20Props#ColorComboCenter","Reference20.Reference20Props#SpineEffect","Reference20.Reference20Props#TryEffect","Reference20.Reference20Props#LineBlast","Reference20.Reference20Props#BeeFlight","Reference20.Reference20Props#ParticleHalo","Reference20.Reference20Props#ChangeNormal","Reference20.Reference20PropVisual#ResetPose","Reference20.Reference20PropVisual#Play","Reference20.Reference20PropVisual#IdleAfter","Reference20.Reference20PropVisual#Hint","Reference20.Reference20PropVisual#StopHint","Reference20.Reference20PropVisual#Falling","Reference20.Reference20PropVisual#Landed","Reference20.Reference20ReplacementVisual#init","Reference20.Reference20ReplacementVisual#Supports","Reference20.Reference20ReplacementVisual#Rect","Reference20.Reference20ReplacementVisual#Picture","Reference20.Reference20ReplacementVisual#CabinetSprite","Reference20.Reference20ReplacementVisual#Prewarm","Reference20.Reference20ReplacementVisual#Spine","Reference20.Reference20ReplacementVisual#Create","Reference20.Reference20ReplacementVisual#CanStack","Reference20.Reference20ReplacementVisual#CreateCan","Reference20.Reference20ReplacementVisual#Leaf","Reference20.Reference20ReplacementVisual#MotionRemaining#get","Reference20.Reference20ReplacementVisual#init","Reference20.Reference20ReplacementVisual#Configure","Reference20.Reference20ReplacementVisual#SetBushSkin","Reference20.Reference20ReplacementVisual#Play","Reference20.Reference20ReplacementVisual#DamageDuration","Reference20.Reference20ReplacementVisual#Damage","Reference20.Reference20ReplacementVisual#DetachPayload","Reference20.Reference20ReplacementVisual#Feed","Reference20.Reference20ReplacementVisual#FeedLoop","Reference20.Reference20ReplacementVisual#BearFalling","Reference20.Reference20ReplacementVisual#BearLanded","Reference20.Reference20ReplacementVisual#BearArrived","Reference20.Reference20ReplacementVisual#BearFlying","Reference20.Reference20ReplacementVisual#Collected","Reference20.Reference20ReplacementVisual#BreakCabinet","Reference20.Reference20ResponsiveLayout#OnEnable","Reference20.Reference20ResponsiveLayout#LateUpdate","Reference20.Reference20ResponsiveLayout#Refresh","SharpJson.JsonDecoder#DecodeText","SharpJson.JsonDecoder#ctor","SharpJson.JsonDecoder#Decode","SharpJson.JsonDecoder#ParseObject","SharpJson.JsonDecoder#ParseArray","SharpJson.JsonDecoder#ParseValue","SharpJson.JsonDecoder#TriggerError","SharpJson.JsonDecoder#EvalLexer","SharpJson.Lexer#NextToken","SharpJson.Lexer#hasError#get","SharpJson.Lexer#init","SharpJson.Lexer#ctor","SharpJson.Lexer#Reset","SharpJson.Lexer#ParseString","SharpJson.Lexer#GetNumberString","SharpJson.Lexer#ParseFloatNumber","SharpJson.Lexer#ParseDoubleNumber","SharpJson.Lexer#GetLastIndexOfNumber","SharpJson.Lexer#SkipWhiteSpaces","SharpJson.Lexer#LookAhead","SharpJson.Lexer#NextToken","Spine.Animation#BinarySearch$1","Spine.Animation#BinarySearch","Spine.Animation#LinearSearch","Spine.Animation#Timelines#get","Spine.Animation#Timelines#set","Spine.Animation#Duration#get","Spine.Animation#Duration#set","Spine.Animation#Name#get","Spine.Animation#ctor","Spine.Animation#HasTimeline","Spine.Animation#Apply","Spine.Animation#toString","Spine.AnimationState#init","Spine.AnimationState#ApplyRotateTimeline","Spine.AnimationState#TimeScale#get","Spine.AnimationState#TimeScale#set","Spine.AnimationState#Data#get","Spine.AnimationState#Data#set","Spine.AnimationState#Tracks#get","Spine.AnimationState#init","Spine.AnimationState#ctor","Spine.AnimationState#OnStart","Spine.AnimationState#OnInterrupt","Spine.AnimationState#OnEnd","Spine.AnimationState#OnDispose","Spine.AnimationState#OnComplete","Spine.AnimationState#OnEvent","Spine.AnimationState#AssignEventSubscribersFrom","Spine.AnimationState#AddEventSubscribersFrom","Spine.AnimationState#Update","Spine.AnimationState#UpdateMixingFrom","Spine.AnimationState#Apply","Spine.AnimationState#ApplyEventTimelinesOnly","Spine.AnimationState#ApplyMixingFrom","Spine.AnimationState#ApplyMixingFromEventTimelinesOnly","Spine.AnimationState#ApplyAttachmentTimeline","Spine.AnimationState#SetAttachment","Spine.AnimationState#QueueEvents","Spine.AnimationState#ClearTracks","Spine.AnimationState#ClearTrack","Spine.AnimationState#SetCurrent","Spine.AnimationState#SetAnimation$1","Spine.AnimationState#SetAnimation","Spine.AnimationState#AddAnimation$1","Spine.AnimationState#AddAnimation","Spine.AnimationState#SetEmptyAnimation","Spine.AnimationState#AddEmptyAnimation","Spine.AnimationState#SetEmptyAnimations","Spine.AnimationState#ExpandToIndex","Spine.AnimationState#NewTrackEntry","Spine.AnimationState#DisposeNext","Spine.AnimationState#AnimationsChanged","Spine.AnimationState#ComputeHold","Spine.AnimationState#GetCurrent","Spine.AnimationState#ClearListenerNotifications","Spine.AnimationState#toString","Spine.AnimationStateData#SkeletonData#get","Spine.AnimationStateData#DefaultMix#get","Spine.AnimationStateData#DefaultMix#set","Spine.AnimationStateData#init","Spine.AnimationStateData#ctor","Spine.AnimationStateData#SetMix$1","Spine.AnimationStateData#SetMix","Spine.AnimationStateData#GetMix","Spine.AnimationStateData.AnimationPair#getDefaultValue","Spine.AnimationStateData.AnimationPair#$ctor1","Spine.AnimationStateData.AnimationPair#ctor","Spine.AnimationStateData.AnimationPair#toString","Spine.AnimationStateData.AnimationPair#getHashCode","Spine.AnimationStateData.AnimationPair#equals","Spine.AnimationStateData.AnimationPair#$clone","Spine.AtlasRegion#Clone","Spine.AtlasPage#Clone","Spine.Attachment#ctor","Spine.Attachment#toString","Spine.BoneData#Index#get","Spine.BoneData#Name#get","Spine.BoneData#Parent#get","Spine.BoneData#Length#get","Spine.BoneData#Length#set","Spine.BoneData#X#get","Spine.BoneData#X#set","Spine.BoneData#Y#get","Spine.BoneData#Y#set","Spine.BoneData#Rotation#get","Spine.BoneData#Rotation#set","Spine.BoneData#ScaleX#get","Spine.BoneData#ScaleX#set","Spine.BoneData#ScaleY#get","Spine.BoneData#ScaleY#set","Spine.BoneData#ShearX#get","Spine.BoneData#ShearX#set","Spine.BoneData#ShearY#get","Spine.BoneData#ShearY#set","Spine.BoneData#TransformMode#get","Spine.BoneData#TransformMode#set","Spine.BoneData#SkinRequired#get","Spine.BoneData#SkinRequired#set","Spine.BoneData#init","Spine.BoneData#ctor","Spine.BoneData#toString","Spine.BoneMatrix#CalculateSetupWorld","Spine.BoneMatrix#GetInheritedInternal","Spine.BoneMatrix#getDefaultValue","Spine.BoneMatrix#$ctor2","Spine.BoneMatrix#$ctor1","Spine.BoneMatrix#ctor","Spine.BoneMatrix#TransformMatrix","Spine.BoneMatrix#getHashCode","Spine.BoneMatrix#equals","Spine.BoneMatrix#$clone","Spine.Collections.CollectionExtensions#ToOrderedDictionary","Spine.Collections.CollectionExtensions#ToOrderedDictionary$1","Spine.Collections.OrderedDictionary$2#init","Spine.Collections.OrderedDictionary$2#Comparer#get","Spine.Collections.OrderedDictionary$2#Keys#get","Spine.Collections.OrderedDictionary$2#Values#get","Spine.Collections.OrderedDictionary$2#Count#get","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IDictionary$2$Keys#get","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IDictionary$2$Values#get","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$IsReadOnly#get","Spine.Collections.OrderedDictionary$2#ctor","Spine.Collections.OrderedDictionary$2#$ctor2","Spine.Collections.OrderedDictionary$2#$ctor1","Spine.Collections.OrderedDictionary$2#$ctor3","Spine.Collections.OrderedDictionary$2#getItem$1","Spine.Collections.OrderedDictionary$2#setItem$1","Spine.Collections.OrderedDictionary$2#getItem","Spine.Collections.OrderedDictionary$2#setItem","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IList$1$getItem","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IList$1$setItem","Spine.Collections.OrderedDictionary$2#add","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$System$Collections$Generic$KeyValuePair$2$add","Spine.Collections.OrderedDictionary$2#Insert","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IList$1$System$Collections$Generic$KeyValuePair$2$insert","Spine.Collections.OrderedDictionary$2#containsKey","Spine.Collections.OrderedDictionary$2#GetKey","Spine.Collections.OrderedDictionary$2#IndexOf","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IList$1$System$Collections$Generic$KeyValuePair$2$indexOf","Spine.Collections.OrderedDictionary$2#remove","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$System$Collections$Generic$KeyValuePair$2$remove","Spine.Collections.OrderedDictionary$2#removeAt","Spine.Collections.OrderedDictionary$2#tryGetValue","Spine.Collections.OrderedDictionary$2#clear","Spine.Collections.OrderedDictionary$2#GetEnumerator","Spine.Collections.OrderedDictionary$2#System$Collections$IEnumerable$GetEnumerator","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$System$Collections$Generic$KeyValuePair$2$contains","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$System$Collections$Generic$KeyValuePair$2$copyTo","Spine.Collections.OrderedDictionary$2.KeyCollection#Count#get","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$IsReadOnly#get","Spine.Collections.OrderedDictionary$2.KeyCollection#ctor","Spine.Collections.OrderedDictionary$2.KeyCollection#copyTo","Spine.Collections.OrderedDictionary$2.KeyCollection#GetEnumerator","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$IEnumerable$GetEnumerator","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$contains","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$add","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$clear","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$remove","Spine.Collections.OrderedDictionary$2.ValueCollection#Count#get","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$IsReadOnly#get","Spine.Collections.OrderedDictionary$2.ValueCollection#ctor","Spine.Collections.OrderedDictionary$2.ValueCollection#copyTo","Spine.Collections.OrderedDictionary$2.ValueCollection#GetEnumerator","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$IEnumerable$GetEnumerator","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$contains","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$add","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$clear","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$remove","Spine.Collections.OrderedDictionaryDebugView$2#Items#get","Spine.Collections.OrderedDictionaryDebugView$2#ctor","Spine.ConstraintData#Name#get","Spine.ConstraintData#Order#get","Spine.ConstraintData#Order#set","Spine.ConstraintData#SkinRequired#get","Spine.ConstraintData#SkinRequired#set","Spine.ConstraintData#ctor","Spine.ConstraintData#toString","Spine.Event#Data#get","Spine.Event#Time#get","Spine.Event#Int#get","Spine.Event#Int#set","Spine.Event#Float#get","Spine.Event#Float#set","Spine.Event#String#get","Spine.Event#String#set","Spine.Event#Volume#get","Spine.Event#Volume#set","Spine.Event#Balance#get","Spine.Event#Balance#set","Spine.Event#ctor","Spine.Event#toString","Spine.EventData#Name#get","Spine.EventData#ctor","Spine.EventData#toString","Spine.EventQueue#init","Spine.EventQueue#ctor","Spine.EventQueue#Start","Spine.EventQueue#Interrupt","Spine.EventQueue#End","Spine.EventQueue#Dispose","Spine.EventQueue#Complete","Spine.EventQueue#Event","Spine.EventQueue#Drain","Spine.EventQueue#Clear","Spine.EventQueue.EventQueueEntry#getDefaultValue","Spine.EventQueue.EventQueueEntry#$ctor1","Spine.EventQueue.EventQueueEntry#ctor","Spine.EventQueue.EventQueueEntry#getHashCode","Spine.EventQueue.EventQueueEntry#equals","Spine.EventQueue.EventQueueEntry#$clone","Spine.ExposedList$1#init","Spine.ExposedList$1#CheckMatch","Spine.ExposedList$1#Capacity#get","Spine.ExposedList$1#Capacity#set","Spine.ExposedList$1#ctor","Spine.ExposedList$1#$ctor2","Spine.ExposedList$1#$ctor3","Spine.ExposedList$1#$ctor1","Spine.ExposedList$1#Add","Spine.ExposedList$1#GrowIfNeeded","Spine.ExposedList$1#Resize","Spine.ExposedList$1#EnsureCapacity","Spine.ExposedList$1#CheckRange","Spine.ExposedList$1#AddCollection","Spine.ExposedList$1#AddEnumerable","Spine.ExposedList$1#AddRange","Spine.ExposedList$1#AddRange$1","Spine.ExposedList$1#BinarySearch","Spine.ExposedList$1#BinarySearch$1","Spine.ExposedList$1#BinarySearch$2","Spine.ExposedList$1#Clear","Spine.ExposedList$1#Contains","Spine.ExposedList$1#ConvertAll","Spine.ExposedList$1#CopyTo","Spine.ExposedList$1#CopyTo$1","Spine.ExposedList$1#CopyTo$2","Spine.ExposedList$1#Exists","Spine.ExposedList$1#Find","Spine.ExposedList$1#FindAll","Spine.ExposedList$1#FindAllList","Spine.ExposedList$1#FindIndex$2","Spine.ExposedList$1#FindIndex$1","Spine.ExposedList$1#FindIndex","Spine.ExposedList$1#GetIndex","Spine.ExposedList$1#FindLast","Spine.ExposedList$1#FindLastIndex$2","Spine.ExposedList$1#FindLastIndex$1","Spine.ExposedList$1#FindLastIndex","Spine.ExposedList$1#GetLastIndex","Spine.ExposedList$1#ForEach","Spine.ExposedList$1#GetEnumerator","Spine.ExposedList$1#System$Collections$Generic$IEnumerable$1$GetEnumerator","Spine.ExposedList$1#System$Collections$IEnumerable$GetEnumerator","Spine.ExposedList$1#GetRange","Spine.ExposedList$1#IndexOf","Spine.ExposedList$1#IndexOf$1","Spine.ExposedList$1#IndexOf$2","Spine.ExposedList$1#Shift","Spine.ExposedList$1#CheckIndex","Spine.ExposedList$1#Insert","Spine.ExposedList$1#CheckCollection","Spine.ExposedList$1#InsertRange","Spine.ExposedList$1#InsertCollection","Spine.ExposedList$1#InsertEnumeration","Spine.ExposedList$1#LastIndexOf","Spine.ExposedList$1#LastIndexOf$1","Spine.ExposedList$1#LastIndexOf$2","Spine.ExposedList$1#Remove","Spine.ExposedList$1#RemoveAll","Spine.ExposedList$1#RemoveAt","Spine.ExposedList$1#Pop","Spine.ExposedList$1#RemoveRange","Spine.ExposedList$1#Reverse","Spine.ExposedList$1#Reverse$1","Spine.ExposedList$1#Sort","Spine.ExposedList$1#Sort$1","Spine.ExposedList$1#Sort$2","Spine.ExposedList$1#Sort$3","Spine.ExposedList$1#ToArray","Spine.ExposedList$1#TrimExcess","Spine.ExposedList$1#TrueForAll","Spine.ExposedList$1.Enumerator#getDefaultValue","Spine.ExposedList$1.Enumerator#Current#get","Spine.ExposedList$1.Enumerator#System$Collections$IEnumerator$Current#get","Spine.ExposedList$1.Enumerator#init","Spine.ExposedList$1.Enumerator#$ctor1","Spine.ExposedList$1.Enumerator#ctor","Spine.ExposedList$1.Enumerator#Dispose","Spine.ExposedList$1.Enumerator#VerifyState","Spine.ExposedList$1.Enumerator#moveNext","Spine.ExposedList$1.Enumerator#System$Collections$IEnumerator$reset","Spine.ExposedList$1.Enumerator#getHashCode","Spine.ExposedList$1.Enumerator#equals","Spine.ExposedList$1.Enumerator#$clone","Spine.IInterpolation#init","Spine.IInterpolation#Apply","Spine.Json#Deserialize","Spine.MathUtils#init","Spine.MathUtils#Sin","Spine.MathUtils#Cos","Spine.MathUtils#SinDeg","Spine.MathUtils#CosDeg","Spine.MathUtils#Atan2","Spine.MathUtils#Clamp","Spine.MathUtils#RandomTriangle","Spine.MathUtils#RandomTriangle$1","Spine.Polygon#ctor","Spine.Pool$1#Count#get","Spine.Pool$1#ctor","Spine.Pool$1#Obtain","Spine.Pool$1#Free","Spine.Pool$1#Clear","Spine.Pool$1#Reset","Spine.Skeleton#SortReset","Spine.Skeleton#Data#get","Spine.Skeleton#Bones#get","Spine.Skeleton#UpdateCacheList#get","Spine.Skeleton#Slots#get","Spine.Skeleton#DrawOrder#get","Spine.Skeleton#IkConstraints#get","Spine.Skeleton#PathConstraints#get","Spine.Skeleton#TransformConstraints#get","Spine.Skeleton#Skin#get","Spine.Skeleton#Skin#set","Spine.Skeleton#R#get","Spine.Skeleton#R#set","Spine.Skeleton#G#get","Spine.Skeleton#G#set","Spine.Skeleton#B#get","Spine.Skeleton#B#set","Spine.Skeleton#A#get","Spine.Skeleton#A#set","Spine.Skeleton#Time#get","Spine.Skeleton#Time#set","Spine.Skeleton#X#get","Spine.Skeleton#X#set","Spine.Skeleton#Y#get","Spine.Skeleton#Y#set","Spine.Skeleton#ScaleX#get","Spine.Skeleton#ScaleX#set","Spine.Skeleton#ScaleY#get","Spine.Skeleton#ScaleY#set","Spine.Skeleton#FlipX#get","Spine.Skeleton#FlipX#set","Spine.Skeleton#FlipY#get","Spine.Skeleton#FlipY#set","Spine.Skeleton#RootBone#get","Spine.Skeleton#init","Spine.Skeleton#ctor","Spine.Skeleton#UpdateCache","Spine.Skeleton#SortIkConstraint","Spine.Skeleton#SortPathConstraint","Spine.Skeleton#SortTransformConstraint","Spine.Skeleton#SortPathConstraintAttachment$1","Spine.Skeleton#SortPathConstraintAttachment","Spine.Skeleton#SortBone","Spine.Skeleton#UpdateWorldTransform","Spine.Skeleton#UpdateWorldTransform$1","Spine.Skeleton#SetToSetupPose","Spine.Skeleton#SetBonesToSetupPose","Spine.Skeleton#SetSlotsToSetupPose","Spine.Skeleton#FindBone","Spine.Skeleton#FindBoneIndex","Spine.Skeleton#FindSlot","Spine.Skeleton#FindSlotIndex","Spine.Skeleton#SetSkin$1","Spine.Skeleton#SetSkin","Spine.Skeleton#GetAttachment$1","Spine.Skeleton#GetAttachment","Spine.Skeleton#SetAttachment","Spine.Skeleton#FindIkConstraint","Spine.Skeleton#FindTransformConstraint","Spine.Skeleton#FindPathConstraint","Spine.Skeleton#Update","Spine.Skeleton#GetBounds","Spine.SkeletonBinary#init","Spine.SkeletonBinary#GetVersionString","Spine.SkeletonBinary#init","Spine.SkeletonBinary#ctor","Spine.SkeletonBinary#$ctor1","Spine.SkeletonBinary#ReadSkeletonData$1","Spine.SkeletonBinary#ReadSkeletonData","Spine.SkeletonBinary#ReadSkin","Spine.SkeletonBinary#ReadAttachment","Spine.SkeletonBinary#ReadVertices","Spine.SkeletonBinary#ReadFloatArray","Spine.SkeletonBinary#ReadShortArray","Spine.SkeletonBinary#ReadAnimation","Spine.SkeletonBinary#ReadCurve","Spine.SkeletonBinary.SkeletonInput#init","Spine.SkeletonBinary.SkeletonInput#ctor","Spine.SkeletonBinary.SkeletonInput#ReadByte","Spine.SkeletonBinary.SkeletonInput#ReadSByte","Spine.SkeletonBinary.SkeletonInput#ReadBoolean","Spine.SkeletonBinary.SkeletonInput#ReadFloat","Spine.SkeletonBinary.SkeletonInput#ReadInt","Spine.SkeletonBinary.SkeletonInput#ReadInt$1","Spine.SkeletonBinary.SkeletonInput#ReadString","Spine.SkeletonBinary.SkeletonInput#ReadStringRef","Spine.SkeletonBinary.SkeletonInput#ReadFully","Spine.SkeletonBinary.SkeletonInput#GetVersionString","Spine.SkeletonBounds#MinX#get","Spine.SkeletonBounds#MinX#set","Spine.SkeletonBounds#MinY#get","Spine.SkeletonBounds#MinY#set","Spine.SkeletonBounds#MaxX#get","Spine.SkeletonBounds#MaxX#set","Spine.SkeletonBounds#MaxY#get","Spine.SkeletonBounds#MaxY#set","Spine.SkeletonBounds#Width#get","Spine.SkeletonBounds#Height#get","Spine.SkeletonBounds#init","Spine.SkeletonBounds#ctor","Spine.SkeletonBounds#Update","Spine.SkeletonBounds#AabbCompute","Spine.SkeletonBounds#AabbContainsPoint","Spine.SkeletonBounds#AabbIntersectsSegment","Spine.SkeletonBounds#AabbIntersectsSkeleton","Spine.SkeletonBounds#ContainsPoint$1","Spine.SkeletonBounds#ContainsPoint","Spine.SkeletonBounds#IntersectsSegment","Spine.SkeletonBounds#IntersectsSegment$1","Spine.SkeletonBounds#GetPolygon","Spine.SkeletonClipping#MakeClockwise","Spine.SkeletonClipping#ClippedVertices#get","Spine.SkeletonClipping#ClippedTriangles#get","Spine.SkeletonClipping#ClippedUVs#get","Spine.SkeletonClipping#IsClipping#get","Spine.SkeletonClipping#init","Spine.SkeletonClipping#ClipStart","Spine.SkeletonClipping#ClipEnd$1","Spine.SkeletonClipping#ClipEnd","Spine.SkeletonClipping#ClipTriangles","Spine.SkeletonClipping#Clip","Spine.SkeletonData#Name#get","Spine.SkeletonData#Name#set","Spine.SkeletonData#Bones#get","Spine.SkeletonData#Slots#get","Spine.SkeletonData#Skins#get","Spine.SkeletonData#Skins#set","Spine.SkeletonData#DefaultSkin#get","Spine.SkeletonData#DefaultSkin#set","Spine.SkeletonData#Events#get","Spine.SkeletonData#Events#set","Spine.SkeletonData#Animations#get","Spine.SkeletonData#Animations#set","Spine.SkeletonData#IkConstraints#get","Spine.SkeletonData#IkConstraints#set","Spine.SkeletonData#TransformConstraints#get","Spine.SkeletonData#TransformConstraints#set","Spine.SkeletonData#PathConstraints#get","Spine.SkeletonData#PathConstraints#set","Spine.SkeletonData#X#get","Spine.SkeletonData#X#set","Spine.SkeletonData#Y#get","Spine.SkeletonData#Y#set","Spine.SkeletonData#Width#get","Spine.SkeletonData#Width#set","Spine.SkeletonData#Height#get","Spine.SkeletonData#Height#set","Spine.SkeletonData#Version#get","Spine.SkeletonData#Version#set","Spine.SkeletonData#Hash#get","Spine.SkeletonData#Hash#set","Spine.SkeletonData#ImagesPath#get","Spine.SkeletonData#ImagesPath#set","Spine.SkeletonData#AudioPath#get","Spine.SkeletonData#AudioPath#set","Spine.SkeletonData#Fps#get","Spine.SkeletonData#Fps#set","Spine.SkeletonData#init","Spine.SkeletonData#FindBone","Spine.SkeletonData#FindBoneIndex","Spine.SkeletonData#FindSlot","Spine.SkeletonData#FindSlotIndex","Spine.SkeletonData#FindSkin","Spine.SkeletonData#FindEvent","Spine.SkeletonData#FindAnimation","Spine.SkeletonData#FindIkConstraint","Spine.SkeletonData#FindTransformConstraint","Spine.SkeletonData#FindPathConstraint","Spine.SkeletonData#FindPathConstraintIndex","Spine.SkeletonData#toString","Spine.SkeletonJson#ReadCurve","Spine.SkeletonJson#GetFloatArray","Spine.SkeletonJson#GetIntArray","Spine.SkeletonJson#GetFloat","Spine.SkeletonJson#GetInt","Spine.SkeletonJson#GetBoolean","Spine.SkeletonJson#GetString","Spine.SkeletonJson#ToColor","Spine.SkeletonJson#init","Spine.SkeletonJson#ctor","Spine.SkeletonJson#$ctor1","Spine.SkeletonJson#ReadSkeletonData$1","Spine.SkeletonJson#ReadSkeletonData","Spine.SkeletonJson#ReadAttachment","Spine.SkeletonJson#ReadVertices","Spine.SkeletonJson#ReadAnimation","Spine.SkeletonJson.LinkedMesh#ctor","Spine.Skin#Name#get","Spine.Skin#Attachments#get","Spine.Skin#Bones#get","Spine.Skin#Constraints#get","Spine.Skin#init","Spine.Skin#ctor","Spine.Skin#SetAttachment","Spine.Skin#AddSkin","Spine.Skin#CopySkin","Spine.Skin#GetAttachment","Spine.Skin#RemoveAttachment","Spine.Skin#GetAttachments","Spine.Skin#GetAttachments$1","Spine.Skin#Clear","Spine.Skin#toString","Spine.Skin#AttachAll","Spine.Skin.SkinEntry#getDefaultValue","Spine.Skin.SkinEntry#SlotIndex#get","Spine.Skin.SkinEntry#Name#get","Spine.Skin.SkinEntry#Attachment#get","Spine.Skin.SkinEntry#$ctor1","Spine.Skin.SkinEntry#ctor","Spine.Skin.SkinEntry#getHashCode","Spine.Skin.SkinEntry#equals","Spine.Skin.SkinEntry#$clone","Spine.Slot#Data#get","Spine.Slot#Bone#get","Spine.Slot#Skeleton#get","Spine.Slot#R#get","Spine.Slot#R#set","Spine.Slot#G#get","Spine.Slot#G#set","Spine.Slot#B#get","Spine.Slot#B#set","Spine.Slot#A#get","Spine.Slot#A#set","Spine.Slot#R2#get","Spine.Slot#R2#set","Spine.Slot#G2#get","Spine.Slot#G2#set","Spine.Slot#B2#get","Spine.Slot#B2#set","Spine.Slot#HasSecondColor#get","Spine.Slot#HasSecondColor#set","Spine.Slot#Attachment#get","Spine.Slot#Attachment#set","Spine.Slot#AttachmentTime#get","Spine.Slot#AttachmentTime#set","Spine.Slot#Deform#get","Spine.Slot#Deform#set","Spine.Slot#init","Spine.Slot#$ctor1","Spine.Slot#ctor","Spine.Slot#ClampColor","Spine.Slot#ClampSecondColor","Spine.Slot#SetToSetupPose","Spine.Slot#toString","Spine.SlotData#Index#get","Spine.SlotData#Name#get","Spine.SlotData#BoneData#get","Spine.SlotData#R#get","Spine.SlotData#R#set","Spine.SlotData#G#get","Spine.SlotData#G#set","Spine.SlotData#B#get","Spine.SlotData#B#set","Spine.SlotData#A#get","Spine.SlotData#A#set","Spine.SlotData#R2#get","Spine.SlotData#R2#set","Spine.SlotData#G2#get","Spine.SlotData#G2#set","Spine.SlotData#B2#get","Spine.SlotData#B2#set","Spine.SlotData#HasSecondColor#get","Spine.SlotData#HasSecondColor#set","Spine.SlotData#AttachmentName#get","Spine.SlotData#AttachmentName#set","Spine.SlotData#BlendMode#get","Spine.SlotData#BlendMode#set","Spine.SlotData#init","Spine.SlotData#ctor","Spine.SlotData#toString","Spine.SpineSkeletonExtensions#IsWeighted","Spine.SpineSkeletonExtensions#IsRenderable","Spine.SpineSkeletonExtensions#InheritsRotation","Spine.SpineSkeletonExtensions#InheritsScale","Spine.SpineSkeletonExtensions#SetPropertyToSetupPose","Spine.SpineSkeletonExtensions#SetDrawOrderToSetupPose","Spine.SpineSkeletonExtensions#SetSlotAttachmentsToSetupPose","Spine.SpineSkeletonExtensions#SetColorToSetupPose","Spine.SpineSkeletonExtensions#SetAttachmentToSetupPose","Spine.SpineSkeletonExtensions#SetSlotAttachmentToSetupPose","Spine.SpineSkeletonExtensions#SetKeyedItemsToSetupPose","Spine.SpineSkeletonExtensions#AllowImmediateQueue","Spine.Triangulator#IsConcave","Spine.Triangulator#PositiveArea","Spine.Triangulator#Winding","Spine.Triangulator#init","Spine.Triangulator#Triangulate","Spine.Triangulator#Decompose","Spine.Unity.ActivateBasedOnFlipDirection#init","Spine.Unity.ActivateBasedOnFlipDirection#Start","Spine.Unity.ActivateBasedOnFlipDirection#FixedUpdate","Spine.Unity.ActivateBasedOnFlipDirection#HandleFlip","Spine.Unity.ActivateBasedOnFlipDirection#ResetJointPositions","Spine.Unity.ActivateBasedOnFlipDirection#CompensateMovementAfterFlipX","Spine.Unity.AnimationTools.TimelineExtensions#Evaluate","Spine.Unity.AnimationTools.TimelineExtensions#FindTranslateTimelineForBone","Spine.Unity.AttachmentTools.AtlasUtilities#init","Spine.Unity.AttachmentTools.AtlasUtilities#Init","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$2","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$3","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$4","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$2","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$3","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToSpineAtlasPage","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedAttachments","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedSkin","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedSkin$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToSprite","Spine.Unity.AttachmentTools.AtlasUtilities#ClearCache","Spine.Unity.AttachmentTools.AtlasUtilities#ToTexture","Spine.Unity.AttachmentTools.AtlasUtilities#ToTexture$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetClone","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTexture","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTextureApplyPMA","Spine.Unity.AttachmentTools.AtlasUtilities#IsRenderable","Spine.Unity.AttachmentTools.AtlasUtilities#SpineUnityFlipRect","Spine.Unity.AttachmentTools.AtlasUtilities#GetUnityRect","Spine.Unity.AttachmentTools.AtlasUtilities#GetUnityRect$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetSpineAtlasRect","Spine.Unity.AttachmentTools.AtlasUtilities#UVRectToTextureRect","Spine.Unity.AttachmentTools.AtlasUtilities#TextureRectToUVRect","Spine.Unity.AttachmentTools.AtlasUtilities#UVRectToAtlasRegion","Spine.Unity.AttachmentTools.AtlasUtilities#GetMainTexture","Spine.Unity.AttachmentTools.AtlasUtilities#GetTexture$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetTexture","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTextureAttributesFrom","Spine.Unity.AttachmentTools.AtlasUtilities#InverseLerp","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#getDefaultValue","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#$ctor1","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#ctor","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#getHashCode","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#equals","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#$clone","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetCopy","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetLinkedMesh","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetLinkedMesh$2","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetLinkedMesh$1","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetRemappedClone$1","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetRemappedClone","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#GetRegion","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#GetRegion$2","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#GetRegion$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRegion","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRegion$2","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRegion$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment$2","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachmentPMAClone$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachmentPMAClone","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetScale$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetScale","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetPositionOffset$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetPositionOffset","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRotation","Spine.Unity.AttachmentTools.SkinUtilities#UnshareSkin","Spine.Unity.AttachmentTools.SkinUtilities#GetClonedSkin","Spine.Unity.AttachmentTools.SkinUtilities#GetClone","Spine.Unity.AttachmentTools.SkinUtilities#SetAttachment$1","Spine.Unity.AttachmentTools.SkinUtilities#SetAttachment","Spine.Unity.AttachmentTools.SkinUtilities#AddAttachments","Spine.Unity.AttachmentTools.SkinUtilities#GetAttachment","Spine.Unity.AttachmentTools.SkinUtilities#RemoveAttachment","Spine.Unity.AttachmentTools.SkinUtilities#Clear","Spine.Unity.AttachmentTools.SkinUtilities#Append","Spine.Unity.AttachmentTools.SkinUtilities#CopyTo","Spine.Unity.BlendModeMaterials#RequiresBlendModeMaterials#get","Spine.Unity.BlendModeMaterials#RequiresBlendModeMaterials#set","Spine.Unity.BlendModeMaterials#init","Spine.Unity.BlendModeMaterials#ApplyMaterials","Spine.Unity.BlendModeMaterials#CloneAtlasRegionWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#init","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#CloneAtlasRegionWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#GetAtlasPageWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#Dispose","Spine.Unity.BoneFollower#SkeletonRenderer#get","Spine.Unity.BoneFollower#SkeletonRenderer#set","Spine.Unity.BoneFollower#init","Spine.Unity.BoneFollower#SetBone","Spine.Unity.BoneFollower#Awake","Spine.Unity.BoneFollower#HandleRebuildRenderer","Spine.Unity.BoneFollower#Initialize","Spine.Unity.BoneFollower#OnDestroy","Spine.Unity.BoneFollower#LateUpdate","Spine.Unity.BoneFollowerGraphic#SkeletonGraphic#get","Spine.Unity.BoneFollowerGraphic#SkeletonGraphic#set","Spine.Unity.BoneFollowerGraphic#init","Spine.Unity.BoneFollowerGraphic#SetBone","Spine.Unity.BoneFollowerGraphic#Awake","Spine.Unity.BoneFollowerGraphic#Initialize","Spine.Unity.BoneFollowerGraphic#LateUpdate","Spine.Unity.BoundingBoxFollower#init","Spine.Unity.BoundingBoxFollower#Slot#get","Spine.Unity.BoundingBoxFollower#CurrentAttachment#get","Spine.Unity.BoundingBoxFollower#CurrentAttachmentName#get","Spine.Unity.BoundingBoxFollower#CurrentCollider#get","Spine.Unity.BoundingBoxFollower#IsTrigger#get","Spine.Unity.BoundingBoxFollower#init","Spine.Unity.BoundingBoxFollower#Start","Spine.Unity.BoundingBoxFollower#OnEnable","Spine.Unity.BoundingBoxFollower#HandleRebuild","Spine.Unity.BoundingBoxFollower#Initialize","Spine.Unity.BoundingBoxFollower#AddCollidersForSkin","Spine.Unity.BoundingBoxFollower#OnDisable","Spine.Unity.BoundingBoxFollower#ClearState","Spine.Unity.BoundingBoxFollower#DisposeExcessCollidersAfter","Spine.Unity.BoundingBoxFollower#LateUpdate","Spine.Unity.BoundingBoxFollower#MatchAttachment","Spine.Unity.BoundingBoxFollowerGraphic#init","Spine.Unity.BoundingBoxFollowerGraphic#Slot#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentAttachment#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentAttachmentName#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentCollider#get","Spine.Unity.BoundingBoxFollowerGraphic#IsTrigger#get","Spine.Unity.BoundingBoxFollowerGraphic#init","Spine.Unity.BoundingBoxFollowerGraphic#Start","Spine.Unity.BoundingBoxFollowerGraphic#OnEnable","Spine.Unity.BoundingBoxFollowerGraphic#HandleRebuild","Spine.Unity.BoundingBoxFollowerGraphic#Initialize","Spine.Unity.BoundingBoxFollowerGraphic#AddCollidersForSkin","Spine.Unity.BoundingBoxFollowerGraphic#OnDisable","Spine.Unity.BoundingBoxFollowerGraphic#ClearState","Spine.Unity.BoundingBoxFollowerGraphic#DisposeExcessCollidersAfter","Spine.Unity.BoundingBoxFollowerGraphic#LateUpdate","Spine.Unity.BoundingBoxFollowerGraphic#MatchAttachment","Spine.Unity.Deprecated.SlotBlendModes#MaterialTable#get","Spine.Unity.Deprecated.SlotBlendModes#GetOrAddMaterialFor","Spine.Unity.Deprecated.SlotBlendModes#GetExistingMaterialFor","Spine.Unity.Deprecated.SlotBlendModes#RemoveMaterialFromTable","Spine.Unity.Deprecated.SlotBlendModes#init","Spine.Unity.Deprecated.SlotBlendModes#Start","Spine.Unity.Deprecated.SlotBlendModes#OnDestroy","Spine.Unity.Deprecated.SlotBlendModes#Apply","Spine.Unity.Deprecated.SlotBlendModes#Remove","Spine.Unity.Deprecated.SlotBlendModes#GetTexture","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#getDefaultValue","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#ctor","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#getHashCode","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#equals","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#$clone","Spine.Unity.Deprecated.SlotBlendModes.MaterialWithRefcount#init","Spine.Unity.Deprecated.SlotBlendModes.MaterialWithRefcount#ctor","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#getDefaultValue","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#$ctor1","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#ctor","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#getHashCode","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#equals","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#$clone","Spine.Unity.DoubleBuffered$1#init","Spine.Unity.DoubleBuffered$1#GetCurrent","Spine.Unity.DoubleBuffered$1#GetNext","Spine.Unity.EventDataReferenceAsset#init","Spine.Unity.EventDataReferenceAsset#op_Implicit","Spine.Unity.EventDataReferenceAsset#EventData#get","Spine.Unity.EventDataReferenceAsset#Initialize","Spine.Unity.FollowLocationRigidbody#Awake","Spine.Unity.FollowLocationRigidbody#FixedUpdate","Spine.Unity.FollowLocationRigidbody2D#Awake","Spine.Unity.FollowLocationRigidbody2D#FixedUpdate","Spine.Unity.FollowSkeletonUtilityRootRotation#init","Spine.Unity.FollowSkeletonUtilityRootRotation#init","Spine.Unity.FollowSkeletonUtilityRootRotation#Start","Spine.Unity.FollowSkeletonUtilityRootRotation#FixedUpdate","Spine.Unity.FollowSkeletonUtilityRootRotation#CompensatePositionToYRotation","Spine.Unity.FollowSkeletonUtilityRootRotation#CompensatePositionToXRotation","Spine.Unity.MeshGenerator#init","Spine.Unity.MeshGenerator#GenerateSingleSubmeshInstruction","Spine.Unity.MeshGenerator#RequiresMultipleSubmeshesByDrawOrder","Spine.Unity.MeshGenerator#GenerateSkeletonRendererInstruction","Spine.Unity.MeshGenerator#TryReplaceMaterials","Spine.Unity.MeshGenerator#SolveTangents2DEnsureSize","Spine.Unity.MeshGenerator#SolveTangents2DTriangles","Spine.Unity.MeshGenerator#SolveTangents2DBuffer","Spine.Unity.MeshGenerator#FillMeshLocal$1","Spine.Unity.MeshGenerator#FillMeshLocal","Spine.Unity.MeshGenerator#VertexCount#get","Spine.Unity.MeshGenerator#Buffers#get","Spine.Unity.MeshGenerator#init","Spine.Unity.MeshGenerator#ctor","Spine.Unity.MeshGenerator#Begin","Spine.Unity.MeshGenerator#AddSubmesh","Spine.Unity.MeshGenerator#BuildMesh","Spine.Unity.MeshGenerator#BuildMeshWithArrays","Spine.Unity.MeshGenerator#ScaleVertexData","Spine.Unity.MeshGenerator#AddAttachmentTintBlack","Spine.Unity.MeshGenerator#FillVertexData","Spine.Unity.MeshGenerator#FillLateVertexData","Spine.Unity.MeshGenerator#FillTriangles","Spine.Unity.MeshGenerator#EnsureVertexCapacity","Spine.Unity.MeshGenerator#TrimExcess","Spine.Unity.MeshGenerator.Settings#Default#get","Spine.Unity.MeshGenerator.Settings#getDefaultValue","Spine.Unity.MeshGenerator.Settings#ctor","Spine.Unity.MeshGenerator.Settings#getHashCode","Spine.Unity.MeshGenerator.Settings#equals","Spine.Unity.MeshGenerator.Settings#$clone","Spine.Unity.MeshGeneratorBuffers#getDefaultValue","Spine.Unity.MeshGeneratorBuffers#ctor","Spine.Unity.MeshGeneratorBuffers#getHashCode","Spine.Unity.MeshGeneratorBuffers#equals","Spine.Unity.MeshGeneratorBuffers#$clone","Spine.Unity.MeshRendererBuffers#init","Spine.Unity.MeshRendererBuffers#Initialize","Spine.Unity.MeshRendererBuffers#GetUpdatedSharedMaterialsArray","Spine.Unity.MeshRendererBuffers#MaterialsChangedInLastUpdate","Spine.Unity.MeshRendererBuffers#UpdateSharedMaterials","Spine.Unity.MeshRendererBuffers#GetNextMesh","Spine.Unity.MeshRendererBuffers#Clear","Spine.Unity.MeshRendererBuffers#Dispose","Spine.Unity.MeshRendererBuffers.SmartMesh#init","Spine.Unity.MeshRendererBuffers.SmartMesh#Clear","Spine.Unity.MeshRendererBuffers.SmartMesh#Dispose","Spine.Unity.SkeletonDataAsset#CreateRuntimeInstance","Spine.Unity.SkeletonDataAsset#CreateRuntimeInstance$1","Spine.Unity.SkeletonDataAsset#ReadSkeletonData","Spine.Unity.SkeletonDataAsset#ReadSkeletonData$1","Spine.Unity.SkeletonDataAsset#IsLoaded#get","Spine.Unity.SkeletonDataAsset#init","Spine.Unity.SkeletonDataAsset#Reset","Spine.Unity.SkeletonDataAsset#Clear","Spine.Unity.SkeletonDataAsset#GetAnimationStateData","Spine.Unity.SkeletonDataAsset#GetSkeletonData","Spine.Unity.SkeletonDataAsset#InitializeWithData","Spine.Unity.SkeletonDataAsset#FillStateData","Spine.Unity.SkeletonDataAsset#GetAtlasArray","Spine.Unity.SkeletonDataCompatibility.CompatibilityProblemInfo#DescriptionString","Spine.Unity.SkeletonExtensions#init","Spine.Unity.SkeletonExtensions#GetColor$2","Spine.Unity.SkeletonExtensions#GetColor$1","Spine.Unity.SkeletonExtensions#GetColor","Spine.Unity.SkeletonExtensions#GetColor$3","Spine.Unity.SkeletonExtensions#GetColorTintBlack","Spine.Unity.SkeletonExtensions#SetColor$4","Spine.Unity.SkeletonExtensions#SetColor$5","Spine.Unity.SkeletonExtensions#SetColor$6","Spine.Unity.SkeletonExtensions#SetColor$7","Spine.Unity.SkeletonExtensions#SetColor$2","Spine.Unity.SkeletonExtensions#SetColor$3","Spine.Unity.SkeletonExtensions#SetColor","Spine.Unity.SkeletonExtensions#SetColor$1","Spine.Unity.SkeletonExtensions#SetLocalScale","Spine.Unity.SkeletonExtensions#GetMatrix4x4","Spine.Unity.SkeletonExtensions#SetLocalPosition","Spine.Unity.SkeletonExtensions#SetLocalPosition$1","Spine.Unity.SkeletonExtensions#GetLocalPosition","Spine.Unity.SkeletonExtensions#GetSkeletonSpacePosition","Spine.Unity.SkeletonExtensions#GetSkeletonSpacePosition$1","Spine.Unity.SkeletonExtensions#GetWorldPosition","Spine.Unity.SkeletonExtensions#GetWorldPosition$1","Spine.Unity.SkeletonExtensions#GetWorldPosition$3","Spine.Unity.SkeletonExtensions#GetWorldPosition$2","Spine.Unity.SkeletonExtensions#GetQuaternion","Spine.Unity.SkeletonExtensions#GetLocalQuaternion","Spine.Unity.SkeletonExtensions#GetLocalScale","Spine.Unity.SkeletonExtensions#GetWorldToLocalMatrix","Spine.Unity.SkeletonExtensions#WorldToLocal","Spine.Unity.SkeletonExtensions#SetPositionSkeletonSpace","Spine.Unity.SkeletonExtensions#GetMaterial","Spine.Unity.SkeletonExtensions#GetLocalVertices","Spine.Unity.SkeletonExtensions#GetWorldVertices","Spine.Unity.SkeletonGraphicCustomMaterials#init","Spine.Unity.SkeletonGraphicCustomMaterials#SetCustomMaterialOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#RemoveCustomMaterialOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#SetCustomTextureOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#RemoveCustomTextureOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#OnEnable","Spine.Unity.SkeletonGraphicCustomMaterials#OnDisable","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#inherits","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#getDefaultValue","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#ctor","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#equalsT","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#getHashCode","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#$clone","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#inherits","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#getDefaultValue","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#ctor","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#equalsT","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#getHashCode","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#$clone","Spine.Unity.SkeletonMecanim.MecanimTranslator#init","Spine.Unity.SkeletonMecanim.MecanimTranslator#AnimationTime$1","Spine.Unity.SkeletonMecanim.MecanimTranslator#AnimationTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#Animator#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#MecanimLayerCount#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#MecanimLayerNames#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#init","Spine.Unity.SkeletonMecanim.MecanimTranslator#addOnClipApplied","Spine.Unity.SkeletonMecanim.MecanimTranslator#removeOnClipApplied","Spine.Unity.SkeletonMecanim.MecanimTranslator#Initialize","Spine.Unity.SkeletonMecanim.MecanimTranslator#ApplyAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator#ApplyInterruptionAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator#OnClipAppliedCallback","Spine.Unity.SkeletonMecanim.MecanimTranslator#Apply","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetActiveAnimationAndTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#InitClipInfosForLayers","Spine.Unity.SkeletonMecanim.MecanimTranslator#ClearClipInfosForLayers","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetMixMode","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetStateUpdatesFromAnimator","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimatorClipInfos","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimatorStateInfos","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#equals2","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#getHashCode2","Spine.Unity.SkeletonMecanim.MecanimTranslator.ClipInfos#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#equals2","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#getHashCode2","Spine.Unity.SkeletonRootMotionBase#UsesRigidbody#get","Spine.Unity.SkeletonRootMotionBase#AdditionalScale#get","Spine.Unity.SkeletonRootMotionBase#init","Spine.Unity.SkeletonRootMotionBase#Reset","Spine.Unity.SkeletonRootMotionBase#Start","Spine.Unity.SkeletonRootMotionBase#FixedUpdate","Spine.Unity.SkeletonRootMotionBase#OnDisable","Spine.Unity.SkeletonRootMotionBase#FindRigidbodyComponent","Spine.Unity.SkeletonRootMotionBase#SetRootMotionBone","Spine.Unity.SkeletonRootMotionBase#AdjustRootMotionToDistance","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotion","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotion$1","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotionInfo","Spine.Unity.SkeletonRootMotionBase#GetTimelineMovementDelta","Spine.Unity.SkeletonRootMotionBase#GatherTopLevelBones","Spine.Unity.SkeletonRootMotionBase#HandleUpdateLocal","Spine.Unity.SkeletonRootMotionBase#ApplyRootMotion","Spine.Unity.SkeletonRootMotionBase#GetScaleAffectingRootMotion","Spine.Unity.SkeletonRootMotionBase#GetScaleAffectingRootMotion$1","Spine.Unity.SkeletonRootMotionBase#GetSkeletonSpaceMovementDelta","Spine.Unity.SkeletonRootMotionBase#SetEffectiveBoneOffsetsTo","Spine.Unity.SkeletonRootMotionBase#ClearEffectiveBoneOffsets","Spine.Unity.SkeletonPartsRenderer#NewPartsRendererGameObject","Spine.Unity.SkeletonPartsRenderer#MeshGenerator#get","Spine.Unity.SkeletonPartsRenderer#MeshRenderer#get","Spine.Unity.SkeletonPartsRenderer#MeshFilter#get","Spine.Unity.SkeletonPartsRenderer#init","Spine.Unity.SkeletonPartsRenderer#LazyIntialize","Spine.Unity.SkeletonPartsRenderer#ClearMesh","Spine.Unity.SkeletonPartsRenderer#RenderParts","Spine.Unity.SkeletonPartsRenderer#SetPropertyBlock","Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials#AnyMaterialCreated#get","Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials#init","Spine.Unity.SkeletonRendererCustomMaterials#init","Spine.Unity.SkeletonRendererCustomMaterials#SetCustomSlotMaterials","Spine.Unity.SkeletonRendererCustomMaterials#RemoveCustomSlotMaterials","Spine.Unity.SkeletonRendererCustomMaterials#SetCustomMaterialOverrides","Spine.Unity.SkeletonRendererCustomMaterials#RemoveCustomMaterialOverrides","Spine.Unity.SkeletonRendererCustomMaterials#OnEnable","Spine.Unity.SkeletonRendererCustomMaterials#OnDisable","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#inherits","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#getDefaultValue","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#ctor","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#equalsT","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#getHashCode","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#$clone","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#inherits","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#getDefaultValue","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#ctor","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#equalsT","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#getHashCode","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#$clone","Spine.Unity.SkeletonRendererInstruction#GeometryNotEqual","Spine.Unity.SkeletonRendererInstruction#init","Spine.Unity.SkeletonRendererInstruction#Clear","Spine.Unity.SkeletonRendererInstruction#Dispose","Spine.Unity.SkeletonRendererInstruction#SetWithSubset","Spine.Unity.SkeletonRendererInstruction#Set","Spine.Unity.SkeletonRenderSeparator#init","Spine.Unity.SkeletonRenderSeparator#AddToSkeletonRenderer","Spine.Unity.SkeletonRenderSeparator#SkeletonRenderer#get","Spine.Unity.SkeletonRenderSeparator#SkeletonRenderer#set","Spine.Unity.SkeletonRenderSeparator#init","Spine.Unity.SkeletonRenderSeparator#AddPartsRenderer","Spine.Unity.SkeletonRenderSeparator#OnEnable","Spine.Unity.SkeletonRenderSeparator#OnDisable","Spine.Unity.SkeletonRenderSeparator#HandleRender","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#getDefaultValue","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#init","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#ctor","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#getHashCode","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#equals","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#$clone","Spine.Unity.SkeletonUtility#AddBoundingBoxGameObject","Spine.Unity.SkeletonUtility#AddBoundingBoxGameObject$1","Spine.Unity.SkeletonUtility#AddBoundingBoxAsComponent","Spine.Unity.SkeletonUtility#SetColliderPointsLocal","Spine.Unity.SkeletonUtility#GetBoundingBoxBounds","Spine.Unity.SkeletonUtility#AddBoneRigidbody2D","Spine.Unity.SkeletonUtility#SkeletonComponent#get","Spine.Unity.SkeletonUtility#Skeleton#get","Spine.Unity.SkeletonUtility#IsValid#get","Spine.Unity.SkeletonUtility#PositionScale#get","Spine.Unity.SkeletonUtility#init","Spine.Unity.SkeletonUtility#Update","Spine.Unity.SkeletonUtility#ResubscribeEvents","Spine.Unity.SkeletonUtility#OnEnable","Spine.Unity.SkeletonUtility#Start","Spine.Unity.SkeletonUtility#OnDisable","Spine.Unity.SkeletonUtility#HandleRendererReset$1","Spine.Unity.SkeletonUtility#HandleRendererReset","Spine.Unity.SkeletonUtility#RegisterBone","Spine.Unity.SkeletonUtility#UnregisterBone","Spine.Unity.SkeletonUtility#RegisterConstraint","Spine.Unity.SkeletonUtility#UnregisterConstraint","Spine.Unity.SkeletonUtility#CollectBones","Spine.Unity.SkeletonUtility#UpdateLocal","Spine.Unity.SkeletonUtility#UpdateWorld","Spine.Unity.SkeletonUtility#UpdateComplete","Spine.Unity.SkeletonUtility#UpdateAllBones","Spine.Unity.SkeletonUtility#GetBoneRoot","Spine.Unity.SkeletonUtility#SpawnRoot","Spine.Unity.SkeletonUtility#SpawnHierarchy","Spine.Unity.SkeletonUtility#SpawnBoneRecursively","Spine.Unity.SkeletonUtility#SpawnBone","Spine.Unity.SkeletonUtilityBone#BoneTransformModeIncompatible","Spine.Unity.SkeletonUtilityBone#IncompatibleTransformMode#get","Spine.Unity.SkeletonUtilityBone#init","Spine.Unity.SkeletonUtilityBone#Reset","Spine.Unity.SkeletonUtilityBone#OnEnable","Spine.Unity.SkeletonUtilityBone#HandleOnReset","Spine.Unity.SkeletonUtilityBone#OnDisable","Spine.Unity.SkeletonUtilityBone#DoUpdate","Spine.Unity.SkeletonUtilityBone#AddBoundingBox","Spine.Unity.SkeletonUtilityConstraint#OnEnable","Spine.Unity.SkeletonUtilityConstraint#OnDisable","Spine.Unity.SpineAttributeBase#init","Spine.Unity.SpineAtlasRegion#ctor","Spine.Unity.SpineAttachment.Hierarchy#getDefaultValue","Spine.Unity.SpineAttachment.Hierarchy#$ctor1","Spine.Unity.SpineAttachment.Hierarchy#ctor","Spine.Unity.SpineAttachment.Hierarchy#getHashCode","Spine.Unity.SpineAttachment.Hierarchy#equals","Spine.Unity.SpineAttachment.Hierarchy#$clone","Spine.Unity.SpineMesh#init","Spine.Unity.SpineMesh#NewSkeletonMesh","Spine.Unity.SubmeshInstruction#getDefaultValue","Spine.Unity.SubmeshInstruction#SlotCount#get","Spine.Unity.SubmeshInstruction#ctor","Spine.Unity.SubmeshInstruction#toString","Spine.Unity.SubmeshInstruction#getHashCode","Spine.Unity.SubmeshInstruction#equals","Spine.Unity.SubmeshInstruction#$clone","Spine.Unity.WaitForSpineAnimation#System$Collections$IEnumerator$Current#get","Spine.Unity.WaitForSpineAnimation#init","Spine.Unity.WaitForSpineAnimation#ctor","Spine.Unity.WaitForSpineAnimation#NowWaitFor","Spine.Unity.WaitForSpineAnimation#System$Collections$IEnumerator$moveNext","Spine.Unity.WaitForSpineAnimation#System$Collections$IEnumerator$reset","Spine.Unity.WaitForSpineAnimation#SafeSubscribe","Spine.Unity.WaitForSpineAnimation#HandleComplete","Spine.Unity.WaitForSpineEvent#WillUnsubscribeAfterFiring#get","Spine.Unity.WaitForSpineEvent#WillUnsubscribeAfterFiring#set","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$Current#get","Spine.Unity.WaitForSpineEvent#init","Spine.Unity.WaitForSpineEvent#ctor","Spine.Unity.WaitForSpineEvent#$ctor2","Spine.Unity.WaitForSpineEvent#$ctor1","Spine.Unity.WaitForSpineEvent#$ctor3","Spine.Unity.WaitForSpineEvent#Subscribe","Spine.Unity.WaitForSpineEvent#SubscribeByName","Spine.Unity.WaitForSpineEvent#HandleAnimationStateEventByName","Spine.Unity.WaitForSpineEvent#HandleAnimationStateEvent","Spine.Unity.WaitForSpineEvent#NowWaitFor","Spine.Unity.WaitForSpineEvent#NowWaitFor$1","Spine.Unity.WaitForSpineEvent#Clear","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$moveNext","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$reset","Spine.Unity.WaitForSpineTrackEntryEnd#System$Collections$IEnumerator$Current#get","Spine.Unity.WaitForSpineTrackEntryEnd#init","Spine.Unity.WaitForSpineTrackEntryEnd#ctor","Spine.Unity.WaitForSpineTrackEntryEnd#HandleEnd","Spine.Unity.WaitForSpineTrackEntryEnd#SafeSubscribe","Spine.Unity.WaitForSpineTrackEntryEnd#NowWaitFor","Spine.Unity.WaitForSpineTrackEntryEnd#System$Collections$IEnumerator$moveNext","Spine.Unity.WaitForSpineTrackEntryEnd#System$Collections$IEnumerator$reset","CodeKits.Event.CustomUnRegister#getDefaultValue","CodeKits.Event.CustomUnRegister#$ctor1","CodeKits.Event.CustomUnRegister#ctor","CodeKits.Event.CustomUnRegister#UnRegister","CodeKits.Event.CustomUnRegister#getHashCode","CodeKits.Event.CustomUnRegister#equals","CodeKits.Event.CustomUnRegister#$clone","CodeKits.Event.EasyEvent$1#init","CodeKits.Event.EasyEvent$1#Register$1","CodeKits.Event.EasyEvent$1#Register","CodeKits.Event.EasyEvent$1#UnRegister","CodeKits.Event.EasyEvent$1#Trigger","CodeKits.Event.UnRegisterOnDestroyTrigger#OnDestroy","CodeKits.Pool.Pool$1#CurCount#get","CodeKits.Pool.Pool$1#init","CodeKits.Pool.Pool$1#ctor","CodeKits.Pool.Pool$1#Pop","CodeKits.Pool.Pool$1#Push","CodeKits.Singleton.MonoSingleton$1#Instance#get","CodeKits.Singleton.MonoSingleton$1#init","CodeKits.Singleton.MonoSingleton$1#OnSingletonInit","CodeKits.Singleton.MonoSingleton$1#Dispose","CodeKits.Singleton.MonoSingleton$1#OnApplicationQuit","CodeKits.Singleton.MonoSingleton$1#OnDestroy","CodeKits.Singleton.Singleton$1#Instance#get","CodeKits.Singleton.Singleton$1#init","CodeKits.Singleton.Singleton$1#OnSingletonInit","CodeKits.Singleton.Singleton$1#Dispose","IvyCoreEx.Extention.PSE_Event_CreatePrefab#init","IvyCoreEx.Extention.PSE_Event_CreatePrefab#Reset","IvyCoreEx.Extention.PSE_Event_CreatePrefab#DoEvent","IvyCoreEx.Extention.PSE_Event_PlaySound#init","IvyCoreEx.Extention.PSE_Event_PlaySound#Reset","IvyCoreEx.Extention.PSE_Event_PlaySound#DoEvent","IvyCoreEx.Extention.PSE_Event_StringTrigger#init","IvyCoreEx.Extention.PSE_Event_StringTrigger#Reset","IvyCoreEx.Extention.PSE_Event_StringTrigger#DoEvent","Match3.ChildView#Initialize","Match3.ChildView#PlayCollectEffect","Match3.GeneratorView#init","Match3.GeneratorView#Initialize","Match3.GeneratorView#PlayIdle","Match3.GeneratorView#UpdateStateVisual","Match3.GeneratorView#AdvanceState","Match3.GeneratorView#TriggerGeneration","Match3.MotherView#init","Match3.MotherView#Initialize","Match3.MotherView#UpdateText","Match3.MotherView#PlayIdle","Match3.MotherView#ReceiveChild","Match3.NormalElementView#init","Match3.NormalElementView#Initialize","Match3.NormalElementView#PlayChangeAnimation","Match3.ObstacleView#init","Match3.ObstacleView#Initialize","Match3.ObstacleView#TakeDamage","Match3.ObstacleView#PlayTransitionAndNextState","Match3.ObstacleView#UpdateStateVisual","Match3.ObstacleView#PlayCollectEffect","Match3.ObstacleView#SpawnEffect","Match3.RetractingCollectibleView#init","Match3.RetractingCollectibleView#Initialize","Match3.RetractingCollectibleView#PlaySpineAnimation","Match3.RetractingCollectibleView#UpdateCellSize","Match3.RetractingCollectibleView#GenerateBody","Match3.RetractingCollectibleView#RetractOneCell","Match3.SpecialElementView#init","Match3.SpecialElementView#Initialize","Match3.SpecialElementView#PlayCreationAnimation","Match3.SpecialElementView#OnCreationAnimationComplete","Match3.SpecialElementView#PlayTriggerAnimation","Match3.SpecialElementView#GetTriggerAnimationDuration","Match3.SpecialElementView#GetCreationAnimationDuration","Match3.SpecialElementView#StopIdleVisuals","Match3.SpecialElementView#PlaySwapAnimation","Match3.SpecialElementView#GetSwapAnimationDuration","Match3.SpecialElementView#TryPlaySwapAnimation","Match3.SpecialElementView#PlaySwapParticleEffect","Spine.AnimationStateData.AnimationPairComparer#init","Spine.AnimationStateData.AnimationPairComparer#System$Collections$Generic$IEqualityComparer$1$Spine$AnimationStateData$AnimationPair$equals2","Spine.AnimationStateData.AnimationPairComparer#System$Collections$Generic$IEqualityComparer$1$Spine$AnimationStateData$AnimationPair$getHashCode2","Spine.Atlas#ReadValue","Spine.Atlas#ReadTuple","Spine.Atlas#Regions#get","Spine.Atlas#Pages#get","Spine.Atlas#init","Spine.Atlas#$ctor1","Spine.Atlas#ctor","Spine.Atlas#GetEnumerator","Spine.Atlas#System$Collections$IEnumerable$GetEnumerator","Spine.Atlas#Load","Spine.Atlas#FlipV","Spine.Atlas#FindRegion","Spine.Atlas#Dispose","Spine.AtlasAttachmentLoader#ctor","Spine.AtlasAttachmentLoader#NewRegionAttachment","Spine.AtlasAttachmentLoader#NewMeshAttachment","Spine.AtlasAttachmentLoader#NewBoundingBoxAttachment","Spine.AtlasAttachmentLoader#NewPathAttachment","Spine.AtlasAttachmentLoader#NewPointAttachment","Spine.AtlasAttachmentLoader#NewClippingAttachment","Spine.AtlasAttachmentLoader#FindRegion","Spine.AttachmentTimeline#PropertyId#get","Spine.AttachmentTimeline#FrameCount#get","Spine.AttachmentTimeline#SlotIndex#get","Spine.AttachmentTimeline#SlotIndex#set","Spine.AttachmentTimeline#Frames#get","Spine.AttachmentTimeline#Frames#set","Spine.AttachmentTimeline#AttachmentNames#get","Spine.AttachmentTimeline#AttachmentNames#set","Spine.AttachmentTimeline#ctor","Spine.AttachmentTimeline#SetFrame","Spine.AttachmentTimeline#Apply","Spine.AttachmentTimeline#SetAttachment","Spine.Bone#Data#get","Spine.Bone#Skeleton#get","Spine.Bone#Parent#get","Spine.Bone#Children#get","Spine.Bone#Active#get","Spine.Bone#X#get","Spine.Bone#X#set","Spine.Bone#Y#get","Spine.Bone#Y#set","Spine.Bone#Rotation#get","Spine.Bone#Rotation#set","Spine.Bone#ScaleX#get","Spine.Bone#ScaleX#set","Spine.Bone#ScaleY#get","Spine.Bone#ScaleY#set","Spine.Bone#ShearX#get","Spine.Bone#ShearX#set","Spine.Bone#ShearY#get","Spine.Bone#ShearY#set","Spine.Bone#AppliedRotation#get","Spine.Bone#AppliedRotation#set","Spine.Bone#AX#get","Spine.Bone#AX#set","Spine.Bone#AY#get","Spine.Bone#AY#set","Spine.Bone#AScaleX#get","Spine.Bone#AScaleX#set","Spine.Bone#AScaleY#get","Spine.Bone#AScaleY#set","Spine.Bone#AShearX#get","Spine.Bone#AShearX#set","Spine.Bone#AShearY#get","Spine.Bone#AShearY#set","Spine.Bone#A#get","Spine.Bone#B#get","Spine.Bone#C#get","Spine.Bone#D#get","Spine.Bone#WorldX#get","Spine.Bone#WorldY#get","Spine.Bone#WorldRotationX#get","Spine.Bone#WorldRotationY#get","Spine.Bone#WorldScaleX#get","Spine.Bone#WorldScaleY#get","Spine.Bone#WorldToLocalRotationX#get","Spine.Bone#WorldToLocalRotationY#get","Spine.Bone#init","Spine.Bone#ctor","Spine.Bone#Update","Spine.Bone#UpdateWorldTransform","Spine.Bone#UpdateWorldTransform$1","Spine.Bone#SetToSetupPose","Spine.Bone#UpdateAppliedTransform","Spine.Bone#WorldToLocal","Spine.Bone#LocalToWorld","Spine.Bone#WorldToLocalRotation","Spine.Bone#LocalToWorldRotation","Spine.Bone#RotateWorld","Spine.Bone#toString","Spine.VertexAttachment#init","Spine.VertexAttachment#Id#get","Spine.VertexAttachment#Bones#get","Spine.VertexAttachment#Bones#set","Spine.VertexAttachment#Vertices#get","Spine.VertexAttachment#Vertices#set","Spine.VertexAttachment#WorldVerticesLength#get","Spine.VertexAttachment#WorldVerticesLength#set","Spine.VertexAttachment#DeformAttachment#get","Spine.VertexAttachment#DeformAttachment#set","Spine.VertexAttachment#ctor","Spine.VertexAttachment#ComputeWorldVertices$1","Spine.VertexAttachment#ComputeWorldVertices","Spine.VertexAttachment#CopyTo","Spine.CurveTimeline#init","Spine.CurveTimeline#FrameCount#get","Spine.CurveTimeline#ctor","Spine.CurveTimeline#SetLinear","Spine.CurveTimeline#SetStepped","Spine.CurveTimeline#GetCurveType","Spine.CurveTimeline#SetCurve","Spine.CurveTimeline#GetCurvePercent","Spine.DrawOrderTimeline#PropertyId#get","Spine.DrawOrderTimeline#FrameCount#get","Spine.DrawOrderTimeline#Frames#get","Spine.DrawOrderTimeline#Frames#set","Spine.DrawOrderTimeline#DrawOrders#get","Spine.DrawOrderTimeline#DrawOrders#set","Spine.DrawOrderTimeline#ctor","Spine.DrawOrderTimeline#SetFrame","Spine.DrawOrderTimeline#Apply","Spine.EventTimeline#PropertyId#get","Spine.EventTimeline#FrameCount#get","Spine.EventTimeline#Frames#get","Spine.EventTimeline#Frames#set","Spine.EventTimeline#Events#get","Spine.EventTimeline#Events#set","Spine.EventTimeline#ctor","Spine.EventTimeline#SetFrame","Spine.EventTimeline#Apply","Spine.IkConstraint#Apply$1","Spine.IkConstraint#Apply","Spine.IkConstraint#Bones#get","Spine.IkConstraint#Target#get","Spine.IkConstraint#Target#set","Spine.IkConstraint#Mix#get","Spine.IkConstraint#Mix#set","Spine.IkConstraint#Softness#get","Spine.IkConstraint#Softness#set","Spine.IkConstraint#BendDirection#get","Spine.IkConstraint#BendDirection#set","Spine.IkConstraint#Compress#get","Spine.IkConstraint#Compress#set","Spine.IkConstraint#Stretch#get","Spine.IkConstraint#Stretch#set","Spine.IkConstraint#Active#get","Spine.IkConstraint#Data#get","Spine.IkConstraint#init","Spine.IkConstraint#$ctor1","Spine.IkConstraint#ctor","Spine.IkConstraint#Apply","Spine.IkConstraint#Update","Spine.IkConstraint#toString","Spine.IkConstraintData#Bones#get","Spine.IkConstraintData#Target#get","Spine.IkConstraintData#Target#set","Spine.IkConstraintData#Mix#get","Spine.IkConstraintData#Mix#set","Spine.IkConstraintData#Softness#get","Spine.IkConstraintData#Softness#set","Spine.IkConstraintData#BendDirection#get","Spine.IkConstraintData#BendDirection#set","Spine.IkConstraintData#Compress#get","Spine.IkConstraintData#Compress#set","Spine.IkConstraintData#Stretch#get","Spine.IkConstraintData#Stretch#set","Spine.IkConstraintData#Uniform#get","Spine.IkConstraintData#Uniform#set","Spine.IkConstraintData#init","Spine.IkConstraintData#ctor","Spine.PathConstraint#init","Spine.PathConstraint#AddBeforePosition","Spine.PathConstraint#AddAfterPosition","Spine.PathConstraint#AddCurvePosition","Spine.PathConstraint#Position#get","Spine.PathConstraint#Position#set","Spine.PathConstraint#Spacing#get","Spine.PathConstraint#Spacing#set","Spine.PathConstraint#RotateMix#get","Spine.PathConstraint#RotateMix#set","Spine.PathConstraint#TranslateMix#get","Spine.PathConstraint#TranslateMix#set","Spine.PathConstraint#Bones#get","Spine.PathConstraint#Target#get","Spine.PathConstraint#Target#set","Spine.PathConstraint#Active#get","Spine.PathConstraint#Data#get","Spine.PathConstraint#init","Spine.PathConstraint#$ctor1","Spine.PathConstraint#ctor","Spine.PathConstraint#Apply","Spine.PathConstraint#Update","Spine.PathConstraint#ComputeWorldPositions","Spine.PathConstraintData#Bones#get","Spine.PathConstraintData#Target#get","Spine.PathConstraintData#Target#set","Spine.PathConstraintData#PositionMode#get","Spine.PathConstraintData#PositionMode#set","Spine.PathConstraintData#SpacingMode#get","Spine.PathConstraintData#SpacingMode#set","Spine.PathConstraintData#RotateMode#get","Spine.PathConstraintData#RotateMode#set","Spine.PathConstraintData#OffsetRotation#get","Spine.PathConstraintData#OffsetRotation#set","Spine.PathConstraintData#Position#get","Spine.PathConstraintData#Position#set","Spine.PathConstraintData#Spacing#get","Spine.PathConstraintData#Spacing#set","Spine.PathConstraintData#RotateMix#get","Spine.PathConstraintData#RotateMix#set","Spine.PathConstraintData#TranslateMix#get","Spine.PathConstraintData#TranslateMix#set","Spine.PathConstraintData#init","Spine.PathConstraintData#ctor","Spine.PointAttachment#X#get","Spine.PointAttachment#X#set","Spine.PointAttachment#Y#get","Spine.PointAttachment#Y#set","Spine.PointAttachment#Rotation#get","Spine.PointAttachment#Rotation#set","Spine.PointAttachment#ctor","Spine.PointAttachment#ComputeWorldPosition","Spine.PointAttachment#ComputeWorldRotation","Spine.PointAttachment#Copy","Spine.Pow#ctor","Spine.Pow#Apply$1","Spine.RegionAttachment#init","Spine.RegionAttachment#X#get","Spine.RegionAttachment#X#set","Spine.RegionAttachment#Y#get","Spine.RegionAttachment#Y#set","Spine.RegionAttachment#Rotation#get","Spine.RegionAttachment#Rotation#set","Spine.RegionAttachment#ScaleX#get","Spine.RegionAttachment#ScaleX#set","Spine.RegionAttachment#ScaleY#get","Spine.RegionAttachment#ScaleY#set","Spine.RegionAttachment#Width#get","Spine.RegionAttachment#Width#set","Spine.RegionAttachment#Height#get","Spine.RegionAttachment#Height#set","Spine.RegionAttachment#R#get","Spine.RegionAttachment#R#set","Spine.RegionAttachment#G#get","Spine.RegionAttachment#G#set","Spine.RegionAttachment#B#get","Spine.RegionAttachment#B#set","Spine.RegionAttachment#A#get","Spine.RegionAttachment#A#set","Spine.RegionAttachment#RegionOffsetX#get","Spine.RegionAttachment#RegionOffsetX#set","Spine.RegionAttachment#RegionOffsetY#get","Spine.RegionAttachment#RegionOffsetY#set","Spine.RegionAttachment#RegionWidth#get","Spine.RegionAttachment#RegionWidth#set","Spine.RegionAttachment#RegionHeight#get","Spine.RegionAttachment#RegionHeight#set","Spine.RegionAttachment#RegionOriginalWidth#get","Spine.RegionAttachment#RegionOriginalWidth#set","Spine.RegionAttachment#RegionOriginalHeight#get","Spine.RegionAttachment#RegionOriginalHeight#set","Spine.RegionAttachment#Offset#get","Spine.RegionAttachment#UVs#get","Spine.RegionAttachment#init","Spine.RegionAttachment#ctor","Spine.RegionAttachment#UpdateOffset","Spine.RegionAttachment#SetUVs","Spine.RegionAttachment#ComputeWorldVertices","Spine.RegionAttachment#Copy","Spine.Skin.SkinEntryComparer#init","Spine.Skin.SkinEntryComparer#System$Collections$Generic$IEqualityComparer$1$Spine$Skin$SkinEntry$equals2","Spine.Skin.SkinEntryComparer#System$Collections$Generic$IEqualityComparer$1$Spine$Skin$SkinEntry$getHashCode2","Spine.TrackEntry#inherits","Spine.TrackEntry#TrackIndex#get","Spine.TrackEntry#Animation#get","Spine.TrackEntry#Loop#get","Spine.TrackEntry#Loop#set","Spine.TrackEntry#Delay#get","Spine.TrackEntry#Delay#set","Spine.TrackEntry#TrackTime#get","Spine.TrackEntry#TrackTime#set","Spine.TrackEntry#TrackEnd#get","Spine.TrackEntry#TrackEnd#set","Spine.TrackEntry#AnimationStart#get","Spine.TrackEntry#AnimationStart#set","Spine.TrackEntry#AnimationEnd#get","Spine.TrackEntry#AnimationEnd#set","Spine.TrackEntry#AnimationLast#get","Spine.TrackEntry#AnimationLast#set","Spine.TrackEntry#AnimationTime#get","Spine.TrackEntry#TimeScale#get","Spine.TrackEntry#TimeScale#set","Spine.TrackEntry#Alpha#get","Spine.TrackEntry#Alpha#set","Spine.TrackEntry#EventThreshold#get","Spine.TrackEntry#EventThreshold#set","Spine.TrackEntry#AttachmentThreshold#get","Spine.TrackEntry#AttachmentThreshold#set","Spine.TrackEntry#DrawOrderThreshold#get","Spine.TrackEntry#DrawOrderThreshold#set","Spine.TrackEntry#Next#get","Spine.TrackEntry#IsComplete#get","Spine.TrackEntry#MixTime#get","Spine.TrackEntry#MixTime#set","Spine.TrackEntry#MixDuration#get","Spine.TrackEntry#MixDuration#set","Spine.TrackEntry#MixBlend#get","Spine.TrackEntry#MixBlend#set","Spine.TrackEntry#MixingFrom#get","Spine.TrackEntry#MixingTo#get","Spine.TrackEntry#HoldPrevious#get","Spine.TrackEntry#HoldPrevious#set","Spine.TrackEntry#init","Spine.TrackEntry#OnStart","Spine.TrackEntry#OnInterrupt","Spine.TrackEntry#OnEnd","Spine.TrackEntry#OnDispose","Spine.TrackEntry#OnComplete","Spine.TrackEntry#OnEvent","Spine.TrackEntry#Reset","Spine.TrackEntry#ResetRotationDirections","Spine.TrackEntry#toString","Spine.TransformConstraint#Bones#get","Spine.TransformConstraint#Target#get","Spine.TransformConstraint#Target#set","Spine.TransformConstraint#RotateMix#get","Spine.TransformConstraint#RotateMix#set","Spine.TransformConstraint#TranslateMix#get","Spine.TransformConstraint#TranslateMix#set","Spine.TransformConstraint#ScaleMix#get","Spine.TransformConstraint#ScaleMix#set","Spine.TransformConstraint#ShearMix#get","Spine.TransformConstraint#ShearMix#set","Spine.TransformConstraint#Active#get","Spine.TransformConstraint#Data#get","Spine.TransformConstraint#$ctor1","Spine.TransformConstraint#ctor","Spine.TransformConstraint#Apply","Spine.TransformConstraint#Update","Spine.TransformConstraint#ApplyAbsoluteWorld","Spine.TransformConstraint#ApplyRelativeWorld","Spine.TransformConstraint#ApplyAbsoluteLocal","Spine.TransformConstraint#ApplyRelativeLocal","Spine.TransformConstraint#toString","Spine.TransformConstraintData#Bones#get","Spine.TransformConstraintData#Target#get","Spine.TransformConstraintData#Target#set","Spine.TransformConstraintData#RotateMix#get","Spine.TransformConstraintData#RotateMix#set","Spine.TransformConstraintData#TranslateMix#get","Spine.TransformConstraintData#TranslateMix#set","Spine.TransformConstraintData#ScaleMix#get","Spine.TransformConstraintData#ScaleMix#set","Spine.TransformConstraintData#ShearMix#get","Spine.TransformConstraintData#ShearMix#set","Spine.TransformConstraintData#OffsetRotation#get","Spine.TransformConstraintData#OffsetRotation#set","Spine.TransformConstraintData#OffsetX#get","Spine.TransformConstraintData#OffsetX#set","Spine.TransformConstraintData#OffsetY#get","Spine.TransformConstraintData#OffsetY#set","Spine.TransformConstraintData#OffsetScaleX#get","Spine.TransformConstraintData#OffsetScaleX#set","Spine.TransformConstraintData#OffsetScaleY#get","Spine.TransformConstraintData#OffsetScaleY#set","Spine.TransformConstraintData#OffsetShearY#get","Spine.TransformConstraintData#OffsetShearY#set","Spine.TransformConstraintData#Relative#get","Spine.TransformConstraintData#Relative#set","Spine.TransformConstraintData#Local#get","Spine.TransformConstraintData#Local#set","Spine.TransformConstraintData#init","Spine.TransformConstraintData#ctor","Spine.Unity.AnimationReferenceAsset#init","Spine.Unity.AnimationReferenceAsset#op_Implicit","Spine.Unity.AnimationReferenceAsset#SkeletonDataAsset#get","Spine.Unity.AnimationReferenceAsset#Animation#get","Spine.Unity.AnimationReferenceAsset#Initialize","Spine.Unity.BlendModeMaterialsAsset#ApplyMaterials","Spine.Unity.BlendModeMaterialsAsset#init","Spine.Unity.BlendModeMaterialsAsset#Apply","Spine.Unity.MaterialsTextureLoader#ctor","Spine.Unity.MaterialsTextureLoader#Load","Spine.Unity.MaterialsTextureLoader#Unload","Spine.Unity.PointFollower#SkeletonRenderer#get","Spine.Unity.PointFollower#SkeletonComponent#get","Spine.Unity.PointFollower#IsValid#get","Spine.Unity.PointFollower#init","Spine.Unity.PointFollower#Initialize","Spine.Unity.PointFollower#HandleRebuildRenderer","Spine.Unity.PointFollower#UpdateReferences","Spine.Unity.PointFollower#OnDestroy","Spine.Unity.PointFollower#LateUpdate","Spine.Unity.RegionlessAttachmentLoader#EmptyRegion#get","Spine.Unity.RegionlessAttachmentLoader#NewRegionAttachment","Spine.Unity.RegionlessAttachmentLoader#NewMeshAttachment","Spine.Unity.RegionlessAttachmentLoader#NewBoundingBoxAttachment","Spine.Unity.RegionlessAttachmentLoader#NewPathAttachment","Spine.Unity.RegionlessAttachmentLoader#NewPointAttachment","Spine.Unity.RegionlessAttachmentLoader#NewClippingAttachment","Spine.Unity.SkeletonRenderer#init","Spine.Unity.SkeletonRenderer#NewSpineGameObject","Spine.Unity.SkeletonRenderer#AddSpineComponent","Spine.Unity.SkeletonRenderer#UpdateMode#get","Spine.Unity.SkeletonRenderer#UpdateMode#set","Spine.Unity.SkeletonRenderer#CustomMaterialOverride#get","Spine.Unity.SkeletonRenderer#CustomSlotMaterials#get","Spine.Unity.SkeletonRenderer#Skeleton#get","Spine.Unity.SkeletonRenderer#SkeletonDataAsset#get","Spine.Unity.SkeletonRenderer#init","Spine.Unity.SkeletonRenderer#addGenerateMeshOverride","Spine.Unity.SkeletonRenderer#removeGenerateMeshOverride","Spine.Unity.SkeletonRenderer#SetMeshSettings","Spine.Unity.SkeletonRenderer#Awake","Spine.Unity.SkeletonRenderer#OnDisable","Spine.Unity.SkeletonRenderer#OnDestroy","Spine.Unity.SkeletonRenderer#ClearState","Spine.Unity.SkeletonRenderer#EnsureMeshGeneratorCapacity","Spine.Unity.SkeletonRenderer#Initialize","Spine.Unity.SkeletonRenderer#LateUpdate","Spine.Unity.SkeletonRenderer#OnBecameVisible","Spine.Unity.SkeletonRenderer#OnBecameInvisible","Spine.Unity.SkeletonRenderer#FindAndApplySeparatorSlots$1","Spine.Unity.SkeletonRenderer#FindAndApplySeparatorSlots","Spine.Unity.SkeletonRenderer#ReapplySeparatorSlotNames","Spine.Unity.SkeletonRenderer#AssignSpriteMaskMaterials","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsInsideMask","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsOutsideMask","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsForMaskType","Spine.Unity.SkeletonRenderer#SetMaterialSettingsToFixDrawOrder","Spine.Unity.SkeletonGraphic#init","Spine.Unity.SkeletonGraphic#NewSkeletonGraphicGameObject","Spine.Unity.SkeletonGraphic#AddSkeletonGraphicComponent","Spine.Unity.SkeletonGraphic#SkeletonDataAsset#get","Spine.Unity.SkeletonGraphic#UpdateMode#get","Spine.Unity.SkeletonGraphic#UpdateMode#set","Spine.Unity.SkeletonGraphic#SeparatorParts#get","Spine.Unity.SkeletonGraphic#CustomTextureOverride#get","Spine.Unity.SkeletonGraphic#CustomMaterialOverride#get","Spine.Unity.SkeletonGraphic#OverrideTexture#get","Spine.Unity.SkeletonGraphic#OverrideTexture#set","Spine.Unity.SkeletonGraphic#mainTexture#get","Spine.Unity.SkeletonGraphic#Skeleton#get","Spine.Unity.SkeletonGraphic#Skeleton#set","Spine.Unity.SkeletonGraphic#SkeletonData#get","Spine.Unity.SkeletonGraphic#IsValid#get","Spine.Unity.SkeletonGraphic#AnimationState#get","Spine.Unity.SkeletonGraphic#MeshGenerator#get","Spine.Unity.SkeletonGraphic#init","Spine.Unity.SkeletonGraphic#Awake","Spine.Unity.SkeletonGraphic#OnDestroy","Spine.Unity.SkeletonGraphic#Rebuild","Spine.Unity.SkeletonGraphic#OnDisable","Spine.Unity.SkeletonGraphic#Update","Spine.Unity.SkeletonGraphic#Update$1","Spine.Unity.SkeletonGraphic#SyncRawImagesWithCanvasRenderers","Spine.Unity.SkeletonGraphic#UpdateAnimationStatus","Spine.Unity.SkeletonGraphic#ApplyAnimation","Spine.Unity.SkeletonGraphic#LateUpdate","Spine.Unity.SkeletonGraphic#OnCullStateChanged","Spine.Unity.SkeletonGraphic#OnBecameVisible","Spine.Unity.SkeletonGraphic#OnBecameInvisible","Spine.Unity.SkeletonGraphic#ReapplySeparatorSlotNames","Spine.Unity.SkeletonGraphic#GetLastMesh","Spine.Unity.SkeletonGraphic#MatchRectTransformWithBounds","Spine.Unity.SkeletonGraphic#MatchRectTransformSingleRenderer","Spine.Unity.SkeletonGraphic#MatchRectTransformMultipleRenderers","Spine.Unity.SkeletonGraphic#SetRectTransformBounds","Spine.Unity.SkeletonGraphic#Clear","Spine.Unity.SkeletonGraphic#TrimRenderers","Spine.Unity.SkeletonGraphic#Initialize","Spine.Unity.SkeletonGraphic#UpdateMesh","Spine.Unity.SkeletonGraphic#HasMultipleSubmeshInstructions","Spine.Unity.SkeletonGraphic#InitMeshBuffers","Spine.Unity.SkeletonGraphic#DisposeMeshBuffers","Spine.Unity.SkeletonGraphic#UpdateMeshSingleCanvasRenderer","Spine.Unity.SkeletonGraphic#UpdateMeshMultipleCanvasRenderers","Spine.Unity.SkeletonGraphic#EnsureCanvasRendererCount","Spine.Unity.SkeletonGraphic#DisableUnusedCanvasRenderers","Spine.Unity.SkeletonGraphic#EnsureMeshesCount","Spine.Unity.SkeletonGraphic#DestroyMeshes","Spine.Unity.SkeletonGraphic#EnsureSeparatorPartCount","Spine.Unity.SkeletonGraphic#UpdateSeparatorPartParents","Spine.Unity.SkeletonMecanimRootMotion#init","Spine.Unity.SkeletonMecanimRootMotion#SkeletonMecanim#get","Spine.Unity.SkeletonMecanimRootMotion#init","Spine.Unity.SkeletonMecanimRootMotion#GetRemainingRootMotion","Spine.Unity.SkeletonMecanimRootMotion#GetRootMotionInfo","Spine.Unity.SkeletonMecanimRootMotion#Reset","Spine.Unity.SkeletonMecanimRootMotion#Start","Spine.Unity.SkeletonMecanimRootMotion#OnClipApplied","Spine.Unity.SkeletonMecanimRootMotion#CalculateAnimationsMovementDelta","Spine.Unity.SkeletonRootMotion#init","Spine.Unity.SkeletonRootMotion#AdditionalScale#get","Spine.Unity.SkeletonRootMotion#init","Spine.Unity.SkeletonRootMotion#GetRemainingRootMotion","Spine.Unity.SkeletonRootMotion#GetRootMotionInfo","Spine.Unity.SkeletonRootMotion#Reset","Spine.Unity.SkeletonRootMotion#Start","Spine.Unity.SkeletonRootMotion#CalculateAnimationsMovementDelta","Spine.Unity.SkeletonRootMotion#ApplyMixAlphaToDelta","Spine.Unity.SpineAnimation#ctor","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance$1","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance$2","Spine.Unity.SpineAtlasAsset#IsLoaded#get","Spine.Unity.SpineAtlasAsset#Materials#get","Spine.Unity.SpineAtlasAsset#MaterialCount#get","Spine.Unity.SpineAtlasAsset#PrimaryMaterial#get","Spine.Unity.SpineAtlasAsset#Reset","Spine.Unity.SpineAtlasAsset#Clear","Spine.Unity.SpineAtlasAsset#GetAtlas","Spine.Unity.SpineAtlasAsset#GenerateMesh","Spine.Unity.SpineAttachment#getHierarchy","Spine.Unity.SpineAttachment#getAttachment","Spine.Unity.SpineAttachment#getAttachment$1","Spine.Unity.SpineAttachment#init","Spine.Unity.SpineAttachment#ctor","Spine.Unity.SpineBone#getBone","Spine.Unity.SpineBone#getBoneData","Spine.Unity.SpineBone#ctor","Spine.Unity.SpineEvent#init","Spine.Unity.SpineEvent#ctor","Spine.Unity.SpineIkConstraint#ctor","Spine.Unity.SpinePathConstraint#ctor","Spine.Unity.SpineSkin#init","Spine.Unity.SpineSkin#ctor","Spine.Unity.SpineSlot#init","Spine.Unity.SpineSlot#ctor","Spine.Unity.SpineSpriteAtlasAsset#CreateRuntimeInstance","Spine.Unity.SpineSpriteAtlasAsset#AccessPackedTexture","Spine.Unity.SpineSpriteAtlasAsset#AccessPackedSprites","Spine.Unity.SpineSpriteAtlasAsset#IsLoaded#get","Spine.Unity.SpineSpriteAtlasAsset#Materials#get","Spine.Unity.SpineSpriteAtlasAsset#MaterialCount#get","Spine.Unity.SpineSpriteAtlasAsset#PrimaryMaterial#get","Spine.Unity.SpineSpriteAtlasAsset#Reset","Spine.Unity.SpineSpriteAtlasAsset#Clear","Spine.Unity.SpineSpriteAtlasAsset#GetAtlas","Spine.Unity.SpineSpriteAtlasAsset#AssignRegionsFromSavedRegions","Spine.Unity.SpineSpriteAtlasAsset#LoadAtlas","Spine.Unity.SpineTransformConstraint#ctor","Spine.Unity.WaitForSpineAnimationComplete#ctor","Spine.Unity.WaitForSpineAnimationComplete#NowWaitFor$1","Spine.Unity.WaitForSpineAnimationEnd#ctor","Spine.Unity.WaitForSpineAnimationEnd#NowWaitFor$1","Spine.BoundingBoxAttachment#ctor","Spine.BoundingBoxAttachment#Copy","Spine.ClippingAttachment#EndSlot#get","Spine.ClippingAttachment#EndSlot#set","Spine.ClippingAttachment#ctor","Spine.ClippingAttachment#Copy","Spine.ColorTimeline#init","Spine.ColorTimeline#PropertyId#get","Spine.ColorTimeline#SlotIndex#get","Spine.ColorTimeline#SlotIndex#set","Spine.ColorTimeline#Frames#get","Spine.ColorTimeline#Frames#set","Spine.ColorTimeline#ctor","Spine.ColorTimeline#SetFrame","Spine.ColorTimeline#Apply","Spine.DeformTimeline#PropertyId#get","Spine.DeformTimeline#SlotIndex#get","Spine.DeformTimeline#SlotIndex#set","Spine.DeformTimeline#Attachment#get","Spine.DeformTimeline#Attachment#set","Spine.DeformTimeline#Frames#get","Spine.DeformTimeline#Frames#set","Spine.DeformTimeline#Vertices#get","Spine.DeformTimeline#Vertices#set","Spine.DeformTimeline#ctor","Spine.DeformTimeline#SetFrame","Spine.DeformTimeline#Apply","Spine.IkConstraintTimeline#init","Spine.IkConstraintTimeline#PropertyId#get","Spine.IkConstraintTimeline#IkConstraintIndex#get","Spine.IkConstraintTimeline#IkConstraintIndex#set","Spine.IkConstraintTimeline#Frames#get","Spine.IkConstraintTimeline#Frames#set","Spine.IkConstraintTimeline#ctor","Spine.IkConstraintTimeline#SetFrame","Spine.IkConstraintTimeline#Apply","Spine.MeshAttachment#HullLength#get","Spine.MeshAttachment#HullLength#set","Spine.MeshAttachment#RegionUVs#get","Spine.MeshAttachment#RegionUVs#set","Spine.MeshAttachment#UVs#get","Spine.MeshAttachment#UVs#set","Spine.MeshAttachment#Triangles#get","Spine.MeshAttachment#Triangles#set","Spine.MeshAttachment#R#get","Spine.MeshAttachment#R#set","Spine.MeshAttachment#G#get","Spine.MeshAttachment#G#set","Spine.MeshAttachment#B#get","Spine.MeshAttachment#B#set","Spine.MeshAttachment#A#get","Spine.MeshAttachment#A#set","Spine.MeshAttachment#RegionOffsetX#get","Spine.MeshAttachment#RegionOffsetX#set","Spine.MeshAttachment#RegionOffsetY#get","Spine.MeshAttachment#RegionOffsetY#set","Spine.MeshAttachment#RegionWidth#get","Spine.MeshAttachment#RegionWidth#set","Spine.MeshAttachment#RegionHeight#get","Spine.MeshAttachment#RegionHeight#set","Spine.MeshAttachment#RegionOriginalWidth#get","Spine.MeshAttachment#RegionOriginalWidth#set","Spine.MeshAttachment#RegionOriginalHeight#get","Spine.MeshAttachment#RegionOriginalHeight#set","Spine.MeshAttachment#ParentMesh#get","Spine.MeshAttachment#ParentMesh#set","Spine.MeshAttachment#init","Spine.MeshAttachment#ctor","Spine.MeshAttachment#UpdateUVs","Spine.MeshAttachment#Copy","Spine.MeshAttachment#NewLinkedMesh","Spine.PathAttachment#Lengths#get","Spine.PathAttachment#Lengths#set","Spine.PathAttachment#Closed#get","Spine.PathAttachment#Closed#set","Spine.PathAttachment#ConstantSpeed#get","Spine.PathAttachment#ConstantSpeed#set","Spine.PathAttachment#ctor","Spine.PathAttachment#Copy","Spine.PathConstraintMixTimeline#init","Spine.PathConstraintMixTimeline#PropertyId#get","Spine.PathConstraintMixTimeline#PathConstraintIndex#get","Spine.PathConstraintMixTimeline#PathConstraintIndex#set","Spine.PathConstraintMixTimeline#Frames#get","Spine.PathConstraintMixTimeline#Frames#set","Spine.PathConstraintMixTimeline#ctor","Spine.PathConstraintMixTimeline#SetFrame","Spine.PathConstraintMixTimeline#Apply","Spine.PathConstraintPositionTimeline#init","Spine.PathConstraintPositionTimeline#PropertyId#get","Spine.PathConstraintPositionTimeline#PathConstraintIndex#get","Spine.PathConstraintPositionTimeline#PathConstraintIndex#set","Spine.PathConstraintPositionTimeline#Frames#get","Spine.PathConstraintPositionTimeline#Frames#set","Spine.PathConstraintPositionTimeline#ctor","Spine.PathConstraintPositionTimeline#SetFrame","Spine.PathConstraintPositionTimeline#Apply","Spine.PowOut#ctor","Spine.PowOut#Apply$1","Spine.RotateTimeline#init","Spine.RotateTimeline#PropertyId#get","Spine.RotateTimeline#BoneIndex#get","Spine.RotateTimeline#BoneIndex#set","Spine.RotateTimeline#Frames#get","Spine.RotateTimeline#Frames#set","Spine.RotateTimeline#ctor","Spine.RotateTimeline#SetFrame","Spine.RotateTimeline#Apply","Spine.TranslateTimeline#init","Spine.TranslateTimeline#PropertyId#get","Spine.TranslateTimeline#BoneIndex#get","Spine.TranslateTimeline#BoneIndex#set","Spine.TranslateTimeline#Frames#get","Spine.TranslateTimeline#Frames#set","Spine.TranslateTimeline#ctor","Spine.TranslateTimeline#SetFrame","Spine.TranslateTimeline#Apply","Spine.TransformConstraintTimeline#init","Spine.TransformConstraintTimeline#PropertyId#get","Spine.TransformConstraintTimeline#TransformConstraintIndex#get","Spine.TransformConstraintTimeline#TransformConstraintIndex#set","Spine.TransformConstraintTimeline#Frames#get","Spine.TransformConstraintTimeline#Frames#set","Spine.TransformConstraintTimeline#ctor","Spine.TransformConstraintTimeline#SetFrame","Spine.TransformConstraintTimeline#Apply","Spine.TwoColorTimeline#init","Spine.TwoColorTimeline#PropertyId#get","Spine.TwoColorTimeline#SlotIndex#get","Spine.TwoColorTimeline#SlotIndex#set","Spine.TwoColorTimeline#Frames#get","Spine.TwoColorTimeline#ctor","Spine.TwoColorTimeline#SetFrame","Spine.TwoColorTimeline#Apply","Spine.Unity.SkeletonAnimation#AddToGameObject","Spine.Unity.SkeletonAnimation#NewSkeletonAnimationGameObject","Spine.Unity.SkeletonAnimation#AnimationState#get","Spine.Unity.SkeletonAnimation#AnimationName#get","Spine.Unity.SkeletonAnimation#AnimationName#set","Spine.Unity.SkeletonAnimation#init","Spine.Unity.SkeletonAnimation#addBeforeApply","Spine.Unity.SkeletonAnimation#removeBeforeApply","Spine.Unity.SkeletonAnimation#addUpdateLocal","Spine.Unity.SkeletonAnimation#removeUpdateLocal","Spine.Unity.SkeletonAnimation#addUpdateWorld","Spine.Unity.SkeletonAnimation#removeUpdateWorld","Spine.Unity.SkeletonAnimation#addUpdateComplete","Spine.Unity.SkeletonAnimation#removeUpdateComplete","Spine.Unity.SkeletonAnimation#ClearState","Spine.Unity.SkeletonAnimation#Initialize","Spine.Unity.SkeletonAnimation#Update$1","Spine.Unity.SkeletonAnimation#Update","Spine.Unity.SkeletonAnimation#UpdateAnimationStatus","Spine.Unity.SkeletonAnimation#ApplyAnimation","Spine.Unity.SkeletonAnimation#LateUpdate","Spine.Unity.SkeletonMecanim#Translator#get","Spine.Unity.SkeletonMecanim#init","Spine.Unity.SkeletonMecanim#addBeforeApply","Spine.Unity.SkeletonMecanim#removeBeforeApply","Spine.Unity.SkeletonMecanim#addUpdateLocal","Spine.Unity.SkeletonMecanim#removeUpdateLocal","Spine.Unity.SkeletonMecanim#addUpdateWorld","Spine.Unity.SkeletonMecanim#removeUpdateWorld","Spine.Unity.SkeletonMecanim#addUpdateComplete","Spine.Unity.SkeletonMecanim#removeUpdateComplete","Spine.Unity.SkeletonMecanim#Initialize","Spine.Unity.SkeletonMecanim#Update","Spine.Unity.SkeletonMecanim#ApplyAnimation","Spine.Unity.SkeletonMecanim#LateUpdate","Spine.PathConstraintSpacingTimeline#PropertyId#get","Spine.PathConstraintSpacingTimeline#ctor","Spine.PathConstraintSpacingTimeline#Apply","Spine.ScaleTimeline#PropertyId#get","Spine.ScaleTimeline#ctor","Spine.ScaleTimeline#Apply","Spine.ShearTimeline#PropertyId#get","Spine.ShearTimeline#ctor","Spine.ShearTimeline#Apply"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AddressableAutoRelease#Key#get","AddressableAutoRelease#Key#set","BlockPuzzle.Views.OrientationActiveSwitcher#Start","BlockPuzzle.Views.OrientationActiveSwitcher#OnDestroy","BlockPuzzle.Views.OrientationActiveSwitcher#ApplyOrientation","BlockPuzzle.Views.OrientationActiveSwitcher#MarkDirty","BlockPuzzle.Views.OrientationActiveSwitcher#RecordAsLandscape","BlockPuzzle.Views.OrientationActiveSwitcher#RecordAsPortrait","BlockPuzzle.Views.OrientationActiveSwitcher#PreviewLandscape","BlockPuzzle.Views.OrientationActiveSwitcher#PreviewPortrait","BlockPuzzle.Views.OrientationDetector#CurrentOrientation#get","BlockPuzzle.Views.OrientationDetector#init","BlockPuzzle.Views.OrientationDetector#Awake","BlockPuzzle.Views.OrientationDetector#Update","BlockPuzzle.Views.OrientationDetector#CheckOrientation","BlockPuzzle.Views.OrientationObjectLayout#init","CodeKits.Event.EasyEvents#init","CodeKits.Event.EasyEvents#Register","CodeKits.Event.EasyEvents#Get","CodeKits.Event.EasyEvents#init","CodeKits.Event.EasyEvents#AddEvent","CodeKits.Event.EasyEvents#GetEvent","CodeKits.Event.UnRegisterExtension#GetOrAddComponent","CodeKits.Event.UnRegisterExtension#UnRegisterWhenObjDestroyed","CodeKits.Event.UnRegisterTrigger#init","CodeKits.Event.UnRegisterTrigger#AddUnRegister","CodeKits.Event.UnRegisterTrigger#UnRegister","CodeKits.Grid.EasyGrid$1#Width#get","CodeKits.Grid.EasyGrid$1#Width#set","CodeKits.Grid.EasyGrid$1#Height#get","CodeKits.Grid.EasyGrid$1#Height#set","CodeKits.Grid.EasyGrid$1#ctor","CodeKits.Grid.EasyGrid$1#getItem","CodeKits.Grid.EasyGrid$1#setItem","CodeKits.Grid.EasyGrid$1#Fill","CodeKits.Grid.EasyGrid$1#Fill$1","CodeKits.Grid.EasyGrid$1#Resize","CodeKits.Grid.EasyGrid$1#ForEach$1","CodeKits.Grid.EasyGrid$1#ForEach","CodeKits.Grid.EasyGrid$1#Clear","CodeKits.Singleton.SingletonCreator#CreateSingleton","CodeKits.Singleton.SingletonCreator#CreateMonoSingleton","CodeKits.Singleton.SingletonCreator#CreateGeneralSingleton","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","IvyCoreEx.Extention.ParticleSystemExtend#init","IvyCoreEx.Extention.ParticleSystemExtend#OnEnable","IvyCoreEx.Extention.ParticleSystemExtend#CheckDestoryMode","IvyCoreEx.Extention.ParticleSystemExtend#CheckPoolMode","IvyCoreEx.Extention.ParticleSystemExtend#CheckInvisibleMode","IvyCoreEx.Extention.ParticleSystemExtend#AddTriggerAction","IvyCoreEx.Extention.ParticleSystemExtend#TriggerAtion","IvyCoreEx.Extention.ParticleSystemExtend#RemoveTriggerAction","IvyCoreEx.Extention.ParticleSystemExtend#RemoveAllTriggerAction","IvyCoreEx.Extention.ParticleSystemExtend#Start","IvyCoreEx.Extention.ParticleSystemExtend#ResetEvents","IvyCoreEx.Extention.ParticleSystemExtend#Update","IvyCoreEx.Extention.ParticleSystemExtend#OnParticleSystemStopped","IvyCoreEx.Extention.PSE_EventBase#Reset","IvyCoreEx.Extention.PSE_EventBase#DoEvent","IvyCoreEx.UI_Base#GetActionsDescription","IvyCoreEx.UI_Base#init","IvyCoreEx.UI_Base#SetEnterActionPreCallBack","IvyCoreEx.UI_Base#SetEnterActionEndCallBack","IvyCoreEx.UI_Base#SetOutActionPreCallBack","IvyCoreEx.UI_Base#SetOutActionEndCallBack","IvyCoreEx.UI_Base#SetEnterActionCheckCallBack","IvyCoreEx.UI_Base#SetOutActionCheckCallBack","IvyCoreEx.UI_Base#IsEnterActionRunning","IvyCoreEx.UI_Base#IsOutActionRunning","IvyCoreEx.UI_Base#IsShowSelectComponent","IvyCoreEx.UI_Base#IsShowGenerateStandaloneComponent","IvyCoreEx.UI_Base#GetAllComponentsName","IvyCoreEx.UI_Base#isEnterActionInvaild","IvyCoreEx.UI_Base#OnEnable","IvyCoreEx.UI_Base#OnDisable","IvyCoreEx.UI_Base#isOutActionVaild","IvyCoreEx.UI_Base#RunEnterAction","IvyCoreEx.UI_Base#RunEnterActionWithoutOtherCallBack","IvyCoreEx.UI_Base#RunOutAction","IvyCoreEx.UI_Base#RunOutActionWithoutOtherCallBack","IvyCoreEx.UI_Base#RunAction","IvyCoreEx.UI_Base#ResetToInitPosition","IvyCoreEx.UI_Base#Awake","IvyCoreEx.UI_Base#OnDestroy","IvyCoreEx.UI_ParticleRenderOption#init","IvyCoreEx.UI_ParticleRenderOption#DoOptionLogic","IvyCoreEx.UI_ParticleRenderOption#DoOptionCoroutineLogic","IvyCoreEx.UI_ParticleRenderOption#Start","IvyCoreEx.UI_ParticleRenderOption#CheckCavansAndRoot","Manager.ConfigManager#Instance#get","Manager.ConfigManager#init","Match3.AudioManager#init","Match3.AudioManager#Awake","Match3.AudioManager#Start","Match3.AudioManager#LateUpdate","Match3.AudioManager#PlayBGM","Match3.AudioManager#StopBGM","Match3.AudioManager#PlayVictorySound","Match3.AudioManager#PlayDefeatSound","Match3.AudioManager#PlaySettlementSound","Match3.AudioManager#PlaySoundWithDelay","Match3.AudioManager#PlaySwapSound","Match3.AudioManager#PlayCollectSound","Match3.AudioManager#PlayLongObjectBackSound","Match3.AudioManager#PlayObstacleDamageSound","Match3.AudioManager#PlayObstacleDestroySound","Match3.AudioManager#PlayGeneratorSound","Match3.AudioManager#PlayContinuousSound","Match3.AudioManager#PlayContinuous","Match3.AudioManager#PlayNormalMatchSound","Match3.AudioManager#PlaySpecialGenerateSound","Match3.AudioManager#PlaySpecialTriggerSound","Match3.AudioManager#PlayBombBombMergeSound","Match3.AudioManager#PlayMagicBallSwapSound","Match3.AudioManager#PlayMagicBallGenerateSound","Match3.AudioManager#RequestPrioritySound","Match3.BoardManager#init","Match3.BoardManager#init","Match3.BoardManager#Update","Match3.BoardManager#TriggerSpecialOnClick","Match3.BoardManager#IsValidGridPos","Match3.BoardManager#GetGridPositionFromWorld","Match3.BoardManager#SwapAndCheck","Match3.BoardManager#FindAllMatchClusters","Match3.BoardManager#FindAllMatchClusters$1","Match3.BoardManager#IsValidTutorialMove","Match3.BoardManager#IsElementSwappable","Match3.BoardManager#GetPossibleMove","Match3.BoardManager#HasPossibleMoves","Match3.BoardManager#CheckAndShuffleIfNeeded","Match3.BoardManager#ProcessMatchesAndRefill","Match3.BoardManager#CanFall","Match3.BoardManager#GetRandomNormalElement","Match3.BoardManager#GetNextRefillElement","Match3.BoardManager#WaitForCollectibleRetracts","Match3.BoardManager#WaitForElementDestroys","Match3.BoardManager#StartTrackedSpecial","Match3.BoardManager#TrackedSpecialRoutine","Match3.BoardManager#EnsureMagicFocusMask","Match3.BoardManager#ShowMagicBallFocus","Match3.BoardManager#RaiseRenderersAboveFocus","Match3.BoardManager#HideMagicBallFocus","Match3.BoardManager#ClearMagicFocusMask","Match3.BoardManager#PlayMagicBallFinishEffect","Match3.BoardManager#ConvertedSpecialTriggerRoutine","Match3.BoardManager#WaitForActiveSpecialChains","Match3.BoardManager#ApplyGravityAndRefill","Match3.BoardManager#HideRefillUntilInsideBoard","Match3.BoardManager#RevealRefillWhenInside","Match3.BoardManager#ProcessConveyors","Match3.BoardManager#ActivateSpecial","Match3.BoardManager#DestroyElementVisual","Match3.BoardManager#SpawnNormalClearEffect","Match3.BoardManager#DestroyElements","Match3.BoardManager#ActivateColorClear","Match3.BoardManager#ActivateLineClear","Match3.BoardManager#ActivateBomb","Match3.BoardManager#ActivateTargetSeeker","Match3.BoardManager#TryRetractCollectible","Match3.BoardManager#CheckAdjacentCollectibles","Match3.BoardManager#ProcessChildCollection","Match3.BoardManager#InitializeBoard","Match3.BoardManager#InitialBoardCheck","Match3.BoardManager#PlayIntroAnimation","Match3.BoardManager#UpdateBoardLayout","Match3.BoardManager#CalculateBoardOrigin","Match3.BoardManager#GenerateGrid","Match3.BoardManager#UpdateGlobalBackground","Match3.BoardManager#SpawnElement","Match3.BoardManager#GetWorldPosition","Match3.BoardManager#ClearContainer","Match3.BoardManager#IsActiveLevelTarget","Match3.BoardManager#GetPriorityTargets","Match3.BoardManager#RotateSpecials","Match3.BoardManager#ActivateSpecialCombo","Match3.BoardManager.MatchCluster#init","Match3.ChildData#init","Match3.ElementView#init","Match3.ElementView#SetPosition","Match3.ElementView#MoveTo","Match3.ElementView#Awake","Match3.ElementView#UpdateVisuals","Match3.CollectibleElementData#init","Match3.ColumnRefillSequence#init","Match3.ConveyorCornerConfig#init","Match3.ElementDatabase#init","Match3.ElementDatabase#GetNormalElement","Match3.GameManager#SetBoardSettlementSorting","Match3.GameManager#currentLevelData#get","Match3.GameManager#init","Match3.GameManager#Start","Match3.GameManager#StartGame","Match3.GameManager#OnPlayerMove","Match3.GameManager#TriggerGlobalAd","Match3.GameManager#OnElementCollected","Match3.GameManager#OnBoardSettled","Match3.GameManager#CheckWinCondition","Match3.GameManager#ShowSettlementUIWithDelay","Match3.GameManager#PlaySettlementSound","Match3.GameManager#PlayVictorySettlementAboveBoard","Match3.GameManager#LoadNextLevel","Match3.GameManager#DownloadGame","Match3.GameManager.RendererSortingState#getDefaultValue","Match3.GameManager.RendererSortingState#$ctor1","Match3.GameManager.RendererSortingState#ctor","Match3.GameManager.RendererSortingState#getHashCode","Match3.GameManager.RendererSortingState#equals","Match3.GameManager.RendererSortingState#$clone","Match3.GeneratorData#init","Match3.GridCellData#init","Match3.GuideManager#IsGuideActive#get","Match3.GuideManager#HasPendingTutorial#get","Match3.GuideManager#CurrentTutorialFrom#get","Match3.GuideManager#CurrentTutorialTo#get","Match3.GuideManager#init","Match3.GuideManager#Initialize","Match3.GuideManager#CreateMask","Match3.GuideManager#CreateFinger","Match3.GuideManager#Update","Match3.GuideManager#ShowGuide","Match3.GuideManager#ClearGuideInstantly","Match3.GuideManager#CompleteTutorial","Match3.GuideManager#EndTutorial","Match3.GuideManager#OnDestroy","Match3.LevelData#init","Match3.LevelData#GetCell","Match3.LevelData#ValidateGrid","Match3.LevelTarget#init","Match3.Match3EffectPlayer#init","Match3.Match3EffectPlayer#Play","Match3.Match3EffectPlayer#PlayParticles","Match3.MotherData#init","Match3.NormalElementInfo#init","Match3.ObstacleData#init","Match3.SwapAnimationBinding#init","Match3.TutorialStep#init","Match3.UI.GameUIManager#init","Match3.UI.GameUIManager#PrepareTopmostOverlay","Match3.UI.GameUIManager#RestoreOverlay","Match3.UI.GameUIManager#init","Match3.UI.GameUIManager#SetTutorialUIMask","Match3.UI.GameUIManager#Start","Match3.UI.GameUIManager#OnDestroy","Match3.UI.GameUIManager#FadeOutCoroutine","Match3.UI.GameUIManager#FadeInCoroutine","Match3.UI.GameUIManager#EnsureFadeOverlay","Match3.UI.GameUIManager#Update","Match3.UI.GameUIManager#OnOrientationChanged","Match3.UI.GameUIManager#ResetRectToFull","Match3.UI.GameUIManager#UpdateBoardLayoutAfterUIUpdate","Match3.UI.GameUIManager#PlayIntroAnimation","Match3.UI.GameUIManager#InitializeUI","Match3.UI.GameUIManager#SetupTargets","Match3.UI.GameUIManager#UpdateTarget","Match3.UI.GameUIManager#GetTargetWorldPosition","Match3.UI.GameUIManager#UpdateSteps","Match3.UI.GameUIManager#ShowVictoryPanel","Match3.UI.GameUIManager#MountVictorySettlementScreen","Match3.UI.GameUIManager#PlayVictorySettlement","Match3.UI.GameUIManager#ShowNextLevelPanel","Match3.UI.GameUIManager#HideNextLevelPanel","Match3.UI.GameUIManager#ShowDefeatPanel","Match3.UI.GameUIManager#ShowGlobalAdOverlay","Match3.UI.GameUIManager#ShowDownloadPanel","Match3.UI.GameUIManager#OnNextLevelClicked","Match3.UI.GameUIManager#OnDownloadClicked","Match3.UI.GameUIManager#AdSkip","Match3.UI.GameUIManager.RendererSortingState#getDefaultValue","Match3.UI.GameUIManager.RendererSortingState#$ctor1","Match3.UI.GameUIManager.RendererSortingState#ctor","Match3.UI.GameUIManager.RendererSortingState#getHashCode","Match3.UI.GameUIManager.RendererSortingState#equals","Match3.UI.GameUIManager.RendererSortingState#$clone","Match3.UI.GameUIManager.SettlementOverlayState#getDefaultValue","Match3.UI.GameUIManager.SettlementOverlayState#$ctor1","Match3.UI.GameUIManager.SettlementOverlayState#ctor","Match3.UI.GameUIManager.SettlementOverlayState#RaiseSettlementRenderers","Match3.UI.GameUIManager.SettlementOverlayState#RestoreRenderers","Match3.UI.GameUIManager.SettlementOverlayState#getHashCode","Match3.UI.GameUIManager.SettlementOverlayState#equals","Match3.UI.GameUIManager.SettlementOverlayState#$clone","Match3.UI.RuntimeLoadingScreen#init","Match3.UI.RuntimeLoadingScreen#Create","Match3.UI.RuntimeLoadingScreen#CreateImage","Match3.UI.RuntimeLoadingScreen#StretchToParent","Match3.UI.RuntimeLoadingScreen#ctor","Match3.UI.RuntimeLoadingScreen#SetProgress","Match3.UI.RuntimeLoadingScreen#Close","Match3.UI.TargetUIItem#Setup","Match3.UI.TargetUIItem#UpdateAmount","Reference20.CocosParticle3DData#init","Reference20.CocosParticleGradient#ColorAt","Reference20.CocosParticleGradient#Evaluate","Reference20.CocosParticleModule#init","Reference20.CocosParticleRange#Evaluate","Reference20.CompanyImage#init","Reference20.CompanyNode#init","Reference20.CompanyParticleLayer#init","Reference20.CompanyParticleTrack#ValidSample","Reference20.CompanyText#init","Reference20.HtmlTrailLayer#init","Reference20.NativeNode#init","Reference20.NativeSlot#init","Reference20.Reference20CocosClip#Play$1","Reference20.Reference20CocosClip#Play","Reference20.Reference20CocosClip#Stop","Reference20.Reference20CocosClip#Update","Reference20.Reference20CocosClip#Apply","Reference20.Reference20CocosClip#Properties","Reference20.Reference20CocosClip#Vec","Reference20.Reference20ColorTrail#init","Reference20.Reference20ColorTrail#Reset","Reference20.Reference20ColorTrail#Release","Reference20.Reference20ColorTrail#Play","Reference20.Reference20ColorTrail#Empty","Reference20.Reference20ColorTrail#mainTexture#get","Reference20.Reference20ColorTrail#ctor","Reference20.Reference20ColorTrail#Update","Reference20.Reference20ColorTrail#OnPopulateMesh","Reference20.Reference20ColorTrailLease#Begin","Reference20.Reference20ColorTrailLease#Complete","Reference20.Reference20ColorTrailLease#Update","Reference20.Reference20CompanyAudio#Name","Reference20.Reference20CompanyEffects#Prewarm","Reference20.Reference20CompanyEffects#Reset","Reference20.Reference20CompanyEffects#Play","Reference20.Reference20CompanyEffects#Beam","Reference20.Reference20CompanyParticleBatch#mainTexture#get","Reference20.Reference20CompanyParticleBatch#init","Reference20.Reference20CompanyParticleBatch#ctor","Reference20.Reference20CompanyParticleBatch#Configure","Reference20.Reference20CompanyParticleBatch#Prepare","Reference20.Reference20CompanyParticleBatch#LateUpdate","Reference20.Reference20CompanyParticleBatch#OnPopulateMesh","Reference20.Reference20CompanyParticleHandle#init","Reference20.Reference20CompanyParticleHandle#Play","Reference20.Reference20CompanyParticleHandle#Update","Reference20.Reference20CompanyParticleHandle#Stop","Reference20.Reference20CompanyParticles#Active#get","Reference20.Reference20CompanyParticles#init","Reference20.Reference20CompanyParticles#Load","Reference20.Reference20CompanyParticles#Create","Reference20.Reference20CompanyParticles#Prewarm","Reference20.Reference20CompanyParticles#Reset","Reference20.Reference20CompanyParticles#RaiseAboveFocus","Reference20.Reference20CompanyParticles#Play","Reference20.Reference20CompanyParticles#Release","Reference20.Reference20CompanyParticles#MovingTrail","Reference20.Reference20CompanyParticles#StopChildren","Reference20.Reference20EffectInstance#Capture","Reference20.Reference20EffectInstance#Restore","Reference20.Reference20EffectInstance#Lease","Reference20.Reference20EffectInstance#Update","Reference20.Reference20EffectInstance#Complete","Reference20.Reference20EffectInstance.Pose#getDefaultValue","Reference20.Reference20EffectInstance.Pose#init","Reference20.Reference20EffectInstance.Pose#ctor","Reference20.Reference20EffectInstance.Pose#getHashCode","Reference20.Reference20EffectInstance.Pose#equals","Reference20.Reference20EffectInstance.Pose#$clone","Reference20.Reference20EffectInstance.SpinePose#getDefaultValue","Reference20.Reference20EffectInstance.SpinePose#ctor","Reference20.Reference20EffectInstance.SpinePose#getHashCode","Reference20.Reference20EffectInstance.SpinePose#equals","Reference20.Reference20EffectInstance.SpinePose#$clone","Reference20.Reference20FragmentBurst#mainTexture#get","Reference20.Reference20FragmentBurst#init","Reference20.Reference20FragmentBurst#ctor","Reference20.Reference20FragmentBurst#Play","Reference20.Reference20FragmentBurst#Update","Reference20.Reference20FragmentBurst#OnPopulateMesh","Reference20.Reference20FragmentBurst.Fragment#getDefaultValue","Reference20.Reference20FragmentBurst.Fragment#init","Reference20.Reference20FragmentBurst.Fragment#ctor","Reference20.Reference20FragmentBurst.Fragment#getHashCode","Reference20.Reference20FragmentBurst.Fragment#equals","Reference20.Reference20FragmentBurst.Fragment#$clone","Reference20.Reference20Fragments#init","Reference20.Reference20Fragments#Load","Reference20.Reference20Fragments#Prewarm","Reference20.Reference20Fragments#Reset","Reference20.Reference20Fragments#Burst","Reference20.Reference20Game#init","Reference20.Reference20Game#Configure2DAudio","Reference20.Reference20Game#EventBefore","Reference20.Reference20Game#Union","Reference20.Reference20Game#Rank","Reference20.Reference20Game#HintSkillPriority","Reference20.Reference20Game#HintPowerPriority","Reference20.Reference20Game#CanAcceptInput#get","Reference20.Reference20Game#init","Reference20.Reference20Game#CreateBear","Reference20.Reference20Game#TryCollectBear","Reference20.Reference20Game#BirdTarget","Reference20.Reference20Game#ReleaseBirdTarget","Reference20.Reference20Game#BirdDestination","Reference20.Reference20Game#LaunchPeacock","Reference20.Reference20Game#CollectCabinetCans","Reference20.Reference20Game#ReplaceWithChick","Reference20.Reference20Game#ShowCompanyLoading","Reference20.Reference20Game#CompanyEndArtwork","Reference20.Reference20Game#CreateCompanyNode","Reference20.Reference20Game#CellKey","Reference20.Reference20Game#PushEmpty","Reference20.Reference20Game#Vacate","Reference20.Reference20Game#WaitReady","Reference20.Reference20Game#WaitFor","Reference20.Reference20Game#ReserveMove","Reference20.Reference20Game#ConnectedAbove","Reference20.Reference20Game#PreviousSource","Reference20.Reference20Game#SlantInto","Reference20.Reference20Game#WaitingSourceAbove","Reference20.Reference20Game#CanFillVacancy","Reference20.Reference20Game#QueueMissedVacancies","Reference20.Reference20Game#StartFromVacancy","Reference20.Reference20Game#ContinueFall","Reference20.Reference20Game#TickGravity","Reference20.Reference20Game#StopHints","Reference20.Reference20Game#Hint","Reference20.Reference20Game#IdleFeedback","Reference20.Reference20Game#DragSelected","Reference20.Reference20Game#RandomRange","Reference20.Reference20Game#Start","Reference20.Reference20Game#Build","Reference20.Reference20Game#ClearChrome","Reference20.Reference20Game#BuildChrome","Reference20.Reference20Game#AddPicture","Reference20.Reference20Game#Box","Reference20.Reference20Game#Label","Reference20.Reference20Game#BuildGuide","Reference20.Reference20Game#RemoveGuide","Reference20.Reference20Game#EnsureAudio","Reference20.Reference20Game#Sound","Reference20.Reference20Game#Update","Reference20.Reference20Game#TryPointerPosition","Reference20.Reference20Game#AtPoint","Reference20.Reference20Game#Inside","Reference20.Reference20Game#CellPosition","Reference20.Reference20Game#Reindex","Reference20.Reference20Game#Erase","Reference20.Reference20Game#Put","Reference20.Reference20Game#CanPlace","Reference20.Reference20Game#ShowEnd","Reference20.Reference20Game#Download","Reference20.Reference20Game#OnDestroy","Reference20.Reference20Game#CanManipulate","Reference20.Reference20Game#EnsureResolution","Reference20.Reference20Game#SettleBoard","Reference20.Reference20Game#HoldForExchange","Reference20.Reference20Game#ReleaseExchange","Reference20.Reference20Game#Swap","Reference20.Reference20Game#TryMove","Reference20.Reference20Game#SwapTurn","Reference20.Reference20Game#TryActivate","Reference20.Reference20Game#PowerTurn","Reference20.Reference20Game#ResolveUntilStable","Reference20.Reference20Game#Trace","Reference20.Reference20Game#ResetRuntime","Reference20.Reference20Game#RecycleNormal","Reference20.Reference20Game#WarmNormalPool","Reference20.Reference20Game#ComposeTile","Reference20.Reference20Game#ReturnCompose","Reference20.Reference20Game#After","Reference20.Reference20Game#PopEvent","Reference20.Reference20Game#AdvanceRuntime","Reference20.Reference20Game#Position","Reference20.Reference20Game#Free","Reference20.Reference20Game#Matchable","Reference20.Reference20Game#Same","Reference20.Reference20Game#MatchingFallPending","Reference20.Reference20Game#Run","Reference20.Reference20Game#Square","Reference20.Reference20Game#Flood","Reference20.Reference20Game#FindGroups","Reference20.Reference20Game#ApplyMatches","Reference20.Reference20Game#ClearNormal","Reference20.Reference20Game#Damage","Reference20.Reference20Game#StartCornCycle","Reference20.Reference20Game#Release","Reference20.Reference20Game#ChooseRefill","Reference20.Reference20Game#CreateNormal","Reference20.Reference20Game#ReplaceBasic","Reference20.Reference20Game#LockCells","Reference20.Reference20Game#HitCell","Reference20.Reference20Game#CompleteTurn","Reference20.Reference20Game#ApplySourceTopology","Reference20.Reference20Game#FindHintMove","Reference20.Reference20Game#TryGetValidMove","Reference20.Reference20Game#BeginColorFocus","Reference20.Reference20Game#EndColorFocus","Reference20.Reference20Game#BeginFlightSound","Reference20.Reference20Game#EndFlightSound","Reference20.Reference20Game#BeginStandby","Reference20.Reference20Game#EndStandby","Reference20.Reference20Game#Line","Reference20.Reference20Game#Bomb","Reference20.Reference20Game#BeeTarget","Reference20.Reference20Game#Bee","Reference20.Reference20Game#BeeLaunch","Reference20.Reference20Game#Activate","Reference20.Reference20Game#ColorBlast","Reference20.Reference20Game#DoubleColor","Reference20.Reference20Game#Combine","Reference20.Reference20Game#ResolveCombo","Reference20.Reference20Game.HintMove#init","Reference20.Reference20Game.MatchGroup#init","Reference20.Reference20Game.Piece#special#get","Reference20.Reference20Game.Piece#normal#get","Reference20.Reference20Game.Piece#basic#get","Reference20.Reference20Game.Piece#bear#get","Reference20.Reference20Game.Piece#movable#get","Reference20.Reference20Game.Piece#init","Reference20.Reference20GuideShade#init","Reference20.Reference20GuideShade#ctor","Reference20.Reference20GuideShade#OnPopulateMesh","Reference20.Reference20GuideShade#Quad","Reference20.Reference20GuideShade#LateUpdate","Reference20.Reference20Native#Graph#get","Reference20.Reference20Native#init","Reference20.Reference20Native#Blend","Reference20.Reference20Native#SpriteMaterial","Reference20.Reference20Native#ParticleMaterial","Reference20.Reference20Native#Hint","Reference20.Reference20Native#CocosScale","Reference20.Reference20Native#Sprite","Reference20.Reference20Native#Prewarm","Reference20.Reference20Native#WarmEffects","Reference20.Reference20Native#SortingCanvas","Reference20.Reference20Native#Overlay","Reference20.Reference20Native#CollectionLayer","Reference20.Reference20Native#Raise","Reference20.Reference20Native#Fly","Reference20.Reference20Native#CubicFlight","Reference20.Reference20Native#ResetCaches","Reference20.Reference20Native#LeaseEffect","Reference20.Reference20Native#Piece","Reference20.Reference20Native#WarmVisuals","Reference20.Reference20Native#ReleaseVisual","Reference20.Reference20Native#Visual","Reference20.Reference20Native#GuideHand","Reference20.Reference20Native#DownloadArtwork","Reference20.Reference20Native#Skeleton","Reference20.Reference20Native#Node","Reference20.Reference20Native#Effect","Reference20.Reference20Native#FinishEffect","Reference20.Reference20Native#HideEffect","Reference20.Reference20Native#BasicFragments","Reference20.Reference20Native#BaseBurst","Reference20.Reference20Native#ApplySpriteFrame","Reference20.Reference20Native#LineBlast","Reference20.Reference20Native#ColorBeam","Reference20.Reference20Native#PlayClips","Reference20.Reference20Native#PlayFlightSpine","Reference20.Reference20Native#BeeFlight","Reference20.Reference20Native#CornMotionRemaining#get","Reference20.Reference20Native#init","Reference20.Reference20Native#PlayAnimation","Reference20.Reference20Native#Configure","Reference20.Reference20Native#ApplyIdlePose","Reference20.Reference20Native#IdleLoop","Reference20.Reference20Native#NestFeedback","Reference20.Reference20Native#DamageDuration","Reference20.Reference20Native#AnimateDamage","Reference20.Reference20Native#DamageSequence","Reference20.Reference20Native#Hatch","Reference20.Reference20Native#Animate","Reference20.Reference20Native#Hit","Reference20.Reference20Native#PlayCollected","Reference20.Reference20Native#UseChickData","Reference20.Reference20Native#DetachNestChick","Reference20.Reference20Native#DetachCornHead","Reference20.Reference20Native#Detach","Reference20.Reference20Native#MoveCorn","Reference20.Reference20Native#CornEffect","Reference20.Reference20Native#Eat","Reference20.Reference20Native#EatSequence","Reference20.Reference20Particle3DGraphic#Dampen","Reference20.Reference20Particle3DGraphic#mainTexture#get","Reference20.Reference20Particle3DGraphic#init","Reference20.Reference20Particle3DGraphic#ctor","Reference20.Reference20Particle3DGraphic#Random01","Reference20.Reference20Particle3DGraphic#Configure","Reference20.Reference20Particle3DGraphic#OnEnable","Reference20.Reference20Particle3DGraphic#Restart","Reference20.Reference20Particle3DGraphic#Emit","Reference20.Reference20Particle3DGraphic#Update","Reference20.Reference20Particle3DGraphic#Advance","Reference20.Reference20Particle3DGraphic#OnPopulateMesh","Reference20.Reference20Particle3DGraphic.Particle#getDefaultValue","Reference20.Reference20Particle3DGraphic.Particle#init","Reference20.Reference20Particle3DGraphic.Particle#ctor","Reference20.Reference20Particle3DGraphic.Particle#getHashCode","Reference20.Reference20Particle3DGraphic.Particle#equals","Reference20.Reference20Particle3DGraphic.Particle#$clone","Reference20.Reference20ParticleData#init","Reference20.Reference20ParticleGraphic#mainTexture#get","Reference20.Reference20ParticleGraphic#init","Reference20.Reference20ParticleGraphic#ctor","Reference20.Reference20ParticleGraphic#Configure","Reference20.Reference20ParticleGraphic#OnEnable","Reference20.Reference20ParticleGraphic#Restart","Reference20.Reference20ParticleGraphic#V","Reference20.Reference20ParticleGraphic#C","Reference20.Reference20ParticleGraphic#Emit","Reference20.Reference20ParticleGraphic#Update","Reference20.Reference20ParticleGraphic#OnPopulateMesh","Reference20.Reference20ParticleGraphic.Particle#getDefaultValue","Reference20.Reference20ParticleGraphic.Particle#init","Reference20.Reference20ParticleGraphic.Particle#ctor","Reference20.Reference20ParticleGraphic.Particle#getHashCode","Reference20.Reference20ParticleGraphic.Particle#equals","Reference20.Reference20ParticleGraphic.Particle#$clone","Reference20.Reference20Props#init","Reference20.Reference20Props#VisualScale","Reference20.Reference20Props#CreationDuration","Reference20.Reference20Props#Creation","Reference20.Reference20Props#Rect","Reference20.Reference20Props#Rig","Reference20.Reference20Props#Id","Reference20.Reference20Props#CreateVisual","Reference20.Reference20Props#Visual","Reference20.Reference20Props#ReleaseVisual","Reference20.Reference20Props#Warm","Reference20.Reference20Props#Hint","Reference20.Reference20Props#StopHints","Reference20.Reference20Props#Reset","Reference20.Reference20Props#EffectRoot","Reference20.Reference20Props#ColorComboCenter","Reference20.Reference20Props#SpineEffect","Reference20.Reference20Props#TryEffect","Reference20.Reference20Props#LineBlast","Reference20.Reference20Props#BeeFlight","Reference20.Reference20Props#ParticleHalo","Reference20.Reference20Props#ChangeNormal","Reference20.Reference20PropVisual#ResetPose","Reference20.Reference20PropVisual#Play","Reference20.Reference20PropVisual#IdleAfter","Reference20.Reference20PropVisual#Hint","Reference20.Reference20PropVisual#StopHint","Reference20.Reference20PropVisual#Falling","Reference20.Reference20PropVisual#Landed","Reference20.Reference20ReplacementVisual#init","Reference20.Reference20ReplacementVisual#Supports","Reference20.Reference20ReplacementVisual#Rect","Reference20.Reference20ReplacementVisual#Picture","Reference20.Reference20ReplacementVisual#CabinetSprite","Reference20.Reference20ReplacementVisual#Prewarm","Reference20.Reference20ReplacementVisual#Spine","Reference20.Reference20ReplacementVisual#Create","Reference20.Reference20ReplacementVisual#CanStack","Reference20.Reference20ReplacementVisual#CreateCan","Reference20.Reference20ReplacementVisual#Leaf","Reference20.Reference20ReplacementVisual#MotionRemaining#get","Reference20.Reference20ReplacementVisual#init","Reference20.Reference20ReplacementVisual#Configure","Reference20.Reference20ReplacementVisual#SetBushSkin","Reference20.Reference20ReplacementVisual#Play","Reference20.Reference20ReplacementVisual#DamageDuration","Reference20.Reference20ReplacementVisual#Damage","Reference20.Reference20ReplacementVisual#DetachPayload","Reference20.Reference20ReplacementVisual#Feed","Reference20.Reference20ReplacementVisual#FeedLoop","Reference20.Reference20ReplacementVisual#BearFalling","Reference20.Reference20ReplacementVisual#BearLanded","Reference20.Reference20ReplacementVisual#BearArrived","Reference20.Reference20ReplacementVisual#BearFlying","Reference20.Reference20ReplacementVisual#Collected","Reference20.Reference20ReplacementVisual#BreakCabinet","Reference20.Reference20ResponsiveLayout#init","Reference20.Reference20ResponsiveLayout#OnEnable","Reference20.Reference20ResponsiveLayout#LateUpdate","Reference20.Reference20ResponsiveLayout#TryScreenToBoard","Reference20.Reference20ResponsiveLayout#Refresh","SharpJson.JsonDecoder#DecodeText","SharpJson.JsonDecoder#ctor","SharpJson.JsonDecoder#Decode","SharpJson.JsonDecoder#ParseObject","SharpJson.JsonDecoder#ParseArray","SharpJson.JsonDecoder#ParseValue","SharpJson.JsonDecoder#TriggerError","SharpJson.JsonDecoder#EvalLexer","SharpJson.Lexer#NextToken","SharpJson.Lexer#hasError#get","SharpJson.Lexer#init","SharpJson.Lexer#ctor","SharpJson.Lexer#Reset","SharpJson.Lexer#ParseString","SharpJson.Lexer#GetNumberString","SharpJson.Lexer#ParseFloatNumber","SharpJson.Lexer#ParseDoubleNumber","SharpJson.Lexer#GetLastIndexOfNumber","SharpJson.Lexer#SkipWhiteSpaces","SharpJson.Lexer#LookAhead","SharpJson.Lexer#NextToken","Spine.Animation#BinarySearch$1","Spine.Animation#BinarySearch","Spine.Animation#LinearSearch","Spine.Animation#Timelines#get","Spine.Animation#Timelines#set","Spine.Animation#Duration#get","Spine.Animation#Duration#set","Spine.Animation#Name#get","Spine.Animation#ctor","Spine.Animation#HasTimeline","Spine.Animation#Apply","Spine.Animation#toString","Spine.AnimationState#init","Spine.AnimationState#ApplyRotateTimeline","Spine.AnimationState#TimeScale#get","Spine.AnimationState#TimeScale#set","Spine.AnimationState#Data#get","Spine.AnimationState#Data#set","Spine.AnimationState#Tracks#get","Spine.AnimationState#init","Spine.AnimationState#ctor","Spine.AnimationState#OnStart","Spine.AnimationState#OnInterrupt","Spine.AnimationState#OnEnd","Spine.AnimationState#OnDispose","Spine.AnimationState#OnComplete","Spine.AnimationState#OnEvent","Spine.AnimationState#AssignEventSubscribersFrom","Spine.AnimationState#AddEventSubscribersFrom","Spine.AnimationState#Update","Spine.AnimationState#UpdateMixingFrom","Spine.AnimationState#Apply","Spine.AnimationState#ApplyEventTimelinesOnly","Spine.AnimationState#ApplyMixingFrom","Spine.AnimationState#ApplyMixingFromEventTimelinesOnly","Spine.AnimationState#ApplyAttachmentTimeline","Spine.AnimationState#SetAttachment","Spine.AnimationState#QueueEvents","Spine.AnimationState#ClearTracks","Spine.AnimationState#ClearTrack","Spine.AnimationState#SetCurrent","Spine.AnimationState#SetAnimation$1","Spine.AnimationState#SetAnimation","Spine.AnimationState#AddAnimation$1","Spine.AnimationState#AddAnimation","Spine.AnimationState#SetEmptyAnimation","Spine.AnimationState#AddEmptyAnimation","Spine.AnimationState#SetEmptyAnimations","Spine.AnimationState#ExpandToIndex","Spine.AnimationState#NewTrackEntry","Spine.AnimationState#DisposeNext","Spine.AnimationState#AnimationsChanged","Spine.AnimationState#ComputeHold","Spine.AnimationState#GetCurrent","Spine.AnimationState#ClearListenerNotifications","Spine.AnimationState#toString","Spine.AnimationStateData#SkeletonData#get","Spine.AnimationStateData#DefaultMix#get","Spine.AnimationStateData#DefaultMix#set","Spine.AnimationStateData#init","Spine.AnimationStateData#ctor","Spine.AnimationStateData#SetMix$1","Spine.AnimationStateData#SetMix","Spine.AnimationStateData#GetMix","Spine.AnimationStateData.AnimationPair#getDefaultValue","Spine.AnimationStateData.AnimationPair#$ctor1","Spine.AnimationStateData.AnimationPair#ctor","Spine.AnimationStateData.AnimationPair#toString","Spine.AnimationStateData.AnimationPair#getHashCode","Spine.AnimationStateData.AnimationPair#equals","Spine.AnimationStateData.AnimationPair#$clone","Spine.AtlasRegion#Clone","Spine.AtlasPage#Clone","Spine.Attachment#ctor","Spine.Attachment#toString","Spine.BoneData#Index#get","Spine.BoneData#Name#get","Spine.BoneData#Parent#get","Spine.BoneData#Length#get","Spine.BoneData#Length#set","Spine.BoneData#X#get","Spine.BoneData#X#set","Spine.BoneData#Y#get","Spine.BoneData#Y#set","Spine.BoneData#Rotation#get","Spine.BoneData#Rotation#set","Spine.BoneData#ScaleX#get","Spine.BoneData#ScaleX#set","Spine.BoneData#ScaleY#get","Spine.BoneData#ScaleY#set","Spine.BoneData#ShearX#get","Spine.BoneData#ShearX#set","Spine.BoneData#ShearY#get","Spine.BoneData#ShearY#set","Spine.BoneData#TransformMode#get","Spine.BoneData#TransformMode#set","Spine.BoneData#SkinRequired#get","Spine.BoneData#SkinRequired#set","Spine.BoneData#init","Spine.BoneData#ctor","Spine.BoneData#toString","Spine.BoneMatrix#CalculateSetupWorld","Spine.BoneMatrix#GetInheritedInternal","Spine.BoneMatrix#getDefaultValue","Spine.BoneMatrix#$ctor2","Spine.BoneMatrix#$ctor1","Spine.BoneMatrix#ctor","Spine.BoneMatrix#TransformMatrix","Spine.BoneMatrix#getHashCode","Spine.BoneMatrix#equals","Spine.BoneMatrix#$clone","Spine.Collections.CollectionExtensions#ToOrderedDictionary","Spine.Collections.CollectionExtensions#ToOrderedDictionary$1","Spine.Collections.OrderedDictionary$2#init","Spine.Collections.OrderedDictionary$2#Comparer#get","Spine.Collections.OrderedDictionary$2#Keys#get","Spine.Collections.OrderedDictionary$2#Values#get","Spine.Collections.OrderedDictionary$2#Count#get","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IDictionary$2$Keys#get","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IDictionary$2$Values#get","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$IsReadOnly#get","Spine.Collections.OrderedDictionary$2#ctor","Spine.Collections.OrderedDictionary$2#$ctor2","Spine.Collections.OrderedDictionary$2#$ctor1","Spine.Collections.OrderedDictionary$2#$ctor3","Spine.Collections.OrderedDictionary$2#getItem$1","Spine.Collections.OrderedDictionary$2#setItem$1","Spine.Collections.OrderedDictionary$2#getItem","Spine.Collections.OrderedDictionary$2#setItem","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IList$1$getItem","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IList$1$setItem","Spine.Collections.OrderedDictionary$2#add","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$System$Collections$Generic$KeyValuePair$2$add","Spine.Collections.OrderedDictionary$2#Insert","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IList$1$System$Collections$Generic$KeyValuePair$2$insert","Spine.Collections.OrderedDictionary$2#containsKey","Spine.Collections.OrderedDictionary$2#GetKey","Spine.Collections.OrderedDictionary$2#IndexOf","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$IList$1$System$Collections$Generic$KeyValuePair$2$indexOf","Spine.Collections.OrderedDictionary$2#remove","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$System$Collections$Generic$KeyValuePair$2$remove","Spine.Collections.OrderedDictionary$2#removeAt","Spine.Collections.OrderedDictionary$2#tryGetValue","Spine.Collections.OrderedDictionary$2#clear","Spine.Collections.OrderedDictionary$2#GetEnumerator","Spine.Collections.OrderedDictionary$2#System$Collections$IEnumerable$GetEnumerator","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$System$Collections$Generic$KeyValuePair$2$contains","Spine.Collections.OrderedDictionary$2#System$Collections$Generic$ICollection$1$System$Collections$Generic$KeyValuePair$2$copyTo","Spine.Collections.OrderedDictionary$2.KeyCollection#Count#get","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$IsReadOnly#get","Spine.Collections.OrderedDictionary$2.KeyCollection#ctor","Spine.Collections.OrderedDictionary$2.KeyCollection#copyTo","Spine.Collections.OrderedDictionary$2.KeyCollection#GetEnumerator","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$IEnumerable$GetEnumerator","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$contains","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$add","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$clear","Spine.Collections.OrderedDictionary$2.KeyCollection#System$Collections$Generic$ICollection$1$remove","Spine.Collections.OrderedDictionary$2.ValueCollection#Count#get","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$IsReadOnly#get","Spine.Collections.OrderedDictionary$2.ValueCollection#ctor","Spine.Collections.OrderedDictionary$2.ValueCollection#copyTo","Spine.Collections.OrderedDictionary$2.ValueCollection#GetEnumerator","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$IEnumerable$GetEnumerator","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$contains","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$add","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$clear","Spine.Collections.OrderedDictionary$2.ValueCollection#System$Collections$Generic$ICollection$1$remove","Spine.Collections.OrderedDictionaryDebugView$2#Items#get","Spine.Collections.OrderedDictionaryDebugView$2#ctor","Spine.ConstraintData#Name#get","Spine.ConstraintData#Order#get","Spine.ConstraintData#Order#set","Spine.ConstraintData#SkinRequired#get","Spine.ConstraintData#SkinRequired#set","Spine.ConstraintData#ctor","Spine.ConstraintData#toString","Spine.Event#Data#get","Spine.Event#Time#get","Spine.Event#Int#get","Spine.Event#Int#set","Spine.Event#Float#get","Spine.Event#Float#set","Spine.Event#String#get","Spine.Event#String#set","Spine.Event#Volume#get","Spine.Event#Volume#set","Spine.Event#Balance#get","Spine.Event#Balance#set","Spine.Event#ctor","Spine.Event#toString","Spine.EventData#Name#get","Spine.EventData#ctor","Spine.EventData#toString","Spine.EventQueue#init","Spine.EventQueue#ctor","Spine.EventQueue#Start","Spine.EventQueue#Interrupt","Spine.EventQueue#End","Spine.EventQueue#Dispose","Spine.EventQueue#Complete","Spine.EventQueue#Event","Spine.EventQueue#Drain","Spine.EventQueue#Clear","Spine.EventQueue.EventQueueEntry#getDefaultValue","Spine.EventQueue.EventQueueEntry#$ctor1","Spine.EventQueue.EventQueueEntry#ctor","Spine.EventQueue.EventQueueEntry#getHashCode","Spine.EventQueue.EventQueueEntry#equals","Spine.EventQueue.EventQueueEntry#$clone","Spine.ExposedList$1#init","Spine.ExposedList$1#CheckMatch","Spine.ExposedList$1#Capacity#get","Spine.ExposedList$1#Capacity#set","Spine.ExposedList$1#ctor","Spine.ExposedList$1#$ctor2","Spine.ExposedList$1#$ctor3","Spine.ExposedList$1#$ctor1","Spine.ExposedList$1#Add","Spine.ExposedList$1#GrowIfNeeded","Spine.ExposedList$1#Resize","Spine.ExposedList$1#EnsureCapacity","Spine.ExposedList$1#CheckRange","Spine.ExposedList$1#AddCollection","Spine.ExposedList$1#AddEnumerable","Spine.ExposedList$1#AddRange","Spine.ExposedList$1#AddRange$1","Spine.ExposedList$1#BinarySearch","Spine.ExposedList$1#BinarySearch$1","Spine.ExposedList$1#BinarySearch$2","Spine.ExposedList$1#Clear","Spine.ExposedList$1#Contains","Spine.ExposedList$1#ConvertAll","Spine.ExposedList$1#CopyTo","Spine.ExposedList$1#CopyTo$1","Spine.ExposedList$1#CopyTo$2","Spine.ExposedList$1#Exists","Spine.ExposedList$1#Find","Spine.ExposedList$1#FindAll","Spine.ExposedList$1#FindAllList","Spine.ExposedList$1#FindIndex$2","Spine.ExposedList$1#FindIndex$1","Spine.ExposedList$1#FindIndex","Spine.ExposedList$1#GetIndex","Spine.ExposedList$1#FindLast","Spine.ExposedList$1#FindLastIndex$2","Spine.ExposedList$1#FindLastIndex$1","Spine.ExposedList$1#FindLastIndex","Spine.ExposedList$1#GetLastIndex","Spine.ExposedList$1#ForEach","Spine.ExposedList$1#GetEnumerator","Spine.ExposedList$1#System$Collections$Generic$IEnumerable$1$GetEnumerator","Spine.ExposedList$1#System$Collections$IEnumerable$GetEnumerator","Spine.ExposedList$1#GetRange","Spine.ExposedList$1#IndexOf","Spine.ExposedList$1#IndexOf$1","Spine.ExposedList$1#IndexOf$2","Spine.ExposedList$1#Shift","Spine.ExposedList$1#CheckIndex","Spine.ExposedList$1#Insert","Spine.ExposedList$1#CheckCollection","Spine.ExposedList$1#InsertRange","Spine.ExposedList$1#InsertCollection","Spine.ExposedList$1#InsertEnumeration","Spine.ExposedList$1#LastIndexOf","Spine.ExposedList$1#LastIndexOf$1","Spine.ExposedList$1#LastIndexOf$2","Spine.ExposedList$1#Remove","Spine.ExposedList$1#RemoveAll","Spine.ExposedList$1#RemoveAt","Spine.ExposedList$1#Pop","Spine.ExposedList$1#RemoveRange","Spine.ExposedList$1#Reverse","Spine.ExposedList$1#Reverse$1","Spine.ExposedList$1#Sort","Spine.ExposedList$1#Sort$1","Spine.ExposedList$1#Sort$2","Spine.ExposedList$1#Sort$3","Spine.ExposedList$1#ToArray","Spine.ExposedList$1#TrimExcess","Spine.ExposedList$1#TrueForAll","Spine.ExposedList$1.Enumerator#getDefaultValue","Spine.ExposedList$1.Enumerator#Current#get","Spine.ExposedList$1.Enumerator#System$Collections$IEnumerator$Current#get","Spine.ExposedList$1.Enumerator#init","Spine.ExposedList$1.Enumerator#$ctor1","Spine.ExposedList$1.Enumerator#ctor","Spine.ExposedList$1.Enumerator#Dispose","Spine.ExposedList$1.Enumerator#VerifyState","Spine.ExposedList$1.Enumerator#moveNext","Spine.ExposedList$1.Enumerator#System$Collections$IEnumerator$reset","Spine.ExposedList$1.Enumerator#getHashCode","Spine.ExposedList$1.Enumerator#equals","Spine.ExposedList$1.Enumerator#$clone","Spine.IInterpolation#init","Spine.IInterpolation#Apply","Spine.Json#Deserialize","Spine.MathUtils#init","Spine.MathUtils#Sin","Spine.MathUtils#Cos","Spine.MathUtils#SinDeg","Spine.MathUtils#CosDeg","Spine.MathUtils#Atan2","Spine.MathUtils#Clamp","Spine.MathUtils#RandomTriangle","Spine.MathUtils#RandomTriangle$1","Spine.Polygon#ctor","Spine.Pool$1#Count#get","Spine.Pool$1#ctor","Spine.Pool$1#Obtain","Spine.Pool$1#Free","Spine.Pool$1#Clear","Spine.Pool$1#Reset","Spine.Skeleton#SortReset","Spine.Skeleton#Data#get","Spine.Skeleton#Bones#get","Spine.Skeleton#UpdateCacheList#get","Spine.Skeleton#Slots#get","Spine.Skeleton#DrawOrder#get","Spine.Skeleton#IkConstraints#get","Spine.Skeleton#PathConstraints#get","Spine.Skeleton#TransformConstraints#get","Spine.Skeleton#Skin#get","Spine.Skeleton#Skin#set","Spine.Skeleton#R#get","Spine.Skeleton#R#set","Spine.Skeleton#G#get","Spine.Skeleton#G#set","Spine.Skeleton#B#get","Spine.Skeleton#B#set","Spine.Skeleton#A#get","Spine.Skeleton#A#set","Spine.Skeleton#Time#get","Spine.Skeleton#Time#set","Spine.Skeleton#X#get","Spine.Skeleton#X#set","Spine.Skeleton#Y#get","Spine.Skeleton#Y#set","Spine.Skeleton#ScaleX#get","Spine.Skeleton#ScaleX#set","Spine.Skeleton#ScaleY#get","Spine.Skeleton#ScaleY#set","Spine.Skeleton#FlipX#get","Spine.Skeleton#FlipX#set","Spine.Skeleton#FlipY#get","Spine.Skeleton#FlipY#set","Spine.Skeleton#RootBone#get","Spine.Skeleton#init","Spine.Skeleton#ctor","Spine.Skeleton#UpdateCache","Spine.Skeleton#SortIkConstraint","Spine.Skeleton#SortPathConstraint","Spine.Skeleton#SortTransformConstraint","Spine.Skeleton#SortPathConstraintAttachment$1","Spine.Skeleton#SortPathConstraintAttachment","Spine.Skeleton#SortBone","Spine.Skeleton#UpdateWorldTransform","Spine.Skeleton#UpdateWorldTransform$1","Spine.Skeleton#SetToSetupPose","Spine.Skeleton#SetBonesToSetupPose","Spine.Skeleton#SetSlotsToSetupPose","Spine.Skeleton#FindBone","Spine.Skeleton#FindBoneIndex","Spine.Skeleton#FindSlot","Spine.Skeleton#FindSlotIndex","Spine.Skeleton#SetSkin$1","Spine.Skeleton#SetSkin","Spine.Skeleton#GetAttachment$1","Spine.Skeleton#GetAttachment","Spine.Skeleton#SetAttachment","Spine.Skeleton#FindIkConstraint","Spine.Skeleton#FindTransformConstraint","Spine.Skeleton#FindPathConstraint","Spine.Skeleton#Update","Spine.Skeleton#GetBounds","Spine.SkeletonBinary#init","Spine.SkeletonBinary#GetVersionString","Spine.SkeletonBinary#init","Spine.SkeletonBinary#ctor","Spine.SkeletonBinary#$ctor1","Spine.SkeletonBinary#ReadSkeletonData$1","Spine.SkeletonBinary#ReadSkeletonData","Spine.SkeletonBinary#ReadSkin","Spine.SkeletonBinary#ReadAttachment","Spine.SkeletonBinary#ReadVertices","Spine.SkeletonBinary#ReadFloatArray","Spine.SkeletonBinary#ReadShortArray","Spine.SkeletonBinary#ReadAnimation","Spine.SkeletonBinary#ReadCurve","Spine.SkeletonBinary.SkeletonInput#init","Spine.SkeletonBinary.SkeletonInput#ctor","Spine.SkeletonBinary.SkeletonInput#ReadByte","Spine.SkeletonBinary.SkeletonInput#ReadSByte","Spine.SkeletonBinary.SkeletonInput#ReadBoolean","Spine.SkeletonBinary.SkeletonInput#ReadFloat","Spine.SkeletonBinary.SkeletonInput#ReadInt","Spine.SkeletonBinary.SkeletonInput#ReadInt$1","Spine.SkeletonBinary.SkeletonInput#ReadString","Spine.SkeletonBinary.SkeletonInput#ReadStringRef","Spine.SkeletonBinary.SkeletonInput#ReadFully","Spine.SkeletonBinary.SkeletonInput#GetVersionString","Spine.SkeletonBounds#MinX#get","Spine.SkeletonBounds#MinX#set","Spine.SkeletonBounds#MinY#get","Spine.SkeletonBounds#MinY#set","Spine.SkeletonBounds#MaxX#get","Spine.SkeletonBounds#MaxX#set","Spine.SkeletonBounds#MaxY#get","Spine.SkeletonBounds#MaxY#set","Spine.SkeletonBounds#Width#get","Spine.SkeletonBounds#Height#get","Spine.SkeletonBounds#init","Spine.SkeletonBounds#ctor","Spine.SkeletonBounds#Update","Spine.SkeletonBounds#AabbCompute","Spine.SkeletonBounds#AabbContainsPoint","Spine.SkeletonBounds#AabbIntersectsSegment","Spine.SkeletonBounds#AabbIntersectsSkeleton","Spine.SkeletonBounds#ContainsPoint$1","Spine.SkeletonBounds#ContainsPoint","Spine.SkeletonBounds#IntersectsSegment","Spine.SkeletonBounds#IntersectsSegment$1","Spine.SkeletonBounds#GetPolygon","Spine.SkeletonClipping#MakeClockwise","Spine.SkeletonClipping#ClippedVertices#get","Spine.SkeletonClipping#ClippedTriangles#get","Spine.SkeletonClipping#ClippedUVs#get","Spine.SkeletonClipping#IsClipping#get","Spine.SkeletonClipping#init","Spine.SkeletonClipping#ClipStart","Spine.SkeletonClipping#ClipEnd$1","Spine.SkeletonClipping#ClipEnd","Spine.SkeletonClipping#ClipTriangles","Spine.SkeletonClipping#Clip","Spine.SkeletonData#Name#get","Spine.SkeletonData#Name#set","Spine.SkeletonData#Bones#get","Spine.SkeletonData#Slots#get","Spine.SkeletonData#Skins#get","Spine.SkeletonData#Skins#set","Spine.SkeletonData#DefaultSkin#get","Spine.SkeletonData#DefaultSkin#set","Spine.SkeletonData#Events#get","Spine.SkeletonData#Events#set","Spine.SkeletonData#Animations#get","Spine.SkeletonData#Animations#set","Spine.SkeletonData#IkConstraints#get","Spine.SkeletonData#IkConstraints#set","Spine.SkeletonData#TransformConstraints#get","Spine.SkeletonData#TransformConstraints#set","Spine.SkeletonData#PathConstraints#get","Spine.SkeletonData#PathConstraints#set","Spine.SkeletonData#X#get","Spine.SkeletonData#X#set","Spine.SkeletonData#Y#get","Spine.SkeletonData#Y#set","Spine.SkeletonData#Width#get","Spine.SkeletonData#Width#set","Spine.SkeletonData#Height#get","Spine.SkeletonData#Height#set","Spine.SkeletonData#Version#get","Spine.SkeletonData#Version#set","Spine.SkeletonData#Hash#get","Spine.SkeletonData#Hash#set","Spine.SkeletonData#ImagesPath#get","Spine.SkeletonData#ImagesPath#set","Spine.SkeletonData#AudioPath#get","Spine.SkeletonData#AudioPath#set","Spine.SkeletonData#Fps#get","Spine.SkeletonData#Fps#set","Spine.SkeletonData#init","Spine.SkeletonData#FindBone","Spine.SkeletonData#FindBoneIndex","Spine.SkeletonData#FindSlot","Spine.SkeletonData#FindSlotIndex","Spine.SkeletonData#FindSkin","Spine.SkeletonData#FindEvent","Spine.SkeletonData#FindAnimation","Spine.SkeletonData#FindIkConstraint","Spine.SkeletonData#FindTransformConstraint","Spine.SkeletonData#FindPathConstraint","Spine.SkeletonData#FindPathConstraintIndex","Spine.SkeletonData#toString","Spine.SkeletonJson#ReadCurve","Spine.SkeletonJson#GetFloatArray","Spine.SkeletonJson#GetIntArray","Spine.SkeletonJson#GetFloat","Spine.SkeletonJson#GetInt","Spine.SkeletonJson#GetBoolean","Spine.SkeletonJson#GetString","Spine.SkeletonJson#ToColor","Spine.SkeletonJson#init","Spine.SkeletonJson#ctor","Spine.SkeletonJson#$ctor1","Spine.SkeletonJson#ReadSkeletonData$1","Spine.SkeletonJson#ReadSkeletonData","Spine.SkeletonJson#ReadAttachment","Spine.SkeletonJson#ReadVertices","Spine.SkeletonJson#ReadAnimation","Spine.SkeletonJson.LinkedMesh#ctor","Spine.Skin#Name#get","Spine.Skin#Attachments#get","Spine.Skin#Bones#get","Spine.Skin#Constraints#get","Spine.Skin#init","Spine.Skin#ctor","Spine.Skin#SetAttachment","Spine.Skin#AddSkin","Spine.Skin#CopySkin","Spine.Skin#GetAttachment","Spine.Skin#RemoveAttachment","Spine.Skin#GetAttachments","Spine.Skin#GetAttachments$1","Spine.Skin#Clear","Spine.Skin#toString","Spine.Skin#AttachAll","Spine.Skin.SkinEntry#getDefaultValue","Spine.Skin.SkinEntry#SlotIndex#get","Spine.Skin.SkinEntry#Name#get","Spine.Skin.SkinEntry#Attachment#get","Spine.Skin.SkinEntry#$ctor1","Spine.Skin.SkinEntry#ctor","Spine.Skin.SkinEntry#getHashCode","Spine.Skin.SkinEntry#equals","Spine.Skin.SkinEntry#$clone","Spine.Slot#Data#get","Spine.Slot#Bone#get","Spine.Slot#Skeleton#get","Spine.Slot#R#get","Spine.Slot#R#set","Spine.Slot#G#get","Spine.Slot#G#set","Spine.Slot#B#get","Spine.Slot#B#set","Spine.Slot#A#get","Spine.Slot#A#set","Spine.Slot#R2#get","Spine.Slot#R2#set","Spine.Slot#G2#get","Spine.Slot#G2#set","Spine.Slot#B2#get","Spine.Slot#B2#set","Spine.Slot#HasSecondColor#get","Spine.Slot#HasSecondColor#set","Spine.Slot#Attachment#get","Spine.Slot#Attachment#set","Spine.Slot#AttachmentTime#get","Spine.Slot#AttachmentTime#set","Spine.Slot#Deform#get","Spine.Slot#Deform#set","Spine.Slot#init","Spine.Slot#$ctor1","Spine.Slot#ctor","Spine.Slot#ClampColor","Spine.Slot#ClampSecondColor","Spine.Slot#SetToSetupPose","Spine.Slot#toString","Spine.SlotData#Index#get","Spine.SlotData#Name#get","Spine.SlotData#BoneData#get","Spine.SlotData#R#get","Spine.SlotData#R#set","Spine.SlotData#G#get","Spine.SlotData#G#set","Spine.SlotData#B#get","Spine.SlotData#B#set","Spine.SlotData#A#get","Spine.SlotData#A#set","Spine.SlotData#R2#get","Spine.SlotData#R2#set","Spine.SlotData#G2#get","Spine.SlotData#G2#set","Spine.SlotData#B2#get","Spine.SlotData#B2#set","Spine.SlotData#HasSecondColor#get","Spine.SlotData#HasSecondColor#set","Spine.SlotData#AttachmentName#get","Spine.SlotData#AttachmentName#set","Spine.SlotData#BlendMode#get","Spine.SlotData#BlendMode#set","Spine.SlotData#init","Spine.SlotData#ctor","Spine.SlotData#toString","Spine.SpineSkeletonExtensions#IsWeighted","Spine.SpineSkeletonExtensions#IsRenderable","Spine.SpineSkeletonExtensions#InheritsRotation","Spine.SpineSkeletonExtensions#InheritsScale","Spine.SpineSkeletonExtensions#SetPropertyToSetupPose","Spine.SpineSkeletonExtensions#SetDrawOrderToSetupPose","Spine.SpineSkeletonExtensions#SetSlotAttachmentsToSetupPose","Spine.SpineSkeletonExtensions#SetColorToSetupPose","Spine.SpineSkeletonExtensions#SetAttachmentToSetupPose","Spine.SpineSkeletonExtensions#SetSlotAttachmentToSetupPose","Spine.SpineSkeletonExtensions#SetKeyedItemsToSetupPose","Spine.SpineSkeletonExtensions#AllowImmediateQueue","Spine.Triangulator#IsConcave","Spine.Triangulator#PositiveArea","Spine.Triangulator#Winding","Spine.Triangulator#init","Spine.Triangulator#Triangulate","Spine.Triangulator#Decompose","Spine.Unity.ActivateBasedOnFlipDirection#init","Spine.Unity.ActivateBasedOnFlipDirection#Start","Spine.Unity.ActivateBasedOnFlipDirection#FixedUpdate","Spine.Unity.ActivateBasedOnFlipDirection#HandleFlip","Spine.Unity.ActivateBasedOnFlipDirection#ResetJointPositions","Spine.Unity.ActivateBasedOnFlipDirection#CompensateMovementAfterFlipX","Spine.Unity.AnimationTools.TimelineExtensions#Evaluate","Spine.Unity.AnimationTools.TimelineExtensions#FindTranslateTimelineForBone","Spine.Unity.AttachmentTools.AtlasUtilities#init","Spine.Unity.AttachmentTools.AtlasUtilities#Init","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$2","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$3","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$4","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$2","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$3","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToSpineAtlasPage","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedAttachments","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedSkin","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedSkin$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToSprite","Spine.Unity.AttachmentTools.AtlasUtilities#ClearCache","Spine.Unity.AttachmentTools.AtlasUtilities#ToTexture","Spine.Unity.AttachmentTools.AtlasUtilities#ToTexture$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetClone","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTexture","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTextureApplyPMA","Spine.Unity.AttachmentTools.AtlasUtilities#IsRenderable","Spine.Unity.AttachmentTools.AtlasUtilities#SpineUnityFlipRect","Spine.Unity.AttachmentTools.AtlasUtilities#GetUnityRect","Spine.Unity.AttachmentTools.AtlasUtilities#GetUnityRect$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetSpineAtlasRect","Spine.Unity.AttachmentTools.AtlasUtilities#UVRectToTextureRect","Spine.Unity.AttachmentTools.AtlasUtilities#TextureRectToUVRect","Spine.Unity.AttachmentTools.AtlasUtilities#UVRectToAtlasRegion","Spine.Unity.AttachmentTools.AtlasUtilities#GetMainTexture","Spine.Unity.AttachmentTools.AtlasUtilities#GetTexture$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetTexture","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTextureAttributesFrom","Spine.Unity.AttachmentTools.AtlasUtilities#InverseLerp","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#getDefaultValue","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#$ctor1","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#ctor","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#getHashCode","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#equals","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#$clone","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetCopy","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetLinkedMesh","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetLinkedMesh$2","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetLinkedMesh$1","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetRemappedClone$1","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetRemappedClone","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#GetRegion","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#GetRegion$2","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#GetRegion$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRegion","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRegion$2","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRegion$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment$2","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachmentPMAClone$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachmentPMAClone","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetScale$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetScale","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetPositionOffset$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetPositionOffset","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRotation","Spine.Unity.AttachmentTools.SkinUtilities#UnshareSkin","Spine.Unity.AttachmentTools.SkinUtilities#GetClonedSkin","Spine.Unity.AttachmentTools.SkinUtilities#GetClone","Spine.Unity.AttachmentTools.SkinUtilities#SetAttachment$1","Spine.Unity.AttachmentTools.SkinUtilities#SetAttachment","Spine.Unity.AttachmentTools.SkinUtilities#AddAttachments","Spine.Unity.AttachmentTools.SkinUtilities#GetAttachment","Spine.Unity.AttachmentTools.SkinUtilities#RemoveAttachment","Spine.Unity.AttachmentTools.SkinUtilities#Clear","Spine.Unity.AttachmentTools.SkinUtilities#Append","Spine.Unity.AttachmentTools.SkinUtilities#CopyTo","Spine.Unity.BlendModeMaterials#RequiresBlendModeMaterials#get","Spine.Unity.BlendModeMaterials#RequiresBlendModeMaterials#set","Spine.Unity.BlendModeMaterials#init","Spine.Unity.BlendModeMaterials#ApplyMaterials","Spine.Unity.BlendModeMaterials#CloneAtlasRegionWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#init","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#CloneAtlasRegionWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#GetAtlasPageWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#Dispose","Spine.Unity.BoneFollower#SkeletonRenderer#get","Spine.Unity.BoneFollower#SkeletonRenderer#set","Spine.Unity.BoneFollower#init","Spine.Unity.BoneFollower#SetBone","Spine.Unity.BoneFollower#Awake","Spine.Unity.BoneFollower#HandleRebuildRenderer","Spine.Unity.BoneFollower#Initialize","Spine.Unity.BoneFollower#OnDestroy","Spine.Unity.BoneFollower#LateUpdate","Spine.Unity.BoneFollowerGraphic#SkeletonGraphic#get","Spine.Unity.BoneFollowerGraphic#SkeletonGraphic#set","Spine.Unity.BoneFollowerGraphic#init","Spine.Unity.BoneFollowerGraphic#SetBone","Spine.Unity.BoneFollowerGraphic#Awake","Spine.Unity.BoneFollowerGraphic#Initialize","Spine.Unity.BoneFollowerGraphic#LateUpdate","Spine.Unity.BoundingBoxFollower#init","Spine.Unity.BoundingBoxFollower#Slot#get","Spine.Unity.BoundingBoxFollower#CurrentAttachment#get","Spine.Unity.BoundingBoxFollower#CurrentAttachmentName#get","Spine.Unity.BoundingBoxFollower#CurrentCollider#get","Spine.Unity.BoundingBoxFollower#IsTrigger#get","Spine.Unity.BoundingBoxFollower#init","Spine.Unity.BoundingBoxFollower#Start","Spine.Unity.BoundingBoxFollower#OnEnable","Spine.Unity.BoundingBoxFollower#HandleRebuild","Spine.Unity.BoundingBoxFollower#Initialize","Spine.Unity.BoundingBoxFollower#AddCollidersForSkin","Spine.Unity.BoundingBoxFollower#OnDisable","Spine.Unity.BoundingBoxFollower#ClearState","Spine.Unity.BoundingBoxFollower#DisposeExcessCollidersAfter","Spine.Unity.BoundingBoxFollower#LateUpdate","Spine.Unity.BoundingBoxFollower#MatchAttachment","Spine.Unity.BoundingBoxFollowerGraphic#init","Spine.Unity.BoundingBoxFollowerGraphic#Slot#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentAttachment#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentAttachmentName#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentCollider#get","Spine.Unity.BoundingBoxFollowerGraphic#IsTrigger#get","Spine.Unity.BoundingBoxFollowerGraphic#init","Spine.Unity.BoundingBoxFollowerGraphic#Start","Spine.Unity.BoundingBoxFollowerGraphic#OnEnable","Spine.Unity.BoundingBoxFollowerGraphic#HandleRebuild","Spine.Unity.BoundingBoxFollowerGraphic#Initialize","Spine.Unity.BoundingBoxFollowerGraphic#AddCollidersForSkin","Spine.Unity.BoundingBoxFollowerGraphic#OnDisable","Spine.Unity.BoundingBoxFollowerGraphic#ClearState","Spine.Unity.BoundingBoxFollowerGraphic#DisposeExcessCollidersAfter","Spine.Unity.BoundingBoxFollowerGraphic#LateUpdate","Spine.Unity.BoundingBoxFollowerGraphic#MatchAttachment","Spine.Unity.Deprecated.SlotBlendModes#MaterialTable#get","Spine.Unity.Deprecated.SlotBlendModes#GetOrAddMaterialFor","Spine.Unity.Deprecated.SlotBlendModes#GetExistingMaterialFor","Spine.Unity.Deprecated.SlotBlendModes#RemoveMaterialFromTable","Spine.Unity.Deprecated.SlotBlendModes#init","Spine.Unity.Deprecated.SlotBlendModes#Start","Spine.Unity.Deprecated.SlotBlendModes#OnDestroy","Spine.Unity.Deprecated.SlotBlendModes#Apply","Spine.Unity.Deprecated.SlotBlendModes#Remove","Spine.Unity.Deprecated.SlotBlendModes#GetTexture","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#getDefaultValue","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#ctor","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#getHashCode","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#equals","Spine.Unity.Deprecated.SlotBlendModes.MaterialTexturePair#$clone","Spine.Unity.Deprecated.SlotBlendModes.MaterialWithRefcount#init","Spine.Unity.Deprecated.SlotBlendModes.MaterialWithRefcount#ctor","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#getDefaultValue","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#$ctor1","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#ctor","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#getHashCode","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#equals","Spine.Unity.Deprecated.SlotBlendModes.SlotMaterialTextureTuple#$clone","Spine.Unity.DoubleBuffered$1#init","Spine.Unity.DoubleBuffered$1#GetCurrent","Spine.Unity.DoubleBuffered$1#GetNext","Spine.Unity.EventDataReferenceAsset#init","Spine.Unity.EventDataReferenceAsset#op_Implicit","Spine.Unity.EventDataReferenceAsset#EventData#get","Spine.Unity.EventDataReferenceAsset#Initialize","Spine.Unity.FollowLocationRigidbody#Awake","Spine.Unity.FollowLocationRigidbody#FixedUpdate","Spine.Unity.FollowLocationRigidbody2D#Awake","Spine.Unity.FollowLocationRigidbody2D#FixedUpdate","Spine.Unity.FollowSkeletonUtilityRootRotation#init","Spine.Unity.FollowSkeletonUtilityRootRotation#init","Spine.Unity.FollowSkeletonUtilityRootRotation#Start","Spine.Unity.FollowSkeletonUtilityRootRotation#FixedUpdate","Spine.Unity.FollowSkeletonUtilityRootRotation#CompensatePositionToYRotation","Spine.Unity.FollowSkeletonUtilityRootRotation#CompensatePositionToXRotation","Spine.Unity.MeshGenerator#init","Spine.Unity.MeshGenerator#GenerateSingleSubmeshInstruction","Spine.Unity.MeshGenerator#RequiresMultipleSubmeshesByDrawOrder","Spine.Unity.MeshGenerator#GenerateSkeletonRendererInstruction","Spine.Unity.MeshGenerator#TryReplaceMaterials","Spine.Unity.MeshGenerator#SolveTangents2DEnsureSize","Spine.Unity.MeshGenerator#SolveTangents2DTriangles","Spine.Unity.MeshGenerator#SolveTangents2DBuffer","Spine.Unity.MeshGenerator#FillMeshLocal$1","Spine.Unity.MeshGenerator#FillMeshLocal","Spine.Unity.MeshGenerator#VertexCount#get","Spine.Unity.MeshGenerator#Buffers#get","Spine.Unity.MeshGenerator#init","Spine.Unity.MeshGenerator#ctor","Spine.Unity.MeshGenerator#Begin","Spine.Unity.MeshGenerator#AddSubmesh","Spine.Unity.MeshGenerator#BuildMesh","Spine.Unity.MeshGenerator#BuildMeshWithArrays","Spine.Unity.MeshGenerator#ScaleVertexData","Spine.Unity.MeshGenerator#AddAttachmentTintBlack","Spine.Unity.MeshGenerator#FillVertexData","Spine.Unity.MeshGenerator#FillLateVertexData","Spine.Unity.MeshGenerator#FillTriangles","Spine.Unity.MeshGenerator#EnsureVertexCapacity","Spine.Unity.MeshGenerator#TrimExcess","Spine.Unity.MeshGenerator.Settings#Default#get","Spine.Unity.MeshGenerator.Settings#getDefaultValue","Spine.Unity.MeshGenerator.Settings#ctor","Spine.Unity.MeshGenerator.Settings#getHashCode","Spine.Unity.MeshGenerator.Settings#equals","Spine.Unity.MeshGenerator.Settings#$clone","Spine.Unity.MeshGeneratorBuffers#getDefaultValue","Spine.Unity.MeshGeneratorBuffers#ctor","Spine.Unity.MeshGeneratorBuffers#getHashCode","Spine.Unity.MeshGeneratorBuffers#equals","Spine.Unity.MeshGeneratorBuffers#$clone","Spine.Unity.MeshRendererBuffers#init","Spine.Unity.MeshRendererBuffers#Initialize","Spine.Unity.MeshRendererBuffers#GetUpdatedSharedMaterialsArray","Spine.Unity.MeshRendererBuffers#MaterialsChangedInLastUpdate","Spine.Unity.MeshRendererBuffers#UpdateSharedMaterials","Spine.Unity.MeshRendererBuffers#GetNextMesh","Spine.Unity.MeshRendererBuffers#Clear","Spine.Unity.MeshRendererBuffers#Dispose","Spine.Unity.MeshRendererBuffers.SmartMesh#init","Spine.Unity.MeshRendererBuffers.SmartMesh#Clear","Spine.Unity.MeshRendererBuffers.SmartMesh#Dispose","Spine.Unity.SkeletonDataAsset#CreateRuntimeInstance","Spine.Unity.SkeletonDataAsset#CreateRuntimeInstance$1","Spine.Unity.SkeletonDataAsset#ReadSkeletonData","Spine.Unity.SkeletonDataAsset#ReadSkeletonData$1","Spine.Unity.SkeletonDataAsset#IsLoaded#get","Spine.Unity.SkeletonDataAsset#init","Spine.Unity.SkeletonDataAsset#Reset","Spine.Unity.SkeletonDataAsset#Clear","Spine.Unity.SkeletonDataAsset#GetAnimationStateData","Spine.Unity.SkeletonDataAsset#GetSkeletonData","Spine.Unity.SkeletonDataAsset#InitializeWithData","Spine.Unity.SkeletonDataAsset#FillStateData","Spine.Unity.SkeletonDataAsset#GetAtlasArray","Spine.Unity.SkeletonDataCompatibility.CompatibilityProblemInfo#DescriptionString","Spine.Unity.SkeletonExtensions#init","Spine.Unity.SkeletonExtensions#GetColor$2","Spine.Unity.SkeletonExtensions#GetColor$1","Spine.Unity.SkeletonExtensions#GetColor","Spine.Unity.SkeletonExtensions#GetColor$3","Spine.Unity.SkeletonExtensions#GetColorTintBlack","Spine.Unity.SkeletonExtensions#SetColor$4","Spine.Unity.SkeletonExtensions#SetColor$5","Spine.Unity.SkeletonExtensions#SetColor$6","Spine.Unity.SkeletonExtensions#SetColor$7","Spine.Unity.SkeletonExtensions#SetColor$2","Spine.Unity.SkeletonExtensions#SetColor$3","Spine.Unity.SkeletonExtensions#SetColor","Spine.Unity.SkeletonExtensions#SetColor$1","Spine.Unity.SkeletonExtensions#SetLocalScale","Spine.Unity.SkeletonExtensions#GetMatrix4x4","Spine.Unity.SkeletonExtensions#SetLocalPosition","Spine.Unity.SkeletonExtensions#SetLocalPosition$1","Spine.Unity.SkeletonExtensions#GetLocalPosition","Spine.Unity.SkeletonExtensions#GetSkeletonSpacePosition","Spine.Unity.SkeletonExtensions#GetSkeletonSpacePosition$1","Spine.Unity.SkeletonExtensions#GetWorldPosition","Spine.Unity.SkeletonExtensions#GetWorldPosition$1","Spine.Unity.SkeletonExtensions#GetWorldPosition$3","Spine.Unity.SkeletonExtensions#GetWorldPosition$2","Spine.Unity.SkeletonExtensions#GetQuaternion","Spine.Unity.SkeletonExtensions#GetLocalQuaternion","Spine.Unity.SkeletonExtensions#GetLocalScale","Spine.Unity.SkeletonExtensions#GetWorldToLocalMatrix","Spine.Unity.SkeletonExtensions#WorldToLocal","Spine.Unity.SkeletonExtensions#SetPositionSkeletonSpace","Spine.Unity.SkeletonExtensions#GetMaterial","Spine.Unity.SkeletonExtensions#GetLocalVertices","Spine.Unity.SkeletonExtensions#GetWorldVertices","Spine.Unity.SkeletonGraphicCustomMaterials#init","Spine.Unity.SkeletonGraphicCustomMaterials#SetCustomMaterialOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#RemoveCustomMaterialOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#SetCustomTextureOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#RemoveCustomTextureOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#OnEnable","Spine.Unity.SkeletonGraphicCustomMaterials#OnDisable","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#inherits","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#getDefaultValue","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#ctor","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#equalsT","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#getHashCode","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#$clone","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#inherits","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#getDefaultValue","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#ctor","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#equalsT","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#getHashCode","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#$clone","Spine.Unity.SkeletonMecanim.MecanimTranslator#init","Spine.Unity.SkeletonMecanim.MecanimTranslator#AnimationTime$1","Spine.Unity.SkeletonMecanim.MecanimTranslator#AnimationTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#Animator#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#MecanimLayerCount#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#MecanimLayerNames#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#init","Spine.Unity.SkeletonMecanim.MecanimTranslator#addOnClipApplied","Spine.Unity.SkeletonMecanim.MecanimTranslator#removeOnClipApplied","Spine.Unity.SkeletonMecanim.MecanimTranslator#Initialize","Spine.Unity.SkeletonMecanim.MecanimTranslator#ApplyAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator#ApplyInterruptionAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator#OnClipAppliedCallback","Spine.Unity.SkeletonMecanim.MecanimTranslator#Apply","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetActiveAnimationAndTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#InitClipInfosForLayers","Spine.Unity.SkeletonMecanim.MecanimTranslator#ClearClipInfosForLayers","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetMixMode","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetStateUpdatesFromAnimator","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimatorClipInfos","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimatorStateInfos","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#equals2","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#getHashCode2","Spine.Unity.SkeletonMecanim.MecanimTranslator.ClipInfos#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#equals2","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#getHashCode2","Spine.Unity.SkeletonRootMotionBase#UsesRigidbody#get","Spine.Unity.SkeletonRootMotionBase#AdditionalScale#get","Spine.Unity.SkeletonRootMotionBase#init","Spine.Unity.SkeletonRootMotionBase#Reset","Spine.Unity.SkeletonRootMotionBase#Start","Spine.Unity.SkeletonRootMotionBase#FixedUpdate","Spine.Unity.SkeletonRootMotionBase#OnDisable","Spine.Unity.SkeletonRootMotionBase#FindRigidbodyComponent","Spine.Unity.SkeletonRootMotionBase#SetRootMotionBone","Spine.Unity.SkeletonRootMotionBase#AdjustRootMotionToDistance","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotion","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotion$1","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotionInfo","Spine.Unity.SkeletonRootMotionBase#GetTimelineMovementDelta","Spine.Unity.SkeletonRootMotionBase#GatherTopLevelBones","Spine.Unity.SkeletonRootMotionBase#HandleUpdateLocal","Spine.Unity.SkeletonRootMotionBase#ApplyRootMotion","Spine.Unity.SkeletonRootMotionBase#GetScaleAffectingRootMotion","Spine.Unity.SkeletonRootMotionBase#GetScaleAffectingRootMotion$1","Spine.Unity.SkeletonRootMotionBase#GetSkeletonSpaceMovementDelta","Spine.Unity.SkeletonRootMotionBase#SetEffectiveBoneOffsetsTo","Spine.Unity.SkeletonRootMotionBase#ClearEffectiveBoneOffsets","Spine.Unity.SkeletonPartsRenderer#NewPartsRendererGameObject","Spine.Unity.SkeletonPartsRenderer#MeshGenerator#get","Spine.Unity.SkeletonPartsRenderer#MeshRenderer#get","Spine.Unity.SkeletonPartsRenderer#MeshFilter#get","Spine.Unity.SkeletonPartsRenderer#init","Spine.Unity.SkeletonPartsRenderer#LazyIntialize","Spine.Unity.SkeletonPartsRenderer#ClearMesh","Spine.Unity.SkeletonPartsRenderer#RenderParts","Spine.Unity.SkeletonPartsRenderer#SetPropertyBlock","Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials#AnyMaterialCreated#get","Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials#init","Spine.Unity.SkeletonRendererCustomMaterials#init","Spine.Unity.SkeletonRendererCustomMaterials#SetCustomSlotMaterials","Spine.Unity.SkeletonRendererCustomMaterials#RemoveCustomSlotMaterials","Spine.Unity.SkeletonRendererCustomMaterials#SetCustomMaterialOverrides","Spine.Unity.SkeletonRendererCustomMaterials#RemoveCustomMaterialOverrides","Spine.Unity.SkeletonRendererCustomMaterials#OnEnable","Spine.Unity.SkeletonRendererCustomMaterials#OnDisable","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#inherits","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#getDefaultValue","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#ctor","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#equalsT","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#getHashCode","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#$clone","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#inherits","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#getDefaultValue","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#ctor","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#equalsT","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#getHashCode","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#$clone","Spine.Unity.SkeletonRendererInstruction#GeometryNotEqual","Spine.Unity.SkeletonRendererInstruction#init","Spine.Unity.SkeletonRendererInstruction#Clear","Spine.Unity.SkeletonRendererInstruction#Dispose","Spine.Unity.SkeletonRendererInstruction#SetWithSubset","Spine.Unity.SkeletonRendererInstruction#Set","Spine.Unity.SkeletonRenderSeparator#init","Spine.Unity.SkeletonRenderSeparator#AddToSkeletonRenderer","Spine.Unity.SkeletonRenderSeparator#SkeletonRenderer#get","Spine.Unity.SkeletonRenderSeparator#SkeletonRenderer#set","Spine.Unity.SkeletonRenderSeparator#init","Spine.Unity.SkeletonRenderSeparator#AddPartsRenderer","Spine.Unity.SkeletonRenderSeparator#OnEnable","Spine.Unity.SkeletonRenderSeparator#OnDisable","Spine.Unity.SkeletonRenderSeparator#HandleRender","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#getDefaultValue","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#init","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#ctor","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#getHashCode","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#equals","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#$clone","Spine.Unity.SkeletonUtility#AddBoundingBoxGameObject","Spine.Unity.SkeletonUtility#AddBoundingBoxGameObject$1","Spine.Unity.SkeletonUtility#AddBoundingBoxAsComponent","Spine.Unity.SkeletonUtility#SetColliderPointsLocal","Spine.Unity.SkeletonUtility#GetBoundingBoxBounds","Spine.Unity.SkeletonUtility#AddBoneRigidbody2D","Spine.Unity.SkeletonUtility#SkeletonComponent#get","Spine.Unity.SkeletonUtility#Skeleton#get","Spine.Unity.SkeletonUtility#IsValid#get","Spine.Unity.SkeletonUtility#PositionScale#get","Spine.Unity.SkeletonUtility#init","Spine.Unity.SkeletonUtility#Update","Spine.Unity.SkeletonUtility#ResubscribeEvents","Spine.Unity.SkeletonUtility#OnEnable","Spine.Unity.SkeletonUtility#Start","Spine.Unity.SkeletonUtility#OnDisable","Spine.Unity.SkeletonUtility#HandleRendererReset$1","Spine.Unity.SkeletonUtility#HandleRendererReset","Spine.Unity.SkeletonUtility#RegisterBone","Spine.Unity.SkeletonUtility#UnregisterBone","Spine.Unity.SkeletonUtility#RegisterConstraint","Spine.Unity.SkeletonUtility#UnregisterConstraint","Spine.Unity.SkeletonUtility#CollectBones","Spine.Unity.SkeletonUtility#UpdateLocal","Spine.Unity.SkeletonUtility#UpdateWorld","Spine.Unity.SkeletonUtility#UpdateComplete","Spine.Unity.SkeletonUtility#UpdateAllBones","Spine.Unity.SkeletonUtility#GetBoneRoot","Spine.Unity.SkeletonUtility#SpawnRoot","Spine.Unity.SkeletonUtility#SpawnHierarchy","Spine.Unity.SkeletonUtility#SpawnBoneRecursively","Spine.Unity.SkeletonUtility#SpawnBone","Spine.Unity.SkeletonUtilityBone#BoneTransformModeIncompatible","Spine.Unity.SkeletonUtilityBone#IncompatibleTransformMode#get","Spine.Unity.SkeletonUtilityBone#init","Spine.Unity.SkeletonUtilityBone#Reset","Spine.Unity.SkeletonUtilityBone#OnEnable","Spine.Unity.SkeletonUtilityBone#HandleOnReset","Spine.Unity.SkeletonUtilityBone#OnDisable","Spine.Unity.SkeletonUtilityBone#DoUpdate","Spine.Unity.SkeletonUtilityBone#AddBoundingBox","Spine.Unity.SkeletonUtilityConstraint#OnEnable","Spine.Unity.SkeletonUtilityConstraint#OnDisable","Spine.Unity.SpineAttributeBase#init","Spine.Unity.SpineAtlasRegion#ctor","Spine.Unity.SpineAttachment.Hierarchy#getDefaultValue","Spine.Unity.SpineAttachment.Hierarchy#$ctor1","Spine.Unity.SpineAttachment.Hierarchy#ctor","Spine.Unity.SpineAttachment.Hierarchy#getHashCode","Spine.Unity.SpineAttachment.Hierarchy#equals","Spine.Unity.SpineAttachment.Hierarchy#$clone","Spine.Unity.SpineMesh#init","Spine.Unity.SpineMesh#NewSkeletonMesh","Spine.Unity.SubmeshInstruction#getDefaultValue","Spine.Unity.SubmeshInstruction#SlotCount#get","Spine.Unity.SubmeshInstruction#ctor","Spine.Unity.SubmeshInstruction#toString","Spine.Unity.SubmeshInstruction#getHashCode","Spine.Unity.SubmeshInstruction#equals","Spine.Unity.SubmeshInstruction#$clone","Spine.Unity.WaitForSpineAnimation#System$Collections$IEnumerator$Current#get","Spine.Unity.WaitForSpineAnimation#init","Spine.Unity.WaitForSpineAnimation#ctor","Spine.Unity.WaitForSpineAnimation#NowWaitFor","Spine.Unity.WaitForSpineAnimation#System$Collections$IEnumerator$moveNext","Spine.Unity.WaitForSpineAnimation#System$Collections$IEnumerator$reset","Spine.Unity.WaitForSpineAnimation#SafeSubscribe","Spine.Unity.WaitForSpineAnimation#HandleComplete","Spine.Unity.WaitForSpineEvent#WillUnsubscribeAfterFiring#get","Spine.Unity.WaitForSpineEvent#WillUnsubscribeAfterFiring#set","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$Current#get","Spine.Unity.WaitForSpineEvent#init","Spine.Unity.WaitForSpineEvent#ctor","Spine.Unity.WaitForSpineEvent#$ctor2","Spine.Unity.WaitForSpineEvent#$ctor1","Spine.Unity.WaitForSpineEvent#$ctor3","Spine.Unity.WaitForSpineEvent#Subscribe","Spine.Unity.WaitForSpineEvent#SubscribeByName","Spine.Unity.WaitForSpineEvent#HandleAnimationStateEventByName","Spine.Unity.WaitForSpineEvent#HandleAnimationStateEvent","Spine.Unity.WaitForSpineEvent#NowWaitFor","Spine.Unity.WaitForSpineEvent#NowWaitFor$1","Spine.Unity.WaitForSpineEvent#Clear","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$moveNext","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$reset","Spine.Unity.WaitForSpineTrackEntryEnd#System$Collections$IEnumerator$Current#get","Spine.Unity.WaitForSpineTrackEntryEnd#init","Spine.Unity.WaitForSpineTrackEntryEnd#ctor","Spine.Unity.WaitForSpineTrackEntryEnd#HandleEnd","Spine.Unity.WaitForSpineTrackEntryEnd#SafeSubscribe","Spine.Unity.WaitForSpineTrackEntryEnd#NowWaitFor","Spine.Unity.WaitForSpineTrackEntryEnd#System$Collections$IEnumerator$moveNext","Spine.Unity.WaitForSpineTrackEntryEnd#System$Collections$IEnumerator$reset","CodeKits.Event.CustomUnRegister#getDefaultValue","CodeKits.Event.CustomUnRegister#$ctor1","CodeKits.Event.CustomUnRegister#ctor","CodeKits.Event.CustomUnRegister#UnRegister","CodeKits.Event.CustomUnRegister#getHashCode","CodeKits.Event.CustomUnRegister#equals","CodeKits.Event.CustomUnRegister#$clone","CodeKits.Event.EasyEvent$1#init","CodeKits.Event.EasyEvent$1#Register$1","CodeKits.Event.EasyEvent$1#Register","CodeKits.Event.EasyEvent$1#UnRegister","CodeKits.Event.EasyEvent$1#Trigger","CodeKits.Event.UnRegisterOnDestroyTrigger#OnDestroy","CodeKits.Pool.Pool$1#CurCount#get","CodeKits.Pool.Pool$1#init","CodeKits.Pool.Pool$1#ctor","CodeKits.Pool.Pool$1#Pop","CodeKits.Pool.Pool$1#Push","CodeKits.Singleton.MonoSingleton$1#Instance#get","CodeKits.Singleton.MonoSingleton$1#init","CodeKits.Singleton.MonoSingleton$1#OnSingletonInit","CodeKits.Singleton.MonoSingleton$1#Dispose","CodeKits.Singleton.MonoSingleton$1#OnApplicationQuit","CodeKits.Singleton.MonoSingleton$1#OnDestroy","CodeKits.Singleton.Singleton$1#Instance#get","CodeKits.Singleton.Singleton$1#init","CodeKits.Singleton.Singleton$1#OnSingletonInit","CodeKits.Singleton.Singleton$1#Dispose","IvyCoreEx.Extention.PSE_Event_CreatePrefab#init","IvyCoreEx.Extention.PSE_Event_CreatePrefab#Reset","IvyCoreEx.Extention.PSE_Event_CreatePrefab#DoEvent","IvyCoreEx.Extention.PSE_Event_PlaySound#init","IvyCoreEx.Extention.PSE_Event_PlaySound#Reset","IvyCoreEx.Extention.PSE_Event_PlaySound#DoEvent","IvyCoreEx.Extention.PSE_Event_StringTrigger#init","IvyCoreEx.Extention.PSE_Event_StringTrigger#Reset","IvyCoreEx.Extention.PSE_Event_StringTrigger#DoEvent","Match3.ChildView#Initialize","Match3.ChildView#PlayCollectEffect","Match3.GeneratorView#init","Match3.GeneratorView#Initialize","Match3.GeneratorView#PlayIdle","Match3.GeneratorView#UpdateStateVisual","Match3.GeneratorView#AdvanceState","Match3.GeneratorView#TriggerGeneration","Match3.MotherView#init","Match3.MotherView#Initialize","Match3.MotherView#UpdateText","Match3.MotherView#PlayIdle","Match3.MotherView#ReceiveChild","Match3.NormalElementView#init","Match3.NormalElementView#Initialize","Match3.NormalElementView#PlayChangeAnimation","Match3.ObstacleView#init","Match3.ObstacleView#Initialize","Match3.ObstacleView#TakeDamage","Match3.ObstacleView#PlayTransitionAndNextState","Match3.ObstacleView#UpdateStateVisual","Match3.ObstacleView#PlayCollectEffect","Match3.ObstacleView#SpawnEffect","Match3.RetractingCollectibleView#init","Match3.RetractingCollectibleView#Initialize","Match3.RetractingCollectibleView#PlaySpineAnimation","Match3.RetractingCollectibleView#UpdateCellSize","Match3.RetractingCollectibleView#GenerateBody","Match3.RetractingCollectibleView#RetractOneCell","Match3.SpecialElementView#init","Match3.SpecialElementView#Initialize","Match3.SpecialElementView#PlayCreationAnimation","Match3.SpecialElementView#OnCreationAnimationComplete","Match3.SpecialElementView#PlayTriggerAnimation","Match3.SpecialElementView#GetTriggerAnimationDuration","Match3.SpecialElementView#GetCreationAnimationDuration","Match3.SpecialElementView#StopIdleVisuals","Match3.SpecialElementView#PlaySwapAnimation","Match3.SpecialElementView#GetSwapAnimationDuration","Match3.SpecialElementView#TryPlaySwapAnimation","Match3.SpecialElementView#PlaySwapParticleEffect","Spine.Unity.SkeletonGraphic#init","Spine.Unity.SkeletonGraphic#NewSkeletonGraphicGameObject","Spine.Unity.SkeletonGraphic#AddSkeletonGraphicComponent","Spine.Unity.SkeletonGraphic#SkeletonDataAsset#get","Spine.Unity.SkeletonGraphic#UpdateMode#get","Spine.Unity.SkeletonGraphic#UpdateMode#set","Spine.Unity.SkeletonGraphic#SeparatorParts#get","Spine.Unity.SkeletonGraphic#CustomTextureOverride#get","Spine.Unity.SkeletonGraphic#CustomMaterialOverride#get","Spine.Unity.SkeletonGraphic#OverrideTexture#get","Spine.Unity.SkeletonGraphic#OverrideTexture#set","Spine.Unity.SkeletonGraphic#mainTexture#get","Spine.Unity.SkeletonGraphic#Skeleton#get","Spine.Unity.SkeletonGraphic#Skeleton#set","Spine.Unity.SkeletonGraphic#SkeletonData#get","Spine.Unity.SkeletonGraphic#IsValid#get","Spine.Unity.SkeletonGraphic#AnimationState#get","Spine.Unity.SkeletonGraphic#MeshGenerator#get","Spine.Unity.SkeletonGraphic#init","Spine.Unity.SkeletonGraphic#Awake","Spine.Unity.SkeletonGraphic#OnDestroy","Spine.Unity.SkeletonGraphic#Rebuild","Spine.Unity.SkeletonGraphic#OnDisable","Spine.Unity.SkeletonGraphic#Update","Spine.Unity.SkeletonGraphic#Update$1","Spine.Unity.SkeletonGraphic#SyncRawImagesWithCanvasRenderers","Spine.Unity.SkeletonGraphic#UpdateAnimationStatus","Spine.Unity.SkeletonGraphic#ApplyAnimation","Spine.Unity.SkeletonGraphic#LateUpdate","Spine.Unity.SkeletonGraphic#OnCullStateChanged","Spine.Unity.SkeletonGraphic#OnBecameVisible","Spine.Unity.SkeletonGraphic#OnBecameInvisible","Spine.Unity.SkeletonGraphic#ReapplySeparatorSlotNames","Spine.Unity.SkeletonGraphic#GetLastMesh","Spine.Unity.SkeletonGraphic#MatchRectTransformWithBounds","Spine.Unity.SkeletonGraphic#MatchRectTransformSingleRenderer","Spine.Unity.SkeletonGraphic#MatchRectTransformMultipleRenderers","Spine.Unity.SkeletonGraphic#SetRectTransformBounds","Spine.Unity.SkeletonGraphic#Clear","Spine.Unity.SkeletonGraphic#TrimRenderers","Spine.Unity.SkeletonGraphic#Initialize","Spine.Unity.SkeletonGraphic#UpdateMesh","Spine.Unity.SkeletonGraphic#HasMultipleSubmeshInstructions","Spine.Unity.SkeletonGraphic#InitMeshBuffers","Spine.Unity.SkeletonGraphic#DisposeMeshBuffers","Spine.Unity.SkeletonGraphic#UpdateMeshSingleCanvasRenderer","Spine.Unity.SkeletonGraphic#UpdateMeshMultipleCanvasRenderers","Spine.Unity.SkeletonGraphic#EnsureCanvasRendererCount","Spine.Unity.SkeletonGraphic#DisableUnusedCanvasRenderers","Spine.Unity.SkeletonGraphic#EnsureMeshesCount","Spine.Unity.SkeletonGraphic#DestroyMeshes","Spine.Unity.SkeletonGraphic#EnsureSeparatorPartCount","Spine.Unity.SkeletonGraphic#UpdateSeparatorPartParents","Spine.AnimationStateData.AnimationPairComparer#init","Spine.AnimationStateData.AnimationPairComparer#System$Collections$Generic$IEqualityComparer$1$Spine$AnimationStateData$AnimationPair$equals2","Spine.AnimationStateData.AnimationPairComparer#System$Collections$Generic$IEqualityComparer$1$Spine$AnimationStateData$AnimationPair$getHashCode2","Spine.Atlas#ReadValue","Spine.Atlas#ReadTuple","Spine.Atlas#Regions#get","Spine.Atlas#Pages#get","Spine.Atlas#init","Spine.Atlas#$ctor1","Spine.Atlas#ctor","Spine.Atlas#GetEnumerator","Spine.Atlas#System$Collections$IEnumerable$GetEnumerator","Spine.Atlas#Load","Spine.Atlas#FlipV","Spine.Atlas#FindRegion","Spine.Atlas#Dispose","Spine.AtlasAttachmentLoader#ctor","Spine.AtlasAttachmentLoader#NewRegionAttachment","Spine.AtlasAttachmentLoader#NewMeshAttachment","Spine.AtlasAttachmentLoader#NewBoundingBoxAttachment","Spine.AtlasAttachmentLoader#NewPathAttachment","Spine.AtlasAttachmentLoader#NewPointAttachment","Spine.AtlasAttachmentLoader#NewClippingAttachment","Spine.AtlasAttachmentLoader#FindRegion","Spine.AttachmentTimeline#PropertyId#get","Spine.AttachmentTimeline#FrameCount#get","Spine.AttachmentTimeline#SlotIndex#get","Spine.AttachmentTimeline#SlotIndex#set","Spine.AttachmentTimeline#Frames#get","Spine.AttachmentTimeline#Frames#set","Spine.AttachmentTimeline#AttachmentNames#get","Spine.AttachmentTimeline#AttachmentNames#set","Spine.AttachmentTimeline#ctor","Spine.AttachmentTimeline#SetFrame","Spine.AttachmentTimeline#Apply","Spine.AttachmentTimeline#SetAttachment","Spine.Bone#Data#get","Spine.Bone#Skeleton#get","Spine.Bone#Parent#get","Spine.Bone#Children#get","Spine.Bone#Active#get","Spine.Bone#X#get","Spine.Bone#X#set","Spine.Bone#Y#get","Spine.Bone#Y#set","Spine.Bone#Rotation#get","Spine.Bone#Rotation#set","Spine.Bone#ScaleX#get","Spine.Bone#ScaleX#set","Spine.Bone#ScaleY#get","Spine.Bone#ScaleY#set","Spine.Bone#ShearX#get","Spine.Bone#ShearX#set","Spine.Bone#ShearY#get","Spine.Bone#ShearY#set","Spine.Bone#AppliedRotation#get","Spine.Bone#AppliedRotation#set","Spine.Bone#AX#get","Spine.Bone#AX#set","Spine.Bone#AY#get","Spine.Bone#AY#set","Spine.Bone#AScaleX#get","Spine.Bone#AScaleX#set","Spine.Bone#AScaleY#get","Spine.Bone#AScaleY#set","Spine.Bone#AShearX#get","Spine.Bone#AShearX#set","Spine.Bone#AShearY#get","Spine.Bone#AShearY#set","Spine.Bone#A#get","Spine.Bone#B#get","Spine.Bone#C#get","Spine.Bone#D#get","Spine.Bone#WorldX#get","Spine.Bone#WorldY#get","Spine.Bone#WorldRotationX#get","Spine.Bone#WorldRotationY#get","Spine.Bone#WorldScaleX#get","Spine.Bone#WorldScaleY#get","Spine.Bone#WorldToLocalRotationX#get","Spine.Bone#WorldToLocalRotationY#get","Spine.Bone#init","Spine.Bone#ctor","Spine.Bone#Update","Spine.Bone#UpdateWorldTransform","Spine.Bone#UpdateWorldTransform$1","Spine.Bone#SetToSetupPose","Spine.Bone#UpdateAppliedTransform","Spine.Bone#WorldToLocal","Spine.Bone#LocalToWorld","Spine.Bone#WorldToLocalRotation","Spine.Bone#LocalToWorldRotation","Spine.Bone#RotateWorld","Spine.Bone#toString","Spine.VertexAttachment#init","Spine.VertexAttachment#Id#get","Spine.VertexAttachment#Bones#get","Spine.VertexAttachment#Bones#set","Spine.VertexAttachment#Vertices#get","Spine.VertexAttachment#Vertices#set","Spine.VertexAttachment#WorldVerticesLength#get","Spine.VertexAttachment#WorldVerticesLength#set","Spine.VertexAttachment#DeformAttachment#get","Spine.VertexAttachment#DeformAttachment#set","Spine.VertexAttachment#ctor","Spine.VertexAttachment#ComputeWorldVertices$1","Spine.VertexAttachment#ComputeWorldVertices","Spine.VertexAttachment#CopyTo","Spine.CurveTimeline#init","Spine.CurveTimeline#FrameCount#get","Spine.CurveTimeline#ctor","Spine.CurveTimeline#SetLinear","Spine.CurveTimeline#SetStepped","Spine.CurveTimeline#GetCurveType","Spine.CurveTimeline#SetCurve","Spine.CurveTimeline#GetCurvePercent","Spine.DrawOrderTimeline#PropertyId#get","Spine.DrawOrderTimeline#FrameCount#get","Spine.DrawOrderTimeline#Frames#get","Spine.DrawOrderTimeline#Frames#set","Spine.DrawOrderTimeline#DrawOrders#get","Spine.DrawOrderTimeline#DrawOrders#set","Spine.DrawOrderTimeline#ctor","Spine.DrawOrderTimeline#SetFrame","Spine.DrawOrderTimeline#Apply","Spine.EventTimeline#PropertyId#get","Spine.EventTimeline#FrameCount#get","Spine.EventTimeline#Frames#get","Spine.EventTimeline#Frames#set","Spine.EventTimeline#Events#get","Spine.EventTimeline#Events#set","Spine.EventTimeline#ctor","Spine.EventTimeline#SetFrame","Spine.EventTimeline#Apply","Spine.IkConstraint#Apply$1","Spine.IkConstraint#Apply","Spine.IkConstraint#Bones#get","Spine.IkConstraint#Target#get","Spine.IkConstraint#Target#set","Spine.IkConstraint#Mix#get","Spine.IkConstraint#Mix#set","Spine.IkConstraint#Softness#get","Spine.IkConstraint#Softness#set","Spine.IkConstraint#BendDirection#get","Spine.IkConstraint#BendDirection#set","Spine.IkConstraint#Compress#get","Spine.IkConstraint#Compress#set","Spine.IkConstraint#Stretch#get","Spine.IkConstraint#Stretch#set","Spine.IkConstraint#Active#get","Spine.IkConstraint#Data#get","Spine.IkConstraint#init","Spine.IkConstraint#$ctor1","Spine.IkConstraint#ctor","Spine.IkConstraint#Apply","Spine.IkConstraint#Update","Spine.IkConstraint#toString","Spine.IkConstraintData#Bones#get","Spine.IkConstraintData#Target#get","Spine.IkConstraintData#Target#set","Spine.IkConstraintData#Mix#get","Spine.IkConstraintData#Mix#set","Spine.IkConstraintData#Softness#get","Spine.IkConstraintData#Softness#set","Spine.IkConstraintData#BendDirection#get","Spine.IkConstraintData#BendDirection#set","Spine.IkConstraintData#Compress#get","Spine.IkConstraintData#Compress#set","Spine.IkConstraintData#Stretch#get","Spine.IkConstraintData#Stretch#set","Spine.IkConstraintData#Uniform#get","Spine.IkConstraintData#Uniform#set","Spine.IkConstraintData#init","Spine.IkConstraintData#ctor","Spine.PathConstraint#init","Spine.PathConstraint#AddBeforePosition","Spine.PathConstraint#AddAfterPosition","Spine.PathConstraint#AddCurvePosition","Spine.PathConstraint#Position#get","Spine.PathConstraint#Position#set","Spine.PathConstraint#Spacing#get","Spine.PathConstraint#Spacing#set","Spine.PathConstraint#RotateMix#get","Spine.PathConstraint#RotateMix#set","Spine.PathConstraint#TranslateMix#get","Spine.PathConstraint#TranslateMix#set","Spine.PathConstraint#Bones#get","Spine.PathConstraint#Target#get","Spine.PathConstraint#Target#set","Spine.PathConstraint#Active#get","Spine.PathConstraint#Data#get","Spine.PathConstraint#init","Spine.PathConstraint#$ctor1","Spine.PathConstraint#ctor","Spine.PathConstraint#Apply","Spine.PathConstraint#Update","Spine.PathConstraint#ComputeWorldPositions","Spine.PathConstraintData#Bones#get","Spine.PathConstraintData#Target#get","Spine.PathConstraintData#Target#set","Spine.PathConstraintData#PositionMode#get","Spine.PathConstraintData#PositionMode#set","Spine.PathConstraintData#SpacingMode#get","Spine.PathConstraintData#SpacingMode#set","Spine.PathConstraintData#RotateMode#get","Spine.PathConstraintData#RotateMode#set","Spine.PathConstraintData#OffsetRotation#get","Spine.PathConstraintData#OffsetRotation#set","Spine.PathConstraintData#Position#get","Spine.PathConstraintData#Position#set","Spine.PathConstraintData#Spacing#get","Spine.PathConstraintData#Spacing#set","Spine.PathConstraintData#RotateMix#get","Spine.PathConstraintData#RotateMix#set","Spine.PathConstraintData#TranslateMix#get","Spine.PathConstraintData#TranslateMix#set","Spine.PathConstraintData#init","Spine.PathConstraintData#ctor","Spine.PointAttachment#X#get","Spine.PointAttachment#X#set","Spine.PointAttachment#Y#get","Spine.PointAttachment#Y#set","Spine.PointAttachment#Rotation#get","Spine.PointAttachment#Rotation#set","Spine.PointAttachment#ctor","Spine.PointAttachment#ComputeWorldPosition","Spine.PointAttachment#ComputeWorldRotation","Spine.PointAttachment#Copy","Spine.Pow#ctor","Spine.Pow#Apply$1","Spine.RegionAttachment#init","Spine.RegionAttachment#X#get","Spine.RegionAttachment#X#set","Spine.RegionAttachment#Y#get","Spine.RegionAttachment#Y#set","Spine.RegionAttachment#Rotation#get","Spine.RegionAttachment#Rotation#set","Spine.RegionAttachment#ScaleX#get","Spine.RegionAttachment#ScaleX#set","Spine.RegionAttachment#ScaleY#get","Spine.RegionAttachment#ScaleY#set","Spine.RegionAttachment#Width#get","Spine.RegionAttachment#Width#set","Spine.RegionAttachment#Height#get","Spine.RegionAttachment#Height#set","Spine.RegionAttachment#R#get","Spine.RegionAttachment#R#set","Spine.RegionAttachment#G#get","Spine.RegionAttachment#G#set","Spine.RegionAttachment#B#get","Spine.RegionAttachment#B#set","Spine.RegionAttachment#A#get","Spine.RegionAttachment#A#set","Spine.RegionAttachment#RegionOffsetX#get","Spine.RegionAttachment#RegionOffsetX#set","Spine.RegionAttachment#RegionOffsetY#get","Spine.RegionAttachment#RegionOffsetY#set","Spine.RegionAttachment#RegionWidth#get","Spine.RegionAttachment#RegionWidth#set","Spine.RegionAttachment#RegionHeight#get","Spine.RegionAttachment#RegionHeight#set","Spine.RegionAttachment#RegionOriginalWidth#get","Spine.RegionAttachment#RegionOriginalWidth#set","Spine.RegionAttachment#RegionOriginalHeight#get","Spine.RegionAttachment#RegionOriginalHeight#set","Spine.RegionAttachment#Offset#get","Spine.RegionAttachment#UVs#get","Spine.RegionAttachment#init","Spine.RegionAttachment#ctor","Spine.RegionAttachment#UpdateOffset","Spine.RegionAttachment#SetUVs","Spine.RegionAttachment#ComputeWorldVertices","Spine.RegionAttachment#Copy","Spine.Skin.SkinEntryComparer#init","Spine.Skin.SkinEntryComparer#System$Collections$Generic$IEqualityComparer$1$Spine$Skin$SkinEntry$equals2","Spine.Skin.SkinEntryComparer#System$Collections$Generic$IEqualityComparer$1$Spine$Skin$SkinEntry$getHashCode2","Spine.TrackEntry#inherits","Spine.TrackEntry#TrackIndex#get","Spine.TrackEntry#Animation#get","Spine.TrackEntry#Loop#get","Spine.TrackEntry#Loop#set","Spine.TrackEntry#Delay#get","Spine.TrackEntry#Delay#set","Spine.TrackEntry#TrackTime#get","Spine.TrackEntry#TrackTime#set","Spine.TrackEntry#TrackEnd#get","Spine.TrackEntry#TrackEnd#set","Spine.TrackEntry#AnimationStart#get","Spine.TrackEntry#AnimationStart#set","Spine.TrackEntry#AnimationEnd#get","Spine.TrackEntry#AnimationEnd#set","Spine.TrackEntry#AnimationLast#get","Spine.TrackEntry#AnimationLast#set","Spine.TrackEntry#AnimationTime#get","Spine.TrackEntry#TimeScale#get","Spine.TrackEntry#TimeScale#set","Spine.TrackEntry#Alpha#get","Spine.TrackEntry#Alpha#set","Spine.TrackEntry#EventThreshold#get","Spine.TrackEntry#EventThreshold#set","Spine.TrackEntry#AttachmentThreshold#get","Spine.TrackEntry#AttachmentThreshold#set","Spine.TrackEntry#DrawOrderThreshold#get","Spine.TrackEntry#DrawOrderThreshold#set","Spine.TrackEntry#Next#get","Spine.TrackEntry#IsComplete#get","Spine.TrackEntry#MixTime#get","Spine.TrackEntry#MixTime#set","Spine.TrackEntry#MixDuration#get","Spine.TrackEntry#MixDuration#set","Spine.TrackEntry#MixBlend#get","Spine.TrackEntry#MixBlend#set","Spine.TrackEntry#MixingFrom#get","Spine.TrackEntry#MixingTo#get","Spine.TrackEntry#HoldPrevious#get","Spine.TrackEntry#HoldPrevious#set","Spine.TrackEntry#init","Spine.TrackEntry#OnStart","Spine.TrackEntry#OnInterrupt","Spine.TrackEntry#OnEnd","Spine.TrackEntry#OnDispose","Spine.TrackEntry#OnComplete","Spine.TrackEntry#OnEvent","Spine.TrackEntry#Reset","Spine.TrackEntry#ResetRotationDirections","Spine.TrackEntry#toString","Spine.TransformConstraint#Bones#get","Spine.TransformConstraint#Target#get","Spine.TransformConstraint#Target#set","Spine.TransformConstraint#RotateMix#get","Spine.TransformConstraint#RotateMix#set","Spine.TransformConstraint#TranslateMix#get","Spine.TransformConstraint#TranslateMix#set","Spine.TransformConstraint#ScaleMix#get","Spine.TransformConstraint#ScaleMix#set","Spine.TransformConstraint#ShearMix#get","Spine.TransformConstraint#ShearMix#set","Spine.TransformConstraint#Active#get","Spine.TransformConstraint#Data#get","Spine.TransformConstraint#$ctor1","Spine.TransformConstraint#ctor","Spine.TransformConstraint#Apply","Spine.TransformConstraint#Update","Spine.TransformConstraint#ApplyAbsoluteWorld","Spine.TransformConstraint#ApplyRelativeWorld","Spine.TransformConstraint#ApplyAbsoluteLocal","Spine.TransformConstraint#ApplyRelativeLocal","Spine.TransformConstraint#toString","Spine.TransformConstraintData#Bones#get","Spine.TransformConstraintData#Target#get","Spine.TransformConstraintData#Target#set","Spine.TransformConstraintData#RotateMix#get","Spine.TransformConstraintData#RotateMix#set","Spine.TransformConstraintData#TranslateMix#get","Spine.TransformConstraintData#TranslateMix#set","Spine.TransformConstraintData#ScaleMix#get","Spine.TransformConstraintData#ScaleMix#set","Spine.TransformConstraintData#ShearMix#get","Spine.TransformConstraintData#ShearMix#set","Spine.TransformConstraintData#OffsetRotation#get","Spine.TransformConstraintData#OffsetRotation#set","Spine.TransformConstraintData#OffsetX#get","Spine.TransformConstraintData#OffsetX#set","Spine.TransformConstraintData#OffsetY#get","Spine.TransformConstraintData#OffsetY#set","Spine.TransformConstraintData#OffsetScaleX#get","Spine.TransformConstraintData#OffsetScaleX#set","Spine.TransformConstraintData#OffsetScaleY#get","Spine.TransformConstraintData#OffsetScaleY#set","Spine.TransformConstraintData#OffsetShearY#get","Spine.TransformConstraintData#OffsetShearY#set","Spine.TransformConstraintData#Relative#get","Spine.TransformConstraintData#Relative#set","Spine.TransformConstraintData#Local#get","Spine.TransformConstraintData#Local#set","Spine.TransformConstraintData#init","Spine.TransformConstraintData#ctor","Spine.Unity.AnimationReferenceAsset#init","Spine.Unity.AnimationReferenceAsset#op_Implicit","Spine.Unity.AnimationReferenceAsset#SkeletonDataAsset#get","Spine.Unity.AnimationReferenceAsset#Animation#get","Spine.Unity.AnimationReferenceAsset#Initialize","Spine.Unity.BlendModeMaterialsAsset#ApplyMaterials","Spine.Unity.BlendModeMaterialsAsset#init","Spine.Unity.BlendModeMaterialsAsset#Apply","Spine.Unity.MaterialsTextureLoader#ctor","Spine.Unity.MaterialsTextureLoader#Load","Spine.Unity.MaterialsTextureLoader#Unload","Spine.Unity.PointFollower#SkeletonRenderer#get","Spine.Unity.PointFollower#SkeletonComponent#get","Spine.Unity.PointFollower#IsValid#get","Spine.Unity.PointFollower#init","Spine.Unity.PointFollower#Initialize","Spine.Unity.PointFollower#HandleRebuildRenderer","Spine.Unity.PointFollower#UpdateReferences","Spine.Unity.PointFollower#OnDestroy","Spine.Unity.PointFollower#LateUpdate","Spine.Unity.RegionlessAttachmentLoader#EmptyRegion#get","Spine.Unity.RegionlessAttachmentLoader#NewRegionAttachment","Spine.Unity.RegionlessAttachmentLoader#NewMeshAttachment","Spine.Unity.RegionlessAttachmentLoader#NewBoundingBoxAttachment","Spine.Unity.RegionlessAttachmentLoader#NewPathAttachment","Spine.Unity.RegionlessAttachmentLoader#NewPointAttachment","Spine.Unity.RegionlessAttachmentLoader#NewClippingAttachment","Spine.Unity.SkeletonRenderer#init","Spine.Unity.SkeletonRenderer#NewSpineGameObject","Spine.Unity.SkeletonRenderer#AddSpineComponent","Spine.Unity.SkeletonRenderer#UpdateMode#get","Spine.Unity.SkeletonRenderer#UpdateMode#set","Spine.Unity.SkeletonRenderer#CustomMaterialOverride#get","Spine.Unity.SkeletonRenderer#CustomSlotMaterials#get","Spine.Unity.SkeletonRenderer#Skeleton#get","Spine.Unity.SkeletonRenderer#SkeletonDataAsset#get","Spine.Unity.SkeletonRenderer#init","Spine.Unity.SkeletonRenderer#addGenerateMeshOverride","Spine.Unity.SkeletonRenderer#removeGenerateMeshOverride","Spine.Unity.SkeletonRenderer#SetMeshSettings","Spine.Unity.SkeletonRenderer#Awake","Spine.Unity.SkeletonRenderer#OnDisable","Spine.Unity.SkeletonRenderer#OnDestroy","Spine.Unity.SkeletonRenderer#ClearState","Spine.Unity.SkeletonRenderer#EnsureMeshGeneratorCapacity","Spine.Unity.SkeletonRenderer#Initialize","Spine.Unity.SkeletonRenderer#LateUpdate","Spine.Unity.SkeletonRenderer#OnBecameVisible","Spine.Unity.SkeletonRenderer#OnBecameInvisible","Spine.Unity.SkeletonRenderer#FindAndApplySeparatorSlots$1","Spine.Unity.SkeletonRenderer#FindAndApplySeparatorSlots","Spine.Unity.SkeletonRenderer#ReapplySeparatorSlotNames","Spine.Unity.SkeletonRenderer#AssignSpriteMaskMaterials","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsInsideMask","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsOutsideMask","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsForMaskType","Spine.Unity.SkeletonRenderer#SetMaterialSettingsToFixDrawOrder","Spine.Unity.SkeletonMecanimRootMotion#init","Spine.Unity.SkeletonMecanimRootMotion#SkeletonMecanim#get","Spine.Unity.SkeletonMecanimRootMotion#init","Spine.Unity.SkeletonMecanimRootMotion#GetRemainingRootMotion","Spine.Unity.SkeletonMecanimRootMotion#GetRootMotionInfo","Spine.Unity.SkeletonMecanimRootMotion#Reset","Spine.Unity.SkeletonMecanimRootMotion#Start","Spine.Unity.SkeletonMecanimRootMotion#OnClipApplied","Spine.Unity.SkeletonMecanimRootMotion#CalculateAnimationsMovementDelta","Spine.Unity.SkeletonRootMotion#init","Spine.Unity.SkeletonRootMotion#AdditionalScale#get","Spine.Unity.SkeletonRootMotion#init","Spine.Unity.SkeletonRootMotion#GetRemainingRootMotion","Spine.Unity.SkeletonRootMotion#GetRootMotionInfo","Spine.Unity.SkeletonRootMotion#Reset","Spine.Unity.SkeletonRootMotion#Start","Spine.Unity.SkeletonRootMotion#CalculateAnimationsMovementDelta","Spine.Unity.SkeletonRootMotion#ApplyMixAlphaToDelta","Spine.Unity.SpineAnimation#ctor","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance$1","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance$2","Spine.Unity.SpineAtlasAsset#IsLoaded#get","Spine.Unity.SpineAtlasAsset#Materials#get","Spine.Unity.SpineAtlasAsset#MaterialCount#get","Spine.Unity.SpineAtlasAsset#PrimaryMaterial#get","Spine.Unity.SpineAtlasAsset#Reset","Spine.Unity.SpineAtlasAsset#Clear","Spine.Unity.SpineAtlasAsset#GetAtlas","Spine.Unity.SpineAtlasAsset#GenerateMesh","Spine.Unity.SpineAttachment#getHierarchy","Spine.Unity.SpineAttachment#getAttachment","Spine.Unity.SpineAttachment#getAttachment$1","Spine.Unity.SpineAttachment#init","Spine.Unity.SpineAttachment#ctor","Spine.Unity.SpineBone#getBone","Spine.Unity.SpineBone#getBoneData","Spine.Unity.SpineBone#ctor","Spine.Unity.SpineEvent#init","Spine.Unity.SpineEvent#ctor","Spine.Unity.SpineIkConstraint#ctor","Spine.Unity.SpinePathConstraint#ctor","Spine.Unity.SpineSkin#init","Spine.Unity.SpineSkin#ctor","Spine.Unity.SpineSlot#init","Spine.Unity.SpineSlot#ctor","Spine.Unity.SpineSpriteAtlasAsset#CreateRuntimeInstance","Spine.Unity.SpineSpriteAtlasAsset#AccessPackedTexture","Spine.Unity.SpineSpriteAtlasAsset#AccessPackedSprites","Spine.Unity.SpineSpriteAtlasAsset#IsLoaded#get","Spine.Unity.SpineSpriteAtlasAsset#Materials#get","Spine.Unity.SpineSpriteAtlasAsset#MaterialCount#get","Spine.Unity.SpineSpriteAtlasAsset#PrimaryMaterial#get","Spine.Unity.SpineSpriteAtlasAsset#Reset","Spine.Unity.SpineSpriteAtlasAsset#Clear","Spine.Unity.SpineSpriteAtlasAsset#GetAtlas","Spine.Unity.SpineSpriteAtlasAsset#AssignRegionsFromSavedRegions","Spine.Unity.SpineSpriteAtlasAsset#LoadAtlas","Spine.Unity.SpineTransformConstraint#ctor","Spine.Unity.WaitForSpineAnimationComplete#ctor","Spine.Unity.WaitForSpineAnimationComplete#NowWaitFor$1","Spine.Unity.WaitForSpineAnimationEnd#ctor","Spine.Unity.WaitForSpineAnimationEnd#NowWaitFor$1","Reference20.Reference20SkeletonGraphic#UpdateGeometry","Spine.BoundingBoxAttachment#ctor","Spine.BoundingBoxAttachment#Copy","Spine.ClippingAttachment#EndSlot#get","Spine.ClippingAttachment#EndSlot#set","Spine.ClippingAttachment#ctor","Spine.ClippingAttachment#Copy","Spine.ColorTimeline#init","Spine.ColorTimeline#PropertyId#get","Spine.ColorTimeline#SlotIndex#get","Spine.ColorTimeline#SlotIndex#set","Spine.ColorTimeline#Frames#get","Spine.ColorTimeline#Frames#set","Spine.ColorTimeline#ctor","Spine.ColorTimeline#SetFrame","Spine.ColorTimeline#Apply","Spine.DeformTimeline#PropertyId#get","Spine.DeformTimeline#SlotIndex#get","Spine.DeformTimeline#SlotIndex#set","Spine.DeformTimeline#Attachment#get","Spine.DeformTimeline#Attachment#set","Spine.DeformTimeline#Frames#get","Spine.DeformTimeline#Frames#set","Spine.DeformTimeline#Vertices#get","Spine.DeformTimeline#Vertices#set","Spine.DeformTimeline#ctor","Spine.DeformTimeline#SetFrame","Spine.DeformTimeline#Apply","Spine.IkConstraintTimeline#init","Spine.IkConstraintTimeline#PropertyId#get","Spine.IkConstraintTimeline#IkConstraintIndex#get","Spine.IkConstraintTimeline#IkConstraintIndex#set","Spine.IkConstraintTimeline#Frames#get","Spine.IkConstraintTimeline#Frames#set","Spine.IkConstraintTimeline#ctor","Spine.IkConstraintTimeline#SetFrame","Spine.IkConstraintTimeline#Apply","Spine.MeshAttachment#HullLength#get","Spine.MeshAttachment#HullLength#set","Spine.MeshAttachment#RegionUVs#get","Spine.MeshAttachment#RegionUVs#set","Spine.MeshAttachment#UVs#get","Spine.MeshAttachment#UVs#set","Spine.MeshAttachment#Triangles#get","Spine.MeshAttachment#Triangles#set","Spine.MeshAttachment#R#get","Spine.MeshAttachment#R#set","Spine.MeshAttachment#G#get","Spine.MeshAttachment#G#set","Spine.MeshAttachment#B#get","Spine.MeshAttachment#B#set","Spine.MeshAttachment#A#get","Spine.MeshAttachment#A#set","Spine.MeshAttachment#RegionOffsetX#get","Spine.MeshAttachment#RegionOffsetX#set","Spine.MeshAttachment#RegionOffsetY#get","Spine.MeshAttachment#RegionOffsetY#set","Spine.MeshAttachment#RegionWidth#get","Spine.MeshAttachment#RegionWidth#set","Spine.MeshAttachment#RegionHeight#get","Spine.MeshAttachment#RegionHeight#set","Spine.MeshAttachment#RegionOriginalWidth#get","Spine.MeshAttachment#RegionOriginalWidth#set","Spine.MeshAttachment#RegionOriginalHeight#get","Spine.MeshAttachment#RegionOriginalHeight#set","Spine.MeshAttachment#ParentMesh#get","Spine.MeshAttachment#ParentMesh#set","Spine.MeshAttachment#init","Spine.MeshAttachment#ctor","Spine.MeshAttachment#UpdateUVs","Spine.MeshAttachment#Copy","Spine.MeshAttachment#NewLinkedMesh","Spine.PathAttachment#Lengths#get","Spine.PathAttachment#Lengths#set","Spine.PathAttachment#Closed#get","Spine.PathAttachment#Closed#set","Spine.PathAttachment#ConstantSpeed#get","Spine.PathAttachment#ConstantSpeed#set","Spine.PathAttachment#ctor","Spine.PathAttachment#Copy","Spine.PathConstraintMixTimeline#init","Spine.PathConstraintMixTimeline#PropertyId#get","Spine.PathConstraintMixTimeline#PathConstraintIndex#get","Spine.PathConstraintMixTimeline#PathConstraintIndex#set","Spine.PathConstraintMixTimeline#Frames#get","Spine.PathConstraintMixTimeline#Frames#set","Spine.PathConstraintMixTimeline#ctor","Spine.PathConstraintMixTimeline#SetFrame","Spine.PathConstraintMixTimeline#Apply","Spine.PathConstraintPositionTimeline#init","Spine.PathConstraintPositionTimeline#PropertyId#get","Spine.PathConstraintPositionTimeline#PathConstraintIndex#get","Spine.PathConstraintPositionTimeline#PathConstraintIndex#set","Spine.PathConstraintPositionTimeline#Frames#get","Spine.PathConstraintPositionTimeline#Frames#set","Spine.PathConstraintPositionTimeline#ctor","Spine.PathConstraintPositionTimeline#SetFrame","Spine.PathConstraintPositionTimeline#Apply","Spine.PowOut#ctor","Spine.PowOut#Apply$1","Spine.RotateTimeline#init","Spine.RotateTimeline#PropertyId#get","Spine.RotateTimeline#BoneIndex#get","Spine.RotateTimeline#BoneIndex#set","Spine.RotateTimeline#Frames#get","Spine.RotateTimeline#Frames#set","Spine.RotateTimeline#ctor","Spine.RotateTimeline#SetFrame","Spine.RotateTimeline#Apply","Spine.TranslateTimeline#init","Spine.TranslateTimeline#PropertyId#get","Spine.TranslateTimeline#BoneIndex#get","Spine.TranslateTimeline#BoneIndex#set","Spine.TranslateTimeline#Frames#get","Spine.TranslateTimeline#Frames#set","Spine.TranslateTimeline#ctor","Spine.TranslateTimeline#SetFrame","Spine.TranslateTimeline#Apply","Spine.TransformConstraintTimeline#init","Spine.TransformConstraintTimeline#PropertyId#get","Spine.TransformConstraintTimeline#TransformConstraintIndex#get","Spine.TransformConstraintTimeline#TransformConstraintIndex#set","Spine.TransformConstraintTimeline#Frames#get","Spine.TransformConstraintTimeline#Frames#set","Spine.TransformConstraintTimeline#ctor","Spine.TransformConstraintTimeline#SetFrame","Spine.TransformConstraintTimeline#Apply","Spine.TwoColorTimeline#init","Spine.TwoColorTimeline#PropertyId#get","Spine.TwoColorTimeline#SlotIndex#get","Spine.TwoColorTimeline#SlotIndex#set","Spine.TwoColorTimeline#Frames#get","Spine.TwoColorTimeline#ctor","Spine.TwoColorTimeline#SetFrame","Spine.TwoColorTimeline#Apply","Spine.Unity.SkeletonAnimation#AddToGameObject","Spine.Unity.SkeletonAnimation#NewSkeletonAnimationGameObject","Spine.Unity.SkeletonAnimation#AnimationState#get","Spine.Unity.SkeletonAnimation#AnimationName#get","Spine.Unity.SkeletonAnimation#AnimationName#set","Spine.Unity.SkeletonAnimation#init","Spine.Unity.SkeletonAnimation#addBeforeApply","Spine.Unity.SkeletonAnimation#removeBeforeApply","Spine.Unity.SkeletonAnimation#addUpdateLocal","Spine.Unity.SkeletonAnimation#removeUpdateLocal","Spine.Unity.SkeletonAnimation#addUpdateWorld","Spine.Unity.SkeletonAnimation#removeUpdateWorld","Spine.Unity.SkeletonAnimation#addUpdateComplete","Spine.Unity.SkeletonAnimation#removeUpdateComplete","Spine.Unity.SkeletonAnimation#ClearState","Spine.Unity.SkeletonAnimation#Initialize","Spine.Unity.SkeletonAnimation#Update$1","Spine.Unity.SkeletonAnimation#Update","Spine.Unity.SkeletonAnimation#UpdateAnimationStatus","Spine.Unity.SkeletonAnimation#ApplyAnimation","Spine.Unity.SkeletonAnimation#LateUpdate","Spine.Unity.SkeletonMecanim#Translator#get","Spine.Unity.SkeletonMecanim#init","Spine.Unity.SkeletonMecanim#addBeforeApply","Spine.Unity.SkeletonMecanim#removeBeforeApply","Spine.Unity.SkeletonMecanim#addUpdateLocal","Spine.Unity.SkeletonMecanim#removeUpdateLocal","Spine.Unity.SkeletonMecanim#addUpdateWorld","Spine.Unity.SkeletonMecanim#removeUpdateWorld","Spine.Unity.SkeletonMecanim#addUpdateComplete","Spine.Unity.SkeletonMecanim#removeUpdateComplete","Spine.Unity.SkeletonMecanim#Initialize","Spine.Unity.SkeletonMecanim#Update","Spine.Unity.SkeletonMecanim#ApplyAnimation","Spine.Unity.SkeletonMecanim#LateUpdate","Spine.PathConstraintSpacingTimeline#PropertyId#get","Spine.PathConstraintSpacingTimeline#ctor","Spine.PathConstraintSpacingTimeline#Apply","Spine.ScaleTimeline#PropertyId#get","Spine.ScaleTimeline#ctor","Spine.ScaleTimeline#Apply","Spine.ShearTimeline#PropertyId#get","Spine.ShearTimeline#ctor","Spine.ShearTimeline#Apply"]' ) ); }
 /**
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -12167,6 +12167,7 @@ if ( TRACE ) { TRACE( "Match3.UI.RuntimeLoadingScreen#Create", this ); }
                     var root = new UnityEngine.GameObject.$ctor2("RuntimeLoadingScreen");
                     var canvas = root.AddComponent(UnityEngine.Canvas);
                     canvas.renderMode = UnityEngine.RenderMode.ScreenSpaceOverlay;
+                    canvas.referencePixelsPerUnit = 100.0;
                     canvas.sortingOrder = 32000;
                     var shortSide = UnityEngine.Mathf.Max(320.0, UnityEngine.Mathf.Min(UnityEngine.Screen.width, UnityEngine.Screen.height));
                     var background = Match3.UI.RuntimeLoadingScreen.CreateImage("PurpleBackground", root.transform);
@@ -12178,8 +12179,12 @@ if ( TRACE ) { TRACE( "Match3.UI.RuntimeLoadingScreen#Create", this ); }
                     logoRect.anchorMax = new pc.Vec2( 0.5, 0.5 );
                     logoRect.pivot = new pc.Vec2( 0.5, 0.5 );
                     var logoWidth = Math.max(230.0, Math.min(shortSide * 0.58, 590.0));
-                    logoRect.sizeDelta = new pc.Vec2( logoWidth, logoWidth * 524.0 / 700.0 );
-                    logoRect.anchoredPosition = new pc.Vec2( 0.0, shortSide * 0.1 );
+                    logoWidth = UnityEngine.Mathf.Min(logoWidth, UnityEngine.Screen.width * 0.78, UnityEngine.Screen.height * 0.55);
+                    var logoHeight = logoWidth * 524.0 / 700.0;
+                    var gap = Math.max(24.0, Math.min(shortSide * 0.08, 48.0));
+                    var trackHeight = Math.max(12.0, Math.min(shortSide * 0.024, 24.0));
+                    logoRect.sizeDelta = new pc.Vec2( logoWidth, logoHeight );
+                    logoRect.anchoredPosition = new pc.Vec2( 0.0, (gap + trackHeight) * 0.5 );
                     logo.sprite = UnityEngine.Resources.Load(UnityEngine.Sprite, "Reference20/Company/UI/Loading_Logo_en");
                     logo.preserveAspect = true;
                     logo.color = new pc.Color( 1, 1, 1, 1 );
@@ -12188,8 +12193,8 @@ if ( TRACE ) { TRACE( "Match3.UI.RuntimeLoadingScreen#Create", this ); }
                     trackRect.anchorMin = new pc.Vec2( 0.5, 0.5 );
                     trackRect.anchorMax = new pc.Vec2( 0.5, 0.5 );
                     trackRect.pivot = new pc.Vec2( 0.5, 0.5 );
-                    trackRect.sizeDelta = new pc.Vec2( Math.max(210.0, Math.min(shortSide * 0.52, 520.0)), Math.max(12.0, Math.min(shortSide * 0.024, 24.0)) );
-                    trackRect.anchoredPosition = new pc.Vec2( 0.0, (0.0 - shortSide) * 0.12 );
+                    trackRect.sizeDelta = new pc.Vec2( logoWidth * 0.9, trackHeight );
+                    trackRect.anchoredPosition = new pc.Vec2( 0.0, (0.0 - (logoHeight + gap)) * 0.5 );
                     track.color = UnityEngine.Color32.op_Implicit(new UnityEngine.Color32.$ctor1(39, 18, 76, 190));
                     var fill = Match3.UI.RuntimeLoadingScreen.CreateImage("ProgressFill", track.transform);
                     var fillRect = fill.rectTransform;
@@ -12598,7 +12603,35 @@ if ( TRACE ) { TRACE( "Reference20.CompanyParticleLayer#init", this ); }
     Bridge.define("Reference20.CompanyParticleTrack", {
         fields: {
             start: 0,
-            samples: null
+            samples: null,
+            validSamples: null
+        },
+        methods: {
+            /*Reference20.CompanyParticleTrack.ValidSample start.*/
+            ValidSample: function (index) {
+if ( TRACE ) { TRACE( "Reference20.CompanyParticleTrack#ValidSample", this ); }
+
+                if (this.validSamples == null) {
+                    this.validSamples = System.Array.init(this.samples.length, false, System.Boolean);
+                    for (var i = 0; i < this.samples.length; i = (i + 1) | 0) {
+                        var sample = this.samples[i];
+                        var valid = sample != null && sample.length >= 20;
+                        if (valid) {
+                            for (var j = 0; j < sample.length; j = (j + 1) | 0) {
+                                if (isNaN(sample[j]) || (Math.abs(sample[j]) === Number.POSITIVE_INFINITY)) {
+                                    valid = false;
+                                    break;
+                                }
+                            }
+                        }
+                        this.validSamples[i] = valid;
+                    }
+                }
+                return this.validSamples[index];
+            },
+            /*Reference20.CompanyParticleTrack.ValidSample end.*/
+
+
         }
     });
     /*Reference20.CompanyParticleTrack end.*/
@@ -12662,7 +12695,8 @@ if ( TRACE ) { TRACE( "Reference20.CompanyText#init", this ); }
             switchValue: 0,
             frame: 0,
             frames: null,
-            material: null
+            material: null,
+            image: null
         },
         ctors: {
             init: function () {
@@ -13022,49 +13056,108 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CocosClip#Vec", this ); }
         inherits: [UnityEngine.UI.MaskableGraphic],
         statics: {
             fields: {
-                source: null
+                source: null,
+                pool: null
+            },
+            ctors: {
+                init: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20ColorTrail#init", this ); }
+
+                    this.pool = new (System.Collections.Generic.Stack$1(Reference20.Reference20ColorTrailLease)).$ctor2(32);
+                }
             },
             methods: {
+                /*Reference20.Reference20ColorTrail.Reset:static start.*/
+                Reset: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20ColorTrail#Reset", this ); }
+
+                    Reference20.Reference20ColorTrail.pool.Clear();
+                },
+                /*Reference20.Reference20ColorTrail.Reset:static end.*/
+
+                /*Reference20.Reference20ColorTrail.Release:static start.*/
+                Release: function (lease) {
+if ( TRACE ) { TRACE( "Reference20.Reference20ColorTrail#Release", this ); }
+
+                    lease.gameObject.SetActive(false);
+                    if (Reference20.Reference20ColorTrail.pool.Count < 32) {
+                        Reference20.Reference20ColorTrail.pool.Push(lease);
+                    } else {
+                        UnityEngine.Object.Destroy(lease.gameObject);
+                    }
+                },
+                /*Reference20.Reference20ColorTrail.Release:static end.*/
+
                 /*Reference20.Reference20ColorTrail.Play:static start.*/
                 Play: function (stage, from, to) {
 if ( TRACE ) { TRACE( "Reference20.Reference20ColorTrail#Play", this ); }
 
-                    var $t, $t1, $t2, $t3;
+                    var $t, $t1, $t2, $t3, $t4;
                     if (Reference20.Reference20ColorTrail.source == null) {
                         Reference20.Reference20ColorTrail.source = Newtonsoft.Json.JsonConvert.DeserializeObject(UnityEngine.Resources.Load(UnityEngine.TextAsset, "Reference20/Company/Particles/ColorTrail").text, Reference20.HtmlTrailData);
                     }
-                    var root = Reference20.Reference20Props.Rect("HtmlColorTrail", Reference20.Reference20Native.Overlay(stage));
-                    var vector2 = (($t = (($t1 = pc.Vec2.ZERO.clone(), root.anchorMax = $t1.$clone(), $t1)), root.anchorMin = $t.$clone(), $t));
-                    root.anchoredPosition = from.$clone();
-                    var delta = to.$clone().sub( from );
-                    root.localRotation = new pc.Quat().setFromEulerAngles_Unity( 0.0, 0.0, Math.atan2(delta.y, delta.x) * 57.29578 );
-                    var layers = Reference20.Reference20ColorTrail.source.layers;
-                    $t2 = Bridge.getEnumerator(layers);
-                    try {
-                        while ($t2.moveNext()) {
-                            var data = $t2.Current;
-                            var rt = Reference20.Reference20Props.Rect(data.name, root);
-                            var g = rt.gameObject.AddComponent(Reference20.Reference20ColorTrail);
-                            g.layer = data;
-                            g.length = delta.length();
-                            g.texture = UnityEngine.Resources.Load(UnityEngine.Texture2D, "Reference20/Company/Particles/" + data.texture);
-                            if (!UnityEngine.Object.op_Implicit(data.material)) {
-                                data.material = new UnityEngine.Material.$ctor2(UnityEngine.Resources.Load(UnityEngine.Shader, "Reference20/Native/CocosSprite"));
-                                var boost = ((data.shader == null || !System.String.startsWith(data.shader, "Legacy")) ? 1 : 2);
-                                data.material.SetColor$1("_Color", ($t3 = new pc.Color( data.tint[0], data.tint[1], data.tint[2], data.tint[3] ), new pc.Color( $t3.r * boost, $t3.g * boost, $t3.b * boost, $t3.a * boost )));
-                                data.material.SetFloat$1("_SrcBlend", 5.0);
-                                data.material.SetFloat$1("_DstBlend", data.blend);
+                    var lease = null;
+                    while (Reference20.Reference20ColorTrail.pool.Count > 0 && !UnityEngine.Object.op_Implicit(lease)) {
+                        lease = Reference20.Reference20ColorTrail.pool.Pop();
+                    }
+                    if (!UnityEngine.Object.op_Implicit(lease)) {
+                        var created = Reference20.Reference20Props.Rect("HtmlColorTrail", Reference20.Reference20Native.Overlay(stage));
+                        lease = created.gameObject.AddComponent(Reference20.Reference20ColorTrailLease);
+                        lease.Layers = System.Array.init(Reference20.Reference20ColorTrail.source.layers.length, null, Reference20.Reference20ColorTrail);
+                        var index = 0;
+                        var layers = Reference20.Reference20ColorTrail.source.layers;
+                        $t = Bridge.getEnumerator(layers);
+                        try {
+                            while ($t.moveNext()) {
+                                var data = $t.Current;
+                                var rt = Reference20.Reference20Props.Rect(data.name, created);
+                                var g2 = rt.gameObject.AddComponent(Reference20.Reference20ColorTrail);
+                                g2.layer = data;
+                                if (!UnityEngine.Object.op_Implicit(data.image)) {
+                                    data.image = UnityEngine.Resources.Load(UnityEngine.Texture2D, "Reference20/Company/Particles/" + data.texture);
+                                }
+                                g2.texture = data.image;
+                                if (!UnityEngine.Object.op_Implicit(data.material)) {
+                                    data.material = new UnityEngine.Material.$ctor2(UnityEngine.Resources.Load(UnityEngine.Shader, "Reference20/Native/CocosSprite"));
+                                    var boost = ((data.shader == null || !System.String.startsWith(data.shader, "Legacy")) ? 1 : 2);
+                                    data.material.SetColor$1("_Color", ($t1 = new pc.Color( data.tint[0], data.tint[1], data.tint[2], data.tint[3] ), new pc.Color( $t1.r * boost, $t1.g * boost, $t1.b * boost, $t1.a * boost )));
+                                    data.material.SetFloat$1("_SrcBlend", 5.0);
+                                    data.material.SetFloat$1("_DstBlend", data.blend);
+                                }
+                                g2.material = data.material;
+                                g2.raycastTarget = false;
+                                g2.maskable = false;
+                                lease.Layers[Bridge.identity(index, ((index = (index + 1) | 0)))] = g2;
                             }
-                            g.material = data.material;
-                            g.raycastTarget = false;
-                            g.maskable = false;
-                        }
-                    } finally {
-                        if (Bridge.is($t2, System.IDisposable)) {
-                            $t2.System$IDisposable$Dispose();
+                        } finally {
+                            if (Bridge.is($t, System.IDisposable)) {
+                                $t.System$IDisposable$Dispose();
+                            }
                         }
                     }
-                    UnityEngine.Object.Destroy$1(root.gameObject, 0.5);
+                    var root = Bridge.cast(lease.transform, UnityEngine.RectTransform);
+                    root.SetParent(Reference20.Reference20Native.Overlay(stage), false);
+                    var vector2 = (($t2 = (($t3 = pc.Vec2.ZERO.clone(), root.anchorMax = $t3.$clone(), $t3)), root.anchorMin = $t2.$clone(), $t2));
+                    root.anchoredPosition = from.$clone();
+                    root.localScale = new pc.Vec3( 1, 1, 1 );
+                    var delta = to.$clone().sub( from );
+                    root.localRotation = new pc.Quat().setFromEulerAngles_Unity( 0.0, 0.0, Math.atan2(delta.y, delta.x) * 57.29578 );
+                    root.SetAsLastSibling();
+                    var layers2 = lease.Layers;
+                    $t4 = Bridge.getEnumerator(layers2);
+                    try {
+                        while ($t4.moveNext()) {
+                            var g = $t4.Current;
+                            g.elapsed = 0.0;
+                            g.length = delta.length();
+                            g.SetVerticesDirty();
+                        }
+                    } finally {
+                        if (Bridge.is($t4, System.IDisposable)) {
+                            $t4.System$IDisposable$Dispose();
+                        }
+                    }
+                    lease.Begin();
                 },
                 /*Reference20.Reference20ColorTrail.Play:static end.*/
 
@@ -13196,6 +13289,54 @@ if ( TRACE ) { TRACE( "Reference20.Reference20ColorTrail#OnPopulateMesh", this )
     });
     /*Reference20.Reference20ColorTrail end.*/
 
+    /*Reference20.Reference20ColorTrailLease start.*/
+    Bridge.define("Reference20.Reference20ColorTrailLease", {
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            Layers: null,
+            remaining: 0,
+            leased: false
+        },
+        methods: {
+            /*Reference20.Reference20ColorTrailLease.Begin start.*/
+            Begin: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20ColorTrailLease#Begin", this ); }
+
+                this.remaining = 0.5;
+                this.leased = true;
+                Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject.SetActive(true);
+            },
+            /*Reference20.Reference20ColorTrailLease.Begin end.*/
+
+            /*Reference20.Reference20ColorTrailLease.Complete start.*/
+            Complete: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20ColorTrailLease#Complete", this ); }
+
+                if (this.leased) {
+                    this.leased = false;
+                    Reference20.Reference20ColorTrail.Release(this);
+                }
+            },
+            /*Reference20.Reference20ColorTrailLease.Complete end.*/
+
+            /*Reference20.Reference20ColorTrailLease.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20ColorTrailLease#Update", this ); }
+
+                if (this.leased) {
+                    this.remaining -= UnityEngine.Time.deltaTime;
+                    if (this.remaining <= 0.0) {
+                        this.Complete();
+                    }
+                }
+            },
+            /*Reference20.Reference20ColorTrailLease.Update end.*/
+
+
+        }
+    });
+    /*Reference20.Reference20ColorTrailLease end.*/
+
     /*Reference20.Reference20CompanyAudio start.*/
     Bridge.define("Reference20.Reference20CompanyAudio", {
         statics: {
@@ -13275,7 +13416,8 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyEffects#Beam", this ); }
             texture: null,
             batchKey: null,
             wasActive: false,
-            quad: null
+            quad: null,
+            layersByEffect: null
         },
         props: {
             mainTexture: {
@@ -13293,6 +13435,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticleBatch#init", this )
                 this.quad = System.Array.init(4, function (){
                     return new UnityEngine.UIVertex();
                 }, UnityEngine.UIVertex);
+                this.layersByEffect = new (System.Collections.Generic.Dictionary$2(Reference20.CompanyParticleEffect,System.Array.type(Reference20.CompanyParticleLayer))).ctor();
             },
             ctor: function () {
 if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticleBatch#ctor", this ); }
@@ -13309,17 +13452,63 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticleBatch#Configure", t
 
                 this.texture = layer.image;
                 this.batchKey = layer.batchKey;
+                this.layersByEffect.clear();
                 this.material = layer.material;
                 this.raycastTarget = false;
                 this.maskable = false;
             },
             /*Reference20.Reference20CompanyParticleBatch.Configure end.*/
 
+            /*Reference20.Reference20CompanyParticleBatch.Prepare start.*/
+            Prepare: function (effect) {
+if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticleBatch#Prepare", this ); }
+
+                var $t;
+                var layers = { };
+                if (this.layersByEffect.tryGetValue(effect, layers)) {
+                    return layers.v;
+                }
+                var matches = new (System.Collections.Generic.List$1(Reference20.CompanyParticleLayer)).ctor();
+                var layers2 = effect.layers;
+                $t = Bridge.getEnumerator(layers2);
+                try {
+                    while ($t.moveNext()) {
+                        var layer = $t.Current;
+                        if (Bridge.referenceEquals(layer.batchKey, this.batchKey)) {
+                            matches.add(layer);
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                layers.v = matches.ToArray();
+                this.layersByEffect.setItem(effect, layers.v);
+                return layers.v;
+            },
+            /*Reference20.Reference20CompanyParticleBatch.Prepare end.*/
+
             /*Reference20.Reference20CompanyParticleBatch.LateUpdate start.*/
             LateUpdate: function () {
 if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticleBatch#LateUpdate", this ); }
 
-                var any = Reference20.Reference20CompanyParticles.Active.Count > 0;
+                var $t;
+                var any = false;
+                $t = Bridge.getEnumerator(Reference20.Reference20CompanyParticles.Active);
+                try {
+                    while ($t.moveNext()) {
+                        var h = $t.Current;
+                        if (UnityEngine.Object.op_Implicit(h) && h.gameObject.activeInHierarchy && this.Prepare(h.Definition).length !== 0) {
+                            any = true;
+                            break;
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
                 if (any || this.wasActive) {
                     this.SetVerticesDirty();
                 }
@@ -13343,15 +13532,21 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticleBatch#OnPopulateMes
                         if (!UnityEngine.Object.op_Implicit(h) || !h.gameObject.activeInHierarchy) {
                             continue;
                         }
-                        var matrix = new pc.Mat4().mul2( this.transform.worldToLocalMatrix, h.transform.localToWorldMatrix );
-                        var layers = h.Definition.layers;
-                        $t1 = Bridge.getEnumerator(layers);
+                        var layers = this.Prepare(h.Definition);
+                        if (layers.length === 0) {
+                            continue;
+                        }
+                        var emitter = Bridge.cast(h.transform, UnityEngine.RectTransform);
+                        var origin = emitter.anchoredPosition.$clone().sub( this.rectTransform.anchoredPosition );
+                        var rotation = emitter.localRotation.$clone();
+                        var scale = emitter.localScale.$clone();
+                        var right = rotation.transformVector( new pc.Vec3( scale.x, 0.0, 0.0 ) );
+                        var up = rotation.transformVector( new pc.Vec3( 0.0, scale.y, 0.0 ) );
+                        var array = layers;
+                        $t1 = Bridge.getEnumerator(array);
                         try {
                             while ($t1.moveNext()) {
                                 var layer = $t1.Current;
-                                if (!Bridge.referenceEquals(layer.batchKey, this.batchKey)) {
-                                    continue;
-                                }
                                 var count = layer.tracks.length;
                                 for (var particle = 0; particle < count; particle = (particle + 1) | 0) {
                                     var track = layer.tracks[particle];
@@ -13364,14 +13559,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticleBatch#OnPopulateMes
                                     var f = frame - a;
                                     var va = track.samples[a];
                                     var vb = track.samples[b];
-                                    var valid = true;
-                                    for (var m = 0; m < va.length; m = (m + 1) | 0) {
-                                        if (isNaN(va[m]) || (Math.abs(va[m]) === Number.POSITIVE_INFINITY) || isNaN(vb[m]) || (Math.abs(vb[m]) === Number.POSITIVE_INFINITY)) {
-                                            valid = false;
-                                            break;
-                                        }
-                                    }
-                                    if (!valid) {
+                                    if (!track.ValidSample(a) || !track.ValidSample(b)) {
                                         continue;
                                     }
                                     var tint = new pc.Color( UnityEngine.Mathf.LerpUnclamped(va[0], vb[0], f), UnityEngine.Mathf.LerpUnclamped(va[1], vb[1], f), UnityEngine.Mathf.LerpUnclamped(va[2], vb[2], f), UnityEngine.Mathf.LerpUnclamped(va[3], vb[3], f) );
@@ -13383,7 +13571,9 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticleBatch#OnPopulateMes
                                         for (var k = 0; k < 4; k = (k + 1) | 0) {
                                             var l = (4 + Bridge.Int.mul(k, 4)) | 0;
                                             this.quad[k] = UnityEngine.UIVertex.simpleVert.$clone();
-                                            this.quad[k].position = matrix.transformPoint( new pc.Vec3( UnityEngine.Mathf.LerpUnclamped(va[l], vb[l], f) + h.Velocity.x * track.start, UnityEngine.Mathf.LerpUnclamped(va[((l + 1) | 0)], vb[((l + 1) | 0)], f) + h.Velocity.y * track.start, 0.0 ) );
+                                            var x = UnityEngine.Mathf.LerpUnclamped(va[l], vb[l], f) + h.Velocity.x * track.start;
+                                            var y = UnityEngine.Mathf.LerpUnclamped(va[((l + 1) | 0)], vb[((l + 1) | 0)], f) + h.Velocity.y * track.start;
+                                            this.quad[k].position = new pc.Vec3( origin.x + right.x * x + up.x * y, origin.y + right.y * x + up.y * y, right.z * x + up.z * y );
                                             this.quad[k].uv0 = new pc.Vec2( va[((l + 2) | 0)] * layer.tiling[0] + layer.tiling[2], va[((l + 3) | 0)] * layer.tiling[1] + layer.tiling[3] );
                                             this.quad[k].color = UnityEngine.Color32.op_Implicit$1(tint.$clone());
                                         }
@@ -13530,7 +13720,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticles#init", this ); }
                 Load: function () {
 if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticles#Load", this ); }
 
-                    var $t, $t1, $t2;
+                    var $t, $t1, $t2, $t3, $t4;
                     if (Reference20.Reference20CompanyParticles.definitions.Count > 0) {
                         return;
                     }
@@ -13567,6 +13757,31 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticles#Load", this ); }
                                     $t1.System$IDisposable$Dispose();
                                 }
                             }
+                            var layers2 = data.layers;
+                            $t3 = Bridge.getEnumerator(layers2);
+                            try {
+                                while ($t3.moveNext()) {
+                                    var layer2 = $t3.Current;
+                                    var tracks = layer2.tracks;
+                                    $t4 = Bridge.getEnumerator(tracks);
+                                    try {
+                                        while ($t4.moveNext()) {
+                                            var track = $t4.Current;
+                                            if (track.samples.length !== 0) {
+                                                track.ValidSample(0);
+                                            }
+                                        }
+                                    } finally {
+                                        if (Bridge.is($t4, System.IDisposable)) {
+                                            $t4.System$IDisposable$Dispose();
+                                        }
+                                    }
+                                }
+                            } finally {
+                                if (Bridge.is($t3, System.IDisposable)) {
+                                    $t3.System$IDisposable$Dispose();
+                                }
+                            }
                             Reference20.Reference20CompanyParticles.definitions.setItem(name, data);
                         }
                     } finally {
@@ -13594,7 +13809,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticles#Create", this ); 
                 Prewarm: function (stage) {
 if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticles#Prewarm", this ); }
 
-                    var $t, $t1, $t2, $t3;
+                    var $t, $t1, $t2, $t3, $t4, $t5;
                     Reference20.Reference20CompanyParticles.Load();
                     var target = Reference20.Reference20Native.Overlay(stage);
                     if (UnityEngine.Component.op_Equality(Reference20.Reference20CompanyParticles.overlay, target) && Reference20.Reference20CompanyParticles.batches.Count > 0) {
@@ -13607,8 +13822,8 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticles#Prewarm", this );
                     $t = Bridge.getEnumerator(Reference20.Reference20CompanyParticles.definitions.Values);
                     try {
                         while ($t.moveNext()) {
-                            var effect = $t.Current;
-                            var layers = effect.layers;
+                            var effect2 = $t.Current;
+                            var layers = effect2.layers;
                             $t1 = Bridge.getEnumerator(layers);
                             try {
                                 while ($t1.moveNext()) {
@@ -13631,6 +13846,27 @@ if ( TRACE ) { TRACE( "Reference20.Reference20CompanyParticles#Prewarm", this );
                     } finally {
                         if (Bridge.is($t, System.IDisposable)) {
                             $t.System$IDisposable$Dispose();
+                        }
+                    }
+                    $t4 = Bridge.getEnumerator(Reference20.Reference20CompanyParticles.batches.Values);
+                    try {
+                        while ($t4.moveNext()) {
+                            var batch = $t4.Current;
+                            $t5 = Bridge.getEnumerator(Reference20.Reference20CompanyParticles.definitions.Values);
+                            try {
+                                while ($t5.moveNext()) {
+                                    var effect = $t5.Current;
+                                    batch.Prepare(effect);
+                                }
+                            } finally {
+                                if (Bridge.is($t5, System.IDisposable)) {
+                                    $t5.System$IDisposable$Dispose();
+                                }
+                            }
+                        }
+                    } finally {
+                        if (Bridge.is($t4, System.IDisposable)) {
+                            $t4.System$IDisposable$Dispose();
                         }
                     }
                     for (var i = 0; i < 128; i = (i + 1) | 0) {
@@ -14074,6 +14310,13 @@ if ( TRACE ) { TRACE( "Reference20.Reference20FragmentBurst#init", this ); }
                 this.quad = System.Array.init(4, function (){
                     return new UnityEngine.UIVertex();
                 }, UnityEngine.UIVertex);
+            },
+            ctor: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20FragmentBurst#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.UI.MaskableGraphic.ctor.call(this);
+                this.useLegacyMeshGeneration = false;
             }
         },
         methods: {
@@ -14392,6 +14635,20 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#init", this ); }
                 }
             },
             methods: {
+                /*Reference20.Reference20Game.Configure2DAudio:static start.*/
+                Configure2DAudio: function (source) {
+if ( TRACE ) { TRACE( "Reference20.Reference20Game#Configure2DAudio", this ); }
+ },
+                /*Reference20.Reference20Game.Configure2DAudio:static end.*/
+
+                /*Reference20.Reference20Game.EventBefore:static start.*/
+                EventBefore: function (a, b) {
+if ( TRACE ) { TRACE( "Reference20.Reference20Game#EventBefore", this ); }
+
+                    return a.at < b.at || (a.at === b.at && a.order.lt(b.order));
+                },
+                /*Reference20.Reference20Game.EventBefore:static end.*/
+
                 /*Reference20.Reference20Game.Union:static start.*/
                 Union: function (result, other) {
 if ( TRACE ) { TRACE( "Reference20.Reference20Game#Union", this ); }
@@ -15947,18 +16204,21 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#Label", this ); }
             BuildGuide: function () {
 if ( TRACE ) { TRACE( "Reference20.Reference20Game#BuildGuide", this ); }
 
-                var $t, $t1;
-                var shadeObject = new UnityEngine.GameObject.$ctor4("TutorialShade", [UnityEngine.RectTransform, UnityEngine.CanvasRenderer, Reference20.Reference20GuideShade]);
-                this.guide = shadeObject.GetComponent(UnityEngine.RectTransform);
+                var $t, $t1, $t2, $t3;
+                this.guide = new UnityEngine.GameObject.$ctor3("TutorialShade", UnityEngine.RectTransform).GetComponent(UnityEngine.RectTransform);
                 this.guide.SetParent(this.stage, false);
                 var vector3 = (($t = (($t1 = pc.Vec2.ONE.clone().scale( 0.5 ), this.guide.anchorMax = $t1.$clone(), $t1)), this.guide.anchorMin = $t.$clone(), $t));
                 this.guide.sizeDelta = new pc.Vec2( 1080.0, 1920.0 );
+                Reference20.Reference20Native.SortingCanvas(this.guide, 500);
+                var shadeObject = new UnityEngine.GameObject.$ctor4("Shade", [UnityEngine.RectTransform, UnityEngine.CanvasRenderer, Reference20.Reference20GuideShade]);
+                var shadeRect = shadeObject.GetComponent(UnityEngine.RectTransform);
+                shadeRect.SetParent(this.guide, false);
+                shadeRect.anchorMin = pc.Vec2.ZERO.clone();
+                shadeRect.anchorMax = pc.Vec2.ONE.clone();
+                vector3 = (($t2 = (($t3 = pc.Vec2.ZERO.clone(), shadeRect.offsetMax = $t3.$clone(), $t3)), shadeRect.offsetMin = $t2.$clone(), $t2));
                 var shade = shadeObject.GetComponent(Reference20.Reference20GuideShade);
                 shade.color = new pc.Color( 0.0, 0.0, 0.0, 0.55 );
                 shade.raycastTarget = false;
-                var top = this.guide.gameObject.AddComponent(UnityEngine.Canvas);
-                top.overrideSorting = true;
-                top.sortingOrder = 500;
                 var hand = Reference20.Reference20Native.GuideHand(this.stage);
                 if (UnityEngine.Object.op_Implicit(hand)) {
                     hand.SetParent(this.guide, true);
@@ -15998,17 +16258,9 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#RemoveGuide", this ); }
             EnsureAudio: function () {
 if ( TRACE ) { TRACE( "Reference20.Reference20Game#EnsureAudio", this ); }
 
-                this.audioSource.spatialBlend = 0.0;
+                Reference20.Reference20Game.Configure2DAudio(this.audioSource);
                 this.audioSource.volume = 1.0;
                 this.audioSource.mute = false;
-                if (!UnityEngine.Object.op_Implicit(UnityEngine.Object.FindObjectOfType(UnityEngine.AudioListener))) {
-                    var camera = UnityEngine.Camera.main;
-                    if (UnityEngine.Object.op_Implicit(camera)) {
-                        camera.gameObject.AddComponent(UnityEngine.AudioListener);
-                    } else {
-                        Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject.AddComponent(UnityEngine.AudioListener);
-                    }
-                }
             },
             /*Reference20.Reference20Game.EnsureAudio end.*/
 
@@ -16050,8 +16302,10 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#Update", this ); }
                 if (UnityEngine.Input.GetMouseButtonDown(0)) {
                     this.StopHints();
                     var point = { v : new UnityEngine.Vector2() };
-                    UnityEngine.RectTransformUtility.ScreenPointToLocalPointInRectangle(this.stage, UnityEngine.Vector2.FromVector3(UnityEngine.Input.mousePosition), null, point);
-                    this.press = point.v.$clone().add( new pc.Vec2( 540.0, 960.0 ) );
+                    if (!this.TryPointerPosition(point)) {
+                        return;
+                    }
+                    this.press = point.v.$clone();
                     var piece = this.AtPoint(this.press.$clone());
                     if (this.selected != null && piece != null && !Bridge.referenceEquals(piece, this.selected) && this.TryMove(this.selected.x, this.selected.y, piece.x, piece.y)) {
                         this.selected = null;
@@ -16060,17 +16314,19 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#Update", this ); }
                     this.selected = (this.CanManipulate(piece) ? piece : null);
                     this.Hint(this.selected);
                 }
-                if (UnityEngine.Input.GetMouseButton(0) && this.selected != null) {
-                    var point3 = { v : new UnityEngine.Vector2() };
-                    UnityEngine.RectTransformUtility.ScreenPointToLocalPointInRectangle(this.stage, UnityEngine.Vector2.FromVector3(UnityEngine.Input.mousePosition), null, point3);
-                    this.DragSelected(point3.v.$clone().add( new pc.Vec2( 540.0, 960.0 ) ));
+                var point3 = { v : new UnityEngine.Vector2() };
+                if (UnityEngine.Input.GetMouseButton(0) && this.selected != null && this.TryPointerPosition(point3)) {
+                    this.DragSelected(point3.v.$clone());
                 }
                 if (!UnityEngine.Input.GetMouseButtonUp(0) || this.selected == null) {
                     return;
                 }
                 var point2 = { v : new UnityEngine.Vector2() };
-                UnityEngine.RectTransformUtility.ScreenPointToLocalPointInRectangle(this.stage, UnityEngine.Vector2.FromVector3(UnityEngine.Input.mousePosition), null, point2);
-                var delta = point2.v.$clone().add( new pc.Vec2( 540.0, 960.0 ) ).sub( this.press );
+                if (!this.TryPointerPosition(point2)) {
+                    this.selected = null;
+                    return;
+                }
+                var delta = point2.v.$clone().sub( this.press );
                 if (delta.length() > 24.9919987) {
                     var dx = 0;
                     var dy = 0;
@@ -16087,6 +16343,15 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#Update", this ); }
                 }
             },
             /*Reference20.Reference20Game.Update end.*/
+
+            /*Reference20.Reference20Game.TryPointerPosition start.*/
+            TryPointerPosition: function (point) {
+if ( TRACE ) { TRACE( "Reference20.Reference20Game#TryPointerPosition", this ); }
+
+                point.v = pc.Vec2.ZERO.clone();
+                return UnityEngine.Object.op_Implicit(this.responsive) && this.responsive.TryScreenToBoard(UnityEngine.Vector2.FromVector3(UnityEngine.Input.mousePosition.$clone()), point);
+            },
+            /*Reference20.Reference20Game.TryPointerPosition end.*/
 
             /*Reference20.Reference20Game.AtPoint start.*/
             AtPoint: function (point) {
@@ -16206,9 +16471,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#ShowEnd", this ); }
                     var frame = new UnityEngine.GameObject.$ctor3("EndFrame", UnityEngine.RectTransform).GetComponent(UnityEngine.RectTransform);
                     frame.SetParent(this.chrome, false);
                     frame.sizeDelta = new pc.Vec2( 1080.0, 1920.0 );
-                    var top = frame.gameObject.AddComponent(UnityEngine.Canvas);
-                    top.overrideSorting = true;
-                    top.sortingOrder = 1000;
+                    Reference20.Reference20Native.SortingCanvas(frame, 1000);
                     frame.gameObject.AddComponent(UnityEngine.UI.GraphicRaycaster);
                     this.responsive.endFrame = frame;
                     this.responsive.Refresh();
@@ -16868,9 +17131,51 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#ReturnCompose", this ); }
 if ( TRACE ) { TRACE( "Reference20.Reference20Game#After", this ); }
 
                 var $t, $t1;
-                this.boardEvents.add(($t = new Reference20.Reference20Game.BoardEvent(), $t.at = this.clock + seconds, $t.order = ($t1 = this.eventOrder, this.eventOrder = this.eventOrder.inc(), $t1), $t.action = action, $t));
+                var next = ($t = new Reference20.Reference20Game.BoardEvent(), $t.at = this.clock + seconds, $t.order = ($t1 = this.eventOrder, this.eventOrder = this.eventOrder.inc(), $t1), $t.action = action, $t);
+                var index = this.boardEvents.Count;
+                this.boardEvents.add(next);
+                while (index > 0) {
+                    var parent = (Bridge.Int.div((((index - 1) | 0)), 2)) | 0;
+                    if (!Reference20.Reference20Game.EventBefore(next, this.boardEvents.getItem(parent))) {
+                        break;
+                    }
+                    this.boardEvents.setItem(index, this.boardEvents.getItem(parent));
+                    index = parent;
+                }
+                this.boardEvents.setItem(index, next);
             },
             /*Reference20.Reference20Game.After end.*/
+
+            /*Reference20.Reference20Game.PopEvent start.*/
+            PopEvent: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20Game#PopEvent", this ); }
+
+                var first = this.boardEvents.getItem(0);
+                var last = (this.boardEvents.Count - 1) | 0;
+                var tail = this.boardEvents.getItem(last);
+                this.boardEvents.removeAt(last);
+                if (last === 0) {
+                    return first;
+                }
+                var index = 0;
+                while (true) {
+                    var child = (Bridge.Int.mul(index, 2) + 1) | 0;
+                    if (child >= last) {
+                        break;
+                    }
+                    if (((child + 1) | 0) < last && Reference20.Reference20Game.EventBefore(this.boardEvents.getItem(((child + 1) | 0)), this.boardEvents.getItem(child))) {
+                        child = (child + 1) | 0;
+                    }
+                    if (!Reference20.Reference20Game.EventBefore(this.boardEvents.getItem(child), tail)) {
+                        break;
+                    }
+                    this.boardEvents.setItem(index, this.boardEvents.getItem(child));
+                    index = child;
+                }
+                this.boardEvents.setItem(index, tail);
+                return first;
+            },
+            /*Reference20.Reference20Game.PopEvent end.*/
 
             /*Reference20.Reference20Game.AdvanceRuntime start.*/
             AdvanceRuntime: function (dt) {
@@ -16882,18 +17187,8 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#AdvanceRuntime", this ); }
                     this.accumulator -= 0.0169491526;
                     this.clock += 0.0169491526;
                     var guard = 0;
-                    while (this.boardEvents.Count > 0 && Bridge.identity(guard, ((guard = (guard + 1) | 0))) < 4096) {
-                        var next = -1;
-                        for (var j = 0; j < this.boardEvents.Count; j = (j + 1) | 0) {
-                            if (this.boardEvents.getItem(j).at <= this.clock + 1E-05 && (next < 0 || this.boardEvents.getItem(j).at < this.boardEvents.getItem(next).at || (this.boardEvents.getItem(j).at === this.boardEvents.getItem(next).at && this.boardEvents.getItem(j).order.lt(this.boardEvents.getItem(next).order)))) {
-                                next = j;
-                            }
-                        }
-                        if (next < 0) {
-                            break;
-                        }
-                        var e = this.boardEvents.getItem(next);
-                        this.boardEvents.removeAt(next);
+                    while (this.boardEvents.Count > 0 && Bridge.identity(guard, ((guard = (guard + 1) | 0))) < 4096 && !(this.boardEvents.getItem(0).at > this.clock + 1E-05)) {
+                        var e = this.PopEvent();
                         e.action();
                     }
                     if (!this.resolving) {
@@ -18057,7 +18352,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#BeginFlightSound", this ); }
                 } else {
                     source = Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject.AddComponent(UnityEngine.AudioSource);
                     source.playOnAwake = false;
-                    source.spatialBlend = 0.0;
+                    Reference20.Reference20Game.Configure2DAudio(source);
                     source.loop = true;
                     this.flightAudio.add(source);
                 }
@@ -18090,7 +18385,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Game#BeginStandby", this ); }
                         this.standbySource = Bridge.ensureBaseProperty(this, "gameObject").$UnityEngine$Component$gameObject.AddComponent(UnityEngine.AudioSource);
                         this.standbySource.playOnAwake = false;
                         this.standbySource.loop = true;
-                        this.standbySource.spatialBlend = 0.0;
+                        Reference20.Reference20Game.Configure2DAudio(this.standbySource);
                     }
                     var clip = { };
                     if (this.sounds.tryGetValue("Audio_Match_SameColorCrusherStandby", clip)) {
@@ -18904,6 +19199,13 @@ if ( TRACE ) { TRACE( "Reference20.Reference20GuideShade#init", this ); }
 
                 this.lastSize = new UnityEngine.Vector2();
                 this.lastScale = new UnityEngine.Vector3();
+            },
+            ctor: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20GuideShade#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.UI.MaskableGraphic.ctor.call(this);
+                this.useLegacyMeshGeneration = false;
             }
         },
         methods: {
@@ -19092,7 +19394,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Native#ParticleMaterial", this ); 
                 Hint: function (root, name) {
 if ( TRACE ) { TRACE( "Reference20.Reference20Native#Hint", this ); }
 
-                    var $t;
+                    var $t, $t1, $t2;
                     if (Reference20.Reference20Props.Hint(root, name)) {
                         return null;
                     }
@@ -19119,6 +19421,11 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Native#Hint", this ); }
                     }
                     var art = new UnityEngine.GameObject.$ctor4("Presentation", [UnityEngine.RectTransform, UnityEngine.CanvasRenderer, UnityEngine.UI.Image]).GetComponent(UnityEngine.RectTransform);
                     art.SetParent(root, false);
+                    var vector2 = (($t1 = (($t2 = root.pivot.$clone(), art.anchorMax = $t2.$clone(), $t2)), art.anchorMin = $t1.$clone(), $t1));
+                    art.pivot = root.pivot.$clone();
+                    art.anchoredPosition = pc.Vec2.ZERO.clone();
+                    art.localScale = new pc.Vec3( 1, 1, 1 );
+                    art.localRotation = pc.Quat.IDENTITY.clone();
                     art.sizeDelta = root.sizeDelta.$clone();
                     var graphic = art.GetComponent(UnityEngine.UI.Image);
                     graphic.sprite = image.sprite;
@@ -19176,6 +19483,22 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Native#WarmEffects", this ); }
  },
                 /*Reference20.Reference20Native.WarmEffects:static end.*/
 
+                /*Reference20.Reference20Native.SortingCanvas:static start.*/
+                SortingCanvas: function (layer, order) {
+if ( TRACE ) { TRACE( "Reference20.Reference20Native#SortingCanvas", this ); }
+
+                    var parentCanvas = (UnityEngine.Object.op_Implicit(layer.parent) ? layer.parent.GetComponentInParent(UnityEngine.Canvas) : null);
+                    var canvas = layer.GetComponent(UnityEngine.Canvas);
+                    if (!UnityEngine.Object.op_Implicit(canvas)) {
+                        canvas = layer.gameObject.AddComponent(UnityEngine.Canvas);
+                    }
+                    canvas.referencePixelsPerUnit = ((UnityEngine.Object.op_Implicit(parentCanvas) && parentCanvas.referencePixelsPerUnit > 0.0) ? parentCanvas.referencePixelsPerUnit : 100.0);
+                    canvas.overrideSorting = true;
+                    canvas.sortingOrder = order;
+                    return canvas;
+                },
+                /*Reference20.Reference20Native.SortingCanvas:static end.*/
+
                 /*Reference20.Reference20Native.Overlay:static start.*/
                 Overlay: function (stage) {
 if ( TRACE ) { TRACE( "Reference20.Reference20Native#Overlay", this ); }
@@ -19196,9 +19519,10 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Native#Overlay", this ); }
                     var vector2 = (($t = (($t1 = pc.Vec2.ZERO.clone(), rt.anchorMax = $t1.$clone(), $t1)), rt.anchorMin = $t.$clone(), $t));
                     rt.pivot = pc.Vec2.ZERO.clone();
                     rt.sizeDelta = pc.Vec2.ZERO.clone();
-                    var canvas = rt.GetComponent(UnityEngine.Canvas);
-                    canvas.overrideSorting = true;
-                    canvas.sortingOrder = 200;
+                    rt.anchoredPosition = pc.Vec2.ZERO.clone();
+                    rt.localScale = new pc.Vec3( 1, 1, 1 );
+                    rt.localRotation = pc.Quat.IDENTITY.clone();
+                    Reference20.Reference20Native.SortingCanvas(rt, 200);
                     Reference20.Reference20Native.overlayRoot = rt;
                     return rt;
                 },
@@ -19220,9 +19544,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Native#CollectionLayer", this ); }
                     var vector2 = (($t = (($t1 = pc.Vec2.ZERO.clone(), rt.anchorMax = $t1.$clone(), $t1)), rt.anchorMin = $t.$clone(), $t));
                     rt.pivot = pc.Vec2.ZERO.clone();
                     rt.sizeDelta = pc.Vec2.ZERO.clone();
-                    var canvas = rt.GetComponent(UnityEngine.Canvas);
-                    canvas.overrideSorting = true;
-                    canvas.sortingOrder = 300;
+                    Reference20.Reference20Native.SortingCanvas(rt, 300);
                     return rt;
                 },
                 /*Reference20.Reference20Native.CollectionLayer:static end.*/
@@ -19273,6 +19595,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Native#CubicFlight", this ); }
                 ResetCaches: function () {
 if ( TRACE ) { TRACE( "Reference20.Reference20Native#ResetCaches", this ); }
 
+                    Reference20.Reference20ColorTrail.Reset();
                     Reference20.Reference20Props.Reset();
                     Reference20.Reference20Fragments.Reset();
                     Reference20.Reference20CompanyEffects.Reset();
@@ -19532,7 +19855,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Native#Node", this ); }
                                 Reference20.Reference20Native.graphicMaterial.EnableKeyword("_STRAIGHT_ALPHA_INPUT");
                             }
                         }
-                        var sg = go.AddComponent(Spine.Unity.SkeletonGraphic);
+                        var sg = go.AddComponent(Reference20.Reference20SkeletonGraphic);
                         sg.skeletonDataAsset = Reference20.Reference20Native.Skeleton(n.skeleton);
                         sg.material = Reference20.Reference20Native.graphicMaterial;
                         sg.raycastTarget = false;
@@ -20533,6 +20856,13 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Particle3DGraphic#init", this ); }
                 this.quad = System.Array.init(4, function (){
                     return new UnityEngine.UIVertex();
                 }, UnityEngine.UIVertex);
+            },
+            ctor: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20Particle3DGraphic#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.UI.MaskableGraphic.ctor.call(this);
+                this.useLegacyMeshGeneration = false;
             }
         },
         methods: {
@@ -20942,6 +21272,13 @@ if ( TRACE ) { TRACE( "Reference20.Reference20ParticleGraphic#init", this ); }
                 this.quad = System.Array.init(4, function (){
                     return new UnityEngine.UIVertex();
                 }, UnityEngine.UIVertex);
+            },
+            ctor: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20ParticleGraphic#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.UI.MaskableGraphic.ctor.call(this);
+                this.useLegacyMeshGeneration = false;
             }
         },
         methods: {
@@ -21257,7 +21594,11 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Props#Rect", this ); }
                     var r = new UnityEngine.GameObject.$ctor3(name, UnityEngine.RectTransform).GetComponent(UnityEngine.RectTransform);
                     r.SetParent(parent, false);
                     var vector3 = (($t = (($t1 = pc.Vec2.ONE.clone().scale( 0.5 ), r.anchorMax = $t1.$clone(), $t1)), r.anchorMin = $t.$clone(), $t));
+                    r.pivot = pc.Vec2.ONE.clone().scale( 0.5 );
                     r.sizeDelta = pc.Vec2.ZERO.clone();
+                    r.anchoredPosition = pc.Vec2.ZERO.clone();
+                    r.localScale = new pc.Vec3( 1, 1, 1 );
+                    r.localRotation = pc.Quat.IDENTITY.clone();
                     return r;
                 },
                 /*Reference20.Reference20Props.Rect:static end.*/
@@ -21272,7 +21613,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20Props#Rig", this ); }
                         Reference20.Reference20Props.data.setItem(asset, d.v);
                     }
                     var r = Reference20.Reference20Props.Rect(asset, parent);
-                    var sg = r.gameObject.AddComponent(Spine.Unity.SkeletonGraphic);
+                    var sg = r.gameObject.AddComponent(Reference20.Reference20SkeletonGraphic);
                     sg.skeletonDataAsset = d.v;
                     if (!UnityEngine.Object.op_Implicit(Reference20.Reference20Props.spineMaterial)) {
                         Reference20.Reference20Props.spineMaterial = UnityEngine.Resources.Load(UnityEngine.Material, "Reference20/Native/SpineGraphic");
@@ -21890,9 +22231,8 @@ if ( TRACE ) { TRACE( "Reference20.Reference20ReplacementVisual#CabinetSprite", 
                 Prewarm: function () {
 if ( TRACE ) { TRACE( "Reference20.Reference20ReplacementVisual#Prewarm", this ); }
 
-                    for (var i = 1; i <= 14; i = (i + 1) | 0) {
-                        Reference20.Reference20ReplacementVisual.CabinetSprite("part_guizi_" + (System.Int32.format(i, "00") || ""));
-                    }
+                    Reference20.Reference20ReplacementVisual.CabinetSprite("elements_sp_chugui_55");
+                    Reference20.Reference20ReplacementVisual.CabinetSprite("elements_sp_chugui_2");
                 },
                 /*Reference20.Reference20ReplacementVisual.Prewarm:static end.*/
 
@@ -21902,7 +22242,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20ReplacementVisual#Spine", this ); 
 
                     var r = Reference20.Reference20ReplacementVisual.Rect(name, parent);
                     r.sizeDelta = pc.Vec2.ZERO.clone();
-                    var sg = r.gameObject.AddComponent(Spine.Unity.SkeletonGraphic);
+                    var sg = r.gameObject.AddComponent(Reference20.Reference20SkeletonGraphic);
                     sg.skeletonDataAsset = UnityEngine.Resources.Load(Spine.Unity.SkeletonDataAsset, "Reference20/Skins/" + (name || "") + "_SkeletonData");
                     if (!UnityEngine.Object.op_Implicit(Reference20.Reference20ReplacementVisual.graphicMaterial)) {
                         Reference20.Reference20ReplacementVisual.graphicMaterial = UnityEngine.Resources.Load(UnityEngine.Material, "Reference20/Native/SpineGraphic");
@@ -22335,7 +22675,25 @@ if ( TRACE ) { TRACE( "Reference20.Reference20ReplacementVisual#BreakCabinet", t
             badge: null,
             download: null,
             endFrame: null,
-            canvasRect: null
+            canvasRect: null,
+            layoutValid: false,
+            lastCanvasSize: null,
+            lastSafeArea: null,
+            lastScreenWidth: 0,
+            lastScreenHeight: 0,
+            lastBoard: null,
+            lastBackground: null,
+            lastBadge: null,
+            lastDownload: null,
+            lastEndFrame: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20ResponsiveLayout#init", this ); }
+
+                this.lastCanvasSize = new UnityEngine.Vector2();
+                this.lastSafeArea = new UnityEngine.Rect();
+            }
         },
         methods: {
             /*Reference20.Reference20ResponsiveLayout.OnEnable start.*/
@@ -22343,6 +22701,7 @@ if ( TRACE ) { TRACE( "Reference20.Reference20ReplacementVisual#BreakCabinet", t
 if ( TRACE ) { TRACE( "Reference20.Reference20ResponsiveLayout#OnEnable", this ); }
 
                 this.canvasRect = Bridge.as(this.transform, UnityEngine.RectTransform);
+                this.layoutValid = false;
             },
             /*Reference20.Reference20ResponsiveLayout.OnEnable end.*/
 
@@ -22353,6 +22712,28 @@ if ( TRACE ) { TRACE( "Reference20.Reference20ResponsiveLayout#LateUpdate", this
                 this.Refresh();
             },
             /*Reference20.Reference20ResponsiveLayout.LateUpdate end.*/
+
+            /*Reference20.Reference20ResponsiveLayout.TryScreenToBoard start.*/
+            TryScreenToBoard: function (screenPoint, point) {
+if ( TRACE ) { TRACE( "Reference20.Reference20ResponsiveLayout#TryScreenToBoard", this ); }
+
+                point.v = pc.Vec2.ZERO.clone();
+                if (!UnityEngine.Object.op_Implicit(this.canvasRect)) {
+                    this.canvasRect = Bridge.as(this.transform, UnityEngine.RectTransform);
+                }
+                if (!UnityEngine.Object.op_Implicit(this.canvasRect) || !UnityEngine.Object.op_Implicit(this.board) || UnityEngine.Screen.width <= 0 || UnityEngine.Screen.height <= 0) {
+                    return false;
+                }
+                var size = this.canvasRect.rect.size.$clone();
+                var scale = this.board.localScale.$clone();
+                if (size.x <= 0.0 || size.y <= 0.0 || Math.abs(scale.x) < 1E-05 || Math.abs(scale.y) < 1E-05) {
+                    return false;
+                }
+                var center = size.$clone().scale( 0.5 ).add( this.board.anchoredPosition );
+                point.v = new pc.Vec2( (screenPoint.x * size.x / UnityEngine.Screen.width - center.x) / scale.x + this.board.sizeDelta.x * 0.5, (screenPoint.y * size.y / UnityEngine.Screen.height - center.y) / scale.y + this.board.sizeDelta.y * 0.5 );
+                return true;
+            },
+            /*Reference20.Reference20ResponsiveLayout.TryScreenToBoard end.*/
 
             /*Reference20.Reference20ResponsiveLayout.Refresh start.*/
             Refresh: function () {
@@ -22366,8 +22747,21 @@ if ( TRACE ) { TRACE( "Reference20.Reference20ResponsiveLayout#Refresh", this );
                     return;
                 }
                 var size = this.canvasRect.rect.size.$clone();
-                if (!(size.x <= 0.0) && !(size.y <= 0.0)) {
-                    var safe = UnityEngine.Screen.safeArea.$clone();
+                if (size.x <= 0.0 || size.y <= 0.0) {
+                    return;
+                }
+                var safe = UnityEngine.Screen.safeArea.$clone();
+                if (!this.layoutValid || !(pc.Vec2.equals( size, this.lastCanvasSize )) || !(UnityEngine.Rect.op_Equality(safe.$clone(), this.lastSafeArea.$clone())) || UnityEngine.Screen.width !== this.lastScreenWidth || UnityEngine.Screen.height !== this.lastScreenHeight || !(UnityEngine.Component.op_Equality(this.board, this.lastBoard)) || !(UnityEngine.Component.op_Equality(this.background, this.lastBackground)) || !(UnityEngine.Component.op_Equality(this.badge, this.lastBadge)) || !(UnityEngine.Component.op_Equality(this.download, this.lastDownload)) || !(UnityEngine.Component.op_Equality(this.endFrame, this.lastEndFrame))) {
+                    this.layoutValid = true;
+                    this.lastCanvasSize = size.$clone();
+                    this.lastSafeArea = safe.$clone();
+                    this.lastScreenWidth = UnityEngine.Screen.width;
+                    this.lastScreenHeight = UnityEngine.Screen.height;
+                    this.lastBoard = this.board;
+                    this.lastBackground = this.background;
+                    this.lastBadge = this.badge;
+                    this.lastDownload = this.download;
+                    this.lastEndFrame = this.endFrame;
                     if (UnityEngine.Screen.width <= 0 || UnityEngine.Screen.height <= 0) {
                         safe = new UnityEngine.Rect.$ctor1(0.0, 0.0, size.x, size.y);
                     }
@@ -22424,6 +22818,30 @@ if ( TRACE ) { TRACE( "Reference20.Reference20ResponsiveLayout#Refresh", this );
         }
     });
     /*Reference20.Reference20ResponsiveLayout end.*/
+
+    /*Spine.Unity.IHasSkeletonDataAsset start.*/
+    Bridge.define("Spine.Unity.IHasSkeletonDataAsset", {
+        $kind: 3
+    });
+    /*Spine.Unity.IHasSkeletonDataAsset end.*/
+
+    /*Spine.Unity.ISkeletonAnimation start.*/
+    Bridge.define("Spine.Unity.ISkeletonAnimation", {
+        $kind: 3
+    });
+    /*Spine.Unity.ISkeletonAnimation end.*/
+
+    /*Spine.Unity.IAnimationStateComponent start.*/
+    Bridge.define("Spine.Unity.IAnimationStateComponent", {
+        $kind: 3
+    });
+    /*Spine.Unity.IAnimationStateComponent end.*/
+
+    /*Spine.Unity.ISkeletonComponent start.*/
+    Bridge.define("Spine.Unity.ISkeletonComponent", {
+        $kind: 3
+    });
+    /*Spine.Unity.ISkeletonComponent end.*/
 
     /*SharpJson.JsonDecoder start.*/
     Bridge.define("SharpJson.JsonDecoder", {
@@ -34027,12 +34445,6 @@ if ( TRACE ) { TRACE( "Spine.Unity.ActivateBasedOnFlipDirection#CompensateMoveme
     });
     /*Spine.Unity.ActivateBasedOnFlipDirection end.*/
 
-    /*Spine.Unity.IHasSkeletonDataAsset start.*/
-    Bridge.define("Spine.Unity.IHasSkeletonDataAsset", {
-        $kind: 3
-    });
-    /*Spine.Unity.IHasSkeletonDataAsset end.*/
-
     /*Spine.Unity.AnimationTools.TimelineExtensions start.*/
     Bridge.define("Spine.Unity.AnimationTools.TimelineExtensions", {
         statics: {
@@ -37352,12 +37764,6 @@ if ( TRACE ) { TRACE( "Spine.Unity.FollowSkeletonUtilityRootRotation#CompensateP
     });
     /*Spine.Unity.FollowSkeletonUtilityRootRotation end.*/
 
-    /*Spine.Unity.IAnimationStateComponent start.*/
-    Bridge.define("Spine.Unity.IAnimationStateComponent", {
-        $kind: 3
-    });
-    /*Spine.Unity.IAnimationStateComponent end.*/
-
     /*Spine.Unity.IHasSkeletonComponent start.*/
     Bridge.define("Spine.Unity.IHasSkeletonComponent", {
         $kind: 3
@@ -37369,18 +37775,6 @@ if ( TRACE ) { TRACE( "Spine.Unity.FollowSkeletonUtilityRootRotation#CompensateP
         $kind: 3
     });
     /*Spine.Unity.IHasSkeletonRenderer end.*/
-
-    /*Spine.Unity.ISkeletonAnimation start.*/
-    Bridge.define("Spine.Unity.ISkeletonAnimation", {
-        $kind: 3
-    });
-    /*Spine.Unity.ISkeletonAnimation end.*/
-
-    /*Spine.Unity.ISkeletonComponent start.*/
-    Bridge.define("Spine.Unity.ISkeletonComponent", {
-        $kind: 3
-    });
-    /*Spine.Unity.ISkeletonComponent end.*/
 
     /*Spine.Unity.MeshGenerator start.*/
     Bridge.define("Spine.Unity.MeshGenerator", {
@@ -45196,6 +45590,900 @@ if ( TRACE ) { TRACE( "Match3.SpecialElementView#PlaySwapParticleEffect", this )
     });
     /*Reference20.PieceRecord end.*/
 
+    /*Spine.Unity.SkeletonGraphic start.*/
+    Bridge.define("Spine.Unity.SkeletonGraphic", {
+        inherits: [UnityEngine.UI.MaskableGraphic,Spine.Unity.ISkeletonComponent,Spine.Unity.IAnimationStateComponent,Spine.Unity.ISkeletonAnimation,Spine.Unity.IHasSkeletonDataAsset],
+        statics: {
+            fields: {
+                SeparatorPartGameObjectName: null
+            },
+            ctors: {
+                init: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#init", this ); }
+
+                    this.SeparatorPartGameObjectName = "Part";
+                }
+            },
+            methods: {
+                /*Spine.Unity.SkeletonGraphic.NewSkeletonGraphicGameObject:static start.*/
+                NewSkeletonGraphicGameObject: function (skeletonDataAsset, parent, material) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#NewSkeletonGraphicGameObject", this ); }
+
+                    var sg = Spine.Unity.SkeletonGraphic.AddSkeletonGraphicComponent(new UnityEngine.GameObject.$ctor2("New Spine GameObject"), skeletonDataAsset, material);
+                    if (UnityEngine.Component.op_Inequality(parent, null)) {
+                        sg.transform.SetParent(parent, false);
+                    }
+                    return sg;
+                },
+                /*Spine.Unity.SkeletonGraphic.NewSkeletonGraphicGameObject:static end.*/
+
+                /*Spine.Unity.SkeletonGraphic.AddSkeletonGraphicComponent:static start.*/
+                AddSkeletonGraphicComponent: function (gameObject, skeletonDataAsset, material) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#AddSkeletonGraphicComponent", this ); }
+
+                    var c = gameObject.AddComponent(Spine.Unity.SkeletonGraphic);
+                    if (skeletonDataAsset != null) {
+                        c.material = material;
+                        c.skeletonDataAsset = skeletonDataAsset;
+                        c.Initialize(false);
+                    }
+                    return c;
+                },
+                /*Spine.Unity.SkeletonGraphic.AddSkeletonGraphicComponent:static end.*/
+
+
+            }
+        },
+        fields: {
+            skeletonDataAsset: null,
+            initialSkinName: null,
+            initialFlipX: false,
+            initialFlipY: false,
+            startingAnimation: null,
+            startingLoop: false,
+            timeScale: 0,
+            freeze: false,
+            updateMode: 0,
+            updateWhenInvisible: 0,
+            unscaledTime: false,
+            allowMultipleCanvasRenderers: false,
+            canvasRenderers: null,
+            rawImages: null,
+            usedRenderersCount: 0,
+            separatorSlotNames: null,
+            separatorSlots: null,
+            enableSeparatorSlots: false,
+            separatorParts: null,
+            updateSeparatorPartLocation: false,
+            wasUpdatedAfterInit: false,
+            baseTexture: null,
+            customTextureOverride: null,
+            customMaterialOverride: null,
+            overrideTexture: null,
+            skeleton: null,
+            state: null,
+            meshGenerator: null,
+            meshBuffers: null,
+            currentInstructions: null,
+            meshes: null
+        },
+        events: {
+            OnRebuild: null,
+            OnMeshAndMaterialsUpdated: null,
+            BeforeApply: null,
+            UpdateLocal: null,
+            UpdateWorld: null,
+            UpdateComplete: null,
+            OnPostProcessVertices: null
+        },
+        props: {
+            SkeletonDataAsset: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SkeletonDataAsset#get", this ); }
+
+                    return this.skeletonDataAsset;
+                }
+            },
+            UpdateMode: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMode#get", this ); }
+
+                    return this.updateMode;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMode#set", this ); }
+
+                    this.updateMode = value;
+                }
+            },
+            SeparatorParts: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SeparatorParts#get", this ); }
+
+                    return this.separatorParts;
+                }
+            },
+            CustomTextureOverride: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#CustomTextureOverride#get", this ); }
+
+                    return this.customTextureOverride;
+                }
+            },
+            CustomMaterialOverride: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#CustomMaterialOverride#get", this ); }
+
+                    return this.customMaterialOverride;
+                }
+            },
+            OverrideTexture: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OverrideTexture#get", this ); }
+
+                    return this.overrideTexture;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OverrideTexture#set", this ); }
+
+                    this.overrideTexture = value;
+                    this.canvasRenderer.SetTexture(this.mainTexture);
+                }
+            },
+            mainTexture: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#mainTexture#get", this ); }
+
+                    if (this.overrideTexture != null) {
+                        return this.overrideTexture;
+                    }
+                    return this.baseTexture;
+                }
+            },
+            Skeleton: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Skeleton#get", this ); }
+
+                    this.Initialize(false);
+                    return this.skeleton;
+                },
+                set: function (value) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Skeleton#set", this ); }
+
+                    this.skeleton = value;
+                }
+            },
+            SkeletonData: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SkeletonData#get", this ); }
+
+                    return (this.skeleton == null) ? null : this.skeleton.data;
+                }
+            },
+            IsValid: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#IsValid#get", this ); }
+
+                    return this.skeleton != null;
+                }
+            },
+            AnimationState: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#AnimationState#get", this ); }
+
+                    this.Initialize(false);
+                    return this.state;
+                }
+            },
+            MeshGenerator: {
+                get: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#MeshGenerator#get", this ); }
+
+                    return this.meshGenerator;
+                }
+            }
+        },
+        alias: [
+            "SkeletonDataAsset", "Spine$Unity$IHasSkeletonDataAsset$SkeletonDataAsset",
+            "SkeletonDataAsset", "Spine$Unity$ISkeletonComponent$SkeletonDataAsset",
+            "Skeleton", "Spine$Unity$ISkeletonAnimation$Skeleton",
+            "Skeleton", "Spine$Unity$ISkeletonComponent$Skeleton",
+            "AnimationState", "Spine$Unity$IAnimationStateComponent$AnimationState",
+            "addUpdateLocal", "Spine$Unity$ISkeletonAnimation$addUpdateLocal",
+            "removeUpdateLocal", "Spine$Unity$ISkeletonAnimation$removeUpdateLocal",
+            "addUpdateWorld", "Spine$Unity$ISkeletonAnimation$addUpdateWorld",
+            "removeUpdateWorld", "Spine$Unity$ISkeletonAnimation$removeUpdateWorld",
+            "addUpdateComplete", "Spine$Unity$ISkeletonAnimation$addUpdateComplete",
+            "removeUpdateComplete", "Spine$Unity$ISkeletonAnimation$removeUpdateComplete",
+            "Rebuild", "UnityEngine$UI$ICanvasElement$Rebuild"
+        ],
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#init", this ); }
+
+                this.timeScale = 1.0;
+                this.updateMode = Spine.Unity.UpdateMode.FullUpdate;
+                this.updateWhenInvisible = Spine.Unity.UpdateMode.FullUpdate;
+                this.allowMultipleCanvasRenderers = false;
+                this.canvasRenderers = new (System.Collections.Generic.List$1(UnityEngine.CanvasRenderer)).ctor();
+                this.rawImages = new (System.Collections.Generic.List$1(UnityEngine.UI.RawImage)).ctor();
+                this.usedRenderersCount = 0;
+                this.separatorSlotNames = System.Array.init(0, null, System.String);
+                this.separatorSlots = new (System.Collections.Generic.List$1(Spine.Slot)).ctor();
+                this.enableSeparatorSlots = false;
+                this.separatorParts = new (System.Collections.Generic.List$1(UnityEngine.Transform)).ctor();
+                this.updateSeparatorPartLocation = true;
+                this.wasUpdatedAfterInit = true;
+                this.customTextureOverride = new (System.Collections.Generic.Dictionary$2(UnityEngine.Texture,UnityEngine.Texture)).ctor();
+                this.customMaterialOverride = new (System.Collections.Generic.Dictionary$2(UnityEngine.Texture,UnityEngine.Material)).ctor();
+                this.meshGenerator = new Spine.Unity.MeshGenerator();
+                this.currentInstructions = new Spine.Unity.SkeletonRendererInstruction();
+                this.meshes = new (Spine.ExposedList$1(UnityEngine.Mesh)).ctor();
+            }
+        },
+        methods: {
+            /*Spine.Unity.SkeletonGraphic.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Awake", this ); }
+
+                UnityEngine.UI.MaskableGraphic.prototype.Awake.call(this);
+                this.onCullStateChanged.AddListener(Bridge.fn.cacheBind(this, this.OnCullStateChanged));
+                this.SyncRawImagesWithCanvasRenderers();
+                if (!this.IsValid) {
+                    this.Initialize(false);
+                    this.Rebuild(UnityEngine.UI.CanvasUpdate.PreRender);
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.Awake end.*/
+
+            /*Spine.Unity.SkeletonGraphic.OnDestroy start.*/
+            OnDestroy: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnDestroy", this ); }
+
+                this.Clear();
+                UnityEngine.UI.MaskableGraphic.prototype.OnDestroy.call(this);
+            },
+            /*Spine.Unity.SkeletonGraphic.OnDestroy end.*/
+
+            /*Spine.Unity.SkeletonGraphic.Rebuild start.*/
+            Rebuild: function (update) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Rebuild", this ); }
+
+                UnityEngine.UI.MaskableGraphic.prototype.Rebuild.call(this, update);
+                if (!this.canvasRenderer.cull) {
+                    if (update === UnityEngine.UI.CanvasUpdate.PreRender) {
+                        this.UpdateMesh(true);
+                    }
+                    if (this.allowMultipleCanvasRenderers) {
+                        this.canvasRenderer.Clear();
+                    }
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.Rebuild end.*/
+
+            /*Spine.Unity.SkeletonGraphic.OnDisable start.*/
+            OnDisable: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnDisable", this ); }
+
+                var $t;
+                UnityEngine.UI.MaskableGraphic.prototype.OnDisable.call(this);
+                $t = Bridge.getEnumerator(this.canvasRenderers);
+                try {
+                    while ($t.moveNext()) {
+                        var canvasRenderer = $t.Current;
+                        canvasRenderer.Clear();
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.OnDisable end.*/
+
+            /*Spine.Unity.SkeletonGraphic.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Update", this ); }
+
+                if (!this.freeze) {
+                    this.Update$1(this.unscaledTime ? UnityEngine.Time.unscaledDeltaTime : UnityEngine.Time.deltaTime);
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.Update end.*/
+
+            /*Spine.Unity.SkeletonGraphic.Update$1 start.*/
+            Update$1: function (deltaTime) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Update$1", this ); }
+
+                if (!this.IsValid) {
+                    return;
+                }
+                this.wasUpdatedAfterInit = true;
+                if (this.updateMode >= Spine.Unity.UpdateMode.OnlyAnimationStatus) {
+                    this.UpdateAnimationStatus(deltaTime);
+                    if (this.updateMode !== Spine.Unity.UpdateMode.OnlyAnimationStatus) {
+                        this.ApplyAnimation();
+                    }
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.Update$1 end.*/
+
+            /*Spine.Unity.SkeletonGraphic.SyncRawImagesWithCanvasRenderers start.*/
+            SyncRawImagesWithCanvasRenderers: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SyncRawImagesWithCanvasRenderers", this ); }
+
+                var $t;
+                this.rawImages.clear();
+                $t = Bridge.getEnumerator(this.canvasRenderers);
+                try {
+                    while ($t.moveNext()) {
+                        var canvasRenderer = $t.Current;
+                        var rawImage = canvasRenderer.GetComponent(UnityEngine.UI.RawImage);
+                        if (UnityEngine.MonoBehaviour.op_Equality(rawImage, null)) {
+                            rawImage = canvasRenderer.gameObject.AddComponent(UnityEngine.UI.RawImage);
+                            rawImage.maskable = this.maskable;
+                            rawImage.raycastTarget = false;
+                        }
+                        this.rawImages.add(rawImage);
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.SyncRawImagesWithCanvasRenderers end.*/
+
+            /*Spine.Unity.SkeletonGraphic.UpdateAnimationStatus start.*/
+            UpdateAnimationStatus: function (deltaTime) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateAnimationStatus", this ); }
+
+                deltaTime *= this.timeScale;
+                this.skeleton.Update(deltaTime);
+                this.state.Update(deltaTime);
+            },
+            /*Spine.Unity.SkeletonGraphic.UpdateAnimationStatus end.*/
+
+            /*Spine.Unity.SkeletonGraphic.ApplyAnimation start.*/
+            ApplyAnimation: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#ApplyAnimation", this ); }
+
+                if (!Bridge.staticEquals(this.BeforeApply, null)) {
+                    this.BeforeApply(this);
+                }
+                if (this.updateMode !== Spine.Unity.UpdateMode.OnlyEventTimelines) {
+                    this.state.Apply(this.skeleton);
+                } else {
+                    this.state.ApplyEventTimelinesOnly(this.skeleton);
+                }
+                if (!Bridge.staticEquals(this.UpdateLocal, null)) {
+                    this.UpdateLocal(this);
+                }
+                this.skeleton.UpdateWorldTransform();
+                if (!Bridge.staticEquals(this.UpdateWorld, null)) {
+                    this.UpdateWorld(this);
+                    this.skeleton.UpdateWorldTransform();
+                }
+                if (!Bridge.staticEquals(this.UpdateComplete, null)) {
+                    this.UpdateComplete(this);
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.ApplyAnimation end.*/
+
+            /*Spine.Unity.SkeletonGraphic.LateUpdate start.*/
+            LateUpdate: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#LateUpdate", this ); }
+
+                if (!this.wasUpdatedAfterInit) {
+                    this.Update$1(0.0);
+                }
+                if (!this.freeze && this.updateMode === Spine.Unity.UpdateMode.FullUpdate) {
+                    this.UpdateMesh();
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.LateUpdate end.*/
+
+            /*Spine.Unity.SkeletonGraphic.OnCullStateChanged start.*/
+            OnCullStateChanged: function (culled) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnCullStateChanged", this ); }
+
+                if (culled) {
+                    this.OnBecameInvisible();
+                } else {
+                    this.OnBecameVisible();
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.OnCullStateChanged end.*/
+
+            /*Spine.Unity.SkeletonGraphic.OnBecameVisible start.*/
+            OnBecameVisible: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnBecameVisible", this ); }
+
+                this.updateMode = Spine.Unity.UpdateMode.FullUpdate;
+            },
+            /*Spine.Unity.SkeletonGraphic.OnBecameVisible end.*/
+
+            /*Spine.Unity.SkeletonGraphic.OnBecameInvisible start.*/
+            OnBecameInvisible: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnBecameInvisible", this ); }
+
+                this.updateMode = this.updateWhenInvisible;
+            },
+            /*Spine.Unity.SkeletonGraphic.OnBecameInvisible end.*/
+
+            /*Spine.Unity.SkeletonGraphic.ReapplySeparatorSlotNames start.*/
+            ReapplySeparatorSlotNames: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#ReapplySeparatorSlotNames", this ); }
+
+                if (!this.IsValid) {
+                    return;
+                }
+                this.separatorSlots.clear();
+                var i = 0;
+                for (var j = this.separatorSlotNames.length; i < j; i = (i + 1) | 0) {
+                    var slotName = this.separatorSlotNames[i];
+                    if (!(Bridge.referenceEquals(slotName, ""))) {
+                        var slot = this.skeleton.FindSlot(slotName);
+                        if (slot != null) {
+                            this.separatorSlots.add(slot);
+                        }
+                    }
+                }
+                this.UpdateSeparatorPartParents();
+            },
+            /*Spine.Unity.SkeletonGraphic.ReapplySeparatorSlotNames end.*/
+
+            /*Spine.Unity.SkeletonGraphic.GetLastMesh start.*/
+            GetLastMesh: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#GetLastMesh", this ); }
+
+                return this.meshBuffers.GetCurrent().mesh;
+            },
+            /*Spine.Unity.SkeletonGraphic.GetLastMesh end.*/
+
+            /*Spine.Unity.SkeletonGraphic.MatchRectTransformWithBounds start.*/
+            MatchRectTransformWithBounds: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#MatchRectTransformWithBounds", this ); }
+
+                this.UpdateMesh();
+                if (!this.allowMultipleCanvasRenderers) {
+                    return this.MatchRectTransformSingleRenderer();
+                }
+                return this.MatchRectTransformMultipleRenderers();
+            },
+            /*Spine.Unity.SkeletonGraphic.MatchRectTransformWithBounds end.*/
+
+            /*Spine.Unity.SkeletonGraphic.MatchRectTransformSingleRenderer start.*/
+            MatchRectTransformSingleRenderer: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#MatchRectTransformSingleRenderer", this ); }
+
+                var mesh = this.GetLastMesh();
+                if (mesh == null) {
+                    return false;
+                }
+                if (mesh.vertexCount === 0) {
+                    this.rectTransform.sizeDelta = new pc.Vec2( 50.0, 50.0 );
+                    this.rectTransform.pivot = new pc.Vec2( 0.5, 0.5 );
+                    return false;
+                }
+                mesh.RecalculateBounds();
+                this.SetRectTransformBounds(mesh.bounds);
+                return true;
+            },
+            /*Spine.Unity.SkeletonGraphic.MatchRectTransformSingleRenderer end.*/
+
+            /*Spine.Unity.SkeletonGraphic.MatchRectTransformMultipleRenderers start.*/
+            MatchRectTransformMultipleRenderers: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#MatchRectTransformMultipleRenderers", this ); }
+
+                var $t;
+                var anyBoundsAdded = false;
+                var combinedBounds = Bridge.getDefaultValue(UnityEngine.Bounds);
+                for (var i = 0; i < this.canvasRenderers.Count; i = (i + 1) | 0) {
+                    var canvasRenderer = this.canvasRenderers.getItem(i);
+                    if (!canvasRenderer.gameObject.activeSelf) {
+                        continue;
+                    }
+                    var mesh = ($t = this.meshes.Items)[i];
+                    if (!(mesh == null) && mesh.vertexCount !== 0) {
+                        mesh.RecalculateBounds();
+                        var bounds = mesh.bounds;
+                        if (anyBoundsAdded) {
+                            combinedBounds.add( bounds );
+                            continue;
+                        }
+                        anyBoundsAdded = true;
+                        combinedBounds = bounds;
+                    }
+                }
+                if (!anyBoundsAdded) {
+                    this.rectTransform.sizeDelta = new pc.Vec2( 50.0, 50.0 );
+                    this.rectTransform.pivot = new pc.Vec2( 0.5, 0.5 );
+                    return false;
+                }
+                this.SetRectTransformBounds(combinedBounds);
+                return true;
+            },
+            /*Spine.Unity.SkeletonGraphic.MatchRectTransformMultipleRenderers end.*/
+
+            /*Spine.Unity.SkeletonGraphic.SetRectTransformBounds start.*/
+            SetRectTransformBounds: function (combinedBounds) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SetRectTransformBounds", this ); }
+
+                var size = combinedBounds.halfExtents.$clone().scale( 2 ).$clone();
+                var center = combinedBounds.center.$clone();
+                var p = new pc.Vec2( 0.5 - center.x / size.x, 0.5 - center.y / size.y );
+                this.rectTransform.sizeDelta = UnityEngine.Vector2.FromVector3(size.$clone());
+                this.rectTransform.pivot = p.$clone();
+            },
+            /*Spine.Unity.SkeletonGraphic.SetRectTransformBounds end.*/
+
+            /*Spine.Unity.SkeletonGraphic.Clear start.*/
+            Clear: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Clear", this ); }
+
+                this.skeleton = null;
+                this.canvasRenderer.Clear();
+                for (var i = 0; i < this.canvasRenderers.Count; i = (i + 1) | 0) {
+                    this.canvasRenderers.getItem(i).Clear();
+                }
+                this.DestroyMeshes();
+                this.DisposeMeshBuffers();
+            },
+            /*Spine.Unity.SkeletonGraphic.Clear end.*/
+
+            /*Spine.Unity.SkeletonGraphic.TrimRenderers start.*/
+            TrimRenderers: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#TrimRenderers", this ); }
+
+                var $t;
+                var newList = new (System.Collections.Generic.List$1(UnityEngine.CanvasRenderer)).ctor();
+                $t = Bridge.getEnumerator(this.canvasRenderers);
+                try {
+                    while ($t.moveNext()) {
+                        var canvasRenderer = $t.Current;
+                        if (canvasRenderer.gameObject.activeSelf) {
+                            newList.add(canvasRenderer);
+                        } else if (UnityEngine.Application.isEditor && !UnityEngine.Application.isPlaying) {
+                            UnityEngine.Object.DestroyImmediate(canvasRenderer.gameObject);
+                        } else {
+                            UnityEngine.Object.Destroy(canvasRenderer.gameObject);
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                this.canvasRenderers = newList;
+                this.SyncRawImagesWithCanvasRenderers();
+            },
+            /*Spine.Unity.SkeletonGraphic.TrimRenderers end.*/
+
+            /*Spine.Unity.SkeletonGraphic.Initialize start.*/
+            Initialize: function (overwrite) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Initialize", this ); }
+
+                var $t, $t1;
+                if ((this.IsValid && !overwrite) || this.skeletonDataAsset == null) {
+                    return;
+                }
+                var skeletonData = this.skeletonDataAsset.GetSkeletonData(false);
+                if (skeletonData == null || this.skeletonDataAsset.atlasAssets.length === 0 || ($t = this.skeletonDataAsset.atlasAssets)[0].MaterialCount <= 0) {
+                    return;
+                }
+                this.state = new Spine.AnimationState(this.skeletonDataAsset.GetAnimationStateData());
+                if (this.state == null) {
+                    this.Clear();
+                    return;
+                }
+                this.skeleton = ($t1 = new Spine.Skeleton(skeletonData), $t1.ScaleX = ((!this.initialFlipX) ? 1 : (-1)), $t1.ScaleY = ((!this.initialFlipY) ? 1 : (-1)), $t1);
+                this.InitMeshBuffers();
+                this.baseTexture = ($t1 = this.skeletonDataAsset.atlasAssets)[0].PrimaryMaterial.mainTexture;
+                this.canvasRenderer.SetTexture(this.mainTexture);
+                if (!System.String.isNullOrEmpty(this.initialSkinName)) {
+                    this.skeleton.SetSkin$1(this.initialSkinName);
+                }
+                this.separatorSlots.clear();
+                for (var i = 0; i < this.separatorSlotNames.length; i = (i + 1) | 0) {
+                    this.separatorSlots.add(this.skeleton.FindSlot(this.separatorSlotNames[i]));
+                }
+                this.wasUpdatedAfterInit = false;
+                if (!System.String.isNullOrEmpty(this.startingAnimation)) {
+                    var animationObject = this.skeletonDataAsset.GetSkeletonData(false).FindAnimation(this.startingAnimation);
+                    if (animationObject != null) {
+                        this.state.SetAnimation(0, animationObject, this.startingLoop);
+                    }
+                }
+                if (!Bridge.staticEquals(this.OnRebuild, null)) {
+                    this.OnRebuild(this);
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.Initialize end.*/
+
+            /*Spine.Unity.SkeletonGraphic.UpdateMesh start.*/
+            UpdateMesh: function (keepRendererCount) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMesh", this ); }
+
+                if (keepRendererCount === void 0) { keepRendererCount = false; }
+                if (this.IsValid) {
+                    Spine.Unity.SkeletonExtensions.SetColor$4(this.skeleton, this.color.$clone());
+                    var currentInstructions = this.currentInstructions;
+                    if (!this.allowMultipleCanvasRenderers) {
+                        this.UpdateMeshSingleCanvasRenderer();
+                    } else {
+                        this.UpdateMeshMultipleCanvasRenderers(currentInstructions, keepRendererCount);
+                    }
+                    if (!Bridge.staticEquals(this.OnMeshAndMaterialsUpdated, null)) {
+                        this.OnMeshAndMaterialsUpdated(this);
+                    }
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.UpdateMesh end.*/
+
+            /*Spine.Unity.SkeletonGraphic.HasMultipleSubmeshInstructions start.*/
+            HasMultipleSubmeshInstructions: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#HasMultipleSubmeshInstructions", this ); }
+
+                if (!this.IsValid) {
+                    return false;
+                }
+                return Spine.Unity.MeshGenerator.RequiresMultipleSubmeshesByDrawOrder(this.skeleton);
+            },
+            /*Spine.Unity.SkeletonGraphic.HasMultipleSubmeshInstructions end.*/
+
+            /*Spine.Unity.SkeletonGraphic.InitMeshBuffers start.*/
+            InitMeshBuffers: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#InitMeshBuffers", this ); }
+
+                if (this.meshBuffers != null) {
+                    this.meshBuffers.GetNext().Clear();
+                    this.meshBuffers.GetNext().Clear();
+                } else {
+                    this.meshBuffers = new (Spine.Unity.DoubleBuffered$1(Spine.Unity.MeshRendererBuffers.SmartMesh))();
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.InitMeshBuffers end.*/
+
+            /*Spine.Unity.SkeletonGraphic.DisposeMeshBuffers start.*/
+            DisposeMeshBuffers: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#DisposeMeshBuffers", this ); }
+
+                if (this.meshBuffers != null) {
+                    this.meshBuffers.GetNext().Dispose();
+                    this.meshBuffers.GetNext().Dispose();
+                    this.meshBuffers = null;
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.DisposeMeshBuffers end.*/
+
+            /*Spine.Unity.SkeletonGraphic.UpdateMeshSingleCanvasRenderer start.*/
+            UpdateMeshSingleCanvasRenderer: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMeshSingleCanvasRenderer", this ); }
+
+                var $t, $t1;
+                if (this.canvasRenderers.Count > 0) {
+                    this.DisableUnusedCanvasRenderers(0);
+                }
+                var smartMesh = this.meshBuffers.GetNext();
+                Spine.Unity.MeshGenerator.GenerateSingleSubmeshInstruction(this.currentInstructions, this.skeleton, null);
+                var updateTriangles = Spine.Unity.SkeletonRendererInstruction.GeometryNotEqual(this.currentInstructions, smartMesh.instructionUsed);
+                this.meshGenerator.Begin();
+                if (this.currentInstructions.hasActiveClipping && this.currentInstructions.submeshInstructions.Count > 0) {
+                    this.meshGenerator.AddSubmesh(($t = this.currentInstructions.submeshInstructions.Items)[0].$clone(), updateTriangles);
+                } else {
+                    this.meshGenerator.BuildMeshWithArrays(this.currentInstructions, updateTriangles);
+                }
+                if (UnityEngine.Component.op_Inequality(this.canvas, null)) {
+                    this.meshGenerator.ScaleVertexData(this.canvas.referencePixelsPerUnit);
+                }
+                if (!Bridge.staticEquals(this.OnPostProcessVertices, null)) {
+                    this.OnPostProcessVertices(this.meshGenerator.Buffers.$clone());
+                }
+                var mesh = smartMesh.mesh;
+                this.meshGenerator.FillVertexData(mesh);
+                if (updateTriangles) {
+                    this.meshGenerator.FillTriangles(mesh);
+                }
+                this.meshGenerator.FillLateVertexData(mesh);
+                this.canvasRenderer.SetMesh(mesh);
+                smartMesh.instructionUsed.Set(this.currentInstructions);
+                if (this.currentInstructions.submeshInstructions.Count > 0) {
+                    var material = ($t1 = this.currentInstructions.submeshInstructions.Items)[0].material;
+                    if (material != null && !Bridge.referenceEquals(this.baseTexture, material.mainTexture)) {
+                        this.baseTexture = material.mainTexture;
+                        if (this.overrideTexture == null) {
+                            this.canvasRenderer.SetTexture(this.mainTexture);
+                        }
+                    }
+                }
+                this.usedRenderersCount = 0;
+            },
+            /*Spine.Unity.SkeletonGraphic.UpdateMeshSingleCanvasRenderer end.*/
+
+            /*Spine.Unity.SkeletonGraphic.UpdateMeshMultipleCanvasRenderers start.*/
+            UpdateMeshMultipleCanvasRenderers: function (currentInstructions, keepRendererCount) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMeshMultipleCanvasRenderers", this ); }
+
+                var $t;
+                Spine.Unity.MeshGenerator.GenerateSkeletonRendererInstruction(currentInstructions, this.skeleton, null, this.enableSeparatorSlots ? this.separatorSlots : null, this.enableSeparatorSlots && this.separatorSlots.Count > 0);
+                var submeshCount = currentInstructions.submeshInstructions.Count;
+                if (keepRendererCount && submeshCount !== this.usedRenderersCount) {
+                    return;
+                }
+                this.EnsureCanvasRendererCount(submeshCount);
+                this.EnsureMeshesCount(submeshCount);
+                this.EnsureSeparatorPartCount();
+                var c = this.canvas;
+                var scale = ((UnityEngine.Component.op_Equality(c, null)) ? 100.0 : c.referencePixelsPerUnit);
+                var meshesItems = this.meshes.Items;
+                var useOriginalTextureAndMaterial = this.customMaterialOverride.Count === 0 && this.customTextureOverride.Count === 0;
+                var separatorSlotGroupIndex = 0;
+                var parent = ((this.separatorSlots.Count === 0) ? this.transform : this.separatorParts.getItem(0));
+                if (this.updateSeparatorPartLocation) {
+                    for (var p = 0; p < this.separatorParts.Count; p = (p + 1) | 0) {
+                        this.separatorParts.getItem(p).position = this.transform.position.$clone();
+                        this.separatorParts.getItem(p).rotation = this.transform.rotation.$clone();
+                    }
+                }
+                var targetSiblingIndex = 0;
+                for (var i = 0; i < submeshCount; i = (i + 1) | 0) {
+                    var submeshInstructionItem = ($t = currentInstructions.submeshInstructions.Items)[i].$clone();
+                    this.meshGenerator.Begin();
+                    this.meshGenerator.AddSubmesh(submeshInstructionItem.$clone());
+                    var targetMesh = meshesItems[i];
+                    this.meshGenerator.ScaleVertexData(scale);
+                    if (!Bridge.staticEquals(this.OnPostProcessVertices, null)) {
+                        this.OnPostProcessVertices(this.meshGenerator.Buffers.$clone());
+                    }
+                    this.meshGenerator.FillVertexData(targetMesh);
+                    this.meshGenerator.FillTriangles(targetMesh);
+                    this.meshGenerator.FillLateVertexData(targetMesh);
+                    var submeshMaterial = submeshInstructionItem.material;
+                    var canvasRenderer = this.canvasRenderers.getItem(i);
+                    if (i >= this.usedRenderersCount) {
+                        canvasRenderer.gameObject.SetActive(true);
+                    }
+                    canvasRenderer.SetMesh(targetMesh);
+                    canvasRenderer.materialCount = 1;
+                    if (UnityEngine.Component.op_Inequality(canvasRenderer.transform.parent, parent.transform)) {
+                        canvasRenderer.transform.SetParent(parent.transform, false);
+                        canvasRenderer.transform.localPosition = pc.Vec3.ZERO.clone();
+                    }
+                    canvasRenderer.transform.SetSiblingIndex(Bridge.identity(targetSiblingIndex, ((targetSiblingIndex = (targetSiblingIndex + 1) | 0))));
+                    if (submeshInstructionItem.forceSeparate) {
+                        targetSiblingIndex = 0;
+                        parent = this.separatorParts.getItem(((separatorSlotGroupIndex = (separatorSlotGroupIndex + 1) | 0)));
+                    }
+                    if (useOriginalTextureAndMaterial) {
+                        canvasRenderer.SetMaterial$1(this.materialForRendering, submeshMaterial.mainTexture);
+                        continue;
+                    }
+                    var originalTexture = submeshMaterial.mainTexture;
+                    var usedMaterial = { };
+                    if (!this.customMaterialOverride.tryGetValue(originalTexture, usedMaterial)) {
+                        usedMaterial.v = this.material;
+                    }
+                    var usedTexture = { };
+                    if (!this.customTextureOverride.tryGetValue(originalTexture, usedTexture)) {
+                        usedTexture.v = originalTexture;
+                    }
+                    canvasRenderer.SetMaterial$1(usedMaterial.v, usedTexture.v);
+                }
+                this.DisableUnusedCanvasRenderers(submeshCount);
+                this.usedRenderersCount = submeshCount;
+            },
+            /*Spine.Unity.SkeletonGraphic.UpdateMeshMultipleCanvasRenderers end.*/
+
+            /*Spine.Unity.SkeletonGraphic.EnsureCanvasRendererCount start.*/
+            EnsureCanvasRendererCount: function (targetCount) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#EnsureCanvasRendererCount", this ); }
+
+                var currentCount = this.canvasRenderers.Count;
+                for (var i = currentCount; i < targetCount; i = (i + 1) | 0) {
+                    var go = new UnityEngine.GameObject.$ctor3(System.String.format("Renderer{0}", [Bridge.box(i, System.Int32)]), UnityEngine.RectTransform);
+                    go.transform.SetParent(this.transform, false);
+                    go.transform.localPosition = pc.Vec3.ZERO.clone();
+                    var canvasRenderer = go.AddComponent(UnityEngine.CanvasRenderer);
+                    this.canvasRenderers.add(canvasRenderer);
+                    var rawImage = go.AddComponent(UnityEngine.UI.RawImage);
+                    rawImage.maskable = this.maskable;
+                    rawImage.raycastTarget = false;
+                    this.rawImages.add(rawImage);
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.EnsureCanvasRendererCount end.*/
+
+            /*Spine.Unity.SkeletonGraphic.DisableUnusedCanvasRenderers start.*/
+            DisableUnusedCanvasRenderers: function (usedCount) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#DisableUnusedCanvasRenderers", this ); }
+
+                for (var i = usedCount; i < this.canvasRenderers.Count; i = (i + 1) | 0) {
+                    this.canvasRenderers.getItem(i).Clear();
+                    this.canvasRenderers.getItem(i).gameObject.SetActive(false);
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.DisableUnusedCanvasRenderers end.*/
+
+            /*Spine.Unity.SkeletonGraphic.EnsureMeshesCount start.*/
+            EnsureMeshesCount: function (targetCount) {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#EnsureMeshesCount", this ); }
+
+                var oldCount = this.meshes.Count;
+                this.meshes.EnsureCapacity(targetCount);
+                for (var i = oldCount; i < targetCount; i = (i + 1) | 0) {
+                    this.meshes.Add(Spine.Unity.SpineMesh.NewSkeletonMesh());
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.EnsureMeshesCount end.*/
+
+            /*Spine.Unity.SkeletonGraphic.DestroyMeshes start.*/
+            DestroyMeshes: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#DestroyMeshes", this ); }
+
+                var $t;
+                $t = Bridge.getEnumerator(this.meshes);
+                try {
+                    while ($t.moveNext()) {
+                        var mesh = $t.Current;
+                        UnityEngine.Object.Destroy(mesh);
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                this.meshes.Clear();
+            },
+            /*Spine.Unity.SkeletonGraphic.DestroyMeshes end.*/
+
+            /*Spine.Unity.SkeletonGraphic.EnsureSeparatorPartCount start.*/
+            EnsureSeparatorPartCount: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#EnsureSeparatorPartCount", this ); }
+
+                var targetCount = (this.separatorSlots.Count + 1) | 0;
+                if (targetCount !== 1) {
+                    var currentCount = this.separatorParts.Count;
+                    for (var i = currentCount; i < targetCount; i = (i + 1) | 0) {
+                        var go = new UnityEngine.GameObject.$ctor3(System.String.format("{0}[{1}]", "Part", Bridge.box(i, System.Int32)), UnityEngine.RectTransform);
+                        go.transform.SetParent(this.transform, false);
+                        go.transform.localPosition = pc.Vec3.ZERO.clone();
+                        this.separatorParts.add(go.transform);
+                    }
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.EnsureSeparatorPartCount end.*/
+
+            /*Spine.Unity.SkeletonGraphic.UpdateSeparatorPartParents start.*/
+            UpdateSeparatorPartParents: function () {
+if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateSeparatorPartParents", this ); }
+
+                var usedCount = (this.separatorSlots.Count + 1) | 0;
+                if (usedCount === 1) {
+                    usedCount = 0;
+                    for (var j = 0; j < this.canvasRenderers.Count; j = (j + 1) | 0) {
+                        var canvasRenderer = this.canvasRenderers.getItem(j);
+                        if (System.String.contains(canvasRenderer.transform.parent.name,"Part")) {
+                            canvasRenderer.transform.SetParent(this.transform, false);
+                            canvasRenderer.transform.localPosition = pc.Vec3.ZERO.clone();
+                        }
+                    }
+                }
+                for (var i = 0; i < this.separatorParts.Count; i = (i + 1) | 0) {
+                    var isUsed = i < usedCount;
+                    this.separatorParts.getItem(i).gameObject.SetActive(isUsed);
+                }
+            },
+            /*Spine.Unity.SkeletonGraphic.UpdateSeparatorPartParents end.*/
+
+
+        },
+        overloads: {
+            "Update(float)": "Update$1"
+        }
+    });
+    /*Spine.Unity.SkeletonGraphic end.*/
+
     /*Spine.AnimationStateData+AnimationPairComparer start.*/
     Bridge.define("Spine.AnimationStateData.AnimationPairComparer", {
         inherits: [System.Collections.Generic.IEqualityComparer$1(Spine.AnimationStateData.AnimationPair)],
@@ -51314,900 +52602,6 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonRenderer#SetMaterialSettingsToFixDraw
     });
     /*Spine.Unity.SkeletonRenderer end.*/
 
-    /*Spine.Unity.SkeletonGraphic start.*/
-    Bridge.define("Spine.Unity.SkeletonGraphic", {
-        inherits: [UnityEngine.UI.MaskableGraphic,Spine.Unity.ISkeletonComponent,Spine.Unity.IAnimationStateComponent,Spine.Unity.ISkeletonAnimation,Spine.Unity.IHasSkeletonDataAsset],
-        statics: {
-            fields: {
-                SeparatorPartGameObjectName: null
-            },
-            ctors: {
-                init: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#init", this ); }
-
-                    this.SeparatorPartGameObjectName = "Part";
-                }
-            },
-            methods: {
-                /*Spine.Unity.SkeletonGraphic.NewSkeletonGraphicGameObject:static start.*/
-                NewSkeletonGraphicGameObject: function (skeletonDataAsset, parent, material) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#NewSkeletonGraphicGameObject", this ); }
-
-                    var sg = Spine.Unity.SkeletonGraphic.AddSkeletonGraphicComponent(new UnityEngine.GameObject.$ctor2("New Spine GameObject"), skeletonDataAsset, material);
-                    if (UnityEngine.Component.op_Inequality(parent, null)) {
-                        sg.transform.SetParent(parent, false);
-                    }
-                    return sg;
-                },
-                /*Spine.Unity.SkeletonGraphic.NewSkeletonGraphicGameObject:static end.*/
-
-                /*Spine.Unity.SkeletonGraphic.AddSkeletonGraphicComponent:static start.*/
-                AddSkeletonGraphicComponent: function (gameObject, skeletonDataAsset, material) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#AddSkeletonGraphicComponent", this ); }
-
-                    var c = gameObject.AddComponent(Spine.Unity.SkeletonGraphic);
-                    if (skeletonDataAsset != null) {
-                        c.material = material;
-                        c.skeletonDataAsset = skeletonDataAsset;
-                        c.Initialize(false);
-                    }
-                    return c;
-                },
-                /*Spine.Unity.SkeletonGraphic.AddSkeletonGraphicComponent:static end.*/
-
-
-            }
-        },
-        fields: {
-            skeletonDataAsset: null,
-            initialSkinName: null,
-            initialFlipX: false,
-            initialFlipY: false,
-            startingAnimation: null,
-            startingLoop: false,
-            timeScale: 0,
-            freeze: false,
-            updateMode: 0,
-            updateWhenInvisible: 0,
-            unscaledTime: false,
-            allowMultipleCanvasRenderers: false,
-            canvasRenderers: null,
-            rawImages: null,
-            usedRenderersCount: 0,
-            separatorSlotNames: null,
-            separatorSlots: null,
-            enableSeparatorSlots: false,
-            separatorParts: null,
-            updateSeparatorPartLocation: false,
-            wasUpdatedAfterInit: false,
-            baseTexture: null,
-            customTextureOverride: null,
-            customMaterialOverride: null,
-            overrideTexture: null,
-            skeleton: null,
-            state: null,
-            meshGenerator: null,
-            meshBuffers: null,
-            currentInstructions: null,
-            meshes: null
-        },
-        events: {
-            OnRebuild: null,
-            OnMeshAndMaterialsUpdated: null,
-            BeforeApply: null,
-            UpdateLocal: null,
-            UpdateWorld: null,
-            UpdateComplete: null,
-            OnPostProcessVertices: null
-        },
-        props: {
-            SkeletonDataAsset: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SkeletonDataAsset#get", this ); }
-
-                    return this.skeletonDataAsset;
-                }
-            },
-            UpdateMode: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMode#get", this ); }
-
-                    return this.updateMode;
-                },
-                set: function (value) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMode#set", this ); }
-
-                    this.updateMode = value;
-                }
-            },
-            SeparatorParts: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SeparatorParts#get", this ); }
-
-                    return this.separatorParts;
-                }
-            },
-            CustomTextureOverride: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#CustomTextureOverride#get", this ); }
-
-                    return this.customTextureOverride;
-                }
-            },
-            CustomMaterialOverride: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#CustomMaterialOverride#get", this ); }
-
-                    return this.customMaterialOverride;
-                }
-            },
-            OverrideTexture: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OverrideTexture#get", this ); }
-
-                    return this.overrideTexture;
-                },
-                set: function (value) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OverrideTexture#set", this ); }
-
-                    this.overrideTexture = value;
-                    this.canvasRenderer.SetTexture(this.mainTexture);
-                }
-            },
-            mainTexture: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#mainTexture#get", this ); }
-
-                    if (this.overrideTexture != null) {
-                        return this.overrideTexture;
-                    }
-                    return this.baseTexture;
-                }
-            },
-            Skeleton: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Skeleton#get", this ); }
-
-                    this.Initialize(false);
-                    return this.skeleton;
-                },
-                set: function (value) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Skeleton#set", this ); }
-
-                    this.skeleton = value;
-                }
-            },
-            SkeletonData: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SkeletonData#get", this ); }
-
-                    return (this.skeleton == null) ? null : this.skeleton.data;
-                }
-            },
-            IsValid: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#IsValid#get", this ); }
-
-                    return this.skeleton != null;
-                }
-            },
-            AnimationState: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#AnimationState#get", this ); }
-
-                    this.Initialize(false);
-                    return this.state;
-                }
-            },
-            MeshGenerator: {
-                get: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#MeshGenerator#get", this ); }
-
-                    return this.meshGenerator;
-                }
-            }
-        },
-        alias: [
-            "SkeletonDataAsset", "Spine$Unity$IHasSkeletonDataAsset$SkeletonDataAsset",
-            "SkeletonDataAsset", "Spine$Unity$ISkeletonComponent$SkeletonDataAsset",
-            "Skeleton", "Spine$Unity$ISkeletonAnimation$Skeleton",
-            "Skeleton", "Spine$Unity$ISkeletonComponent$Skeleton",
-            "AnimationState", "Spine$Unity$IAnimationStateComponent$AnimationState",
-            "addUpdateLocal", "Spine$Unity$ISkeletonAnimation$addUpdateLocal",
-            "removeUpdateLocal", "Spine$Unity$ISkeletonAnimation$removeUpdateLocal",
-            "addUpdateWorld", "Spine$Unity$ISkeletonAnimation$addUpdateWorld",
-            "removeUpdateWorld", "Spine$Unity$ISkeletonAnimation$removeUpdateWorld",
-            "addUpdateComplete", "Spine$Unity$ISkeletonAnimation$addUpdateComplete",
-            "removeUpdateComplete", "Spine$Unity$ISkeletonAnimation$removeUpdateComplete",
-            "Rebuild", "UnityEngine$UI$ICanvasElement$Rebuild"
-        ],
-        ctors: {
-            init: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#init", this ); }
-
-                this.timeScale = 1.0;
-                this.updateMode = Spine.Unity.UpdateMode.FullUpdate;
-                this.updateWhenInvisible = Spine.Unity.UpdateMode.FullUpdate;
-                this.allowMultipleCanvasRenderers = false;
-                this.canvasRenderers = new (System.Collections.Generic.List$1(UnityEngine.CanvasRenderer)).ctor();
-                this.rawImages = new (System.Collections.Generic.List$1(UnityEngine.UI.RawImage)).ctor();
-                this.usedRenderersCount = 0;
-                this.separatorSlotNames = System.Array.init(0, null, System.String);
-                this.separatorSlots = new (System.Collections.Generic.List$1(Spine.Slot)).ctor();
-                this.enableSeparatorSlots = false;
-                this.separatorParts = new (System.Collections.Generic.List$1(UnityEngine.Transform)).ctor();
-                this.updateSeparatorPartLocation = true;
-                this.wasUpdatedAfterInit = true;
-                this.customTextureOverride = new (System.Collections.Generic.Dictionary$2(UnityEngine.Texture,UnityEngine.Texture)).ctor();
-                this.customMaterialOverride = new (System.Collections.Generic.Dictionary$2(UnityEngine.Texture,UnityEngine.Material)).ctor();
-                this.meshGenerator = new Spine.Unity.MeshGenerator();
-                this.currentInstructions = new Spine.Unity.SkeletonRendererInstruction();
-                this.meshes = new (Spine.ExposedList$1(UnityEngine.Mesh)).ctor();
-            }
-        },
-        methods: {
-            /*Spine.Unity.SkeletonGraphic.Awake start.*/
-            Awake: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Awake", this ); }
-
-                UnityEngine.UI.MaskableGraphic.prototype.Awake.call(this);
-                this.onCullStateChanged.AddListener(Bridge.fn.cacheBind(this, this.OnCullStateChanged));
-                this.SyncRawImagesWithCanvasRenderers();
-                if (!this.IsValid) {
-                    this.Initialize(false);
-                    this.Rebuild(UnityEngine.UI.CanvasUpdate.PreRender);
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.Awake end.*/
-
-            /*Spine.Unity.SkeletonGraphic.OnDestroy start.*/
-            OnDestroy: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnDestroy", this ); }
-
-                this.Clear();
-                UnityEngine.UI.MaskableGraphic.prototype.OnDestroy.call(this);
-            },
-            /*Spine.Unity.SkeletonGraphic.OnDestroy end.*/
-
-            /*Spine.Unity.SkeletonGraphic.Rebuild start.*/
-            Rebuild: function (update) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Rebuild", this ); }
-
-                UnityEngine.UI.MaskableGraphic.prototype.Rebuild.call(this, update);
-                if (!this.canvasRenderer.cull) {
-                    if (update === UnityEngine.UI.CanvasUpdate.PreRender) {
-                        this.UpdateMesh(true);
-                    }
-                    if (this.allowMultipleCanvasRenderers) {
-                        this.canvasRenderer.Clear();
-                    }
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.Rebuild end.*/
-
-            /*Spine.Unity.SkeletonGraphic.OnDisable start.*/
-            OnDisable: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnDisable", this ); }
-
-                var $t;
-                UnityEngine.UI.MaskableGraphic.prototype.OnDisable.call(this);
-                $t = Bridge.getEnumerator(this.canvasRenderers);
-                try {
-                    while ($t.moveNext()) {
-                        var canvasRenderer = $t.Current;
-                        canvasRenderer.Clear();
-                    }
-                } finally {
-                    if (Bridge.is($t, System.IDisposable)) {
-                        $t.System$IDisposable$Dispose();
-                    }
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.OnDisable end.*/
-
-            /*Spine.Unity.SkeletonGraphic.Update start.*/
-            Update: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Update", this ); }
-
-                if (!this.freeze) {
-                    this.Update$1(this.unscaledTime ? UnityEngine.Time.unscaledDeltaTime : UnityEngine.Time.deltaTime);
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.Update end.*/
-
-            /*Spine.Unity.SkeletonGraphic.Update$1 start.*/
-            Update$1: function (deltaTime) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Update$1", this ); }
-
-                if (!this.IsValid) {
-                    return;
-                }
-                this.wasUpdatedAfterInit = true;
-                if (this.updateMode >= Spine.Unity.UpdateMode.OnlyAnimationStatus) {
-                    this.UpdateAnimationStatus(deltaTime);
-                    if (this.updateMode !== Spine.Unity.UpdateMode.OnlyAnimationStatus) {
-                        this.ApplyAnimation();
-                    }
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.Update$1 end.*/
-
-            /*Spine.Unity.SkeletonGraphic.SyncRawImagesWithCanvasRenderers start.*/
-            SyncRawImagesWithCanvasRenderers: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SyncRawImagesWithCanvasRenderers", this ); }
-
-                var $t;
-                this.rawImages.clear();
-                $t = Bridge.getEnumerator(this.canvasRenderers);
-                try {
-                    while ($t.moveNext()) {
-                        var canvasRenderer = $t.Current;
-                        var rawImage = canvasRenderer.GetComponent(UnityEngine.UI.RawImage);
-                        if (UnityEngine.MonoBehaviour.op_Equality(rawImage, null)) {
-                            rawImage = canvasRenderer.gameObject.AddComponent(UnityEngine.UI.RawImage);
-                            rawImage.maskable = this.maskable;
-                            rawImage.raycastTarget = false;
-                        }
-                        this.rawImages.add(rawImage);
-                    }
-                } finally {
-                    if (Bridge.is($t, System.IDisposable)) {
-                        $t.System$IDisposable$Dispose();
-                    }
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.SyncRawImagesWithCanvasRenderers end.*/
-
-            /*Spine.Unity.SkeletonGraphic.UpdateAnimationStatus start.*/
-            UpdateAnimationStatus: function (deltaTime) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateAnimationStatus", this ); }
-
-                deltaTime *= this.timeScale;
-                this.skeleton.Update(deltaTime);
-                this.state.Update(deltaTime);
-            },
-            /*Spine.Unity.SkeletonGraphic.UpdateAnimationStatus end.*/
-
-            /*Spine.Unity.SkeletonGraphic.ApplyAnimation start.*/
-            ApplyAnimation: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#ApplyAnimation", this ); }
-
-                if (!Bridge.staticEquals(this.BeforeApply, null)) {
-                    this.BeforeApply(this);
-                }
-                if (this.updateMode !== Spine.Unity.UpdateMode.OnlyEventTimelines) {
-                    this.state.Apply(this.skeleton);
-                } else {
-                    this.state.ApplyEventTimelinesOnly(this.skeleton);
-                }
-                if (!Bridge.staticEquals(this.UpdateLocal, null)) {
-                    this.UpdateLocal(this);
-                }
-                this.skeleton.UpdateWorldTransform();
-                if (!Bridge.staticEquals(this.UpdateWorld, null)) {
-                    this.UpdateWorld(this);
-                    this.skeleton.UpdateWorldTransform();
-                }
-                if (!Bridge.staticEquals(this.UpdateComplete, null)) {
-                    this.UpdateComplete(this);
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.ApplyAnimation end.*/
-
-            /*Spine.Unity.SkeletonGraphic.LateUpdate start.*/
-            LateUpdate: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#LateUpdate", this ); }
-
-                if (!this.wasUpdatedAfterInit) {
-                    this.Update$1(0.0);
-                }
-                if (!this.freeze && this.updateMode === Spine.Unity.UpdateMode.FullUpdate) {
-                    this.UpdateMesh();
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.LateUpdate end.*/
-
-            /*Spine.Unity.SkeletonGraphic.OnCullStateChanged start.*/
-            OnCullStateChanged: function (culled) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnCullStateChanged", this ); }
-
-                if (culled) {
-                    this.OnBecameInvisible();
-                } else {
-                    this.OnBecameVisible();
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.OnCullStateChanged end.*/
-
-            /*Spine.Unity.SkeletonGraphic.OnBecameVisible start.*/
-            OnBecameVisible: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnBecameVisible", this ); }
-
-                this.updateMode = Spine.Unity.UpdateMode.FullUpdate;
-            },
-            /*Spine.Unity.SkeletonGraphic.OnBecameVisible end.*/
-
-            /*Spine.Unity.SkeletonGraphic.OnBecameInvisible start.*/
-            OnBecameInvisible: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#OnBecameInvisible", this ); }
-
-                this.updateMode = this.updateWhenInvisible;
-            },
-            /*Spine.Unity.SkeletonGraphic.OnBecameInvisible end.*/
-
-            /*Spine.Unity.SkeletonGraphic.ReapplySeparatorSlotNames start.*/
-            ReapplySeparatorSlotNames: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#ReapplySeparatorSlotNames", this ); }
-
-                if (!this.IsValid) {
-                    return;
-                }
-                this.separatorSlots.clear();
-                var i = 0;
-                for (var j = this.separatorSlotNames.length; i < j; i = (i + 1) | 0) {
-                    var slotName = this.separatorSlotNames[i];
-                    if (!(Bridge.referenceEquals(slotName, ""))) {
-                        var slot = this.skeleton.FindSlot(slotName);
-                        if (slot != null) {
-                            this.separatorSlots.add(slot);
-                        }
-                    }
-                }
-                this.UpdateSeparatorPartParents();
-            },
-            /*Spine.Unity.SkeletonGraphic.ReapplySeparatorSlotNames end.*/
-
-            /*Spine.Unity.SkeletonGraphic.GetLastMesh start.*/
-            GetLastMesh: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#GetLastMesh", this ); }
-
-                return this.meshBuffers.GetCurrent().mesh;
-            },
-            /*Spine.Unity.SkeletonGraphic.GetLastMesh end.*/
-
-            /*Spine.Unity.SkeletonGraphic.MatchRectTransformWithBounds start.*/
-            MatchRectTransformWithBounds: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#MatchRectTransformWithBounds", this ); }
-
-                this.UpdateMesh();
-                if (!this.allowMultipleCanvasRenderers) {
-                    return this.MatchRectTransformSingleRenderer();
-                }
-                return this.MatchRectTransformMultipleRenderers();
-            },
-            /*Spine.Unity.SkeletonGraphic.MatchRectTransformWithBounds end.*/
-
-            /*Spine.Unity.SkeletonGraphic.MatchRectTransformSingleRenderer start.*/
-            MatchRectTransformSingleRenderer: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#MatchRectTransformSingleRenderer", this ); }
-
-                var mesh = this.GetLastMesh();
-                if (mesh == null) {
-                    return false;
-                }
-                if (mesh.vertexCount === 0) {
-                    this.rectTransform.sizeDelta = new pc.Vec2( 50.0, 50.0 );
-                    this.rectTransform.pivot = new pc.Vec2( 0.5, 0.5 );
-                    return false;
-                }
-                mesh.RecalculateBounds();
-                this.SetRectTransformBounds(mesh.bounds);
-                return true;
-            },
-            /*Spine.Unity.SkeletonGraphic.MatchRectTransformSingleRenderer end.*/
-
-            /*Spine.Unity.SkeletonGraphic.MatchRectTransformMultipleRenderers start.*/
-            MatchRectTransformMultipleRenderers: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#MatchRectTransformMultipleRenderers", this ); }
-
-                var $t;
-                var anyBoundsAdded = false;
-                var combinedBounds = Bridge.getDefaultValue(UnityEngine.Bounds);
-                for (var i = 0; i < this.canvasRenderers.Count; i = (i + 1) | 0) {
-                    var canvasRenderer = this.canvasRenderers.getItem(i);
-                    if (!canvasRenderer.gameObject.activeSelf) {
-                        continue;
-                    }
-                    var mesh = ($t = this.meshes.Items)[i];
-                    if (!(mesh == null) && mesh.vertexCount !== 0) {
-                        mesh.RecalculateBounds();
-                        var bounds = mesh.bounds;
-                        if (anyBoundsAdded) {
-                            combinedBounds.add( bounds );
-                            continue;
-                        }
-                        anyBoundsAdded = true;
-                        combinedBounds = bounds;
-                    }
-                }
-                if (!anyBoundsAdded) {
-                    this.rectTransform.sizeDelta = new pc.Vec2( 50.0, 50.0 );
-                    this.rectTransform.pivot = new pc.Vec2( 0.5, 0.5 );
-                    return false;
-                }
-                this.SetRectTransformBounds(combinedBounds);
-                return true;
-            },
-            /*Spine.Unity.SkeletonGraphic.MatchRectTransformMultipleRenderers end.*/
-
-            /*Spine.Unity.SkeletonGraphic.SetRectTransformBounds start.*/
-            SetRectTransformBounds: function (combinedBounds) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#SetRectTransformBounds", this ); }
-
-                var size = combinedBounds.halfExtents.$clone().scale( 2 ).$clone();
-                var center = combinedBounds.center.$clone();
-                var p = new pc.Vec2( 0.5 - center.x / size.x, 0.5 - center.y / size.y );
-                this.rectTransform.sizeDelta = UnityEngine.Vector2.FromVector3(size.$clone());
-                this.rectTransform.pivot = p.$clone();
-            },
-            /*Spine.Unity.SkeletonGraphic.SetRectTransformBounds end.*/
-
-            /*Spine.Unity.SkeletonGraphic.Clear start.*/
-            Clear: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Clear", this ); }
-
-                this.skeleton = null;
-                this.canvasRenderer.Clear();
-                for (var i = 0; i < this.canvasRenderers.Count; i = (i + 1) | 0) {
-                    this.canvasRenderers.getItem(i).Clear();
-                }
-                this.DestroyMeshes();
-                this.DisposeMeshBuffers();
-            },
-            /*Spine.Unity.SkeletonGraphic.Clear end.*/
-
-            /*Spine.Unity.SkeletonGraphic.TrimRenderers start.*/
-            TrimRenderers: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#TrimRenderers", this ); }
-
-                var $t;
-                var newList = new (System.Collections.Generic.List$1(UnityEngine.CanvasRenderer)).ctor();
-                $t = Bridge.getEnumerator(this.canvasRenderers);
-                try {
-                    while ($t.moveNext()) {
-                        var canvasRenderer = $t.Current;
-                        if (canvasRenderer.gameObject.activeSelf) {
-                            newList.add(canvasRenderer);
-                        } else if (UnityEngine.Application.isEditor && !UnityEngine.Application.isPlaying) {
-                            UnityEngine.Object.DestroyImmediate(canvasRenderer.gameObject);
-                        } else {
-                            UnityEngine.Object.Destroy(canvasRenderer.gameObject);
-                        }
-                    }
-                } finally {
-                    if (Bridge.is($t, System.IDisposable)) {
-                        $t.System$IDisposable$Dispose();
-                    }
-                }
-                this.canvasRenderers = newList;
-                this.SyncRawImagesWithCanvasRenderers();
-            },
-            /*Spine.Unity.SkeletonGraphic.TrimRenderers end.*/
-
-            /*Spine.Unity.SkeletonGraphic.Initialize start.*/
-            Initialize: function (overwrite) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#Initialize", this ); }
-
-                var $t, $t1;
-                if ((this.IsValid && !overwrite) || this.skeletonDataAsset == null) {
-                    return;
-                }
-                var skeletonData = this.skeletonDataAsset.GetSkeletonData(false);
-                if (skeletonData == null || this.skeletonDataAsset.atlasAssets.length === 0 || ($t = this.skeletonDataAsset.atlasAssets)[0].MaterialCount <= 0) {
-                    return;
-                }
-                this.state = new Spine.AnimationState(this.skeletonDataAsset.GetAnimationStateData());
-                if (this.state == null) {
-                    this.Clear();
-                    return;
-                }
-                this.skeleton = ($t1 = new Spine.Skeleton(skeletonData), $t1.ScaleX = ((!this.initialFlipX) ? 1 : (-1)), $t1.ScaleY = ((!this.initialFlipY) ? 1 : (-1)), $t1);
-                this.InitMeshBuffers();
-                this.baseTexture = ($t1 = this.skeletonDataAsset.atlasAssets)[0].PrimaryMaterial.mainTexture;
-                this.canvasRenderer.SetTexture(this.mainTexture);
-                if (!System.String.isNullOrEmpty(this.initialSkinName)) {
-                    this.skeleton.SetSkin$1(this.initialSkinName);
-                }
-                this.separatorSlots.clear();
-                for (var i = 0; i < this.separatorSlotNames.length; i = (i + 1) | 0) {
-                    this.separatorSlots.add(this.skeleton.FindSlot(this.separatorSlotNames[i]));
-                }
-                this.wasUpdatedAfterInit = false;
-                if (!System.String.isNullOrEmpty(this.startingAnimation)) {
-                    var animationObject = this.skeletonDataAsset.GetSkeletonData(false).FindAnimation(this.startingAnimation);
-                    if (animationObject != null) {
-                        this.state.SetAnimation(0, animationObject, this.startingLoop);
-                    }
-                }
-                if (!Bridge.staticEquals(this.OnRebuild, null)) {
-                    this.OnRebuild(this);
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.Initialize end.*/
-
-            /*Spine.Unity.SkeletonGraphic.UpdateMesh start.*/
-            UpdateMesh: function (keepRendererCount) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMesh", this ); }
-
-                if (keepRendererCount === void 0) { keepRendererCount = false; }
-                if (this.IsValid) {
-                    Spine.Unity.SkeletonExtensions.SetColor$4(this.skeleton, this.color.$clone());
-                    var currentInstructions = this.currentInstructions;
-                    if (!this.allowMultipleCanvasRenderers) {
-                        this.UpdateMeshSingleCanvasRenderer();
-                    } else {
-                        this.UpdateMeshMultipleCanvasRenderers(currentInstructions, keepRendererCount);
-                    }
-                    if (!Bridge.staticEquals(this.OnMeshAndMaterialsUpdated, null)) {
-                        this.OnMeshAndMaterialsUpdated(this);
-                    }
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.UpdateMesh end.*/
-
-            /*Spine.Unity.SkeletonGraphic.HasMultipleSubmeshInstructions start.*/
-            HasMultipleSubmeshInstructions: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#HasMultipleSubmeshInstructions", this ); }
-
-                if (!this.IsValid) {
-                    return false;
-                }
-                return Spine.Unity.MeshGenerator.RequiresMultipleSubmeshesByDrawOrder(this.skeleton);
-            },
-            /*Spine.Unity.SkeletonGraphic.HasMultipleSubmeshInstructions end.*/
-
-            /*Spine.Unity.SkeletonGraphic.InitMeshBuffers start.*/
-            InitMeshBuffers: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#InitMeshBuffers", this ); }
-
-                if (this.meshBuffers != null) {
-                    this.meshBuffers.GetNext().Clear();
-                    this.meshBuffers.GetNext().Clear();
-                } else {
-                    this.meshBuffers = new (Spine.Unity.DoubleBuffered$1(Spine.Unity.MeshRendererBuffers.SmartMesh))();
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.InitMeshBuffers end.*/
-
-            /*Spine.Unity.SkeletonGraphic.DisposeMeshBuffers start.*/
-            DisposeMeshBuffers: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#DisposeMeshBuffers", this ); }
-
-                if (this.meshBuffers != null) {
-                    this.meshBuffers.GetNext().Dispose();
-                    this.meshBuffers.GetNext().Dispose();
-                    this.meshBuffers = null;
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.DisposeMeshBuffers end.*/
-
-            /*Spine.Unity.SkeletonGraphic.UpdateMeshSingleCanvasRenderer start.*/
-            UpdateMeshSingleCanvasRenderer: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMeshSingleCanvasRenderer", this ); }
-
-                var $t, $t1;
-                if (this.canvasRenderers.Count > 0) {
-                    this.DisableUnusedCanvasRenderers(0);
-                }
-                var smartMesh = this.meshBuffers.GetNext();
-                Spine.Unity.MeshGenerator.GenerateSingleSubmeshInstruction(this.currentInstructions, this.skeleton, null);
-                var updateTriangles = Spine.Unity.SkeletonRendererInstruction.GeometryNotEqual(this.currentInstructions, smartMesh.instructionUsed);
-                this.meshGenerator.Begin();
-                if (this.currentInstructions.hasActiveClipping && this.currentInstructions.submeshInstructions.Count > 0) {
-                    this.meshGenerator.AddSubmesh(($t = this.currentInstructions.submeshInstructions.Items)[0].$clone(), updateTriangles);
-                } else {
-                    this.meshGenerator.BuildMeshWithArrays(this.currentInstructions, updateTriangles);
-                }
-                if (UnityEngine.Component.op_Inequality(this.canvas, null)) {
-                    this.meshGenerator.ScaleVertexData(this.canvas.referencePixelsPerUnit);
-                }
-                if (!Bridge.staticEquals(this.OnPostProcessVertices, null)) {
-                    this.OnPostProcessVertices(this.meshGenerator.Buffers.$clone());
-                }
-                var mesh = smartMesh.mesh;
-                this.meshGenerator.FillVertexData(mesh);
-                if (updateTriangles) {
-                    this.meshGenerator.FillTriangles(mesh);
-                }
-                this.meshGenerator.FillLateVertexData(mesh);
-                this.canvasRenderer.SetMesh(mesh);
-                smartMesh.instructionUsed.Set(this.currentInstructions);
-                if (this.currentInstructions.submeshInstructions.Count > 0) {
-                    var material = ($t1 = this.currentInstructions.submeshInstructions.Items)[0].material;
-                    if (material != null && !Bridge.referenceEquals(this.baseTexture, material.mainTexture)) {
-                        this.baseTexture = material.mainTexture;
-                        if (this.overrideTexture == null) {
-                            this.canvasRenderer.SetTexture(this.mainTexture);
-                        }
-                    }
-                }
-                this.usedRenderersCount = 0;
-            },
-            /*Spine.Unity.SkeletonGraphic.UpdateMeshSingleCanvasRenderer end.*/
-
-            /*Spine.Unity.SkeletonGraphic.UpdateMeshMultipleCanvasRenderers start.*/
-            UpdateMeshMultipleCanvasRenderers: function (currentInstructions, keepRendererCount) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateMeshMultipleCanvasRenderers", this ); }
-
-                var $t;
-                Spine.Unity.MeshGenerator.GenerateSkeletonRendererInstruction(currentInstructions, this.skeleton, null, this.enableSeparatorSlots ? this.separatorSlots : null, this.enableSeparatorSlots && this.separatorSlots.Count > 0);
-                var submeshCount = currentInstructions.submeshInstructions.Count;
-                if (keepRendererCount && submeshCount !== this.usedRenderersCount) {
-                    return;
-                }
-                this.EnsureCanvasRendererCount(submeshCount);
-                this.EnsureMeshesCount(submeshCount);
-                this.EnsureSeparatorPartCount();
-                var c = this.canvas;
-                var scale = ((UnityEngine.Component.op_Equality(c, null)) ? 100.0 : c.referencePixelsPerUnit);
-                var meshesItems = this.meshes.Items;
-                var useOriginalTextureAndMaterial = this.customMaterialOverride.Count === 0 && this.customTextureOverride.Count === 0;
-                var separatorSlotGroupIndex = 0;
-                var parent = ((this.separatorSlots.Count === 0) ? this.transform : this.separatorParts.getItem(0));
-                if (this.updateSeparatorPartLocation) {
-                    for (var p = 0; p < this.separatorParts.Count; p = (p + 1) | 0) {
-                        this.separatorParts.getItem(p).position = this.transform.position.$clone();
-                        this.separatorParts.getItem(p).rotation = this.transform.rotation.$clone();
-                    }
-                }
-                var targetSiblingIndex = 0;
-                for (var i = 0; i < submeshCount; i = (i + 1) | 0) {
-                    var submeshInstructionItem = ($t = currentInstructions.submeshInstructions.Items)[i].$clone();
-                    this.meshGenerator.Begin();
-                    this.meshGenerator.AddSubmesh(submeshInstructionItem.$clone());
-                    var targetMesh = meshesItems[i];
-                    this.meshGenerator.ScaleVertexData(scale);
-                    if (!Bridge.staticEquals(this.OnPostProcessVertices, null)) {
-                        this.OnPostProcessVertices(this.meshGenerator.Buffers.$clone());
-                    }
-                    this.meshGenerator.FillVertexData(targetMesh);
-                    this.meshGenerator.FillTriangles(targetMesh);
-                    this.meshGenerator.FillLateVertexData(targetMesh);
-                    var submeshMaterial = submeshInstructionItem.material;
-                    var canvasRenderer = this.canvasRenderers.getItem(i);
-                    if (i >= this.usedRenderersCount) {
-                        canvasRenderer.gameObject.SetActive(true);
-                    }
-                    canvasRenderer.SetMesh(targetMesh);
-                    canvasRenderer.materialCount = 1;
-                    if (UnityEngine.Component.op_Inequality(canvasRenderer.transform.parent, parent.transform)) {
-                        canvasRenderer.transform.SetParent(parent.transform, false);
-                        canvasRenderer.transform.localPosition = pc.Vec3.ZERO.clone();
-                    }
-                    canvasRenderer.transform.SetSiblingIndex(Bridge.identity(targetSiblingIndex, ((targetSiblingIndex = (targetSiblingIndex + 1) | 0))));
-                    if (submeshInstructionItem.forceSeparate) {
-                        targetSiblingIndex = 0;
-                        parent = this.separatorParts.getItem(((separatorSlotGroupIndex = (separatorSlotGroupIndex + 1) | 0)));
-                    }
-                    if (useOriginalTextureAndMaterial) {
-                        canvasRenderer.SetMaterial$1(this.materialForRendering, submeshMaterial.mainTexture);
-                        continue;
-                    }
-                    var originalTexture = submeshMaterial.mainTexture;
-                    var usedMaterial = { };
-                    if (!this.customMaterialOverride.tryGetValue(originalTexture, usedMaterial)) {
-                        usedMaterial.v = this.material;
-                    }
-                    var usedTexture = { };
-                    if (!this.customTextureOverride.tryGetValue(originalTexture, usedTexture)) {
-                        usedTexture.v = originalTexture;
-                    }
-                    canvasRenderer.SetMaterial$1(usedMaterial.v, usedTexture.v);
-                }
-                this.DisableUnusedCanvasRenderers(submeshCount);
-                this.usedRenderersCount = submeshCount;
-            },
-            /*Spine.Unity.SkeletonGraphic.UpdateMeshMultipleCanvasRenderers end.*/
-
-            /*Spine.Unity.SkeletonGraphic.EnsureCanvasRendererCount start.*/
-            EnsureCanvasRendererCount: function (targetCount) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#EnsureCanvasRendererCount", this ); }
-
-                var currentCount = this.canvasRenderers.Count;
-                for (var i = currentCount; i < targetCount; i = (i + 1) | 0) {
-                    var go = new UnityEngine.GameObject.$ctor3(System.String.format("Renderer{0}", [Bridge.box(i, System.Int32)]), UnityEngine.RectTransform);
-                    go.transform.SetParent(this.transform, false);
-                    go.transform.localPosition = pc.Vec3.ZERO.clone();
-                    var canvasRenderer = go.AddComponent(UnityEngine.CanvasRenderer);
-                    this.canvasRenderers.add(canvasRenderer);
-                    var rawImage = go.AddComponent(UnityEngine.UI.RawImage);
-                    rawImage.maskable = this.maskable;
-                    rawImage.raycastTarget = false;
-                    this.rawImages.add(rawImage);
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.EnsureCanvasRendererCount end.*/
-
-            /*Spine.Unity.SkeletonGraphic.DisableUnusedCanvasRenderers start.*/
-            DisableUnusedCanvasRenderers: function (usedCount) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#DisableUnusedCanvasRenderers", this ); }
-
-                for (var i = usedCount; i < this.canvasRenderers.Count; i = (i + 1) | 0) {
-                    this.canvasRenderers.getItem(i).Clear();
-                    this.canvasRenderers.getItem(i).gameObject.SetActive(false);
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.DisableUnusedCanvasRenderers end.*/
-
-            /*Spine.Unity.SkeletonGraphic.EnsureMeshesCount start.*/
-            EnsureMeshesCount: function (targetCount) {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#EnsureMeshesCount", this ); }
-
-                var oldCount = this.meshes.Count;
-                this.meshes.EnsureCapacity(targetCount);
-                for (var i = oldCount; i < targetCount; i = (i + 1) | 0) {
-                    this.meshes.Add(Spine.Unity.SpineMesh.NewSkeletonMesh());
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.EnsureMeshesCount end.*/
-
-            /*Spine.Unity.SkeletonGraphic.DestroyMeshes start.*/
-            DestroyMeshes: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#DestroyMeshes", this ); }
-
-                var $t;
-                $t = Bridge.getEnumerator(this.meshes);
-                try {
-                    while ($t.moveNext()) {
-                        var mesh = $t.Current;
-                        UnityEngine.Object.Destroy(mesh);
-                    }
-                } finally {
-                    if (Bridge.is($t, System.IDisposable)) {
-                        $t.System$IDisposable$Dispose();
-                    }
-                }
-                this.meshes.Clear();
-            },
-            /*Spine.Unity.SkeletonGraphic.DestroyMeshes end.*/
-
-            /*Spine.Unity.SkeletonGraphic.EnsureSeparatorPartCount start.*/
-            EnsureSeparatorPartCount: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#EnsureSeparatorPartCount", this ); }
-
-                var targetCount = (this.separatorSlots.Count + 1) | 0;
-                if (targetCount !== 1) {
-                    var currentCount = this.separatorParts.Count;
-                    for (var i = currentCount; i < targetCount; i = (i + 1) | 0) {
-                        var go = new UnityEngine.GameObject.$ctor3(System.String.format("{0}[{1}]", "Part", Bridge.box(i, System.Int32)), UnityEngine.RectTransform);
-                        go.transform.SetParent(this.transform, false);
-                        go.transform.localPosition = pc.Vec3.ZERO.clone();
-                        this.separatorParts.add(go.transform);
-                    }
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.EnsureSeparatorPartCount end.*/
-
-            /*Spine.Unity.SkeletonGraphic.UpdateSeparatorPartParents start.*/
-            UpdateSeparatorPartParents: function () {
-if ( TRACE ) { TRACE( "Spine.Unity.SkeletonGraphic#UpdateSeparatorPartParents", this ); }
-
-                var usedCount = (this.separatorSlots.Count + 1) | 0;
-                if (usedCount === 1) {
-                    usedCount = 0;
-                    for (var j = 0; j < this.canvasRenderers.Count; j = (j + 1) | 0) {
-                        var canvasRenderer = this.canvasRenderers.getItem(j);
-                        if (System.String.contains(canvasRenderer.transform.parent.name,"Part")) {
-                            canvasRenderer.transform.SetParent(this.transform, false);
-                            canvasRenderer.transform.localPosition = pc.Vec3.ZERO.clone();
-                        }
-                    }
-                }
-                for (var i = 0; i < this.separatorParts.Count; i = (i + 1) | 0) {
-                    var isUsed = i < usedCount;
-                    this.separatorParts.getItem(i).gameObject.SetActive(isUsed);
-                }
-            },
-            /*Spine.Unity.SkeletonGraphic.UpdateSeparatorPartParents end.*/
-
-
-        },
-        overloads: {
-            "Update(float)": "Update$1"
-        }
-    });
-    /*Spine.Unity.SkeletonGraphic end.*/
-
     /*Spine.Unity.SkeletonMecanimRootMotion start.*/
     Bridge.define("Spine.Unity.SkeletonMecanimRootMotion", {
         inherits: [Spine.Unity.SkeletonRootMotionBase],
@@ -53301,6 +53695,25 @@ if ( TRACE ) { TRACE( "Spine.Unity.WaitForSpineAnimationEnd#NowWaitFor$1", this 
         }
     });
     /*Spine.Unity.WaitForSpineAnimationEnd end.*/
+
+    /*Reference20.Reference20SkeletonGraphic start.*/
+    Bridge.define("Reference20.Reference20SkeletonGraphic", {
+        inherits: [Spine.Unity.SkeletonGraphic],
+        methods: {
+            /*Reference20.Reference20SkeletonGraphic.UpdateGeometry start.*/
+            UpdateGeometry: function () {
+if ( TRACE ) { TRACE( "Reference20.Reference20SkeletonGraphic#UpdateGeometry", this ); }
+
+                if (this.IsValid) {
+                    this.UpdateMesh();
+                }
+            },
+            /*Reference20.Reference20SkeletonGraphic.UpdateGeometry end.*/
+
+
+        }
+    });
+    /*Reference20.Reference20SkeletonGraphic end.*/
 
     /*Spine.BoundingBoxAttachment start.*/
     Bridge.define("Spine.BoundingBoxAttachment", {
@@ -57064,7 +57477,7 @@ if ( TRACE ) { TRACE( "Spine.ShearTimeline#Apply", this ); }
     /*Reference20.CompanyParticleLayer end.*/
 
     /*Reference20.CompanyParticleTrack start.*/
-    $m("Reference20.CompanyParticleTrack", function () { return {"att":1057025,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"samples","t":4,"rt":$n[0].Array.type(System.Array.type(System.Single)),"sn":"samples"},{"a":2,"n":"start","t":4,"rt":$n[0].Single,"sn":"start","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("Reference20.CompanyParticleTrack", function () { return {"att":1057025,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ValidSample","t":8,"pi":[{"n":"index","pt":$n[0].Int32,"ps":0}],"sn":"ValidSample","rt":$n[0].Boolean,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"samples","t":4,"rt":$n[0].Array.type(System.Array.type(System.Single)),"sn":"samples"},{"a":2,"n":"start","t":4,"rt":$n[0].Single,"sn":"start","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"validSamples","t":4,"rt":$n[0].Array.type(System.Boolean),"sn":"validSamples"}]}; }, $n);
     /*Reference20.CompanyParticleTrack end.*/
 
     /*Reference20.CompanySprite start.*/
@@ -57084,7 +57497,7 @@ if ( TRACE ) { TRACE( "Spine.ShearTimeline#Apply", this ); }
     /*Reference20.HtmlTrailFrame end.*/
 
     /*Reference20.HtmlTrailLayer start.*/
-    $m("Reference20.HtmlTrailLayer", function () { return {"att":1057025,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"blend","t":4,"rt":$n[0].Int32,"sn":"blend","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"flipbook","t":4,"rt":$n[0].Array.type(System.Single),"sn":"flipbook"},{"a":2,"n":"frame","t":4,"rt":$n[0].Single,"sn":"frame","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"frames","t":4,"rt":System.Array.type(Reference20.HtmlTrailFrame),"sn":"frames"},{"a":2,"n":"material","t":4,"rt":$n[5].Material,"sn":"material"},{"a":2,"n":"name","t":4,"rt":$n[0].String,"sn":"name"},{"a":2,"n":"shader","t":4,"rt":$n[0].String,"sn":"shader"},{"a":2,"n":"switchValue","t":4,"rt":$n[0].Single,"sn":"switchValue","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"texture","t":4,"rt":$n[0].Int32,"sn":"texture","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"tiling","t":4,"rt":$n[0].Array.type(System.Single),"sn":"tiling"},{"a":2,"n":"tint","t":4,"rt":$n[0].Array.type(System.Single),"sn":"tint"},{"a":2,"n":"uvSpeed","t":4,"rt":$n[0].Array.type(System.Single),"sn":"uvSpeed"}]}; }, $n);
+    $m("Reference20.HtmlTrailLayer", function () { return {"att":1057025,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"blend","t":4,"rt":$n[0].Int32,"sn":"blend","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"flipbook","t":4,"rt":$n[0].Array.type(System.Single),"sn":"flipbook"},{"a":2,"n":"frame","t":4,"rt":$n[0].Single,"sn":"frame","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"frames","t":4,"rt":System.Array.type(Reference20.HtmlTrailFrame),"sn":"frames"},{"a":2,"n":"image","t":4,"rt":$n[5].Texture2D,"sn":"image"},{"a":2,"n":"material","t":4,"rt":$n[5].Material,"sn":"material"},{"a":2,"n":"name","t":4,"rt":$n[0].String,"sn":"name"},{"a":2,"n":"shader","t":4,"rt":$n[0].String,"sn":"shader"},{"a":2,"n":"switchValue","t":4,"rt":$n[0].Single,"sn":"switchValue","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"texture","t":4,"rt":$n[0].Int32,"sn":"texture","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"tiling","t":4,"rt":$n[0].Array.type(System.Single),"sn":"tiling"},{"a":2,"n":"tint","t":4,"rt":$n[0].Array.type(System.Single),"sn":"tint"},{"a":2,"n":"uvSpeed","t":4,"rt":$n[0].Array.type(System.Single),"sn":"uvSpeed"}]}; }, $n);
     /*Reference20.HtmlTrailLayer end.*/
 
     /*Reference20.Layout start.*/
@@ -57128,8 +57541,12 @@ if ( TRACE ) { TRACE( "Spine.ShearTimeline#Apply", this ); }
     /*Reference20.Reference20CocosClip end.*/
 
     /*Reference20.Reference20ColorTrail start.*/
-    $m("Reference20.Reference20ColorTrail", function () { return {"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Empty","is":true,"t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"Empty","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":2,"n":"Play","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"to","pt":$n[5].Vector2,"ps":2}],"sn":"Play","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"elapsed","t":4,"rt":$n[0].Single,"sn":"elapsed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"layer","t":4,"rt":$n[13].HtmlTrailLayer,"sn":"layer"},{"a":1,"n":"length","t":4,"rt":$n[0].Single,"sn":"length","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"source","is":true,"t":4,"rt":$n[13].HtmlTrailData,"sn":"source"},{"a":1,"n":"texture","t":4,"rt":$n[5].Texture2D,"sn":"texture"}]}; }, $n);
+    $m("Reference20.Reference20ColorTrail", function () { return {"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Empty","is":true,"t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"Empty","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":2,"n":"Play","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"to","pt":$n[5].Vector2,"ps":2}],"sn":"Play","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2]},{"a":2,"n":"Release","is":true,"t":8,"pi":[{"n":"lease","pt":$n[13].Reference20ColorTrailLease,"ps":0}],"sn":"Release","rt":$n[0].Void,"p":[$n[13].Reference20ColorTrailLease]},{"a":2,"n":"Reset","is":true,"t":8,"sn":"Reset","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"elapsed","t":4,"rt":$n[0].Single,"sn":"elapsed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"layer","t":4,"rt":$n[13].HtmlTrailLayer,"sn":"layer"},{"a":1,"n":"length","t":4,"rt":$n[0].Single,"sn":"length","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"pool","is":true,"t":4,"rt":$n[2].Stack$1(Reference20.Reference20ColorTrailLease),"sn":"pool","ro":true},{"a":1,"n":"source","is":true,"t":4,"rt":$n[13].HtmlTrailData,"sn":"source"},{"a":1,"n":"texture","t":4,"rt":$n[5].Texture2D,"sn":"texture"}]}; }, $n);
     /*Reference20.Reference20ColorTrail end.*/
+
+    /*Reference20.Reference20ColorTrailLease start.*/
+    $m("Reference20.Reference20ColorTrailLease", function () { return {"att":1048833,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Begin","t":8,"sn":"Begin","rt":$n[0].Void},{"a":2,"n":"Complete","t":8,"sn":"Complete","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"Layers","t":4,"rt":System.Array.type(Reference20.Reference20ColorTrail),"sn":"Layers"},{"a":1,"n":"leased","t":4,"rt":$n[0].Boolean,"sn":"leased","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"remaining","t":4,"rt":$n[0].Single,"sn":"remaining","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*Reference20.Reference20ColorTrailLease end.*/
 
     /*Reference20.Reference20CompanyAudio start.*/
     $m("Reference20.Reference20CompanyAudio", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"Name","is":true,"t":8,"pi":[{"n":"eventName","pt":$n[0].String,"ps":0}],"sn":"Name","rt":$n[0].String,"p":[$n[0].String]},{"a":1,"n":"aliases","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,System.String),"sn":"aliases"}]}; }, $n);
@@ -57140,7 +57557,7 @@ if ( TRACE ) { TRACE( "Spine.ShearTimeline#Apply", this ); }
     /*Reference20.Reference20CompanyEffects end.*/
 
     /*Reference20.Reference20CompanyParticleBatch start.*/
-    $m("Reference20.Reference20CompanyParticleBatch", function () { return {"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Configure","t":8,"pi":[{"n":"layer","pt":$n[13].CompanyParticleLayer,"ps":0}],"sn":"Configure","rt":$n[0].Void,"p":[$n[13].CompanyParticleLayer]},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"batchKey","t":4,"rt":$n[0].String,"sn":"batchKey"},{"a":1,"n":"quad","t":4,"rt":System.Array.type(UnityEngine.UIVertex),"sn":"quad","ro":true},{"a":1,"n":"texture","t":4,"rt":$n[5].Texture2D,"sn":"texture"},{"a":1,"n":"wasActive","t":4,"rt":$n[0].Boolean,"sn":"wasActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Reference20.Reference20CompanyParticleBatch", function () { return {"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Configure","t":8,"pi":[{"n":"layer","pt":$n[13].CompanyParticleLayer,"ps":0}],"sn":"Configure","rt":$n[0].Void,"p":[$n[13].CompanyParticleLayer]},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":2,"n":"Prepare","t":8,"pi":[{"n":"effect","pt":$n[13].CompanyParticleEffect,"ps":0}],"sn":"Prepare","rt":System.Array.type(Reference20.CompanyParticleLayer),"p":[$n[13].CompanyParticleEffect]},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"batchKey","t":4,"rt":$n[0].String,"sn":"batchKey"},{"a":1,"n":"layersByEffect","t":4,"rt":$n[2].Dictionary$2(Reference20.CompanyParticleEffect,System.Array.type(Reference20.CompanyParticleLayer)),"sn":"layersByEffect","ro":true},{"a":1,"n":"quad","t":4,"rt":System.Array.type(UnityEngine.UIVertex),"sn":"quad","ro":true},{"a":1,"n":"texture","t":4,"rt":$n[5].Texture2D,"sn":"texture"},{"a":1,"n":"wasActive","t":4,"rt":$n[0].Boolean,"sn":"wasActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Reference20.Reference20CompanyParticleBatch end.*/
 
     /*Reference20.Reference20CompanyParticleHandle start.*/
@@ -57164,7 +57581,7 @@ if ( TRACE ) { TRACE( "Spine.ShearTimeline#Apply", this ); }
     /*Reference20.Reference20EffectInstance+SpinePose end.*/
 
     /*Reference20.Reference20FragmentBurst start.*/
-    $m("Reference20.Reference20FragmentBurst", function () { return {"nested":[$n[13].Reference20FragmentBurst.Fragment],"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":2,"n":"Play","t":8,"pi":[{"n":"atlas","pt":$n[5].Texture2D,"ps":0},{"n":"regions","pt":System.Array.type(Reference20.Reference20Fragments.Region),"ps":1},{"n":"count","pt":$n[0].Int32,"ps":2},{"n":"done","pt":Function,"ps":3}],"sn":"Play","rt":$n[0].Void,"p":[$n[5].Texture2D,System.Array.type(Reference20.Reference20Fragments.Region),$n[0].Int32,Function]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"complete","t":4,"rt":Function,"sn":"complete"},{"a":1,"n":"elapsed","t":4,"rt":$n[0].Single,"sn":"elapsed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"parts","t":4,"rt":$n[2].List$1(Reference20.Reference20FragmentBurst.Fragment),"sn":"parts","ro":true},{"a":1,"n":"quad","t":4,"rt":System.Array.type(UnityEngine.UIVertex),"sn":"quad","ro":true},{"a":1,"n":"texture","t":4,"rt":$n[5].Texture2D,"sn":"texture"}]}; }, $n);
+    $m("Reference20.Reference20FragmentBurst", function () { return {"nested":[$n[13].Reference20FragmentBurst.Fragment],"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":2,"n":"Play","t":8,"pi":[{"n":"atlas","pt":$n[5].Texture2D,"ps":0},{"n":"regions","pt":System.Array.type(Reference20.Reference20Fragments.Region),"ps":1},{"n":"count","pt":$n[0].Int32,"ps":2},{"n":"done","pt":Function,"ps":3}],"sn":"Play","rt":$n[0].Void,"p":[$n[5].Texture2D,System.Array.type(Reference20.Reference20Fragments.Region),$n[0].Int32,Function]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"complete","t":4,"rt":Function,"sn":"complete"},{"a":1,"n":"elapsed","t":4,"rt":$n[0].Single,"sn":"elapsed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"parts","t":4,"rt":$n[2].List$1(Reference20.Reference20FragmentBurst.Fragment),"sn":"parts","ro":true},{"a":1,"n":"quad","t":4,"rt":System.Array.type(UnityEngine.UIVertex),"sn":"quad","ro":true},{"a":1,"n":"texture","t":4,"rt":$n[5].Texture2D,"sn":"texture"}]}; }, $n);
     /*Reference20.Reference20FragmentBurst end.*/
 
     /*Reference20.Reference20FragmentBurst+Fragment start.*/
@@ -57188,7 +57605,7 @@ if ( TRACE ) { TRACE( "Spine.ShearTimeline#Apply", this ); }
     /*Reference20.Reference20Fragments+Manifest end.*/
 
     /*Reference20.Reference20Game start.*/
-    $m("Reference20.Reference20Game", function () { return {"nested":[$n[13].Reference20Game.TurnPhase,$n[13].Reference20Game.Piece,$n[13].Reference20Game.MatchGroup,$n[13].Reference20Game.BoardEvent,$n[13].Reference20Game.SourceTopology,$n[13].Reference20Game.SourceTile,$n[13].Reference20Game.HintMove],"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Activate","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"color","pt":$n[0].Int32,"ps":1}],"sn":"Activate","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].Int32]},{"a":1,"n":"AddPicture","t":8,"pi":[{"n":"p","pt":$n[13].Picture,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1}],"sn":"AddPicture","rt":$n[5].RectTransform,"p":[$n[13].Picture,$n[5].Transform]},{"a":1,"n":"AdvanceRuntime","t":8,"pi":[{"n":"dt","pt":$n[0].Single,"ps":0}],"sn":"AdvanceRuntime","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"After","t":8,"pi":[{"n":"seconds","pt":$n[0].Single,"ps":0},{"n":"action","pt":Function,"ps":1}],"sn":"After","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":1,"n":"ApplyMatches","t":8,"pi":[{"n":"groups","pt":$n[2].List$1(Reference20.Reference20Game.MatchGroup),"ps":0}],"sn":"ApplyMatches","rt":$n[0].Void,"p":[$n[2].List$1(Reference20.Reference20Game.MatchGroup)]},{"a":1,"n":"ApplySourceTopology","t":8,"sn":"ApplySourceTopology","rt":$n[0].Void},{"a":1,"n":"AtPoint","t":8,"pi":[{"n":"point","pt":$n[5].Vector2,"ps":0}],"sn":"AtPoint","rt":$n[13].Reference20Game.Piece,"p":[$n[5].Vector2]},{"a":1,"n":"Bee","t":8,"pi":[{"n":"from","pt":$n[5].Vector2,"ps":0},{"n":"payload","dv":0,"o":true,"pt":$n[0].Int32,"ps":1},{"n":"ordinal","dv":0,"o":true,"pt":$n[0].Int32,"ps":2},{"n":"combination","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"targetCross","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"payloadOffset","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":5}],"sn":"Bee","rt":$n[0].Void,"p":[$n[5].Vector2,$n[0].Int32,$n[0].Int32,$n[0].Boolean,$n[0].Boolean,$n[0].Nullable$1(UnityEngine.Vector2)]},{"a":1,"n":"BeeLaunch","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"position","pt":$n[5].Vector2,"ps":2},{"n":"payload","dv":0,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"count","dv":1,"o":true,"pt":$n[0].Int32,"ps":4},{"n":"combination","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"payloadOffset","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":6}],"sn":"BeeLaunch","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[5].Vector2,$n[0].Int32,$n[0].Int32,$n[0].Boolean,$n[0].Nullable$1(UnityEngine.Vector2)]},{"a":1,"n":"BeeTarget","t":8,"sn":"BeeTarget","rt":$n[0].Nullable$1(UnityEngine.Vector2Int)},{"a":1,"n":"BeginColorFocus","t":8,"sn":"BeginColorFocus","rt":$n[0].Void},{"a":1,"n":"BeginFlightSound","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"BeginFlightSound","rt":$n[5].AudioSource,"p":[$n[0].String]},{"a":1,"n":"BeginStandby","t":8,"sn":"BeginStandby","rt":$n[0].Void},{"a":1,"n":"BirdDestination","t":8,"pi":[{"n":"cell","pt":$n[5].Vector2Int,"ps":0}],"sn":"BirdDestination","rt":$n[13].Reference20Game.Piece,"p":[$n[5].Vector2Int]},{"a":1,"n":"BirdTarget","t":8,"pi":[{"n":"origin","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"BirdTarget","rt":$n[0].Nullable$1(UnityEngine.Vector2Int),"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"Bomb","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"radius","dv":1,"o":true,"pt":$n[0].Int32,"ps":2},{"n":"wait","dv":-1.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"Bomb","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Single]},{"a":1,"n":"Box","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1},{"n":"pos","pt":$n[5].Vector2,"ps":2},{"n":"size","pt":$n[5].Vector2,"ps":3},{"n":"color","pt":$n[5].Color,"ps":4}],"sn":"Box","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].Transform,$n[5].Vector2,$n[5].Vector2,$n[5].Color]},{"a":2,"n":"Build","t":8,"sn":"Build","rt":$n[0].Void},{"a":1,"n":"BuildChrome","t":8,"sn":"BuildChrome","rt":$n[0].Void},{"a":1,"n":"BuildGuide","t":8,"sn":"BuildGuide","rt":$n[0].Void},{"a":1,"n":"CanFillVacancy","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"CanFillVacancy","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CanManipulate","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"CanManipulate","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CanPlace","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"x","pt":$n[0].Int32,"ps":1},{"n":"y","pt":$n[0].Int32,"ps":2}],"sn":"CanPlace","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece,$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CellKey","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"CellKey","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"CellPosition","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"CellPosition","rt":$n[5].Vector2,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"ChooseRefill","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"ChooseRefill","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"ClearChrome","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"ClearChrome","rt":$n[0].Void,"p":[$n[0].String]},{"a":1,"n":"ClearNormal","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"particles","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"ClearNormal","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].Boolean]},{"a":1,"n":"CollectCabinetCans","t":8,"pi":[{"n":"cabinet","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"CollectCabinetCans","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"ColorBlast","t":8,"pi":[{"n":"position","pt":$n[5].Vector2,"ps":0},{"n":"color","pt":$n[0].Int32,"ps":1},{"n":"payload","pt":$n[0].Int32,"ps":2},{"n":"source","dv":null,"o":true,"pt":$n[13].Reference20Game.Piece,"ps":3},{"n":"companion","dv":null,"o":true,"pt":$n[13].Reference20Game.Piece,"ps":4},{"n":"swapOrigin","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"ColorBlast","rt":$n[0].Void,"p":[$n[5].Vector2,$n[0].Int32,$n[0].Int32,$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece,$n[0].Boolean]},{"a":1,"n":"Combine","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"Combine","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"CompanyEndArtwork","t":8,"pi":[{"n":"parent","pt":$n[5].RectTransform,"ps":0},{"n":"won","pt":$n[0].Boolean,"ps":1}],"sn":"CompanyEndArtwork","rt":$n[5].RectTransform,"p":[$n[5].RectTransform,$n[0].Boolean]},{"a":1,"n":"CompleteTurn","t":8,"sn":"CompleteTurn","rt":$n[14].IEnumerator},{"a":1,"n":"ComposeTile","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"ComposeTile","rt":$n[5].RectTransform,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"ConnectedAbove","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"ConnectedAbove","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"ContinueFall","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"ContinueFall","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CreateBear","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"CreateBear","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"CreateCompanyNode","t":8,"pi":[{"n":"node","pt":$n[13].CompanyNode,"ps":0},{"n":"parent","pt":$n[5].RectTransform,"ps":1}],"sn":"CreateCompanyNode","rt":$n[5].RectTransform,"p":[$n[13].CompanyNode,$n[5].RectTransform]},{"a":1,"n":"CreateNormal","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"id","pt":$n[0].Int32,"ps":2},{"n":"trace","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"CreateNormal","rt":$n[13].Reference20Game.Piece,"p":[$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Boolean]},{"a":1,"n":"Damage","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"hit","pt":$n[2].HashSet$1(Reference20.Reference20Game.Piece),"ps":1},{"n":"hitX","dv":-1,"o":true,"pt":$n[0].Int32,"ps":2},{"n":"hitY","dv":-1,"o":true,"pt":$n[0].Int32,"ps":3}],"sn":"Damage","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[2].HashSet$1(Reference20.Reference20Game.Piece),$n[0].Int32,$n[0].Int32]},{"a":1,"n":"DoubleColor","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1},{"n":"position","pt":$n[5].Vector2,"ps":2}],"sn":"DoubleColor","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece,$n[5].Vector2]},{"a":2,"n":"Download","t":8,"sn":"Download","rt":$n[0].Void},{"a":1,"n":"DragSelected","t":8,"pi":[{"n":"point","pt":$n[5].Vector2,"ps":0}],"sn":"DragSelected","rt":$n[0].Boolean,"p":[$n[5].Vector2],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"EndColorFocus","t":8,"sn":"EndColorFocus","rt":$n[0].Void},{"a":1,"n":"EndFlightSound","t":8,"pi":[{"n":"source","pt":$n[5].AudioSource,"ps":0}],"sn":"EndFlightSound","rt":$n[0].Void,"p":[$n[5].AudioSource]},{"a":1,"n":"EndStandby","t":8,"sn":"EndStandby","rt":$n[0].Void},{"a":1,"n":"EnsureAudio","t":8,"sn":"EnsureAudio","rt":$n[0].Void},{"a":1,"n":"EnsureResolution","t":8,"sn":"EnsureResolution","rt":$n[0].Void},{"a":1,"n":"Erase","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Erase","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"FindGroups","t":8,"pi":[{"n":"first","dv":null,"o":true,"pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"second","dv":null,"o":true,"pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"FindGroups","rt":$n[2].List$1(Reference20.Reference20Game.MatchGroup),"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"FindHintMove","t":8,"pi":[{"n":"random","pt":$n[0].Boolean,"ps":0}],"sn":"FindHintMove","rt":$n[13].Reference20Game.HintMove,"p":[$n[0].Boolean]},{"a":1,"n":"Flood","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"result","pt":$n[2].List$1(Reference20.Reference20Game.Piece),"ps":1}],"sn":"Flood","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[2].List$1(Reference20.Reference20Game.Piece)]},{"a":1,"n":"Free","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"x","pt":$n[0].Int32,"ps":1},{"n":"y","pt":$n[0].Int32,"ps":2}],"sn":"Free","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece,$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Hint","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"name","dv":"match_tip","o":true,"pt":$n[0].String,"ps":1}],"sn":"Hint","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].String]},{"a":1,"n":"HintPowerPriority","is":true,"t":8,"pi":[{"n":"a","pt":$n[0].Int32,"ps":0},{"n":"b","pt":$n[0].Int32,"ps":1}],"sn":"HintPowerPriority","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"HintSkillPriority","is":true,"t":8,"pi":[{"n":"skill","pt":$n[0].Int32,"ps":0}],"sn":"HintSkillPriority","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"HitCell","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"damaged","pt":$n[2].HashSet$1(Reference20.Reference20Game.Piece),"ps":2}],"sn":"HitCell","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[2].HashSet$1(Reference20.Reference20Game.Piece)]},{"a":1,"n":"HoldForExchange","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"HoldForExchange","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"IdleFeedback","t":8,"sn":"IdleFeedback","rt":$n[0].Void},{"a":1,"n":"Inside","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"Inside","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Label","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1},{"n":"value","pt":$n[0].String,"ps":2},{"n":"pos","pt":$n[5].Vector2,"ps":3},{"n":"size","pt":$n[5].Vector2,"ps":4},{"n":"fontSize","pt":$n[0].Int32,"ps":5}],"sn":"Label","rt":$n[7].Text,"p":[$n[0].String,$n[5].Transform,$n[0].String,$n[5].Vector2,$n[5].Vector2,$n[0].Int32]},{"a":1,"n":"LaunchPeacock","t":8,"pi":[{"n":"source","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"LaunchPeacock","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"Line","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"horizontal","pt":$n[0].Boolean,"ps":2},{"n":"damaged","dv":null,"o":true,"pt":$n[2].HashSet$1(Reference20.Reference20Game.Piece),"ps":3},{"n":"endpoint1","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":4},{"n":"endpoint2","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":5},{"n":"instant","dv":false,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"Line","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[0].Boolean,$n[2].HashSet$1(Reference20.Reference20Game.Piece),$n[0].Nullable$1(UnityEngine.Vector2),$n[0].Nullable$1(UnityEngine.Vector2),$n[0].Boolean]},{"a":1,"n":"LockCells","t":8,"pi":[{"n":"cells","pt":$n[2].List$1(UnityEngine.Vector2Int),"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1}],"sn":"LockCells","rt":$n[0].Void,"p":[$n[2].List$1(UnityEngine.Vector2Int),$n[0].Single]},{"a":1,"n":"Matchable","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Matchable","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"MatchingFallPending","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"MatchingFallPending","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"Position","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Position","rt":$n[5].Vector2,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"PowerTurn","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"PowerTurn","rt":$n[14].IEnumerator,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"PreviousSource","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"PreviousSource","rt":$n[13].Reference20Game.Piece,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"PushEmpty","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"PushEmpty","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"Put","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Put","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"QueueMissedVacancies","t":8,"sn":"QueueMissedVacancies","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"RandomRange","t":8,"pi":[{"n":"min","pt":$n[0].Int32,"ps":0},{"n":"max","pt":$n[0].Int32,"ps":1}],"sn":"RandomRange","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"Rank","is":true,"t":8,"pi":[{"n":"skill","pt":$n[0].Int32,"ps":0}],"sn":"Rank","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"RecycleNormal","t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0}],"sn":"RecycleNormal","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":1,"n":"Reindex","t":8,"sn":"Reindex","rt":$n[0].Void},{"a":1,"n":"Release","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Release","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"ReleaseBirdTarget","t":8,"pi":[{"n":"cell","pt":$n[5].Vector2Int,"ps":0}],"sn":"ReleaseBirdTarget","rt":$n[0].Void,"p":[$n[5].Vector2Int]},{"a":1,"n":"ReleaseExchange","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"ReleaseExchange","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"RemoveGuide","t":8,"sn":"RemoveGuide","rt":$n[0].Void},{"a":1,"n":"ReplaceBasic","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"id","pt":$n[0].Int32,"ps":1}],"sn":"ReplaceBasic","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].Int32]},{"a":1,"n":"ReplaceWithChick","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"data","pt":$n[6].SkeletonDataAsset,"ps":1},{"n":"skin","pt":$n[0].String,"ps":2}],"sn":"ReplaceWithChick","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[6].SkeletonDataAsset,$n[0].String]},{"a":1,"n":"ReserveMove","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"x","pt":$n[0].Int32,"ps":1},{"n":"y","pt":$n[0].Int32,"ps":2}],"sn":"ReserveMove","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].Int32,$n[0].Int32]},{"a":1,"n":"ResetRuntime","t":8,"sn":"ResetRuntime","rt":$n[0].Void},{"a":1,"n":"ResolveCombo","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"ResolveCombo","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"ResolveUntilStable","t":8,"sn":"ResolveUntilStable","rt":$n[14].IEnumerator},{"a":1,"n":"ReturnCompose","t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0}],"sn":"ReturnCompose","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":1,"n":"Run","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"vertical","pt":$n[0].Boolean,"ps":1}],"sn":"Run","rt":$n[2].List$1(Reference20.Reference20Game.Piece),"p":[$n[13].Reference20Game.Piece,$n[0].Boolean]},{"a":1,"n":"Same","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"id","pt":$n[0].Int32,"ps":2}],"sn":"Same","rt":$n[13].Reference20Game.Piece,"p":[$n[0].Int32,$n[0].Int32,$n[0].Int32]},{"a":1,"n":"SettleBoard","t":8,"sn":"SettleBoard","rt":$n[14].IEnumerator},{"a":1,"n":"ShowCompanyLoading","t":8,"sn":"ShowCompanyLoading","rt":$n[14].IEnumerator},{"a":2,"n":"ShowEnd","t":8,"pi":[{"n":"won","dv":true,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"ShowEnd","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"SlantInto","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"SlantInto","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Sound","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"volume","dv":0.8,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"Sound","rt":$n[0].Void,"p":[$n[0].String,$n[0].Single]},{"a":1,"n":"Square","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Square","rt":$n[2].List$1(Reference20.Reference20Game.Piece),"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[14].IEnumerator},{"a":1,"n":"StartCornCycle","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"StartCornCycle","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"StartFromVacancy","t":8,"pi":[{"n":"cell","pt":$n[5].Vector2Int,"ps":0}],"sn":"StartFromVacancy","rt":$n[0].Void,"p":[$n[5].Vector2Int]},{"a":1,"n":"StopHints","t":8,"sn":"StopHints","rt":$n[0].Void},{"a":1,"n":"Swap","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"Swap","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"SwapTurn","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"SwapTurn","rt":$n[14].IEnumerator,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"TickGravity","t":8,"pi":[{"n":"dt","pt":$n[0].Single,"ps":0}],"sn":"TickGravity","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Trace","t":8,"pi":[{"n":"kind","pt":$n[0].String,"ps":0},{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"Trace","rt":$n[0].Void,"p":[$n[0].String,$n[13].Reference20Game.Piece]},{"a":2,"n":"TryActivate","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"TryActivate","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"TryCollectBear","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"TryCollectBear","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"TryGetValidMove","t":8,"pi":[{"n":"from","out":true,"pt":$n[5].Vector2Int,"ps":0},{"n":"to","out":true,"pt":$n[5].Vector2Int,"ps":1}],"sn":"TryGetValidMove","rt":$n[0].Boolean,"p":[$n[5].Vector2Int,$n[5].Vector2Int],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"TryMove","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"tx","pt":$n[0].Int32,"ps":2},{"n":"ty","pt":$n[0].Int32,"ps":3}],"sn":"TryMove","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Union","is":true,"t":8,"pi":[{"n":"result","pt":$n[2].List$1(Reference20.Reference20Game.Piece),"ps":0},{"n":"other","pt":$n[2].List$1(Reference20.Reference20Game.Piece),"ps":1}],"sn":"Union","rt":$n[0].Void,"p":[$n[2].List$1(Reference20.Reference20Game.Piece),$n[2].List$1(Reference20.Reference20Game.Piece)]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"Vacate","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Vacate","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"WaitFor","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"WaitFor","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"WaitReady","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"WaitReady","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"WaitingSourceAbove","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"WaitingSourceAbove","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"WarmNormalPool","t":8,"sn":"WarmNormalPool","rt":$n[0].Void},{"a":2,"n":"CanAcceptInput","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_CanAcceptInput","t":8,"rt":$n[0].Boolean,"fg":"CanAcceptInput","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"CanAcceptInput"},{"a":2,"n":"ClearedCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_ClearedCount","t":8,"rt":$n[0].Int32,"fg":"ClearedCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":1,"n":"set_ClearedCount","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"ClearedCount"},"fn":"ClearedCount"},{"a":2,"n":"IsBusy","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsBusy","t":8,"rt":$n[0].Boolean,"fg":"IsBusy","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":1,"n":"set_IsBusy","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsBusy"},"fn":"IsBusy"},{"a":2,"n":"IsFinished","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsFinished","t":8,"rt":$n[0].Boolean,"fg":"IsFinished","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":1,"n":"set_IsFinished","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsFinished"},"fn":"IsFinished"},{"a":2,"n":"MovesPlayed","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_MovesPlayed","t":8,"rt":$n[0].Int32,"fg":"MovesPlayed","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":1,"n":"set_MovesPlayed","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"MovesPlayed"},"fn":"MovesPlayed"},{"a":2,"n":"Phase","t":16,"rt":$n[13].Reference20Game.TurnPhase,"g":{"a":2,"n":"get_Phase","t":8,"rt":$n[13].Reference20Game.TurnPhase,"fg":"Phase","box":function ($v) { return Bridge.box($v, Reference20.Reference20Game.TurnPhase, System.Enum.toStringFn(Reference20.Reference20Game.TurnPhase));}},"s":{"a":1,"n":"set_Phase","t":8,"p":[$n[13].Reference20Game.TurnPhase],"rt":$n[0].Void,"fs":"Phase"},"fn":"Phase"},{"a":2,"n":"BearId","is":true,"t":4,"rt":$n[0].Int32,"sn":"BearId","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"Cell","is":true,"t":4,"rt":$n[0].Single,"sn":"Cell","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"FloodDirections","is":true,"t":4,"rt":System.Array.type(UnityEngine.Vector2Int),"sn":"FloodDirections","ro":true},{"a":2,"n":"InputEnabled","t":4,"rt":$n[0].Boolean,"sn":"InputEnabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"MoveDirections","is":true,"t":4,"rt":System.Array.type(UnityEngine.Vector2Int),"sn":"MoveDirections","ro":true},{"a":1,"n":"Neighbors","is":true,"t":4,"rt":System.Array.type(UnityEngine.Vector2Int),"sn":"Neighbors","ro":true},{"a":1,"n":"Signs","is":true,"t":4,"rt":$n[0].Array.type(System.Int32),"sn":"Signs","ro":true},{"a":1,"n":"SquareYSigns","is":true,"t":4,"rt":$n[0].Array.type(System.Int32),"sn":"SquareYSigns","ro":true},{"a":1,"n":"Tick","is":true,"t":4,"rt":$n[0].Single,"sn":"Tick","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"TraceEvent","t":4,"rt":Function,"sn":"TraceEvent"},{"a":1,"n":"accumulator","t":4,"rt":$n[0].Single,"sn":"accumulator","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"activeOperations","t":4,"rt":$n[0].Int32,"sn":"activeOperations","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"audioSource","t":4,"rt":$n[5].AudioSource,"sn":"audioSource"},{"a":1,"n":"availableFlightAudio","t":4,"rt":$n[2].Stack$1(UnityEngine.AudioSource),"sn":"availableFlightAudio","ro":true},{"a":1,"n":"beeTargets","t":4,"rt":$n[2].HashSet$1(UnityEngine.Vector2Int),"sn":"beeTargets","ro":true},{"a":1,"n":"boardEvents","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.BoardEvent),"sn":"boardEvents","ro":true},{"a":1,"n":"boardMoving","t":4,"rt":$n[0].Boolean,"sn":"boardMoving","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"cachedCells","t":4,"rt":$n[2].List$1(UnityEngine.Vector2Int),"sn":"cachedCells","ro":true},{"a":1,"n":"cellLocks","t":4,"rt":$n[0].Array.type(System.Int32, 2),"sn":"cellLocks","ro":true},{"a":1,"n":"cellOrigin","t":4,"rt":$n[5].Vector2,"sn":"cellOrigin"},{"a":1,"n":"chrome","t":4,"rt":$n[5].RectTransform,"sn":"chrome"},{"a":1,"n":"clock","t":4,"rt":$n[0].Single,"sn":"clock","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"comboCount","t":4,"rt":$n[0].Int32,"sn":"comboCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"companyLoading","t":4,"rt":$n[15].RuntimeLoadingScreen,"sn":"companyLoading"},{"a":1,"n":"composePool","t":4,"rt":$n[2].Stack$1(UnityEngine.RectTransform),"sn":"composePool","ro":true},{"a":1,"n":"emptyCells","t":4,"rt":$n[2].List$1(UnityEngine.Vector2Int),"sn":"emptyCells","ro":true},{"a":1,"n":"endPanel","t":4,"rt":$n[5].RectTransform,"sn":"endPanel"},{"a":1,"n":"entryReady","t":4,"rt":$n[0].Array.type(System.Single),"sn":"entryReady","ro":true},{"a":1,"n":"entryRows","t":4,"rt":$n[0].Array.type(System.Int32),"sn":"entryRows"},{"a":1,"n":"eventOrder","t":4,"rt":$n[0].Int64,"sn":"eventOrder"},{"a":1,"n":"fallWait","t":4,"rt":$n[2].Dictionary$2(System.Int32,System.Single),"sn":"fallWait","ro":true},{"a":1,"n":"fallingPauseCount","t":4,"rt":$n[0].Int32,"sn":"fallingPauseCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"flightAudio","t":4,"rt":$n[2].List$1(UnityEngine.AudioSource),"sn":"flightAudio","ro":true},{"a":1,"n":"font","t":4,"rt":$n[5].Font,"sn":"font"},{"a":1,"n":"grid","t":4,"rt":System.Array.type(Reference20.Reference20Game.Piece, 2),"sn":"grid"},{"a":1,"n":"guide","t":4,"rt":$n[5].RectTransform,"sn":"guide"},{"a":1,"n":"hintActive","t":4,"rt":$n[0].Boolean,"sn":"hintActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hintClips","t":4,"rt":$n[2].List$1(Reference20.Reference20CocosClip),"sn":"hintClips","ro":true},{"a":1,"n":"idleStart","t":4,"rt":$n[0].Single,"sn":"idleStart","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"landed","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"landed","ro":true},{"a":1,"n":"lastDropColor","t":4,"rt":$n[0].Array.type(System.Int32),"sn":"lastDropColor","ro":true},{"a":1,"n":"loadingUIActive","t":4,"rt":$n[0].Boolean,"sn":"loadingUIActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"magicFocus","t":4,"rt":$n[5].RectTransform,"sn":"magicFocus"},{"a":1,"n":"magicFocusLeases","t":4,"rt":$n[0].Int32,"sn":"magicFocusLeases","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"matchingPauseCount","t":4,"rt":$n[0].Int32,"sn":"matchingPauseCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxMoves","t":4,"rt":$n[0].Int32,"sn":"maxMoves","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"motionOrder","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"motionOrder","ro":true},{"a":1,"n":"normalPool","t":4,"rt":$n[2].Stack$1(UnityEngine.RectTransform),"sn":"normalPool","ro":true},{"a":1,"n":"normalSprites","t":4,"rt":$n[2].Dictionary$2(System.Int32,UnityEngine.Sprite),"sn":"normalSprites","ro":true},{"a":1,"n":"pendingCollections","t":4,"rt":$n[0].Int32,"sn":"pendingCollections","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"pendingFlights","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"pendingFlights","ro":true},{"a":1,"n":"pieces","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"pieces","ro":true},{"a":1,"n":"playable","t":4,"rt":$n[0].Array.type(System.Boolean, 2),"sn":"playable"},{"a":1,"n":"press","t":4,"rt":$n[5].Vector2,"sn":"press"},{"a":1,"n":"pullReady","t":4,"rt":$n[0].Array.type(System.Single, 2),"sn":"pullReady","ro":true},{"a":1,"n":"randomSeed","t":4,"rt":$n[0].Int32,"sn":"randomSeed","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"renderOrder","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"renderOrder","ro":true},{"a":1,"n":"resolving","t":4,"rt":$n[0].Boolean,"sn":"resolving","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"responsive","t":4,"rt":$n[13].Reference20ResponsiveLayout,"sn":"responsive"},{"a":1,"n":"selected","t":4,"rt":$n[13].Reference20Game.Piece,"sn":"selected"},{"a":1,"n":"settleRoutine","t":4,"rt":$n[5].Coroutine,"sn":"settleRoutine"},{"a":1,"n":"settlementPending","t":4,"rt":$n[0].Boolean,"sn":"settlementPending","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"sounds","t":4,"rt":$n[2].Dictionary$2(System.String,UnityEngine.AudioClip),"sn":"sounds","ro":true},{"a":2,"n":"stage","t":4,"rt":$n[5].RectTransform,"sn":"stage"},{"a":1,"n":"standbyCount","t":4,"rt":$n[0].Int32,"sn":"standbyCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"standbySource","t":4,"rt":$n[5].AudioSource,"sn":"standbySource"},{"a":1,"n":"startupBuild","t":4,"rt":$n[0].Boolean,"sn":"startupBuild","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"templateDownload","t":4,"rt":$n[16].GameManager,"sn":"templateDownload"},{"a":1,"backing":true,"n":"<ClearedCount>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"ClearedCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<IsBusy>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"IsBusy","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<IsFinished>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"IsFinished","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<MovesPlayed>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"MovesPlayed","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<Phase>k__BackingField","t":4,"rt":$n[13].Reference20Game.TurnPhase,"sn":"Phase","box":function ($v) { return Bridge.box($v, Reference20.Reference20Game.TurnPhase, System.Enum.toStringFn(Reference20.Reference20Game.TurnPhase));}}]}; }, $n);
+    $m("Reference20.Reference20Game", function () { return {"nested":[$n[13].Reference20Game.TurnPhase,$n[13].Reference20Game.Piece,$n[13].Reference20Game.MatchGroup,$n[13].Reference20Game.BoardEvent,$n[13].Reference20Game.SourceTopology,$n[13].Reference20Game.SourceTile,$n[13].Reference20Game.HintMove],"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Activate","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"color","pt":$n[0].Int32,"ps":1}],"sn":"Activate","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].Int32]},{"a":1,"n":"AddPicture","t":8,"pi":[{"n":"p","pt":$n[13].Picture,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1}],"sn":"AddPicture","rt":$n[5].RectTransform,"p":[$n[13].Picture,$n[5].Transform]},{"a":1,"n":"AdvanceRuntime","t":8,"pi":[{"n":"dt","pt":$n[0].Single,"ps":0}],"sn":"AdvanceRuntime","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"After","t":8,"pi":[{"n":"seconds","pt":$n[0].Single,"ps":0},{"n":"action","pt":Function,"ps":1}],"sn":"After","rt":$n[0].Void,"p":[$n[0].Single,Function]},{"a":1,"n":"ApplyMatches","t":8,"pi":[{"n":"groups","pt":$n[2].List$1(Reference20.Reference20Game.MatchGroup),"ps":0}],"sn":"ApplyMatches","rt":$n[0].Void,"p":[$n[2].List$1(Reference20.Reference20Game.MatchGroup)]},{"a":1,"n":"ApplySourceTopology","t":8,"sn":"ApplySourceTopology","rt":$n[0].Void},{"a":1,"n":"AtPoint","t":8,"pi":[{"n":"point","pt":$n[5].Vector2,"ps":0}],"sn":"AtPoint","rt":$n[13].Reference20Game.Piece,"p":[$n[5].Vector2]},{"a":1,"n":"Bee","t":8,"pi":[{"n":"from","pt":$n[5].Vector2,"ps":0},{"n":"payload","dv":0,"o":true,"pt":$n[0].Int32,"ps":1},{"n":"ordinal","dv":0,"o":true,"pt":$n[0].Int32,"ps":2},{"n":"combination","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"targetCross","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"payloadOffset","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":5}],"sn":"Bee","rt":$n[0].Void,"p":[$n[5].Vector2,$n[0].Int32,$n[0].Int32,$n[0].Boolean,$n[0].Boolean,$n[0].Nullable$1(UnityEngine.Vector2)]},{"a":1,"n":"BeeLaunch","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"position","pt":$n[5].Vector2,"ps":2},{"n":"payload","dv":0,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"count","dv":1,"o":true,"pt":$n[0].Int32,"ps":4},{"n":"combination","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"payloadOffset","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":6}],"sn":"BeeLaunch","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[5].Vector2,$n[0].Int32,$n[0].Int32,$n[0].Boolean,$n[0].Nullable$1(UnityEngine.Vector2)]},{"a":1,"n":"BeeTarget","t":8,"sn":"BeeTarget","rt":$n[0].Nullable$1(UnityEngine.Vector2Int)},{"a":1,"n":"BeginColorFocus","t":8,"sn":"BeginColorFocus","rt":$n[0].Void},{"a":1,"n":"BeginFlightSound","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"BeginFlightSound","rt":$n[5].AudioSource,"p":[$n[0].String]},{"a":1,"n":"BeginStandby","t":8,"sn":"BeginStandby","rt":$n[0].Void},{"a":1,"n":"BirdDestination","t":8,"pi":[{"n":"cell","pt":$n[5].Vector2Int,"ps":0}],"sn":"BirdDestination","rt":$n[13].Reference20Game.Piece,"p":[$n[5].Vector2Int]},{"a":1,"n":"BirdTarget","t":8,"pi":[{"n":"origin","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"BirdTarget","rt":$n[0].Nullable$1(UnityEngine.Vector2Int),"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"Bomb","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"radius","dv":1,"o":true,"pt":$n[0].Int32,"ps":2},{"n":"wait","dv":-1.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"Bomb","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Single]},{"a":1,"n":"Box","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1},{"n":"pos","pt":$n[5].Vector2,"ps":2},{"n":"size","pt":$n[5].Vector2,"ps":3},{"n":"color","pt":$n[5].Color,"ps":4}],"sn":"Box","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].Transform,$n[5].Vector2,$n[5].Vector2,$n[5].Color]},{"a":2,"n":"Build","t":8,"sn":"Build","rt":$n[0].Void},{"a":1,"n":"BuildChrome","t":8,"sn":"BuildChrome","rt":$n[0].Void},{"a":1,"n":"BuildGuide","t":8,"sn":"BuildGuide","rt":$n[0].Void},{"a":1,"n":"CanFillVacancy","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"CanFillVacancy","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CanManipulate","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"CanManipulate","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CanPlace","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"x","pt":$n[0].Int32,"ps":1},{"n":"y","pt":$n[0].Int32,"ps":2}],"sn":"CanPlace","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece,$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CellKey","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"CellKey","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"CellPosition","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"CellPosition","rt":$n[5].Vector2,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"ChooseRefill","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"ChooseRefill","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"ClearChrome","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"ClearChrome","rt":$n[0].Void,"p":[$n[0].String]},{"a":1,"n":"ClearNormal","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"particles","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"ClearNormal","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].Boolean]},{"a":1,"n":"CollectCabinetCans","t":8,"pi":[{"n":"cabinet","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"CollectCabinetCans","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"ColorBlast","t":8,"pi":[{"n":"position","pt":$n[5].Vector2,"ps":0},{"n":"color","pt":$n[0].Int32,"ps":1},{"n":"payload","pt":$n[0].Int32,"ps":2},{"n":"source","dv":null,"o":true,"pt":$n[13].Reference20Game.Piece,"ps":3},{"n":"companion","dv":null,"o":true,"pt":$n[13].Reference20Game.Piece,"ps":4},{"n":"swapOrigin","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"ColorBlast","rt":$n[0].Void,"p":[$n[5].Vector2,$n[0].Int32,$n[0].Int32,$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece,$n[0].Boolean]},{"a":1,"n":"Combine","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"Combine","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"CompanyEndArtwork","t":8,"pi":[{"n":"parent","pt":$n[5].RectTransform,"ps":0},{"n":"won","pt":$n[0].Boolean,"ps":1}],"sn":"CompanyEndArtwork","rt":$n[5].RectTransform,"p":[$n[5].RectTransform,$n[0].Boolean]},{"a":1,"n":"CompleteTurn","t":8,"sn":"CompleteTurn","rt":$n[14].IEnumerator},{"a":1,"n":"ComposeTile","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"ComposeTile","rt":$n[5].RectTransform,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"Configure2DAudio","is":true,"t":8,"pi":[{"n":"source","pt":$n[5].AudioSource,"ps":0}],"sn":"Configure2DAudio","rt":$n[0].Void,"p":[$n[5].AudioSource]},{"a":1,"n":"ConnectedAbove","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"ConnectedAbove","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"ContinueFall","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"ContinueFall","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"CreateBear","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"CreateBear","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"CreateCompanyNode","t":8,"pi":[{"n":"node","pt":$n[13].CompanyNode,"ps":0},{"n":"parent","pt":$n[5].RectTransform,"ps":1}],"sn":"CreateCompanyNode","rt":$n[5].RectTransform,"p":[$n[13].CompanyNode,$n[5].RectTransform]},{"a":1,"n":"CreateNormal","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"id","pt":$n[0].Int32,"ps":2},{"n":"trace","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"CreateNormal","rt":$n[13].Reference20Game.Piece,"p":[$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Boolean]},{"a":1,"n":"Damage","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"hit","pt":$n[2].HashSet$1(Reference20.Reference20Game.Piece),"ps":1},{"n":"hitX","dv":-1,"o":true,"pt":$n[0].Int32,"ps":2},{"n":"hitY","dv":-1,"o":true,"pt":$n[0].Int32,"ps":3}],"sn":"Damage","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[2].HashSet$1(Reference20.Reference20Game.Piece),$n[0].Int32,$n[0].Int32]},{"a":1,"n":"DoubleColor","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1},{"n":"position","pt":$n[5].Vector2,"ps":2}],"sn":"DoubleColor","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece,$n[5].Vector2]},{"a":2,"n":"Download","t":8,"sn":"Download","rt":$n[0].Void},{"a":1,"n":"DragSelected","t":8,"pi":[{"n":"point","pt":$n[5].Vector2,"ps":0}],"sn":"DragSelected","rt":$n[0].Boolean,"p":[$n[5].Vector2],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"EndColorFocus","t":8,"sn":"EndColorFocus","rt":$n[0].Void},{"a":1,"n":"EndFlightSound","t":8,"pi":[{"n":"source","pt":$n[5].AudioSource,"ps":0}],"sn":"EndFlightSound","rt":$n[0].Void,"p":[$n[5].AudioSource]},{"a":1,"n":"EndStandby","t":8,"sn":"EndStandby","rt":$n[0].Void},{"a":1,"n":"EnsureAudio","t":8,"sn":"EnsureAudio","rt":$n[0].Void},{"a":1,"n":"EnsureResolution","t":8,"sn":"EnsureResolution","rt":$n[0].Void},{"a":1,"n":"Erase","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Erase","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"EventBefore","is":true,"t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.BoardEvent,"ps":0},{"n":"b","pt":$n[13].Reference20Game.BoardEvent,"ps":1}],"sn":"EventBefore","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.BoardEvent,$n[13].Reference20Game.BoardEvent],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"FindGroups","t":8,"pi":[{"n":"first","dv":null,"o":true,"pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"second","dv":null,"o":true,"pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"FindGroups","rt":$n[2].List$1(Reference20.Reference20Game.MatchGroup),"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"FindHintMove","t":8,"pi":[{"n":"random","pt":$n[0].Boolean,"ps":0}],"sn":"FindHintMove","rt":$n[13].Reference20Game.HintMove,"p":[$n[0].Boolean]},{"a":1,"n":"Flood","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"result","pt":$n[2].List$1(Reference20.Reference20Game.Piece),"ps":1}],"sn":"Flood","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[2].List$1(Reference20.Reference20Game.Piece)]},{"a":1,"n":"Free","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"x","pt":$n[0].Int32,"ps":1},{"n":"y","pt":$n[0].Int32,"ps":2}],"sn":"Free","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece,$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Hint","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"name","dv":"match_tip","o":true,"pt":$n[0].String,"ps":1}],"sn":"Hint","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].String]},{"a":1,"n":"HintPowerPriority","is":true,"t":8,"pi":[{"n":"a","pt":$n[0].Int32,"ps":0},{"n":"b","pt":$n[0].Int32,"ps":1}],"sn":"HintPowerPriority","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"HintSkillPriority","is":true,"t":8,"pi":[{"n":"skill","pt":$n[0].Int32,"ps":0}],"sn":"HintSkillPriority","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"HitCell","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"damaged","pt":$n[2].HashSet$1(Reference20.Reference20Game.Piece),"ps":2}],"sn":"HitCell","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[2].HashSet$1(Reference20.Reference20Game.Piece)]},{"a":1,"n":"HoldForExchange","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"HoldForExchange","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"IdleFeedback","t":8,"sn":"IdleFeedback","rt":$n[0].Void},{"a":1,"n":"Inside","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"Inside","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Label","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1},{"n":"value","pt":$n[0].String,"ps":2},{"n":"pos","pt":$n[5].Vector2,"ps":3},{"n":"size","pt":$n[5].Vector2,"ps":4},{"n":"fontSize","pt":$n[0].Int32,"ps":5}],"sn":"Label","rt":$n[7].Text,"p":[$n[0].String,$n[5].Transform,$n[0].String,$n[5].Vector2,$n[5].Vector2,$n[0].Int32]},{"a":1,"n":"LaunchPeacock","t":8,"pi":[{"n":"source","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"LaunchPeacock","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"Line","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"horizontal","pt":$n[0].Boolean,"ps":2},{"n":"damaged","dv":null,"o":true,"pt":$n[2].HashSet$1(Reference20.Reference20Game.Piece),"ps":3},{"n":"endpoint1","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":4},{"n":"endpoint2","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":5},{"n":"instant","dv":false,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"Line","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32,$n[0].Boolean,$n[2].HashSet$1(Reference20.Reference20Game.Piece),$n[0].Nullable$1(UnityEngine.Vector2),$n[0].Nullable$1(UnityEngine.Vector2),$n[0].Boolean]},{"a":1,"n":"LockCells","t":8,"pi":[{"n":"cells","pt":$n[2].List$1(UnityEngine.Vector2Int),"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1}],"sn":"LockCells","rt":$n[0].Void,"p":[$n[2].List$1(UnityEngine.Vector2Int),$n[0].Single]},{"a":1,"n":"Matchable","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Matchable","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"MatchingFallPending","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"MatchingFallPending","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"PopEvent","t":8,"sn":"PopEvent","rt":$n[13].Reference20Game.BoardEvent},{"a":1,"n":"Position","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Position","rt":$n[5].Vector2,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"PowerTurn","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"PowerTurn","rt":$n[14].IEnumerator,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"PreviousSource","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"PreviousSource","rt":$n[13].Reference20Game.Piece,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"PushEmpty","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"PushEmpty","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"Put","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Put","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"QueueMissedVacancies","t":8,"sn":"QueueMissedVacancies","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"RandomRange","t":8,"pi":[{"n":"min","pt":$n[0].Int32,"ps":0},{"n":"max","pt":$n[0].Int32,"ps":1}],"sn":"RandomRange","rt":$n[0].Int32,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"Rank","is":true,"t":8,"pi":[{"n":"skill","pt":$n[0].Int32,"ps":0}],"sn":"Rank","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"RecycleNormal","t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0}],"sn":"RecycleNormal","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":1,"n":"Reindex","t":8,"sn":"Reindex","rt":$n[0].Void},{"a":1,"n":"Release","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Release","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"ReleaseBirdTarget","t":8,"pi":[{"n":"cell","pt":$n[5].Vector2Int,"ps":0}],"sn":"ReleaseBirdTarget","rt":$n[0].Void,"p":[$n[5].Vector2Int]},{"a":1,"n":"ReleaseExchange","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"ReleaseExchange","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"RemoveGuide","t":8,"sn":"RemoveGuide","rt":$n[0].Void},{"a":1,"n":"ReplaceBasic","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"id","pt":$n[0].Int32,"ps":1}],"sn":"ReplaceBasic","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].Int32]},{"a":1,"n":"ReplaceWithChick","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"data","pt":$n[6].SkeletonDataAsset,"ps":1},{"n":"skin","pt":$n[0].String,"ps":2}],"sn":"ReplaceWithChick","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[6].SkeletonDataAsset,$n[0].String]},{"a":1,"n":"ReserveMove","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"x","pt":$n[0].Int32,"ps":1},{"n":"y","pt":$n[0].Int32,"ps":2}],"sn":"ReserveMove","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[0].Int32,$n[0].Int32]},{"a":1,"n":"ResetRuntime","t":8,"sn":"ResetRuntime","rt":$n[0].Void},{"a":1,"n":"ResolveCombo","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"ResolveCombo","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"ResolveUntilStable","t":8,"sn":"ResolveUntilStable","rt":$n[14].IEnumerator},{"a":1,"n":"ReturnCompose","t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0}],"sn":"ReturnCompose","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":1,"n":"Run","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"vertical","pt":$n[0].Boolean,"ps":1}],"sn":"Run","rt":$n[2].List$1(Reference20.Reference20Game.Piece),"p":[$n[13].Reference20Game.Piece,$n[0].Boolean]},{"a":1,"n":"Same","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"id","pt":$n[0].Int32,"ps":2}],"sn":"Same","rt":$n[13].Reference20Game.Piece,"p":[$n[0].Int32,$n[0].Int32,$n[0].Int32]},{"a":1,"n":"SettleBoard","t":8,"sn":"SettleBoard","rt":$n[14].IEnumerator},{"a":1,"n":"ShowCompanyLoading","t":8,"sn":"ShowCompanyLoading","rt":$n[14].IEnumerator},{"a":2,"n":"ShowEnd","t":8,"pi":[{"n":"won","dv":true,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"ShowEnd","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"SlantInto","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"SlantInto","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Sound","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"volume","dv":0.8,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"Sound","rt":$n[0].Void,"p":[$n[0].String,$n[0].Single]},{"a":1,"n":"Square","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Square","rt":$n[2].List$1(Reference20.Reference20Game.Piece),"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[14].IEnumerator},{"a":1,"n":"StartCornCycle","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"StartCornCycle","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"StartFromVacancy","t":8,"pi":[{"n":"cell","pt":$n[5].Vector2Int,"ps":0}],"sn":"StartFromVacancy","rt":$n[0].Void,"p":[$n[5].Vector2Int]},{"a":1,"n":"StopHints","t":8,"sn":"StopHints","rt":$n[0].Void},{"a":1,"n":"Swap","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"Swap","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"SwapTurn","t":8,"pi":[{"n":"a","pt":$n[13].Reference20Game.Piece,"ps":0},{"n":"b","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"SwapTurn","rt":$n[14].IEnumerator,"p":[$n[13].Reference20Game.Piece,$n[13].Reference20Game.Piece]},{"a":1,"n":"TickGravity","t":8,"pi":[{"n":"dt","pt":$n[0].Single,"ps":0}],"sn":"TickGravity","rt":$n[0].Void,"p":[$n[0].Single]},{"a":1,"n":"Trace","t":8,"pi":[{"n":"kind","pt":$n[0].String,"ps":0},{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":1}],"sn":"Trace","rt":$n[0].Void,"p":[$n[0].String,$n[13].Reference20Game.Piece]},{"a":2,"n":"TryActivate","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"TryActivate","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"TryCollectBear","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"TryCollectBear","rt":$n[0].Boolean,"p":[$n[13].Reference20Game.Piece],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"TryGetValidMove","t":8,"pi":[{"n":"from","out":true,"pt":$n[5].Vector2Int,"ps":0},{"n":"to","out":true,"pt":$n[5].Vector2Int,"ps":1}],"sn":"TryGetValidMove","rt":$n[0].Boolean,"p":[$n[5].Vector2Int,$n[5].Vector2Int],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"TryMove","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1},{"n":"tx","pt":$n[0].Int32,"ps":2},{"n":"ty","pt":$n[0].Int32,"ps":3}],"sn":"TryMove","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"TryPointerPosition","t":8,"pi":[{"n":"point","out":true,"pt":$n[5].Vector2,"ps":0}],"sn":"TryPointerPosition","rt":$n[0].Boolean,"p":[$n[5].Vector2],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Union","is":true,"t":8,"pi":[{"n":"result","pt":$n[2].List$1(Reference20.Reference20Game.Piece),"ps":0},{"n":"other","pt":$n[2].List$1(Reference20.Reference20Game.Piece),"ps":1}],"sn":"Union","rt":$n[0].Void,"p":[$n[2].List$1(Reference20.Reference20Game.Piece),$n[2].List$1(Reference20.Reference20Game.Piece)]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"Vacate","t":8,"pi":[{"n":"p","pt":$n[13].Reference20Game.Piece,"ps":0}],"sn":"Vacate","rt":$n[0].Void,"p":[$n[13].Reference20Game.Piece]},{"a":1,"n":"WaitFor","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"WaitFor","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"WaitReady","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"WaitReady","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"WaitingSourceAbove","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"WaitingSourceAbove","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"WarmNormalPool","t":8,"sn":"WarmNormalPool","rt":$n[0].Void},{"a":2,"n":"CanAcceptInput","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_CanAcceptInput","t":8,"rt":$n[0].Boolean,"fg":"CanAcceptInput","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"CanAcceptInput"},{"a":2,"n":"ClearedCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_ClearedCount","t":8,"rt":$n[0].Int32,"fg":"ClearedCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":1,"n":"set_ClearedCount","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"ClearedCount"},"fn":"ClearedCount"},{"a":2,"n":"IsBusy","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsBusy","t":8,"rt":$n[0].Boolean,"fg":"IsBusy","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":1,"n":"set_IsBusy","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsBusy"},"fn":"IsBusy"},{"a":2,"n":"IsFinished","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsFinished","t":8,"rt":$n[0].Boolean,"fg":"IsFinished","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":1,"n":"set_IsFinished","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"IsFinished"},"fn":"IsFinished"},{"a":2,"n":"MovesPlayed","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_MovesPlayed","t":8,"rt":$n[0].Int32,"fg":"MovesPlayed","box":function ($v) { return Bridge.box($v, System.Int32);}},"s":{"a":1,"n":"set_MovesPlayed","t":8,"p":[$n[0].Int32],"rt":$n[0].Void,"fs":"MovesPlayed"},"fn":"MovesPlayed"},{"a":2,"n":"Phase","t":16,"rt":$n[13].Reference20Game.TurnPhase,"g":{"a":2,"n":"get_Phase","t":8,"rt":$n[13].Reference20Game.TurnPhase,"fg":"Phase","box":function ($v) { return Bridge.box($v, Reference20.Reference20Game.TurnPhase, System.Enum.toStringFn(Reference20.Reference20Game.TurnPhase));}},"s":{"a":1,"n":"set_Phase","t":8,"p":[$n[13].Reference20Game.TurnPhase],"rt":$n[0].Void,"fs":"Phase"},"fn":"Phase"},{"a":2,"n":"BearId","is":true,"t":4,"rt":$n[0].Int32,"sn":"BearId","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"Cell","is":true,"t":4,"rt":$n[0].Single,"sn":"Cell","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"FloodDirections","is":true,"t":4,"rt":System.Array.type(UnityEngine.Vector2Int),"sn":"FloodDirections","ro":true},{"a":2,"n":"InputEnabled","t":4,"rt":$n[0].Boolean,"sn":"InputEnabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"MoveDirections","is":true,"t":4,"rt":System.Array.type(UnityEngine.Vector2Int),"sn":"MoveDirections","ro":true},{"a":1,"n":"Neighbors","is":true,"t":4,"rt":System.Array.type(UnityEngine.Vector2Int),"sn":"Neighbors","ro":true},{"a":1,"n":"Signs","is":true,"t":4,"rt":$n[0].Array.type(System.Int32),"sn":"Signs","ro":true},{"a":1,"n":"SquareYSigns","is":true,"t":4,"rt":$n[0].Array.type(System.Int32),"sn":"SquareYSigns","ro":true},{"a":1,"n":"Tick","is":true,"t":4,"rt":$n[0].Single,"sn":"Tick","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"TraceEvent","t":4,"rt":Function,"sn":"TraceEvent"},{"a":1,"n":"accumulator","t":4,"rt":$n[0].Single,"sn":"accumulator","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"activeOperations","t":4,"rt":$n[0].Int32,"sn":"activeOperations","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"audioSource","t":4,"rt":$n[5].AudioSource,"sn":"audioSource"},{"a":1,"n":"availableFlightAudio","t":4,"rt":$n[2].Stack$1(UnityEngine.AudioSource),"sn":"availableFlightAudio","ro":true},{"a":1,"n":"beeTargets","t":4,"rt":$n[2].HashSet$1(UnityEngine.Vector2Int),"sn":"beeTargets","ro":true},{"a":1,"n":"boardEvents","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.BoardEvent),"sn":"boardEvents","ro":true},{"a":1,"n":"boardMoving","t":4,"rt":$n[0].Boolean,"sn":"boardMoving","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"cachedCells","t":4,"rt":$n[2].List$1(UnityEngine.Vector2Int),"sn":"cachedCells","ro":true},{"a":1,"n":"cellLocks","t":4,"rt":$n[0].Array.type(System.Int32, 2),"sn":"cellLocks","ro":true},{"a":1,"n":"cellOrigin","t":4,"rt":$n[5].Vector2,"sn":"cellOrigin"},{"a":1,"n":"chrome","t":4,"rt":$n[5].RectTransform,"sn":"chrome"},{"a":1,"n":"clock","t":4,"rt":$n[0].Single,"sn":"clock","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"comboCount","t":4,"rt":$n[0].Int32,"sn":"comboCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"companyLoading","t":4,"rt":$n[15].RuntimeLoadingScreen,"sn":"companyLoading"},{"a":1,"n":"composePool","t":4,"rt":$n[2].Stack$1(UnityEngine.RectTransform),"sn":"composePool","ro":true},{"a":1,"n":"emptyCells","t":4,"rt":$n[2].List$1(UnityEngine.Vector2Int),"sn":"emptyCells","ro":true},{"a":1,"n":"endPanel","t":4,"rt":$n[5].RectTransform,"sn":"endPanel"},{"a":1,"n":"entryReady","t":4,"rt":$n[0].Array.type(System.Single),"sn":"entryReady","ro":true},{"a":1,"n":"entryRows","t":4,"rt":$n[0].Array.type(System.Int32),"sn":"entryRows"},{"a":1,"n":"eventOrder","t":4,"rt":$n[0].Int64,"sn":"eventOrder"},{"a":1,"n":"fallWait","t":4,"rt":$n[2].Dictionary$2(System.Int32,System.Single),"sn":"fallWait","ro":true},{"a":1,"n":"fallingPauseCount","t":4,"rt":$n[0].Int32,"sn":"fallingPauseCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"flightAudio","t":4,"rt":$n[2].List$1(UnityEngine.AudioSource),"sn":"flightAudio","ro":true},{"a":1,"n":"font","t":4,"rt":$n[5].Font,"sn":"font"},{"a":1,"n":"grid","t":4,"rt":System.Array.type(Reference20.Reference20Game.Piece, 2),"sn":"grid"},{"a":1,"n":"guide","t":4,"rt":$n[5].RectTransform,"sn":"guide"},{"a":1,"n":"hintActive","t":4,"rt":$n[0].Boolean,"sn":"hintActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hintClips","t":4,"rt":$n[2].List$1(Reference20.Reference20CocosClip),"sn":"hintClips","ro":true},{"a":1,"n":"idleStart","t":4,"rt":$n[0].Single,"sn":"idleStart","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"landed","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"landed","ro":true},{"a":1,"n":"lastDropColor","t":4,"rt":$n[0].Array.type(System.Int32),"sn":"lastDropColor","ro":true},{"a":1,"n":"loadingUIActive","t":4,"rt":$n[0].Boolean,"sn":"loadingUIActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"magicFocus","t":4,"rt":$n[5].RectTransform,"sn":"magicFocus"},{"a":1,"n":"magicFocusLeases","t":4,"rt":$n[0].Int32,"sn":"magicFocusLeases","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"matchingPauseCount","t":4,"rt":$n[0].Int32,"sn":"matchingPauseCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"maxMoves","t":4,"rt":$n[0].Int32,"sn":"maxMoves","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"motionOrder","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"motionOrder","ro":true},{"a":1,"n":"normalPool","t":4,"rt":$n[2].Stack$1(UnityEngine.RectTransform),"sn":"normalPool","ro":true},{"a":1,"n":"normalSprites","t":4,"rt":$n[2].Dictionary$2(System.Int32,UnityEngine.Sprite),"sn":"normalSprites","ro":true},{"a":1,"n":"pendingCollections","t":4,"rt":$n[0].Int32,"sn":"pendingCollections","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"pendingFlights","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"pendingFlights","ro":true},{"a":1,"n":"pieces","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"pieces","ro":true},{"a":1,"n":"playable","t":4,"rt":$n[0].Array.type(System.Boolean, 2),"sn":"playable"},{"a":1,"n":"press","t":4,"rt":$n[5].Vector2,"sn":"press"},{"a":1,"n":"pullReady","t":4,"rt":$n[0].Array.type(System.Single, 2),"sn":"pullReady","ro":true},{"a":1,"n":"randomSeed","t":4,"rt":$n[0].Int32,"sn":"randomSeed","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"renderOrder","t":4,"rt":$n[2].List$1(Reference20.Reference20Game.Piece),"sn":"renderOrder","ro":true},{"a":1,"n":"resolving","t":4,"rt":$n[0].Boolean,"sn":"resolving","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"responsive","t":4,"rt":$n[13].Reference20ResponsiveLayout,"sn":"responsive"},{"a":1,"n":"selected","t":4,"rt":$n[13].Reference20Game.Piece,"sn":"selected"},{"a":1,"n":"settleRoutine","t":4,"rt":$n[5].Coroutine,"sn":"settleRoutine"},{"a":1,"n":"settlementPending","t":4,"rt":$n[0].Boolean,"sn":"settlementPending","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"sounds","t":4,"rt":$n[2].Dictionary$2(System.String,UnityEngine.AudioClip),"sn":"sounds","ro":true},{"a":2,"n":"stage","t":4,"rt":$n[5].RectTransform,"sn":"stage"},{"a":1,"n":"standbyCount","t":4,"rt":$n[0].Int32,"sn":"standbyCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"standbySource","t":4,"rt":$n[5].AudioSource,"sn":"standbySource"},{"a":1,"n":"startupBuild","t":4,"rt":$n[0].Boolean,"sn":"startupBuild","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"templateDownload","t":4,"rt":$n[16].GameManager,"sn":"templateDownload"},{"a":1,"backing":true,"n":"<ClearedCount>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"ClearedCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<IsBusy>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"IsBusy","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<IsFinished>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"IsFinished","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<MovesPlayed>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"MovesPlayed","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<Phase>k__BackingField","t":4,"rt":$n[13].Reference20Game.TurnPhase,"sn":"Phase","box":function ($v) { return Bridge.box($v, Reference20.Reference20Game.TurnPhase, System.Enum.toStringFn(Reference20.Reference20Game.TurnPhase));}}]}; }, $n);
     /*Reference20.Reference20Game end.*/
 
     /*Reference20.Reference20Game+TurnPhase start.*/
@@ -57220,15 +57637,15 @@ if ( TRACE ) { TRACE( "Spine.ShearTimeline#Apply", this ); }
     /*Reference20.Reference20Game+HintMove end.*/
 
     /*Reference20.Reference20GuideShade start.*/
-    $m("Reference20.Reference20GuideShade", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":1,"n":"Quad","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0},{"n":"x0","pt":$n[0].Single,"ps":1},{"n":"y0","pt":$n[0].Single,"ps":2},{"n":"x1","pt":$n[0].Single,"ps":3},{"n":"y1","pt":$n[0].Single,"ps":4}],"sn":"Quad","rt":$n[0].Void,"p":[$n[7].VertexHelper,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Single]},{"a":1,"n":"lastScale","t":4,"rt":$n[5].Vector3,"sn":"lastScale"},{"a":1,"n":"lastSize","t":4,"rt":$n[5].Vector2,"sn":"lastSize"}]}; }, $n);
+    $m("Reference20.Reference20GuideShade", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute()],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":1,"n":"Quad","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0},{"n":"x0","pt":$n[0].Single,"ps":1},{"n":"y0","pt":$n[0].Single,"ps":2},{"n":"x1","pt":$n[0].Single,"ps":3},{"n":"y1","pt":$n[0].Single,"ps":4}],"sn":"Quad","rt":$n[0].Void,"p":[$n[7].VertexHelper,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Single]},{"a":1,"n":"lastScale","t":4,"rt":$n[5].Vector3,"sn":"lastScale"},{"a":1,"n":"lastSize","t":4,"rt":$n[5].Vector2,"sn":"lastSize"}]}; }, $n);
     /*Reference20.Reference20GuideShade end.*/
 
     /*Reference20.Reference20Native start.*/
-    $m("Reference20.Reference20Native", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Animate","t":8,"pi":[{"n":"skeleton","pt":$n[6].SkeletonGraphic,"ps":0},{"n":"animation","pt":$n[0].String,"ps":1},{"n":"loop","pt":$n[0].Boolean,"ps":2}],"sn":"Animate","rt":$n[0].Void,"p":[$n[6].SkeletonGraphic,$n[0].String,$n[0].Boolean]},{"a":2,"n":"AnimateDamage","t":8,"pi":[{"n":"before","pt":$n[0].Int32,"ps":0},{"n":"after","pt":$n[0].Int32,"ps":1}],"sn":"AnimateDamage","rt":$n[0].Single,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"ApplyIdlePose","t":8,"sn":"ApplyIdlePose","rt":$n[0].Void},{"a":2,"n":"ApplySpriteFrame","is":true,"t":8,"pi":[{"n":"image","pt":$n[7].Image,"ps":0},{"n":"sprite","pt":$n[5].Sprite,"ps":1}],"sn":"ApplySpriteFrame","rt":$n[0].Void,"p":[$n[7].Image,$n[5].Sprite]},{"a":2,"n":"BaseBurst","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"position","pt":$n[5].Vector2,"ps":1},{"n":"color","pt":$n[0].Int32,"ps":2}],"sn":"BaseBurst","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[0].Int32]},{"a":1,"n":"BasicFragments","is":true,"t":8,"pi":[{"n":"color","pt":$n[0].Int32,"ps":0}],"sn":"BasicFragments","rt":System.Array.type(UnityEngine.Sprite),"p":[$n[0].Int32]},{"a":2,"n":"BeeFlight","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"to","pt":$n[5].Vector2,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"payload","dv":0,"o":true,"pt":$n[0].Int32,"ps":4},{"n":"reverse","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"payloadOffset","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":6}],"sn":"BeeFlight","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2,$n[0].Single,$n[0].Int32,$n[0].Boolean,$n[0].Nullable$1(UnityEngine.Vector2)]},{"a":1,"n":"Blend","is":true,"t":8,"pi":[{"n":"value","pt":$n[0].Int32,"ps":0}],"sn":"Blend","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"CocosScale","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"CocosScale","rt":$n[0].Single,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"CollectionLayer","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"CollectionLayer","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":2,"n":"ColorBeam","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"to","pt":$n[5].Vector2,"ps":2},{"n":"delay","pt":$n[0].Single,"ps":3}],"sn":"ColorBeam","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2,$n[0].Single]},{"a":2,"n":"Configure","t":8,"pi":[{"n":"type","pt":$n[0].Int32,"ps":0},{"n":"hp","pt":$n[0].Int32,"ps":1}],"sn":"Configure","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"CornEffect","t":8,"pi":[{"n":"active","pt":$n[0].Boolean,"ps":0}],"sn":"CornEffect","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"CubicFlight","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"startHandle","pt":$n[5].Vector2,"ps":2},{"n":"endHandle","pt":$n[5].Vector2,"ps":3},{"n":"to","pt":$n[5].Vector2,"ps":4},{"n":"duration","pt":$n[0].Single,"ps":5}],"sn":"CubicFlight","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2,$n[5].Vector2,$n[5].Vector2,$n[0].Single]},{"a":2,"n":"DamageDuration","t":8,"pi":[{"n":"before","pt":$n[0].Int32,"ps":0},{"n":"after","pt":$n[0].Int32,"ps":1}],"sn":"DamageDuration","rt":$n[0].Single,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"DamageSequence","t":8,"pi":[{"n":"before","pt":$n[0].Int32,"ps":0},{"n":"after","pt":$n[0].Int32,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"revision","pt":$n[0].Int32,"ps":3}],"sn":"DamageSequence","rt":$n[14].IEnumerator,"p":[$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Int32]},{"a":1,"n":"Detach","t":8,"pi":[{"n":"skeleton","pt":$n[6].SkeletonGraphic,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1},{"n":"animation","pt":$n[0].String,"ps":2}],"sn":"Detach","rt":$n[5].RectTransform,"p":[$n[6].SkeletonGraphic,$n[5].RectTransform,$n[0].String]},{"a":2,"n":"DetachCornHead","t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"DetachCornHead","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":2,"n":"DetachNestChick","t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"DetachNestChick","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":2,"n":"DownloadArtwork","is":true,"t":8,"pi":[{"n":"parent","pt":$n[5].RectTransform,"ps":0}],"sn":"DownloadArtwork","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":2,"n":"Eat","t":8,"pi":[{"n":"remaining","pt":$n[0].Int32,"ps":0}],"sn":"Eat","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"EatSequence","t":8,"pi":[{"n":"revision","pt":$n[0].Int32,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1}],"sn":"EatSequence","rt":$n[14].IEnumerator,"p":[$n[0].Int32,$n[0].Single]},{"a":2,"n":"Effect","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1},{"n":"position","pt":$n[5].Vector2,"ps":2},{"n":"scale","dv":0.8875,"o":true,"pt":$n[0].Single,"ps":3},{"n":"lifetime","dv":-1.0,"o":true,"pt":$n[0].Single,"ps":4}],"sn":"Effect","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].RectTransform,$n[5].Vector2,$n[0].Single,$n[0].Single]},{"a":2,"n":"FinishEffect","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0}],"sn":"FinishEffect","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":2,"n":"Fly","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"to","pt":$n[5].Vector2,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"Fly","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2,$n[0].Single]},{"a":2,"n":"GuideHand","is":true,"t":8,"pi":[{"n":"parent","pt":$n[5].RectTransform,"ps":0}],"sn":"GuideHand","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":1,"n":"Hatch","t":8,"pi":[{"n":"egg","pt":$n[6].SkeletonGraphic,"ps":0},{"n":"delay","pt":$n[0].Single,"ps":1},{"n":"revision","pt":$n[0].Int32,"ps":2}],"sn":"Hatch","rt":$n[14].IEnumerator,"p":[$n[6].SkeletonGraphic,$n[0].Single,$n[0].Int32]},{"a":2,"n":"HideEffect","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0}],"sn":"HideEffect","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":2,"n":"Hint","is":true,"t":8,"pi":[{"n":"root","pt":$n[5].RectTransform,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"Hint","rt":$n[13].Reference20CocosClip,"p":[$n[5].RectTransform,$n[0].String]},{"a":2,"n":"Hit","t":8,"pi":[{"n":"remaining","pt":$n[0].Int32,"ps":0}],"sn":"Hit","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"IdleLoop","t":8,"pi":[{"n":"revision","pt":$n[0].Int32,"ps":0}],"sn":"IdleLoop","rt":$n[14].IEnumerator,"p":[$n[0].Int32]},{"a":1,"n":"LeaseEffect","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1},{"n":"position","pt":$n[5].Vector2,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"scale","dv":0.8875,"o":true,"pt":$n[0].Single,"ps":4}],"sn":"LeaseEffect","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].RectTransform,$n[5].Vector2,$n[0].Single,$n[0].Single]},{"a":2,"n":"LineBlast","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"position","pt":$n[5].Vector2,"ps":1},{"n":"horizontal","pt":$n[0].Boolean,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"LineBlast","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[0].Boolean,$n[0].Single]},{"a":1,"n":"MoveCorn","t":8,"pi":[{"n":"rect","pt":$n[5].RectTransform,"ps":0},{"n":"delta","pt":$n[0].Single,"ps":1}],"sn":"MoveCorn","rt":$n[0].Single,"p":[$n[5].RectTransform,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"NestFeedback","t":8,"sn":"NestFeedback","rt":$n[0].Void},{"a":1,"n":"Node","is":true,"t":8,"pi":[{"n":"n","pt":$n[13].NativeNode,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1}],"sn":"Node","rt":$n[5].RectTransform,"p":[$n[13].NativeNode,$n[5].Transform]},{"a":2,"n":"Overlay","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"Overlay","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":1,"n":"ParticleMaterial","is":true,"t":8,"pi":[{"n":"data","pt":$n[13].CocosParticle3DData,"ps":0}],"sn":"ParticleMaterial","rt":$n[5].Material,"p":[$n[13].CocosParticle3DData]},{"a":2,"n":"Piece","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1}],"sn":"Piece","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].RectTransform]},{"a":2,"n":"PlayAnimation","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"loop","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"PlayAnimation","rt":$n[0].Void,"p":[$n[0].String,$n[0].Boolean]},{"a":1,"n":"PlayClips","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"PlayClips","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[0].String]},{"a":2,"n":"PlayCollected","t":8,"sn":"PlayCollected","rt":$n[0].Void},{"a":1,"n":"PlayFlightSpine","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"name","pt":$n[0].String,"ps":1},{"n":"loop","pt":$n[0].Boolean,"ps":2}],"sn":"PlayFlightSpine","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[0].String,$n[0].Boolean]},{"a":2,"n":"Prewarm","is":true,"t":8,"sn":"Prewarm","rt":$n[0].Void},{"a":2,"n":"Raise","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1}],"sn":"Raise","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].RectTransform]},{"a":2,"n":"ReleaseVisual","is":true,"t":8,"pi":[{"n":"child","pt":$n[5].Transform,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1}],"sn":"ReleaseVisual","rt":$n[0].Boolean,"p":[$n[5].Transform,$n[5].RectTransform],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"ResetCaches","is":true,"t":8,"sn":"ResetCaches","rt":$n[0].Void},{"a":1,"n":"Skeleton","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"Skeleton","rt":$n[6].SkeletonDataAsset,"p":[$n[0].String]},{"a":4,"n":"Sprite","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"Sprite","rt":$n[5].Sprite,"p":[$n[0].String]},{"a":1,"n":"SpriteMaterial","is":true,"t":8,"pi":[{"n":"src","pt":$n[0].Int32,"ps":0},{"n":"dst","pt":$n[0].Int32,"ps":1}],"sn":"SpriteMaterial","rt":$n[5].Material,"p":[$n[0].Int32,$n[0].Int32]},{"a":2,"n":"UseChickData","t":8,"pi":[{"n":"data","pt":$n[6].SkeletonDataAsset,"ps":0},{"n":"skin","pt":$n[0].String,"ps":1}],"sn":"UseChickData","rt":$n[0].Void,"p":[$n[6].SkeletonDataAsset,$n[0].String]},{"a":2,"n":"Visual","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1}],"sn":"Visual","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].Transform]},{"a":2,"n":"WarmEffects","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"WarmEffects","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":2,"n":"WarmVisuals","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"WarmVisuals","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":2,"n":"CornMotionRemaining","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_CornMotionRemaining","t":8,"rt":$n[0].Single,"fg":"CornMotionRemaining","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"CornMotionRemaining"},{"a":2,"n":"Graph","is":true,"t":16,"rt":$n[13].NativeGraph,"g":{"a":2,"n":"get_Graph","t":8,"rt":$n[13].NativeGraph,"fg":"Graph","is":true},"fn":"Graph"},{"a":1,"n":"animationRevision","t":4,"rt":$n[0].Int32,"sn":"animationRevision","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"basicFragments","is":true,"t":4,"rt":$n[2].Dictionary$2(System.Int32,System.Array.type(UnityEngine.Sprite)),"sn":"basicFragments","ro":true},{"a":1,"n":"basicHintClips","is":true,"t":4,"rt":System.Array.type(Reference20.NativeClip),"sn":"basicHintClips"},{"a":1,"n":"cornEffect","t":4,"rt":$n[5].Transform,"sn":"cornEffect"},{"a":1,"n":"cornEffectActive","t":4,"rt":$n[0].Boolean,"sn":"cornEffectActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"cornEffectClip","t":4,"rt":$n[13].Reference20CocosClip,"sn":"cornEffectClip"},{"a":1,"n":"cornMotionEnd","t":4,"rt":$n[0].Single,"sn":"cornMotionEnd","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"cornTargets","t":4,"rt":$n[2].Dictionary$2(UnityEngine.RectTransform,System.Single),"sn":"cornTargets","ro":true},{"a":1,"n":"dataScales","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,System.Single),"sn":"dataScales"},{"a":1,"n":"effectPools","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,System.Collections.Generic.Stack$1(Reference20.Reference20EffectInstance)),"sn":"effectPools","ro":true},{"a":1,"n":"graph","is":true,"t":4,"rt":$n[13].NativeGraph,"sn":"graph"},{"a":1,"n":"graphicMaterial","is":true,"t":4,"rt":$n[5].Material,"sn":"graphicMaterial"},{"a":1,"n":"health","t":4,"rt":$n[0].Int32,"sn":"health","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"id","t":4,"rt":$n[0].Int32,"sn":"id","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"idleRoutine","t":4,"rt":$n[5].Coroutine,"sn":"idleRoutine"},{"a":1,"n":"overlayRoot","is":true,"t":4,"rt":$n[5].RectTransform,"sn":"overlayRoot"},{"a":1,"n":"particleMaterials","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,UnityEngine.Material),"sn":"particleMaterials","ro":true},{"a":1,"n":"replacement","t":4,"rt":$n[13].Reference20ReplacementVisual,"sn":"replacement"},{"a":1,"n":"skeletons","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,Spine.Unity.SkeletonDataAsset),"sn":"skeletons"},{"a":1,"n":"spriteMaterials","is":true,"t":4,"rt":$n[2].Dictionary$2(System.Int32,UnityEngine.Material),"sn":"spriteMaterials","ro":true},{"a":1,"n":"sprites","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,UnityEngine.Sprite),"sn":"sprites","ro":true},{"a":1,"n":"trimmedSprites","is":true,"t":4,"rt":$n[2].HashSet$1(System.Int32),"sn":"trimmedSprites","ro":true}]}; }, $n);
+    $m("Reference20.Reference20Native", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Animate","t":8,"pi":[{"n":"skeleton","pt":$n[6].SkeletonGraphic,"ps":0},{"n":"animation","pt":$n[0].String,"ps":1},{"n":"loop","pt":$n[0].Boolean,"ps":2}],"sn":"Animate","rt":$n[0].Void,"p":[$n[6].SkeletonGraphic,$n[0].String,$n[0].Boolean]},{"a":2,"n":"AnimateDamage","t":8,"pi":[{"n":"before","pt":$n[0].Int32,"ps":0},{"n":"after","pt":$n[0].Int32,"ps":1}],"sn":"AnimateDamage","rt":$n[0].Single,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"ApplyIdlePose","t":8,"sn":"ApplyIdlePose","rt":$n[0].Void},{"a":2,"n":"ApplySpriteFrame","is":true,"t":8,"pi":[{"n":"image","pt":$n[7].Image,"ps":0},{"n":"sprite","pt":$n[5].Sprite,"ps":1}],"sn":"ApplySpriteFrame","rt":$n[0].Void,"p":[$n[7].Image,$n[5].Sprite]},{"a":2,"n":"BaseBurst","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"position","pt":$n[5].Vector2,"ps":1},{"n":"color","pt":$n[0].Int32,"ps":2}],"sn":"BaseBurst","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[0].Int32]},{"a":1,"n":"BasicFragments","is":true,"t":8,"pi":[{"n":"color","pt":$n[0].Int32,"ps":0}],"sn":"BasicFragments","rt":System.Array.type(UnityEngine.Sprite),"p":[$n[0].Int32]},{"a":2,"n":"BeeFlight","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"to","pt":$n[5].Vector2,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"payload","dv":0,"o":true,"pt":$n[0].Int32,"ps":4},{"n":"reverse","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"payloadOffset","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector2),"ps":6}],"sn":"BeeFlight","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2,$n[0].Single,$n[0].Int32,$n[0].Boolean,$n[0].Nullable$1(UnityEngine.Vector2)]},{"a":1,"n":"Blend","is":true,"t":8,"pi":[{"n":"value","pt":$n[0].Int32,"ps":0}],"sn":"Blend","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"CocosScale","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"CocosScale","rt":$n[0].Single,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"CollectionLayer","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"CollectionLayer","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":2,"n":"ColorBeam","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"to","pt":$n[5].Vector2,"ps":2},{"n":"delay","pt":$n[0].Single,"ps":3}],"sn":"ColorBeam","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2,$n[0].Single]},{"a":2,"n":"Configure","t":8,"pi":[{"n":"type","pt":$n[0].Int32,"ps":0},{"n":"hp","pt":$n[0].Int32,"ps":1}],"sn":"Configure","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Int32]},{"a":1,"n":"CornEffect","t":8,"pi":[{"n":"active","pt":$n[0].Boolean,"ps":0}],"sn":"CornEffect","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"CubicFlight","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"startHandle","pt":$n[5].Vector2,"ps":2},{"n":"endHandle","pt":$n[5].Vector2,"ps":3},{"n":"to","pt":$n[5].Vector2,"ps":4},{"n":"duration","pt":$n[0].Single,"ps":5}],"sn":"CubicFlight","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2,$n[5].Vector2,$n[5].Vector2,$n[0].Single]},{"a":2,"n":"DamageDuration","t":8,"pi":[{"n":"before","pt":$n[0].Int32,"ps":0},{"n":"after","pt":$n[0].Int32,"ps":1}],"sn":"DamageDuration","rt":$n[0].Single,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"DamageSequence","t":8,"pi":[{"n":"before","pt":$n[0].Int32,"ps":0},{"n":"after","pt":$n[0].Int32,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"revision","pt":$n[0].Int32,"ps":3}],"sn":"DamageSequence","rt":$n[14].IEnumerator,"p":[$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Int32]},{"a":1,"n":"Detach","t":8,"pi":[{"n":"skeleton","pt":$n[6].SkeletonGraphic,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1},{"n":"animation","pt":$n[0].String,"ps":2}],"sn":"Detach","rt":$n[5].RectTransform,"p":[$n[6].SkeletonGraphic,$n[5].RectTransform,$n[0].String]},{"a":2,"n":"DetachCornHead","t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"DetachCornHead","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":2,"n":"DetachNestChick","t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"DetachNestChick","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":2,"n":"DownloadArtwork","is":true,"t":8,"pi":[{"n":"parent","pt":$n[5].RectTransform,"ps":0}],"sn":"DownloadArtwork","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":2,"n":"Eat","t":8,"pi":[{"n":"remaining","pt":$n[0].Int32,"ps":0}],"sn":"Eat","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"EatSequence","t":8,"pi":[{"n":"revision","pt":$n[0].Int32,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1}],"sn":"EatSequence","rt":$n[14].IEnumerator,"p":[$n[0].Int32,$n[0].Single]},{"a":2,"n":"Effect","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1},{"n":"position","pt":$n[5].Vector2,"ps":2},{"n":"scale","dv":0.8875,"o":true,"pt":$n[0].Single,"ps":3},{"n":"lifetime","dv":-1.0,"o":true,"pt":$n[0].Single,"ps":4}],"sn":"Effect","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].RectTransform,$n[5].Vector2,$n[0].Single,$n[0].Single]},{"a":2,"n":"FinishEffect","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0}],"sn":"FinishEffect","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":2,"n":"Fly","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"from","pt":$n[5].Vector2,"ps":1},{"n":"to","pt":$n[5].Vector2,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"Fly","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[5].Vector2,$n[0].Single]},{"a":2,"n":"GuideHand","is":true,"t":8,"pi":[{"n":"parent","pt":$n[5].RectTransform,"ps":0}],"sn":"GuideHand","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":1,"n":"Hatch","t":8,"pi":[{"n":"egg","pt":$n[6].SkeletonGraphic,"ps":0},{"n":"delay","pt":$n[0].Single,"ps":1},{"n":"revision","pt":$n[0].Int32,"ps":2}],"sn":"Hatch","rt":$n[14].IEnumerator,"p":[$n[6].SkeletonGraphic,$n[0].Single,$n[0].Int32]},{"a":2,"n":"HideEffect","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0}],"sn":"HideEffect","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":2,"n":"Hint","is":true,"t":8,"pi":[{"n":"root","pt":$n[5].RectTransform,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"Hint","rt":$n[13].Reference20CocosClip,"p":[$n[5].RectTransform,$n[0].String]},{"a":2,"n":"Hit","t":8,"pi":[{"n":"remaining","pt":$n[0].Int32,"ps":0}],"sn":"Hit","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"IdleLoop","t":8,"pi":[{"n":"revision","pt":$n[0].Int32,"ps":0}],"sn":"IdleLoop","rt":$n[14].IEnumerator,"p":[$n[0].Int32]},{"a":1,"n":"LeaseEffect","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1},{"n":"position","pt":$n[5].Vector2,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"scale","dv":0.8875,"o":true,"pt":$n[0].Single,"ps":4}],"sn":"LeaseEffect","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].RectTransform,$n[5].Vector2,$n[0].Single,$n[0].Single]},{"a":2,"n":"LineBlast","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0},{"n":"position","pt":$n[5].Vector2,"ps":1},{"n":"horizontal","pt":$n[0].Boolean,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"LineBlast","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].Vector2,$n[0].Boolean,$n[0].Single]},{"a":1,"n":"MoveCorn","t":8,"pi":[{"n":"rect","pt":$n[5].RectTransform,"ps":0},{"n":"delta","pt":$n[0].Single,"ps":1}],"sn":"MoveCorn","rt":$n[0].Single,"p":[$n[5].RectTransform,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"NestFeedback","t":8,"sn":"NestFeedback","rt":$n[0].Void},{"a":1,"n":"Node","is":true,"t":8,"pi":[{"n":"n","pt":$n[13].NativeNode,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1}],"sn":"Node","rt":$n[5].RectTransform,"p":[$n[13].NativeNode,$n[5].Transform]},{"a":2,"n":"Overlay","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"Overlay","rt":$n[5].RectTransform,"p":[$n[5].RectTransform]},{"a":1,"n":"ParticleMaterial","is":true,"t":8,"pi":[{"n":"data","pt":$n[13].CocosParticle3DData,"ps":0}],"sn":"ParticleMaterial","rt":$n[5].Material,"p":[$n[13].CocosParticle3DData]},{"a":2,"n":"Piece","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1}],"sn":"Piece","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].RectTransform]},{"a":2,"n":"PlayAnimation","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"loop","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"PlayAnimation","rt":$n[0].Void,"p":[$n[0].String,$n[0].Boolean]},{"a":1,"n":"PlayClips","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"PlayClips","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[0].String]},{"a":2,"n":"PlayCollected","t":8,"sn":"PlayCollected","rt":$n[0].Void},{"a":1,"n":"PlayFlightSpine","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"name","pt":$n[0].String,"ps":1},{"n":"loop","pt":$n[0].Boolean,"ps":2}],"sn":"PlayFlightSpine","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[0].String,$n[0].Boolean]},{"a":2,"n":"Prewarm","is":true,"t":8,"sn":"Prewarm","rt":$n[0].Void},{"a":2,"n":"Raise","is":true,"t":8,"pi":[{"n":"rt","pt":$n[5].RectTransform,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1}],"sn":"Raise","rt":$n[0].Void,"p":[$n[5].RectTransform,$n[5].RectTransform]},{"a":2,"n":"ReleaseVisual","is":true,"t":8,"pi":[{"n":"child","pt":$n[5].Transform,"ps":0},{"n":"stage","pt":$n[5].RectTransform,"ps":1}],"sn":"ReleaseVisual","rt":$n[0].Boolean,"p":[$n[5].Transform,$n[5].RectTransform],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"ResetCaches","is":true,"t":8,"sn":"ResetCaches","rt":$n[0].Void},{"a":1,"n":"Skeleton","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"Skeleton","rt":$n[6].SkeletonDataAsset,"p":[$n[0].String]},{"a":2,"n":"SortingCanvas","is":true,"t":8,"pi":[{"n":"layer","pt":$n[5].RectTransform,"ps":0},{"n":"order","pt":$n[0].Int32,"ps":1}],"sn":"SortingCanvas","rt":$n[5].Canvas,"p":[$n[5].RectTransform,$n[0].Int32]},{"a":4,"n":"Sprite","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"Sprite","rt":$n[5].Sprite,"p":[$n[0].String]},{"a":1,"n":"SpriteMaterial","is":true,"t":8,"pi":[{"n":"src","pt":$n[0].Int32,"ps":0},{"n":"dst","pt":$n[0].Int32,"ps":1}],"sn":"SpriteMaterial","rt":$n[5].Material,"p":[$n[0].Int32,$n[0].Int32]},{"a":2,"n":"UseChickData","t":8,"pi":[{"n":"data","pt":$n[6].SkeletonDataAsset,"ps":0},{"n":"skin","pt":$n[0].String,"ps":1}],"sn":"UseChickData","rt":$n[0].Void,"p":[$n[6].SkeletonDataAsset,$n[0].String]},{"a":2,"n":"Visual","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"parent","pt":$n[5].Transform,"ps":1}],"sn":"Visual","rt":$n[5].RectTransform,"p":[$n[0].String,$n[5].Transform]},{"a":2,"n":"WarmEffects","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"WarmEffects","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":2,"n":"WarmVisuals","is":true,"t":8,"pi":[{"n":"stage","pt":$n[5].RectTransform,"ps":0}],"sn":"WarmVisuals","rt":$n[0].Void,"p":[$n[5].RectTransform]},{"a":2,"n":"CornMotionRemaining","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_CornMotionRemaining","t":8,"rt":$n[0].Single,"fg":"CornMotionRemaining","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"CornMotionRemaining"},{"a":2,"n":"Graph","is":true,"t":16,"rt":$n[13].NativeGraph,"g":{"a":2,"n":"get_Graph","t":8,"rt":$n[13].NativeGraph,"fg":"Graph","is":true},"fn":"Graph"},{"a":1,"n":"animationRevision","t":4,"rt":$n[0].Int32,"sn":"animationRevision","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"basicFragments","is":true,"t":4,"rt":$n[2].Dictionary$2(System.Int32,System.Array.type(UnityEngine.Sprite)),"sn":"basicFragments","ro":true},{"a":1,"n":"basicHintClips","is":true,"t":4,"rt":System.Array.type(Reference20.NativeClip),"sn":"basicHintClips"},{"a":1,"n":"cornEffect","t":4,"rt":$n[5].Transform,"sn":"cornEffect"},{"a":1,"n":"cornEffectActive","t":4,"rt":$n[0].Boolean,"sn":"cornEffectActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"cornEffectClip","t":4,"rt":$n[13].Reference20CocosClip,"sn":"cornEffectClip"},{"a":1,"n":"cornMotionEnd","t":4,"rt":$n[0].Single,"sn":"cornMotionEnd","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"cornTargets","t":4,"rt":$n[2].Dictionary$2(UnityEngine.RectTransform,System.Single),"sn":"cornTargets","ro":true},{"a":1,"n":"dataScales","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,System.Single),"sn":"dataScales"},{"a":1,"n":"effectPools","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,System.Collections.Generic.Stack$1(Reference20.Reference20EffectInstance)),"sn":"effectPools","ro":true},{"a":1,"n":"graph","is":true,"t":4,"rt":$n[13].NativeGraph,"sn":"graph"},{"a":1,"n":"graphicMaterial","is":true,"t":4,"rt":$n[5].Material,"sn":"graphicMaterial"},{"a":1,"n":"health","t":4,"rt":$n[0].Int32,"sn":"health","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"id","t":4,"rt":$n[0].Int32,"sn":"id","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"idleRoutine","t":4,"rt":$n[5].Coroutine,"sn":"idleRoutine"},{"a":1,"n":"overlayRoot","is":true,"t":4,"rt":$n[5].RectTransform,"sn":"overlayRoot"},{"a":1,"n":"particleMaterials","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,UnityEngine.Material),"sn":"particleMaterials","ro":true},{"a":1,"n":"replacement","t":4,"rt":$n[13].Reference20ReplacementVisual,"sn":"replacement"},{"a":1,"n":"skeletons","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,Spine.Unity.SkeletonDataAsset),"sn":"skeletons"},{"a":1,"n":"spriteMaterials","is":true,"t":4,"rt":$n[2].Dictionary$2(System.Int32,UnityEngine.Material),"sn":"spriteMaterials","ro":true},{"a":1,"n":"sprites","is":true,"t":4,"rt":$n[2].Dictionary$2(System.String,UnityEngine.Sprite),"sn":"sprites","ro":true},{"a":1,"n":"trimmedSprites","is":true,"t":4,"rt":$n[2].HashSet$1(System.Int32),"sn":"trimmedSprites","ro":true}]}; }, $n);
     /*Reference20.Reference20Native end.*/
 
     /*Reference20.Reference20Particle3DGraphic start.*/
-    $m("Reference20.Reference20Particle3DGraphic", function () { return {"nested":[$n[13].Reference20Particle3DGraphic.Particle],"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Advance","t":8,"pi":[{"n":"dt","pt":$n[0].Single,"ps":0}],"sn":"Advance","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"Configure","t":8,"pi":[{"n":"value","pt":$n[13].CocosParticle3DData,"ps":0},{"n":"image","pt":$n[5].Sprite,"ps":1}],"sn":"Configure","rt":$n[0].Void,"p":[$n[13].CocosParticle3DData,$n[5].Sprite]},{"a":1,"n":"Dampen","is":true,"t":8,"pi":[{"n":"value","pt":$n[0].Single,"ps":0},{"n":"max","pt":$n[0].Single,"ps":1},{"n":"dampen","pt":$n[0].Single,"ps":2}],"sn":"Dampen","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"Emit","t":8,"pi":[{"n":"normalizedTime","pt":$n[0].Single,"ps":0}],"sn":"Emit","rt":$n[0].Void,"p":[$n[0].Single]},{"ov":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":1,"n":"Random01","t":8,"sn":"Random01","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Restart","t":8,"sn":"Restart","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"data","t":4,"rt":$n[13].CocosParticle3DData,"sn":"data"},{"a":1,"n":"emission","t":4,"rt":$n[0].Single,"sn":"emission","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"lastPosition","t":4,"rt":$n[5].Vector3,"sn":"lastPosition"},{"a":1,"n":"particles","t":4,"rt":$n[2].List$1(Reference20.Reference20Particle3DGraphic.Particle),"sn":"particles","ro":true},{"a":1,"n":"quad","t":4,"rt":System.Array.type(UnityEngine.UIVertex),"sn":"quad","ro":true},{"a":1,"n":"random","t":4,"rt":$n[0].Random,"sn":"random","ro":true},{"a":1,"n":"seedCounter","is":true,"t":4,"rt":$n[0].Int32,"sn":"seedCounter","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"sprite","t":4,"rt":$n[5].Sprite,"sn":"sprite"},{"a":1,"n":"startDelay","t":4,"rt":$n[0].Single,"sn":"startDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"time","t":4,"rt":$n[0].Single,"sn":"time","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("Reference20.Reference20Particle3DGraphic", function () { return {"nested":[$n[13].Reference20Particle3DGraphic.Particle],"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Advance","t":8,"pi":[{"n":"dt","pt":$n[0].Single,"ps":0}],"sn":"Advance","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"Configure","t":8,"pi":[{"n":"value","pt":$n[13].CocosParticle3DData,"ps":0},{"n":"image","pt":$n[5].Sprite,"ps":1}],"sn":"Configure","rt":$n[0].Void,"p":[$n[13].CocosParticle3DData,$n[5].Sprite]},{"a":1,"n":"Dampen","is":true,"t":8,"pi":[{"n":"value","pt":$n[0].Single,"ps":0},{"n":"max","pt":$n[0].Single,"ps":1},{"n":"dampen","pt":$n[0].Single,"ps":2}],"sn":"Dampen","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"Emit","t":8,"pi":[{"n":"normalizedTime","pt":$n[0].Single,"ps":0}],"sn":"Emit","rt":$n[0].Void,"p":[$n[0].Single]},{"ov":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":1,"n":"Random01","t":8,"sn":"Random01","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Restart","t":8,"sn":"Restart","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"data","t":4,"rt":$n[13].CocosParticle3DData,"sn":"data"},{"a":1,"n":"emission","t":4,"rt":$n[0].Single,"sn":"emission","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"lastPosition","t":4,"rt":$n[5].Vector3,"sn":"lastPosition"},{"a":1,"n":"particles","t":4,"rt":$n[2].List$1(Reference20.Reference20Particle3DGraphic.Particle),"sn":"particles","ro":true},{"a":1,"n":"quad","t":4,"rt":System.Array.type(UnityEngine.UIVertex),"sn":"quad","ro":true},{"a":1,"n":"random","t":4,"rt":$n[0].Random,"sn":"random","ro":true},{"a":1,"n":"seedCounter","is":true,"t":4,"rt":$n[0].Int32,"sn":"seedCounter","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"sprite","t":4,"rt":$n[5].Sprite,"sn":"sprite"},{"a":1,"n":"startDelay","t":4,"rt":$n[0].Single,"sn":"startDelay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"time","t":4,"rt":$n[0].Single,"sn":"time","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*Reference20.Reference20Particle3DGraphic end.*/
 
     /*Reference20.Reference20Particle3DGraphic+Particle start.*/
@@ -57240,7 +57657,7 @@ if ( TRACE ) { TRACE( "Spine.ShearTimeline#Apply", this ); }
     /*Reference20.Reference20ParticleData end.*/
 
     /*Reference20.Reference20ParticleGraphic start.*/
-    $m("Reference20.Reference20ParticleGraphic", function () { return {"nested":[$n[13].Reference20ParticleGraphic.Particle],"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"C","t":8,"pi":[{"n":"value","pt":$n[0].Array.type(System.Single),"ps":0},{"n":"variance","pt":$n[0].Array.type(System.Single),"ps":1}],"sn":"C","rt":$n[5].Color,"p":[$n[0].Array.type(System.Single),$n[0].Array.type(System.Single)]},{"a":2,"n":"Configure","t":8,"pi":[{"n":"value","pt":$n[13].Reference20ParticleData,"ps":0},{"n":"texture","pt":$n[5].Sprite,"ps":1}],"sn":"Configure","rt":$n[0].Void,"p":[$n[13].Reference20ParticleData,$n[5].Sprite]},{"a":1,"n":"Emit","t":8,"sn":"Emit","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":2,"n":"Restart","t":8,"sn":"Restart","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"V","t":8,"pi":[{"n":"value","pt":$n[0].Single,"ps":0},{"n":"variance","pt":$n[0].Single,"ps":1}],"sn":"V","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"data","t":4,"rt":$n[13].Reference20ParticleData,"sn":"data"},{"a":1,"n":"elapsed","t":4,"rt":$n[0].Single,"sn":"elapsed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"emitted","t":4,"rt":$n[0].Single,"sn":"emitted","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"particles","t":4,"rt":$n[2].List$1(Reference20.Reference20ParticleGraphic.Particle),"sn":"particles","ro":true},{"a":1,"n":"quad","t":4,"rt":System.Array.type(UnityEngine.UIVertex),"sn":"quad","ro":true},{"a":1,"n":"random","t":4,"rt":$n[0].Random,"sn":"random","ro":true},{"a":1,"n":"seedCounter","is":true,"t":4,"rt":$n[0].Int32,"sn":"seedCounter","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"sprite","t":4,"rt":$n[5].Sprite,"sn":"sprite"}]}; }, $n);
+    $m("Reference20.Reference20ParticleGraphic", function () { return {"nested":[$n[13].Reference20ParticleGraphic.Particle],"att":1048833,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"C","t":8,"pi":[{"n":"value","pt":$n[0].Array.type(System.Single),"ps":0},{"n":"variance","pt":$n[0].Array.type(System.Single),"ps":1}],"sn":"C","rt":$n[5].Color,"p":[$n[0].Array.type(System.Single),$n[0].Array.type(System.Single)]},{"a":2,"n":"Configure","t":8,"pi":[{"n":"value","pt":$n[13].Reference20ParticleData,"ps":0},{"n":"texture","pt":$n[5].Sprite,"ps":1}],"sn":"Configure","rt":$n[0].Void,"p":[$n[13].Reference20ParticleData,$n[5].Sprite]},{"a":1,"n":"Emit","t":8,"sn":"Emit","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"a":2,"n":"Restart","t":8,"sn":"Restart","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"V","t":8,"pi":[{"n":"value","pt":$n[0].Single,"ps":0},{"n":"variance","pt":$n[0].Single,"ps":1}],"sn":"V","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[5].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[5].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":1,"n":"data","t":4,"rt":$n[13].Reference20ParticleData,"sn":"data"},{"a":1,"n":"elapsed","t":4,"rt":$n[0].Single,"sn":"elapsed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"emitted","t":4,"rt":$n[0].Single,"sn":"emitted","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"particles","t":4,"rt":$n[2].List$1(Reference20.Reference20ParticleGraphic.Particle),"sn":"particles","ro":true},{"a":1,"n":"quad","t":4,"rt":System.Array.type(UnityEngine.UIVertex),"sn":"quad","ro":true},{"a":1,"n":"random","t":4,"rt":$n[0].Random,"sn":"random","ro":true},{"a":1,"n":"seedCounter","is":true,"t":4,"rt":$n[0].Int32,"sn":"seedCounter","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"sprite","t":4,"rt":$n[5].Sprite,"sn":"sprite"}]}; }, $n);
     /*Reference20.Reference20ParticleGraphic end.*/
 
     /*Reference20.Reference20ParticleGraphic+Particle start.*/
@@ -57260,8 +57677,12 @@ if ( TRACE ) { TRACE( "Spine.ShearTimeline#Apply", this ); }
     /*Reference20.Reference20ReplacementVisual end.*/
 
     /*Reference20.Reference20ResponsiveLayout start.*/
-    $m("Reference20.Reference20ResponsiveLayout", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"Refresh","t":8,"sn":"Refresh","rt":$n[0].Void},{"a":2,"n":"background","t":4,"rt":$n[5].RectTransform,"sn":"background"},{"a":2,"n":"badge","t":4,"rt":$n[5].RectTransform,"sn":"badge"},{"a":2,"n":"board","t":4,"rt":$n[5].RectTransform,"sn":"board"},{"a":1,"n":"canvasRect","t":4,"rt":$n[5].RectTransform,"sn":"canvasRect"},{"a":2,"n":"download","t":4,"rt":$n[5].RectTransform,"sn":"download"},{"a":2,"n":"endFrame","t":4,"rt":$n[5].RectTransform,"sn":"endFrame"}]}; }, $n);
+    $m("Reference20.Reference20ResponsiveLayout", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"Refresh","t":8,"sn":"Refresh","rt":$n[0].Void},{"a":2,"n":"TryScreenToBoard","t":8,"pi":[{"n":"screenPoint","pt":$n[5].Vector2,"ps":0},{"n":"point","out":true,"pt":$n[5].Vector2,"ps":1}],"sn":"TryScreenToBoard","rt":$n[0].Boolean,"p":[$n[5].Vector2,$n[5].Vector2],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"background","t":4,"rt":$n[5].RectTransform,"sn":"background"},{"a":2,"n":"badge","t":4,"rt":$n[5].RectTransform,"sn":"badge"},{"a":2,"n":"board","t":4,"rt":$n[5].RectTransform,"sn":"board"},{"a":1,"n":"canvasRect","t":4,"rt":$n[5].RectTransform,"sn":"canvasRect"},{"a":2,"n":"download","t":4,"rt":$n[5].RectTransform,"sn":"download"},{"a":2,"n":"endFrame","t":4,"rt":$n[5].RectTransform,"sn":"endFrame"},{"a":1,"n":"lastBackground","t":4,"rt":$n[5].RectTransform,"sn":"lastBackground"},{"a":1,"n":"lastBadge","t":4,"rt":$n[5].RectTransform,"sn":"lastBadge"},{"a":1,"n":"lastBoard","t":4,"rt":$n[5].RectTransform,"sn":"lastBoard"},{"a":1,"n":"lastCanvasSize","t":4,"rt":$n[5].Vector2,"sn":"lastCanvasSize"},{"a":1,"n":"lastDownload","t":4,"rt":$n[5].RectTransform,"sn":"lastDownload"},{"a":1,"n":"lastEndFrame","t":4,"rt":$n[5].RectTransform,"sn":"lastEndFrame"},{"a":1,"n":"lastSafeArea","t":4,"rt":$n[5].Rect,"sn":"lastSafeArea"},{"a":1,"n":"lastScreenHeight","t":4,"rt":$n[0].Int32,"sn":"lastScreenHeight","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"lastScreenWidth","t":4,"rt":$n[0].Int32,"sn":"lastScreenWidth","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"layoutValid","t":4,"rt":$n[0].Boolean,"sn":"layoutValid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Reference20.Reference20ResponsiveLayout end.*/
+
+    /*Reference20.Reference20SkeletonGraphic start.*/
+    $m("Reference20.Reference20SkeletonGraphic", function () { return {"att":1048833,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"UpdateGeometry","t":8,"sn":"UpdateGeometry","rt":$n[0].Void}]}; }, $n);
+    /*Reference20.Reference20SkeletonGraphic end.*/
 
     /*Match3.AudioManager start.*/
     $m("Match3.AudioManager", function () { return {"nested":[$n[16].AudioManager.SoundPriority],"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":2,"n":"PlayBGM","t":8,"pi":[{"n":"clip","pt":$n[5].AudioClip,"ps":0}],"sn":"PlayBGM","rt":$n[0].Void,"p":[$n[5].AudioClip]},{"a":2,"n":"PlayBombBombMergeSound","t":8,"sn":"PlayBombBombMergeSound","rt":$n[0].Void},{"a":2,"n":"PlayCollectSound","t":8,"sn":"PlayCollectSound","rt":$n[0].Void},{"a":1,"n":"PlayContinuous","t":8,"pi":[{"n":"clip","pt":$n[5].AudioClip,"ps":0}],"sn":"PlayContinuous","rt":$n[0].Void,"p":[$n[5].AudioClip]},{"a":2,"n":"PlayContinuousSound","t":8,"pi":[{"n":"clip","pt":$n[5].AudioClip,"ps":0}],"sn":"PlayContinuousSound","rt":$n[0].Void,"p":[$n[5].AudioClip]},{"a":2,"n":"PlayDefeatSound","t":8,"sn":"PlayDefeatSound","rt":$n[0].Void},{"a":2,"n":"PlayGeneratorSound","t":8,"pi":[{"n":"clip","pt":$n[5].AudioClip,"ps":0}],"sn":"PlayGeneratorSound","rt":$n[0].Void,"p":[$n[5].AudioClip]},{"a":2,"n":"PlayLongObjectBackSound","t":8,"sn":"PlayLongObjectBackSound","rt":$n[0].Void},{"a":2,"n":"PlayMagicBallGenerateSound","t":8,"sn":"PlayMagicBallGenerateSound","rt":$n[0].Void},{"a":2,"n":"PlayMagicBallSwapSound","t":8,"sn":"PlayMagicBallSwapSound","rt":$n[0].Void},{"a":2,"n":"PlayNormalMatchSound","t":8,"sn":"PlayNormalMatchSound","rt":$n[0].Void},{"a":2,"n":"PlayObstacleDamageSound","t":8,"pi":[{"n":"clip","pt":$n[5].AudioClip,"ps":0}],"sn":"PlayObstacleDamageSound","rt":$n[0].Void,"p":[$n[5].AudioClip]},{"a":2,"n":"PlayObstacleDestroySound","t":8,"pi":[{"n":"clip","pt":$n[5].AudioClip,"ps":0}],"sn":"PlayObstacleDestroySound","rt":$n[0].Void,"p":[$n[5].AudioClip]},{"a":2,"n":"PlaySettlementSound","t":8,"sn":"PlaySettlementSound","rt":$n[0].Void},{"a":1,"n":"PlaySoundWithDelay","t":8,"pi":[{"n":"clip","pt":$n[5].AudioClip,"ps":0},{"n":"delay","pt":$n[0].Single,"ps":1},{"n":"stopBgm","pt":$n[0].Boolean,"ps":2}],"sn":"PlaySoundWithDelay","rt":$n[14].IEnumerator,"p":[$n[5].AudioClip,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"PlaySpecialGenerateSound","t":8,"sn":"PlaySpecialGenerateSound","rt":$n[0].Void},{"a":2,"n":"PlaySpecialTriggerSound","t":8,"pi":[{"n":"type","pt":$n[16].SpecialBehaviorType,"ps":0}],"sn":"PlaySpecialTriggerSound","rt":$n[0].Void,"p":[$n[16].SpecialBehaviorType]},{"a":2,"n":"PlaySwapSound","t":8,"sn":"PlaySwapSound","rt":$n[0].Void},{"a":2,"n":"PlayVictorySound","t":8,"sn":"PlayVictorySound","rt":$n[0].Void},{"a":1,"n":"RequestPrioritySound","t":8,"pi":[{"n":"clip","pt":$n[5].AudioClip,"ps":0},{"n":"priority","pt":$n[16].AudioManager.SoundPriority,"ps":1}],"sn":"RequestPrioritySound","rt":$n[0].Void,"p":[$n[5].AudioClip,$n[16].AudioManager.SoundPriority]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StopBGM","t":8,"sn":"StopBGM","rt":$n[0].Void},{"a":2,"n":"Instance","is":true,"t":16,"rt":$n[16].AudioManager,"g":{"a":2,"n":"get_Instance","t":8,"rt":$n[16].AudioManager,"fg":"Instance","is":true},"s":{"a":1,"n":"set_Instance","t":8,"p":[$n[16].AudioManager],"rt":$n[0].Void,"fs":"Instance","is":true},"fn":"Instance"},{"at":[new UnityEngine.HeaderAttribute("BGM")],"a":2,"n":"bgmClip","t":4,"rt":$n[5].AudioClip,"sn":"bgmClip"},{"at":[new UnityEngine.HeaderAttribute("Audio Sources"),new UnityEngine.TooltipAttribute("Source for background music")],"a":2,"n":"bgmSource","t":4,"rt":$n[5].AudioSource,"sn":"bgmSource"},{"at":[new UnityEngine.HeaderAttribute("Special Combo Sounds (\u7ec4\u5408\u4ea4\u6362\u97f3\u6548)"),new UnityEngine.TooltipAttribute("\u70b8\u5f39+\u70b8\u5f39\u4ea4\u6362\u65f6\u7684\u5408\u5e76\u7206\u70b8\u97f3\u6548\uff08\u4ea4\u6362\u52a8\u753b\u4e00\u5f00\u59cb\u5c31\u64ad\u653e\uff0c\u4e0e\u52a8\u753b\u540c\u6b65\uff09")],"a":2,"n":"bombBombMergeClip","t":4,"rt":$n[5].AudioClip,"sn":"bombBombMergeClip"},{"a":2,"n":"bombExplosionClip","t":4,"rt":$n[5].AudioClip,"sn":"bombExplosionClip"},{"a":1,"n":"clipToPlayThisFrame","t":4,"rt":$n[5].AudioClip,"sn":"clipToPlayThisFrame"},{"at":[new UnityEngine.TooltipAttribute("\u6536\u96c6\u5230\u5143\u7d20\u7684\u58f0\u97f3")],"a":2,"n":"collectClip","t":4,"rt":$n[5].AudioClip,"sn":"collectClip"},{"a":2,"n":"colorClearClip","t":4,"rt":$n[5].AudioClip,"sn":"colorClearClip"},{"a":1,"n":"currentFramePriority","t":4,"rt":$n[16].AudioManager.SoundPriority,"sn":"currentFramePriority","box":function ($v) { return Bridge.box($v, Match3.AudioManager.SoundPriority, System.Enum.toStringFn(Match3.AudioManager.SoundPriority));}},{"a":2,"n":"defeatClip","t":4,"rt":$n[5].AudioClip,"sn":"defeatClip"},{"at":[new UnityEngine.HeaderAttribute("Special Trigger Sounds (Priority: High)")],"a":2,"n":"lineClearHorizontalClip","t":4,"rt":$n[5].AudioClip,"sn":"lineClearHorizontalClip"},{"a":2,"n":"lineClearVerticalClip","t":4,"rt":$n[5].AudioClip,"sn":"lineClearVerticalClip"},{"at":[new UnityEngine.TooltipAttribute("\u957f\u6761\u7269\u4f53\u540e\u9000\u7684\u58f0\u97f3")],"a":2,"n":"longObjectBackClip","t":4,"rt":$n[5].AudioClip,"sn":"longObjectBackClip"},{"at":[new UnityEngine.TooltipAttribute("\u9b54\u529b\u7403+\u7279\u6548\u4ea4\u6362\u65f6\uff0c\u666e\u901a\u5143\u7d20\u53d8\u8eab\u6210\u7279\u6548\uff08\u751f\u6210\u7279\u6548\uff09\u7684\u97f3\u6548")],"a":2,"n":"magicBallGenerateClip","t":4,"rt":$n[5].AudioClip,"sn":"magicBallGenerateClip"},{"at":[new UnityEngine.TooltipAttribute("\u9b54\u529b\u7403+\u9b54\u529b\u7403\u4ea4\u6362\u65f6\uff08\u4e24\u7403\u5728\u68cb\u76d8\u4e2d\u5fc3\u76f8\u649e\u77ac\u95f4\uff09\u7684\u4ea4\u6362\u97f3\u6548")],"a":2,"n":"magicBallSwapClip","t":4,"rt":$n[5].AudioClip,"sn":"magicBallSwapClip"},{"at":[new UnityEngine.HeaderAttribute("Priority Sounds"),new UnityEngine.TooltipAttribute("\u666e\u901a\u5143\u7d20\u6d88\u9664\u65f6\u7684\u58f0\u97f3 (Priority: Low)")],"a":2,"n":"normalMatchClip","t":4,"rt":$n[5].AudioClip,"sn":"normalMatchClip"},{"at":[new UnityEngine.TooltipAttribute("\u7ed3\u7b97\u754c\u9762\u5f39\u51fa\u65f6\u7684\u97f3\u6548")],"a":2,"n":"settlementClip","t":4,"rt":$n[5].AudioClip,"sn":"settlementClip"},{"at":[new UnityEngine.TooltipAttribute("Source for sounds that can overlap/play multiple times quickly")],"a":2,"n":"sfxContinuousSource","t":4,"rt":$n[5].AudioSource,"sn":"sfxContinuousSource"},{"at":[new UnityEngine.TooltipAttribute("Source for priority based sounds (only the highest priority plays per frame)")],"a":2,"n":"sfxPrioritySource","t":4,"rt":$n[5].AudioSource,"sn":"sfxPrioritySource"},{"at":[new UnityEngine.TooltipAttribute("\u7279\u6b8a\u5143\u7d20\u751f\u6210\u7684\u58f0\u97f3(\u7edf\u4e00) (Priority: Medium)")],"a":2,"n":"specialGenerateClip","t":4,"rt":$n[5].AudioClip,"sn":"specialGenerateClip"},{"at":[new UnityEngine.HeaderAttribute("Continuous Sounds (Always Play)"),new UnityEngine.TooltipAttribute("\u4ea4\u6362\u65f6\u7684\u58f0\u97f3")],"a":2,"n":"swapClip","t":4,"rt":$n[5].AudioClip,"sn":"swapClip"},{"a":2,"n":"targetSeekerClip","t":4,"rt":$n[5].AudioClip,"sn":"targetSeekerClip"},{"at":[new UnityEngine.HeaderAttribute("Game State Sounds")],"a":2,"n":"victoryClip","t":4,"rt":$n[5].AudioClip,"sn":"victoryClip"},{"a":1,"backing":true,"n":"<Instance>k__BackingField","is":true,"t":4,"rt":$n[16].AudioManager,"sn":"Instance"}]}; }, $n);

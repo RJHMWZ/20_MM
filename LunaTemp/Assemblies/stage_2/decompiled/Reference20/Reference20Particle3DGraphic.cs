@@ -51,6 +51,11 @@ namespace Reference20
 
 		public override Texture mainTexture => sprite ? sprite.texture : Texture2D.whiteTexture;
 
+		public Reference20Particle3DGraphic()
+		{
+			base.useLegacyMeshGeneration = false;
+		}
+
 		private float Random01()
 		{
 			return (float)random.NextDouble();
